@@ -1,321 +1,598 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marie Kids · Moda infantil importada para niñas de 2 a 12 años</title>
-<meta name="description" content="Vestidos, conjuntos, casacas y jeans importados para niñas de 2 a 12 años. Calidad premium, envíos a todo el Perú, pago con Yape, Plin o tarjeta.">
-<link rel="canonical" href="https://mariekids.pe/">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Marie Kids · Moda infantil importada para niñas de 2 a 12 años
+    </title>
+    <meta
+      name="description"
+      content="Vestidos, conjuntos, casacas y jeans importados para niñas de 2 a 12 años. Calidad premium, envíos a todo el Perú, pago con Yape, Plin o tarjeta."
+    />
+    <link rel="canonical" href="https://mariekids.pe/" />
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Marie Kids · Moda infantil importada">
-<meta property="og:description" content="Vestidos, conjuntos y abrigos importados para niñas de 2 a 12 años.">
-<meta property="og:image" content="https://mariekids.pe/assets/og-cover.jpg">
-<meta property="og:url" content="https://mariekids.pe/">
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Marie Kids · Moda infantil importada">
-<meta name="twitter:description" content="Vestidos, conjuntos y abrigos importados para niñas de 2 a 12 años.">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Marie Kids · Moda infantil importada" />
+    <meta
+      property="og:description"
+      content="Vestidos, conjuntos y abrigos importados para niñas de 2 a 12 años."
+    />
+    <meta
+      property="og:image"
+      content="https://mariekids.pe/assets/og-cover.jpg"
+    />
+    <meta property="og:url" content="https://mariekids.pe/" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Marie Kids · Moda infantil importada" />
+    <meta
+      name="twitter:description"
+      content="Vestidos, conjuntos y abrigos importados para niñas de 2 a 12 años."
+    />
 
-<!-- Schema.org: Organization -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ClothingStore",
-  "name": "Marie Kids",
-  "description": "Moda infantil importada para niñas de 2 a 12 años.",
-  "telephone": "+51930419029",
-  "areaServed": "PE"
-}
-</script>
+    <!-- Schema.org: Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ClothingStore",
+        "name": "Marie Kids",
+        "description": "Moda infantil importada para niñas de 2 a 12 años.",
+        "telephone": "+51930419029",
+        "areaServed": "PE"
+      }
+    </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="announce">
+      🎀 Envío a todo el Perú &nbsp;·&nbsp; <b>20% OFF</b> termina en:
+      <span class="countdown" id="countdown"
+        ><span>00</span>:<span>00</span>:<span>00</span></span
+      >
+    </div>
 
-  <div class="announce">
-    🎀 Envío a todo el Perú &nbsp;·&nbsp; <b>20% OFF</b> termina en:
-    <span class="countdown" id="countdown"><span>00</span>:<span>00</span>:<span>00</span></span>
-  </div>
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="site">
+      <nav class="main">
+        <div class="logo">Marie<span>Kids</span></div>
 
-  <!-- ============ HEADER / NAV ============ -->
-  <header class="site">
-    <nav class="main">
-      <div class="logo">Marie<span>Kids</span></div>
+        <ul class="nav-links">
+          <li><a href="/">Inicio</a></li>
+          <li class="has-mega">
+            <a href="tienda.html">Categorías ▾</a>
+            <div class="mega" id="megaMenu"></div>
+          </li>
+          <li><a href="tienda.html?filter=nuevos">Nuevos ingresos</a></li>
+          <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
+          <li><a href="#testimonios">Opiniones</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
 
-      <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li class="has-mega">
-          <a href="tienda.html">Categorías ▾</a>
-          <div class="mega" id="megaMenu"></div>
-        </li>
-        <li><a href="tienda.html?filter=nuevos">Nuevos ingresos</a></li>
-        <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
-        <li><a href="#testimonios">Opiniones</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-
-      <div class="nav-actions">
-        <div class="search-pill">
-          🔍 <input id="searchInput" type="text" placeholder="Buscar vestidos, tallas...">
-          <div class="search-results" id="searchResults"></div>
+        <div class="nav-actions">
+          <div class="search-pill">
+            🔍
+            <input
+              id="searchInput"
+              type="text"
+              placeholder="Buscar vestidos, tallas..."
+            />
+            <div class="search-results" id="searchResults"></div>
+          </div>
+          <div class="icon-btn" title="Favoritos">
+            ♡<span class="badge-count" id="wishCount" style="display: none"
+              >0</span
+            >
+          </div>
+          <div class="icon-btn" title="Mi cuenta">👤</div>
+          <div class="icon-btn" title="Carrito" onclick="Cart.openDrawer()">
+            🛍️<span class="badge-count" id="cartCount" style="display: none"
+              >0</span
+            >
+          </div>
+          <div class="icon-btn burger" onclick="openMobilePanel()">☰</div>
         </div>
-        <div class="icon-btn" title="Favoritos">♡<span class="badge-count" id="wishCount" style="display:none;">0</span></div>
-        <div class="icon-btn" title="Mi cuenta">👤</div>
-        <div class="icon-btn" title="Carrito" onclick="Cart.openDrawer()">🛍️<span class="badge-count" id="cartCount" style="display:none;">0</span></div>
-        <div class="icon-btn burger" onclick="openMobilePanel()">☰</div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <!-- ============ HERO SLIDER ============ -->
-  <section class="hero-slider">
-    <div class="slide active" style="background:linear-gradient(120deg,#FDE9F1 0%,#FDE9F1 45%,#F1EDFF 100%);">
-      <div class="wrap">
-        <div class="slide-content">
-          <span class="hero-eyebrow">✨ Colección Invierno 2026</span>
-          <h1>Moda infantil importada para <em>cada ocasión</em> especial</h1>
-          <p class="lead">Vestidos, conjuntos y abrigos de calidad importada para niñas de 2 a 12 años. Tallas exactas y el amor por los detalles en cada prenda.</p>
-          <div class="hero-ctas">
-            <a href="tienda.html" class="btn btn-primary">Comprar ahora →</a>
-            <a href="tienda.html?filter=nuevos" class="btn btn-outline">Ver colección</a>
+    <!-- ============ HERO SLIDER ============ -->
+    <section class="hero-slider">
+      <div
+        class="slide active"
+        style="
+          background: linear-gradient(
+            120deg,
+            #fde9f1 0%,
+            #fde9f1 45%,
+            #f1edff 100%
+          );
+        "
+      >
+        <div class="wrap">
+          <div class="slide-content">
+            <span class="hero-eyebrow">✨ Colección Invierno 2026</span>
+            <h1>Moda infantil importada para <em>cada ocasión</em> especial</h1>
+            <p class="lead">
+              Vestidos, conjuntos y abrigos de calidad importada para niñas de 2
+              a 12 años. Tallas exactas y el amor por los detalles en cada
+              prenda.
+            </p>
+            <div class="hero-ctas">
+              <a href="tienda.html" class="btn btn-primary">Comprar ahora →</a>
+              <a href="tienda.html?filter=nuevos" class="btn btn-outline"
+                >Ver colección</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hero-art" data-parallax="0.08">
+          <div
+            class="float-dot"
+            style="
+              width: 80px;
+              height: 80px;
+              background: var(--gold);
+              top: 0;
+              right: 70px;
+            "
+          ></div>
+          <div
+            class="hero-card hc-a"
+            style="
+              background: linear-gradient(160deg, var(--pink) 0%, #f3a9c7 100%);
+            "
+          >
+            <div class="fake-photo">👗</div>
+            <div class="badge-sale">-30%<br />OFF</div>
+          </div>
+          <div
+            class="hero-card hc-b"
+            style="
+              background: linear-gradient(
+                160deg,
+                var(--lilac) 0%,
+                #9f86e8 100%
+              );
+            "
+          >
+            <div class="fake-photo">🧥</div>
           </div>
         </div>
       </div>
-      <div class="hero-art" data-parallax="0.08">
-        <div class="float-dot" style="width:80px;height:80px;background:var(--gold);top:0;right:70px;"></div>
-        <div class="hero-card hc-a" style="background:linear-gradient(160deg,var(--pink) 0%,#f3a9c7 100%);">
-          <div class="fake-photo">👗</div>
-          <div class="badge-sale">-30%<br>OFF</div>
-        </div>
-        <div class="hero-card hc-b" style="background:linear-gradient(160deg,var(--lilac) 0%,#9f86e8 100%);">
-          <div class="fake-photo">🧥</div>
-        </div>
-      </div>
-    </div>
 
-    <div class="slide" style="background:linear-gradient(120deg,#F1EDFF 0%,#F1EDFF 45%,#FDE9F1 100%);">
-      <div class="wrap">
-        <div class="slide-content">
-          <span class="hero-eyebrow">🏷️ Liquidación</span>
-          <h1>Hasta <em>40% OFF</em> en casacas y conjuntos abrigadores</h1>
-          <p class="lead">Aprovecha antes que se acaben las tallas. Stock limitado en modelos seleccionados de la colección invierno.</p>
-          <div class="hero-ctas">
-            <a href="tienda.html?filter=liquidacion" class="btn btn-primary">Ver liquidación →</a>
+      <div
+        class="slide"
+        style="
+          background: linear-gradient(
+            120deg,
+            #f1edff 0%,
+            #f1edff 45%,
+            #fde9f1 100%
+          );
+        "
+      >
+        <div class="wrap">
+          <div class="slide-content">
+            <span class="hero-eyebrow">🏷️ Liquidación</span>
+            <h1>Hasta <em>40% OFF</em> en casacas y conjuntos abrigadores</h1>
+            <p class="lead">
+              Aprovecha antes que se acaben las tallas. Stock limitado en
+              modelos seleccionados de la colección invierno.
+            </p>
+            <div class="hero-ctas">
+              <a href="tienda.html?filter=liquidacion" class="btn btn-primary"
+                >Ver liquidación →</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hero-art" data-parallax="0.08">
+          <div
+            class="hero-card hc-c"
+            style="
+              background: linear-gradient(160deg, var(--gold) 0%, #e0a232 100%);
+            "
+          >
+            <div class="fake-photo">🧥</div>
           </div>
         </div>
       </div>
-      <div class="hero-art" data-parallax="0.08">
-        <div class="hero-card hc-c" style="background:linear-gradient(160deg,var(--gold) 0%,#e0a232 100%);">
-          <div class="fake-photo">🧥</div>
-        </div>
-      </div>
-    </div>
 
-    <div class="slide" style="background:linear-gradient(120deg,#E9F7EE 0%,#E9F7EE 45%,#FDE9F1 100%);">
-      <div class="wrap">
-        <div class="slide-content">
-          <span class="hero-eyebrow">👶 Recién llegado</span>
-          <h1>Nueva línea de <em>bebés</em> 12 a 24 meses</h1>
-          <p class="lead">Suaves, abrigadoras y adorables. Descubre los conjuntos más tiernos para los más pequeños de la casa.</p>
-          <div class="hero-ctas">
-            <a href="tienda.html?filter=nuevos" class="btn btn-primary">Descubrir →</a>
+      <div
+        class="slide"
+        style="
+          background: linear-gradient(
+            120deg,
+            #e9f7ee 0%,
+            #e9f7ee 45%,
+            #fde9f1 100%
+          );
+        "
+      >
+        <div class="wrap">
+          <div class="slide-content">
+            <span class="hero-eyebrow">👶 Recién llegado</span>
+            <h1>Nueva línea de <em>bebés</em> 12 a 24 meses</h1>
+            <p class="lead">
+              Suaves, abrigadoras y adorables. Descubre los conjuntos más
+              tiernos para los más pequeños de la casa.
+            </p>
+            <div class="hero-ctas">
+              <a href="tienda.html?filter=nuevos" class="btn btn-primary"
+                >Descubrir →</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hero-art" data-parallax="0.08">
+          <div
+            class="hero-card hc-c"
+            style="
+              background: linear-gradient(160deg, #b7e4c7 0%, #7fcf9d 100%);
+            "
+          >
+            <div class="fake-photo">🐻</div>
           </div>
         </div>
       </div>
-      <div class="hero-art" data-parallax="0.08">
-        <div class="hero-card hc-c" style="background:linear-gradient(160deg,#B7E4C7 0%,#7fcf9d 100%);">
-          <div class="fake-photo">🐻</div>
+
+      <button
+        class="slide-arrow prev"
+        onclick="
+          HeroSlider.prev();
+          HeroSlider.restart();
+        "
+        aria-label="Anterior"
+      >
+        ‹
+      </button>
+      <button
+        class="slide-arrow next"
+        onclick="
+          HeroSlider.next();
+          HeroSlider.restart();
+        "
+        aria-label="Siguiente"
+      >
+        ›
+      </button>
+      <div class="slide-dots" id="slideDots"></div>
+
+      <div class="scallop">
+        <svg viewBox="0 0 1200 34" preserveAspectRatio="none">
+          <path
+            d="M0,34 L0,18 Q15,0 30,18 T60,18 T90,18 T120,18 T150,18 T180,18 T210,18 T240,18 T270,18 T300,18 T330,18 T360,18 T390,18 T420,18 T450,18 T480,18 T510,18 T540,18 T570,18 T600,18 T630,18 T660,18 T690,18 T720,18 T750,18 T780,18 T810,18 T840,18 T870,18 T900,18 T930,18 T960,18 T990,18 T1020,18 T1050,18 T1080,18 T1110,18 T1140,18 T1170,18 T1200,18 L1200,34 Z"
+            fill="#ffffff"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ============ CATEGORÍAS ============ -->
+    <section class="pad tight" id="categorias">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">Explora</span>
+            <h2>Compra por categoría</h2>
+          </div>
         </div>
+        <div class="cat-grid reveal" id="catGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ NOVEDADES ============ -->
+    <section class="pad tight" id="nuevos">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">Recién llegado</span>
+            <h2>Novedades de la semana</h2>
+          </div>
+          <div class="rail-nav">
+            <div class="rail-btn" onclick="scrollRail('rail-new', -1)">←</div>
+            <div class="rail-btn" onclick="scrollRail('rail-new', 1)">→</div>
+          </div>
+        </div>
+        <div class="rail reveal" id="rail-new"></div>
+      </div>
+    </section>
+
+    <!-- ============ PROMO BANNER ============ -->
+    <section class="pad tight">
+      <div class="wrap">
+        <div class="promo reveal">
+          <div>
+            <h3>Liquidación de invierno · hasta 40% OFF</h3>
+            <p>
+              Chompas, casacas y conjuntos abrigadores con descuento especial.
+              Stock limitado por talla.
+            </p>
+          </div>
+          <a href="tienda.html?filter=liquidacion" class="btn btn-primary"
+            >Ver liquidación →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MÁS VENDIDOS ============ -->
+    <section class="pad tight" id="vendidos">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">Favoritos de mamás</span>
+            <h2>Los más vendidos</h2>
+          </div>
+          <a href="tienda.html" class="sec-link">Ver todos →</a>
+        </div>
+        <div class="grid-products reveal" id="grid-best"></div>
+      </div>
+    </section>
+
+    <!-- ============ BENEFICIOS ============ -->
+    <section class="pad tight">
+      <div class="wrap">
+        <div class="benefits reveal">
+          <div class="benefit">
+            <div class="ic">🚚</div>
+            <h4>Envío a todo el Perú</h4>
+            <p>Entregas rápidas y seguras a nivel nacional.</p>
+          </div>
+          <div class="benefit">
+            <div class="ic">✅</div>
+            <h4>Calidad importada</h4>
+            <p>Telas seleccionadas y confección premium.</p>
+          </div>
+          <div class="benefit">
+            <div class="ic">💳</div>
+            <h4>Pago fácil y seguro</h4>
+            <p>Yape, Plin, tarjeta o transferencia.</p>
+          </div>
+          <div class="benefit">
+            <div class="ic">💬</div>
+            <h4>Atención por WhatsApp</h4>
+            <p>Resolvemos tus dudas en minutos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIOS ============ -->
+    <section class="pad tight" id="testimonios">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">Lo que dicen</span>
+            <h2>Mamás que confían en nosotras</h2>
+          </div>
+        </div>
+        <div class="testi-grid reveal">
+          <div class="testi">
+            <div class="stars">★★★★★</div>
+            <p>
+              "La calidad de los vestidos es espectacular, mi hija los usó para
+              su cumpleaños y todos preguntaron dónde los compré."
+            </p>
+            <div class="testi-who">
+              <div class="avatar" style="background: var(--berry)">MJ</div>
+              <div>
+                <b>María José R.</b
+                ><span
+                  >Lima ·
+                  <span class="verified">✓ Compra verificada</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="testi">
+            <div class="stars">★★★★★</div>
+            <p>
+              "Las tallas son exactas y llegó súper rápido. Ya es mi tienda de
+              confianza para la ropa de mi bebé."
+            </p>
+            <div class="testi-who">
+              <div class="avatar" style="background: var(--lilac)">CP</div>
+              <div>
+                <b>Carla P.</b
+                ><span
+                  >Arequipa ·
+                  <span class="verified">✓ Compra verificada</span></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="testi">
+            <div class="stars">★★★★★</div>
+            <p>
+              "Me encanta que respondan rápido por WhatsApp y me ayudaron a
+              elegir la talla perfecta."
+            </p>
+            <div class="testi-who">
+              <div class="avatar" style="background: var(--gold)">LF</div>
+              <div>
+                <b>Lucía F.</b
+                ><span
+                  >Trujillo ·
+                  <span class="verified">✓ Compra verificada</span></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="pad tight">
+      <div class="wrap">
+        <div class="news reveal">
+          <h3>Sé la primera en enterarte</h3>
+          <p>
+            Nuevas colecciones, ofertas exclusivas y tips de moda infantil
+            directo a tu correo.
+          </p>
+          <form
+            class="news-form"
+            onsubmit="
+              event.preventDefault();
+              alert('¡Gracias por suscribirte! (demo)');
+            "
+          >
+            <label for="newsEmail" class="sr-only">Correo electrónico</label>
+            <input
+              id="newsEmail"
+              type="email"
+              placeholder="Tu correo electrónico"
+              required
+            />
+            <button class="btn btn-primary" type="submit">Suscribirme</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer id="contacto">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div>
+            <div class="foot-logo">Marie<span>Kids</span></div>
+            <p class="desc">
+              Moda infantil importada para cada ocasión especial. Vestidos,
+              conjuntos y abrigos de calidad para niñas de 2 a 12 años.
+            </p>
+            <div class="soc">
+              <a href="#" aria-label="Instagram">📷</a
+              ><a href="#" aria-label="Facebook">📘</a
+              ><a href="#" aria-label="TikTok">🎵</a
+              ><a href="#" aria-label="WhatsApp">💬</a>
+            </div>
+          </div>
+          <div>
+            <h5>Categorías</h5>
+            <ul>
+              <li><a href="tienda.html?cat=vestidos">Vestidos</a></li>
+              <li><a href="tienda.html?cat=conjuntos">Conjuntos</a></li>
+              <li><a href="tienda.html?cat=casacas">Casacas</a></li>
+              <li><a href="tienda.html?cat=jeans">Jeans</a></li>
+              <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Ayuda</h5>
+            <ul>
+              <li><a href="#">Cómo comprar</a></li>
+              <li><a href="#">Guía de tallas</a></li>
+              <li><a href="#">Envíos y entregas</a></li>
+              <li><a href="#">Cambios y devoluciones</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Contáctanos</h5>
+            <ul class="foot-contact">
+              <li>📍 Lima, Perú</li>
+              <li>📱 WhatsApp: 930 419 029</li>
+              <li>✉️ hola@mariekids.pe</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <span>© 2026 Marie Kids. Todos los derechos reservados.</span>
+          <div class="pay-icons">
+            <span>VISA</span><span>MASTERCARD</span><span>YAPE</span
+            ><span>PLIN</span><span>MERCADO PAGO</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="wa-float"
+      href="https://wa.me/51930419029"
+      target="_blank"
+      rel="noopener"
+      title="Escríbenos por WhatsApp"
+      >💬</a
+    >
+
+    <!-- ============ MOBILE PANEL ============ -->
+    <div class="scrim" id="scrim" onclick="closeMobilePanel()"></div>
+    <div class="mobile-panel" id="mobilePanel">
+      <div class="mp-close" onclick="closeMobilePanel()">✕</div>
+      <a href="/">Inicio</a>
+      <a href="tienda.html?cat=vestidos">Vestidos</a>
+      <a href="tienda.html?cat=conjuntos">Conjuntos</a>
+      <a href="tienda.html?cat=casacas">Casacas</a>
+      <a href="tienda.html?cat=jeans">Jeans</a>
+      <a href="tienda.html?cat=invierno">Invierno</a>
+      <a href="tienda.html?filter=liquidacion">Liquidación</a>
+      <a href="tienda.html?filter=nuevos">Nuevos ingresos</a>
+      <a href="#testimonios">Opiniones</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <!-- ============ CART DRAWER ============ -->
+    <div id="cartOverlay" onclick="Cart.closeDrawer()"></div>
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Carrito de compras">
+      <div class="cart-head">
+        <h3>Tu carrito</h3>
+        <button
+          class="close"
+          onclick="Cart.closeDrawer()"
+          aria-label="Cerrar carrito"
+        >
+          ✕
+        </button>
+      </div>
+      <div class="ship-progress">
+        <div class="track"><div class="fill" id="shipBar"></div></div>
+        <span id="shipNote"
+          >Agrega productos para ver tu progreso de envío gratis</span
+        >
+      </div>
+      <div class="cart-body" id="cartBody"></div>
+      <div class="cart-foot">
+        <div class="cart-line">
+          <span>Subtotal</span><span id="cartSubtotal">S/ 0</span>
+        </div>
+        <div class="cart-line">
+          <span>Envío</span><span id="cartShipping">S/ 0</span>
+        </div>
+        <div class="cart-line total">
+          <span>Total</span><span id="cartTotal">S/ 0</span>
+        </div>
+        <a href="checkout.html" class="btn btn-primary btn-block"
+          >Finalizar compra</a
+        >
+      </div>
+    </aside>
+
+    <!-- ============ QUICK VIEW MODAL ============ -->
+    <div
+      class="modal-overlay"
+      id="qvOverlay"
+      onclick="if (event.target === this) closeQuickView();"
+    >
+      <div class="qv-modal">
+        <button class="qv-close" onclick="closeQuickView()" aria-label="Cerrar">
+          ✕
+        </button>
+        <div id="qvContent" style="display: contents"></div>
       </div>
     </div>
 
-    <button class="slide-arrow prev" onclick="HeroSlider.prev(); HeroSlider.restart();" aria-label="Anterior">‹</button>
-    <button class="slide-arrow next" onclick="HeroSlider.next(); HeroSlider.restart();" aria-label="Siguiente">›</button>
-    <div class="slide-dots" id="slideDots"></div>
-
-    <div class="scallop">
-      <svg viewBox="0 0 1200 34" preserveAspectRatio="none"><path d="M0,34 L0,18 Q15,0 30,18 T60,18 T90,18 T120,18 T150,18 T180,18 T210,18 T240,18 T270,18 T300,18 T330,18 T360,18 T390,18 T420,18 T450,18 T480,18 T510,18 T540,18 T570,18 T600,18 T630,18 T660,18 T690,18 T720,18 T750,18 T780,18 T810,18 T840,18 T870,18 T900,18 T930,18 T960,18 T990,18 T1020,18 T1050,18 T1080,18 T1110,18 T1140,18 T1170,18 T1200,18 L1200,34 Z" fill="#ffffff"/></svg>
-    </div>
-  </section>
-
-  <!-- ============ CATEGORÍAS ============ -->
-  <section class="pad tight" id="categorias">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><span class="sec-eyebrow">Explora</span><h2>Compra por categoría</h2></div>
-      </div>
-      <div class="cat-grid reveal" id="catGrid"></div>
-    </div>
-  </section>
-
-  <!-- ============ NOVEDADES ============ -->
-  <section class="pad tight" id="nuevos">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><span class="sec-eyebrow">Recién llegado</span><h2>Novedades de la semana</h2></div>
-        <div class="rail-nav">
-          <div class="rail-btn" onclick="scrollRail('rail-new',-1)">←</div>
-          <div class="rail-btn" onclick="scrollRail('rail-new',1)">→</div>
-        </div>
-      </div>
-      <div class="rail reveal" id="rail-new"></div>
-    </div>
-  </section>
-
-  <!-- ============ PROMO BANNER ============ -->
-  <section class="pad tight">
-    <div class="wrap">
-      <div class="promo reveal">
-        <div>
-          <h3>Liquidación de invierno · hasta 40% OFF</h3>
-          <p>Chompas, casacas y conjuntos abrigadores con descuento especial. Stock limitado por talla.</p>
-        </div>
-        <a href="tienda.html?filter=liquidacion" class="btn btn-primary">Ver liquidación →</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ MÁS VENDIDOS ============ -->
-  <section class="pad tight" id="vendidos">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><span class="sec-eyebrow">Favoritos de mamás</span><h2>Los más vendidos</h2></div>
-        <a href="tienda.html" class="sec-link">Ver todos →</a>
-      </div>
-      <div class="grid-products reveal" id="grid-best"></div>
-    </div>
-  </section>
-
-  <!-- ============ BENEFICIOS ============ -->
-  <section class="pad tight">
-    <div class="wrap">
-      <div class="benefits reveal">
-        <div class="benefit"><div class="ic">🚚</div><h4>Envío a todo el Perú</h4><p>Entregas rápidas y seguras a nivel nacional.</p></div>
-        <div class="benefit"><div class="ic">✅</div><h4>Calidad importada</h4><p>Telas seleccionadas y confección premium.</p></div>
-        <div class="benefit"><div class="ic">💳</div><h4>Pago fácil y seguro</h4><p>Yape, Plin, tarjeta o transferencia.</p></div>
-        <div class="benefit"><div class="ic">💬</div><h4>Atención por WhatsApp</h4><p>Resolvemos tus dudas en minutos.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ TESTIMONIOS ============ -->
-  <section class="pad tight" id="testimonios">
-    <div class="wrap">
-      <div class="sec-head"><div><span class="sec-eyebrow">Lo que dicen</span><h2>Mamás que confían en nosotras</h2></div></div>
-      <div class="testi-grid reveal">
-        <div class="testi">
-          <div class="stars">★★★★★</div>
-          <p>"La calidad de los vestidos es espectacular, mi hija los usó para su cumpleaños y todos preguntaron dónde los compré."</p>
-          <div class="testi-who"><div class="avatar" style="background:var(--berry);">MJ</div><div><b>María José R.</b><span>Lima · <span class="verified">✓ Compra verificada</span></span></div></div>
-        </div>
-        <div class="testi">
-          <div class="stars">★★★★★</div>
-          <p>"Las tallas son exactas y llegó súper rápido. Ya es mi tienda de confianza para la ropa de mi bebé."</p>
-          <div class="testi-who"><div class="avatar" style="background:var(--lilac);">CP</div><div><b>Carla P.</b><span>Arequipa · <span class="verified">✓ Compra verificada</span></span></div></div>
-        </div>
-        <div class="testi">
-          <div class="stars">★★★★★</div>
-          <p>"Me encanta que respondan rápido por WhatsApp y me ayudaron a elegir la talla perfecta."</p>
-          <div class="testi-who"><div class="avatar" style="background:var(--gold);">LF</div><div><b>Lucía F.</b><span>Trujillo · <span class="verified">✓ Compra verificada</span></span></div></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ NEWSLETTER ============ -->
-  <section class="pad tight">
-    <div class="wrap">
-      <div class="news reveal">
-        <h3>Sé la primera en enterarte</h3>
-        <p>Nuevas colecciones, ofertas exclusivas y tips de moda infantil directo a tu correo.</p>
-        <form class="news-form" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte! (demo)');">
-          <label for="newsEmail" class="sr-only">Correo electrónico</label>
-          <input id="newsEmail" type="email" placeholder="Tu correo electrónico" required>
-          <button class="btn btn-primary" type="submit">Suscribirme</button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ FOOTER ============ -->
-  <footer id="contacto">
-    <div class="wrap">
-      <div class="foot-grid">
-        <div>
-          <div class="foot-logo">Marie<span>Kids</span></div>
-          <p class="desc">Moda infantil importada para cada ocasión especial. Vestidos, conjuntos y abrigos de calidad para niñas de 2 a 12 años.</p>
-          <div class="soc"><a href="#" aria-label="Instagram">📷</a><a href="#" aria-label="Facebook">📘</a><a href="#" aria-label="TikTok">🎵</a><a href="#" aria-label="WhatsApp">💬</a></div>
-        </div>
-        <div>
-          <h5>Categorías</h5>
-          <ul><li><a href="tienda.html?cat=vestidos">Vestidos</a></li><li><a href="tienda.html?cat=conjuntos">Conjuntos</a></li><li><a href="tienda.html?cat=casacas">Casacas</a></li><li><a href="tienda.html?cat=jeans">Jeans</a></li><li><a href="tienda.html?filter=liquidacion">Liquidación</a></li></ul>
-        </div>
-        <div>
-          <h5>Ayuda</h5>
-          <ul><li><a href="#">Cómo comprar</a></li><li><a href="#">Guía de tallas</a></li><li><a href="#">Envíos y entregas</a></li><li><a href="#">Cambios y devoluciones</a></li><li><a href="#">Preguntas frecuentes</a></li></ul>
-        </div>
-        <div>
-          <h5>Contáctanos</h5>
-          <ul class="foot-contact"><li>📍 Lima, Perú</li><li>📱 WhatsApp: 930 419 029</li><li>✉️ hola@mariekids.pe</li></ul>
-        </div>
-      </div>
-      <div class="bottom-bar">
-        <span>© 2026 Marie Kids. Todos los derechos reservados.</span>
-        <div class="pay-icons"><span>VISA</span><span>MASTERCARD</span><span>YAPE</span><span>PLIN</span><span>MERCADO PAGO</span></div>
-      </div>
-    </div>
-  </footer>
-
-  <a class="wa-float" href="https://wa.me/51930419029" target="_blank" rel="noopener" title="Escríbenos por WhatsApp">💬</a>
-
-  <!-- ============ MOBILE PANEL ============ -->
-  <div class="scrim" id="scrim" onclick="closeMobilePanel()"></div>
-  <div class="mobile-panel" id="mobilePanel">
-    <div class="mp-close" onclick="closeMobilePanel()">✕</div>
-    <a href="index.html">Inicio</a>
-    <a href="tienda.html?cat=vestidos">Vestidos</a>
-    <a href="tienda.html?cat=conjuntos">Conjuntos</a>
-    <a href="tienda.html?cat=casacas">Casacas</a>
-    <a href="tienda.html?cat=jeans">Jeans</a>
-    <a href="tienda.html?cat=invierno">Invierno</a>
-    <a href="tienda.html?filter=liquidacion">Liquidación</a>
-    <a href="tienda.html?filter=nuevos">Nuevos ingresos</a>
-    <a href="#testimonios">Opiniones</a>
-    <a href="#contacto">Contacto</a>
-  </div>
-
-  <!-- ============ CART DRAWER ============ -->
-  <div id="cartOverlay" onclick="Cart.closeDrawer()"></div>
-  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrito de compras">
-    <div class="cart-head"><h3>Tu carrito</h3><button class="close" onclick="Cart.closeDrawer()" aria-label="Cerrar carrito">✕</button></div>
-    <div class="ship-progress">
-      <div class="track"><div class="fill" id="shipBar"></div></div>
-      <span id="shipNote">Agrega productos para ver tu progreso de envío gratis</span>
-    </div>
-    <div class="cart-body" id="cartBody"></div>
-    <div class="cart-foot">
-      <div class="cart-line"><span>Subtotal</span><span id="cartSubtotal">S/ 0</span></div>
-      <div class="cart-line"><span>Envío</span><span id="cartShipping">S/ 0</span></div>
-      <div class="cart-line total"><span>Total</span><span id="cartTotal">S/ 0</span></div>
-      <a href="checkout.html" class="btn btn-primary btn-block">Finalizar compra</a>
-    </div>
-  </aside>
-
-  <!-- ============ QUICK VIEW MODAL ============ -->
-  <div class="modal-overlay" id="qvOverlay" onclick="if(event.target===this) closeQuickView()">
-    <div class="qv-modal">
-      <button class="qv-close" onclick="closeQuickView()" aria-label="Cerrar">✕</button>
-      <div id="qvContent" style="display:contents;"></div>
-    </div>
-  </div>
-
-  <script src="js/data.js"></script>
-  <script src="js/cart.js"></script>
-  <script src="js/main.js"></script>
-</body>
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
