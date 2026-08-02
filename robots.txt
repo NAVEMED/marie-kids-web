@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /checkout.html
+Disallow: /admin/
+
+Sitemap: https://mariekids.pe/sitemap.xml

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Este sitemap es un EJEMPLO ESTÁTICO con las páginas fijas del sitio.
+  Cuando conectes una base de datos real con miles de productos,
+  este archivo debe generarse automáticamente en cada build (por
+  ejemplo con un script que recorra la tabla `products` y arme una
+  <url> por cada producto). No lo mantengas a mano a partir de
+  unos cientos de productos.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mariekids.pe/index.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mariekids.pe/tienda.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mariekids.pe/producto.html?slug=vestido-fiesta-bautizo-crema-tul</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
