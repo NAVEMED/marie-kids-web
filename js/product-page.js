@@ -1,3 +1,19 @@
+function isRealImage(str){
+  if(!str) return false;
+  return str.startsWith('http') || str.startsWith('/') || str.startsWith('img/') || str.endsWith('.jpg') || str.endsWith('.png') || str.endsWith('.webp');
+}
+function resolvePlaceholder(str){
+  if(isRealImage(str)){
+    return { grad: 'real', emoji: '🖼️', url: str, isReal: true };
+  }
+  try{
+    const parts = str.split(':');
+    return { grad: parts[1]||'g1', emoji: parts[2]||'👗', isReal:false, url: null };
+  }catch(e){
+    return { grad: 'g1', emoji: '👗', isReal:false };
+  }
+}
+
 /* ============================================================
    PRODUCT-PAGE.JS — Lógica específica de producto.html
    ============================================================ */
@@ -62,17 +78,19 @@ function renderPDP() {
   const discount = p.oldPrice ? Math.round(100 - (p.price / p.oldPrice) * 100) : null;
   const stars = "★".repeat(Math.round(p.rating)) + "☆".repeat(5 - Math.round(p.rating));
   const mainPh = resolvePlaceholder(p.images[0]);
+  const mainImgHTML = mainPh.isReal ? `<img src="${mainPh.url}" id="pdpMainImgTag" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">` : `<span style="font-size:140px;">${mainPh.emoji}</span>`;
 
   document.getElementById("pdpContent").innerHTML = `
     <div class="pdp-gallery">
-      <div class="pdp-main-img ph-${mainPh.grad}" id="pdpMainImg" onclick="this.classList.toggle('zoomed')">
-        <span style="font-size:140px;">${mainPh.emoji}</span>
+      <div class="pdp-main-img ${mainPh.isReal?'':'ph-'+mainPh.grad}" id="pdpMainImg" onclick="this.classList.toggle('zoomed')">
+        ${mainImgHTML}
         <span class="zoom-hint">🔍 Click para zoom</span>
       </div>
       <div class="pdp-thumbs" id="pdpThumbs">
         ${p.images.map((img, i) => {
           const ph = resolvePlaceholder(img);
-          return `<div class="pdp-thumb ph-${ph.grad} ${i === 0 ? "active" : ""}" onclick="setMainImage(${i})"><span>${ph.emoji}</span></div>`;
+          const inner = ph.isReal ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:6px;">` : `<span>${ph.emoji}</span>`;
+          return `<div class="pdp-thumb ${ph.isReal?'':'ph-'+ph.grad} ${i === 0 ? "active" : ""}" onclick="setMainImage(${i})">${inner}</div>`;
         }).join("")}
       </div>
       <div class="pdp-video">▶ Video del producto (demo — reemplaza por tu video real embebido aquí)</div>
@@ -146,8 +164,12 @@ function setMainImage(i) {
   const p = pdpState.product;
   const ph = resolvePlaceholder(p.images[i]);
   const main = document.getElementById("pdpMainImg");
-  main.className = `pdp-main-img ph-${ph.grad}`;
-  main.querySelector("span").textContent = ph.emoji;
+  main.className = `pdp-main-img ${ph.isReal?'':'ph-'+ph.grad}`;
+  if(ph.isReal){
+    main.innerHTML = `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><span class="zoom-hint">🔍 Click para zoom</span>`;
+  } else {
+    main.innerHTML = `<span style="font-size:140px;">${ph.emoji}</span><span class="zoom-hint">🔍 Click para zoom</span>`;
+  }
   document.querySelectorAll(".pdp-thumb").forEach((t, idx) => t.classList.toggle("active", idx === i));
 }
 

@@ -19,11 +19,33 @@ function buildWhatsAppLink(product, size, color, qty = 1) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
-/* ---------- Placeholders de foto (mientras no hay imágenes reales) ---------- */
+/* ---------- Helpers de foto REAL vs placeholder ---------- */
+function isRealImage(str){
+  if(!str) return false;
+  return str.startsWith('http') || str.startsWith('/') || str.startsWith('img/') || str.endsWith('.jpg') || str.endsWith('.png') || str.endsWith('.webp');
+}
+function resolvePlaceholder(str){
+  if(isRealImage(str)){
+    return { grad: 'real', emoji: '🖼️', url: str, isReal: true };
+  }
+  // formato viejo placeholder:g1:👗
+  try{
+    const parts = str.split(':');
+    return { grad: parts[1]||'g1', emoji: parts[2]||'👗', isReal:false };
+  }catch(e){
+    return { grad: 'g1', emoji: '👗', isReal:false };
+  }
+}
+/* ---------- Placeholders de foto (ahora soporta fotos reales) ---------- */
 function phLayer(str, extraClass = "") {
+  if(!str) return '';
+  if(isRealImage(str)){
+    return `<img class="layer ${extraClass} real-img" src="${str}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">`;
+  }
   const { grad, emoji } = resolvePlaceholder(str);
   return `<div class="layer ${extraClass} ph-${grad}"><span>${emoji}</span></div>`;
 }
+
 
 /* ---------- Render de tarjeta de producto ---------- */
 function pcardHTML(p) {
@@ -95,8 +117,9 @@ function openQuickView(id) {
   if (!p) return;
   qvState = { product: p, size: p.sizes[0], color: p.colors[0].name };
   const ph = resolvePlaceholder(p.images[0]);
+  const qvImgInner = ph.isReal ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">` : `<span>${ph.emoji}</span>`;
   document.getElementById("qvContent").innerHTML = `
-    <div class="qv-img ph-${ph.grad}"><span>${ph.emoji}</span></div>
+    <div class="qv-img ${ph.isReal?'':'ph-'+ph.grad}">${qvImgInner}</div>
     <div class="qv-info">
       <span class="cat">${p.category}</span>
       <h3>${p.name}</h3>
@@ -222,8 +245,9 @@ function initSearch() {
     results.innerHTML = matches.length
       ? matches.map((p) => {
           const ph = resolvePlaceholder(p.images[0]);
+          const srImg = ph.isReal ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;">` : `<span>${ph.emoji}</span>`;
           return `<a class="sr-item" href="producto.html?slug=${p.slug}">
-            <div class="sr-img ph-${ph.grad}"><span>${ph.emoji}</span></div>
+            <div class="sr-img ${ph.isReal?'':'ph-'+ph.grad}">${srImg}</div>
             <div><div class="sr-name">${p.name}</div><div class="sr-price">S/ ${p.price}</div></div>
           </a>`;
         }).join("")
