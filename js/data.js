@@ -6,7 +6,7 @@ const PRODUCTS = [
     name: "Vestido Chaleco Gris & Chaqueta Corta & Boina 12-18M",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: 69,
@@ -15,12 +15,16 @@ const PRODUCTS = [
     reviews: 20,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://github.com/NAVEMED/catalogo-marie-kids/blob/main/docs/img/Vestidos/COD%2012-18%20Meses/TALLA%2012%20MESES%20Vestido%20Chaleco%20Gris%20+%20Chaqueta%20Corta%20+%20Boina%20GRATIS.jpg?raw=true",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Chaleco Gris & Chaqueta Corta & Boina 12-18M - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Chaleco Gris & Chaqueta Corta & Boina 12-18M - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-002",
@@ -28,7 +32,7 @@ const PRODUCTS = [
     name: "Vestido Fiesta Bautizo Rosa Claro 12-18M",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -37,12 +41,16 @@ const PRODUCTS = [
     reviews: 21,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Fiesta Bautizo Rosa Claro 12-18M - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Fiesta Bautizo Rosa Claro 12-18M - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-003",
@@ -50,7 +58,7 @@ const PRODUCTS = [
     name: "Vestido Princesa Bebé Gala Rosa 18-24M",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -59,12 +67,16 @@ const PRODUCTS = [
     reviews: 22,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Princesa Bebé Gala Rosa 18-24M - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Princesa Bebé Gala Rosa 18-24M - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-004",
@@ -72,7 +84,7 @@ const PRODUCTS = [
     name: "Vestido Uso Diario Rosa 12-18M",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -81,12 +93,16 @@ const PRODUCTS = [
     reviews: 23,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Uso Diario Rosa 12-18M - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Uso Diario Rosa 12-18M - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-005",
@@ -94,7 +110,7 @@ const PRODUCTS = [
     name: "Vestido Lazo Rosa Cremita 18-24M",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -103,12 +119,16 @@ const PRODUCTS = [
     reviews: 24,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Lazo Rosa Cremita 18-24M - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Lazo Rosa Cremita 18-24M - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-006",
@@ -116,7 +136,7 @@ const PRODUCTS = [
     name: "Vestido Uso Diario Rojo 2 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -125,12 +145,16 @@ const PRODUCTS = [
     reviews: 25,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Uso Diario Rojo 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Uso Diario Rojo 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-007",
@@ -138,7 +162,7 @@ const PRODUCTS = [
     name: "Vestido Uso Diario Rosa 2 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: 69,
@@ -147,12 +171,16 @@ const PRODUCTS = [
     reviews: 26,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Uso Diario Rosa 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Uso Diario Rosa 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-008",
@@ -160,7 +188,7 @@ const PRODUCTS = [
     name: "Vestido Uso Diario Marron 2 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -169,12 +197,16 @@ const PRODUCTS = [
     reviews: 27,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Uso Diario Marron 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Uso Diario Marron 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-009",
@@ -182,7 +214,7 @@ const PRODUCTS = [
     name: "Vestido Uso Diario Violeta 2 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -191,12 +223,16 @@ const PRODUCTS = [
     reviews: 28,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Uso Diario Violeta 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Uso Diario Violeta 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-010",
@@ -204,7 +240,7 @@ const PRODUCTS = [
     name: "Vestido uso Diario Verde Limon 2 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -213,12 +249,16 @@ const PRODUCTS = [
     reviews: 29,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido uso Diario Verde Limon 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido uso Diario Verde Limon 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-011",
@@ -226,7 +266,7 @@ const PRODUCTS = [
     name: "Vestido Fiesta Rojo 2 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -235,12 +275,16 @@ const PRODUCTS = [
     reviews: 30,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Fiesta Rojo 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Fiesta Rojo 2 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-012",
@@ -248,7 +292,7 @@ const PRODUCTS = [
     name: "Vestido Fiesta Rosa oscuro 2-3 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -257,12 +301,16 @@ const PRODUCTS = [
     reviews: 31,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Fiesta Rosa oscuro 2-3 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Fiesta Rosa oscuro 2-3 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-013",
@@ -270,7 +318,7 @@ const PRODUCTS = [
     name: "Vestido Overol Verde Oliva 2-3 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: 69,
@@ -279,12 +327,16 @@ const PRODUCTS = [
     reviews: 32,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Overol Verde Oliva 2-3 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Overol Verde Oliva 2-3 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-014",
@@ -292,7 +344,7 @@ const PRODUCTS = [
     name: "Conjunto Floral Rosa-Blanco 3 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -301,12 +353,16 @@ const PRODUCTS = [
     reviews: 33,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Floral Rosa-Blanco 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Conjunto Floral Rosa-Blanco 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-015",
@@ -314,7 +370,7 @@ const PRODUCTS = [
     name: "Vestido Mariposas Rojo 3 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -323,12 +379,16 @@ const PRODUCTS = [
     reviews: 34,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Mariposas Rojo 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Mariposas Rojo 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-016",
@@ -336,7 +396,7 @@ const PRODUCTS = [
     name: "Vestido Flores Blanco Lila 3 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -345,12 +405,16 @@ const PRODUCTS = [
     reviews: 35,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Flores Blanco Lila 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Flores Blanco Lila 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-017",
@@ -358,7 +422,7 @@ const PRODUCTS = [
     name: "Vestido Tutú Celeste 3 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -367,12 +431,16 @@ const PRODUCTS = [
     reviews: 36,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Tutú Celeste 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Tutú Celeste 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-018",
@@ -380,7 +448,7 @@ const PRODUCTS = [
     name: "Vestido Encaje Rosa 3 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -389,12 +457,16 @@ const PRODUCTS = [
     reviews: 37,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Encaje Rosa 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Encaje Rosa 3 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-019",
@@ -402,7 +474,7 @@ const PRODUCTS = [
     name: "Vestido Floral Blanco Rosa 4 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: 69,
@@ -411,12 +483,16 @@ const PRODUCTS = [
     reviews: 38,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Floral Blanco Rosa 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Floral Blanco Rosa 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-020",
@@ -424,7 +500,7 @@ const PRODUCTS = [
     name: "Vestido Mariposas con Moño Rosado 4 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -433,12 +509,16 @@ const PRODUCTS = [
     reviews: 39,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Mariposas con Moño Rosado 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Mariposas con Moño Rosado 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-021",
@@ -446,7 +526,7 @@ const PRODUCTS = [
     name: "Vestido Lentejuelas Verde Manzana 4 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -455,12 +535,16 @@ const PRODUCTS = [
     reviews: 40,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Lentejuelas Verde Manzana 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Lentejuelas Verde Manzana 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-022",
@@ -468,7 +552,7 @@ const PRODUCTS = [
     name: "Vestido Jacquard Dorado Rosa 4 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -477,12 +561,16 @@ const PRODUCTS = [
     reviews: 41,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Jacquard Dorado Rosa 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Jacquard Dorado Rosa 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-023",
@@ -490,7 +578,7 @@ const PRODUCTS = [
     name: "Vestido Dorado Botones Crema Dorado 4 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -499,12 +587,16 @@ const PRODUCTS = [
     reviews: 42,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Dorado Botones Crema Dorado 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Dorado Botones Crema Dorado 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-024",
@@ -512,7 +604,7 @@ const PRODUCTS = [
     name: "Vestido Flores 3D Lila 4 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -521,12 +613,16 @@ const PRODUCTS = [
     reviews: 43,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Flores 3D Lila 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Flores 3D Lila 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-025",
@@ -534,7 +630,7 @@ const PRODUCTS = [
     name: "Vestido Floreado con Conejito Rosa 4 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: 69,
@@ -543,12 +639,16 @@ const PRODUCTS = [
     reviews: 44,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Floreado con Conejito Rosa 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Floreado con Conejito Rosa 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-026",
@@ -556,7 +656,7 @@ const PRODUCTS = [
     name: "Vestido Niña Tweed Chanel Negro 4 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -565,12 +665,16 @@ const PRODUCTS = [
     reviews: 45,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Niña Tweed Chanel Negro 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Niña Tweed Chanel Negro 4 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-027",
@@ -578,7 +682,7 @@ const PRODUCTS = [
     name: "Vestido Rosa Flores 3D Lentejuela Rosado 5 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -587,12 +691,16 @@ const PRODUCTS = [
     reviews: 46,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Rosa Flores 3D Lentejuela Rosado 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Rosa Flores 3D Lentejuela Rosado 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-028",
@@ -600,7 +708,7 @@ const PRODUCTS = [
     name: "Vestido Rosa Sólido Mangas Globo Rosa Pastel 5 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -609,12 +717,16 @@ const PRODUCTS = [
     reviews: 47,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Rosa Sólido Mangas Globo Rosa Pastel 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Rosa Sólido Mangas Globo Rosa Pastel 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-029",
@@ -622,7 +734,7 @@ const PRODUCTS = [
     name: "Vestido Blanco Encaje Cintura Flores Blanco 5 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -631,12 +743,16 @@ const PRODUCTS = [
     reviews: 48,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Blanco Encaje Cintura Flores Blanco 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Blanco Encaje Cintura Flores Blanco 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-030",
@@ -644,7 +760,7 @@ const PRODUCTS = [
     name: "Vestido Blanco Rosa Bordado Perlas 5 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -653,12 +769,16 @@ const PRODUCTS = [
     reviews: 49,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Blanco Rosa Bordado Perlas 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Blanco Rosa Bordado Perlas 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-031",
@@ -666,7 +786,7 @@ const PRODUCTS = [
     name: "Vestido Brillos Tutú Dorado 5 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: 69,
@@ -675,12 +795,16 @@ const PRODUCTS = [
     reviews: 50,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Brillos Tutú Dorado 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Brillos Tutú Dorado 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-032",
@@ -688,7 +812,7 @@ const PRODUCTS = [
     name: "Vestido Encaje Verano Beige 5 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -697,12 +821,16 @@ const PRODUCTS = [
     reviews: 51,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Encaje Verano Beige 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Encaje Verano Beige 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-033",
@@ -710,7 +838,7 @@ const PRODUCTS = [
     name: "Vestido Blanco Encaje Lazo Satén Blanco 5 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -719,12 +847,16 @@ const PRODUCTS = [
     reviews: 52,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Blanco Encaje Lazo Satén Blanco 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Blanco Encaje Lazo Satén Blanco 5 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-034",
@@ -732,7 +864,7 @@ const PRODUCTS = [
     name: "Capa con Capucha Brillos Velo Disfraz 5-6 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -741,12 +873,16 @@ const PRODUCTS = [
     reviews: 53,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Capa con Capucha Brillos Velo Disfraz 5-6 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Capa con Capucha Brillos Velo Disfraz 5-6 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-035",
@@ -754,7 +890,7 @@ const PRODUCTS = [
     name: "Vestido Rosa Brillos Princesa Rosa Glitter 6 Años",
     category: "vestidos-nina",
     categoryLabel: "Vestidos de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -763,12 +899,16 @@ const PRODUCTS = [
     reviews: 54,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Vestido Rosa Brillos Princesa Rosa Glitter 6 Años - Vestidos de Niña - Pág Pág 02 — 05",
+    description:
+      "Vestido Rosa Brillos Princesa Rosa Glitter 6 Años - Vestidos de Niña - Pág Pág 02 — 05",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-036",
@@ -776,7 +916,7 @@ const PRODUCTS = [
     name: "Conjunto Denim Cerezas 12-18M",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -785,12 +925,16 @@ const PRODUCTS = [
     reviews: 55,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Denim Cerezas 12-18M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Conjunto Denim Cerezas 12-18M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-037",
@@ -798,7 +942,7 @@ const PRODUCTS = [
     name: "Chompa y Jean con Lazo 12-18M",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -807,12 +951,16 @@ const PRODUCTS = [
     reviews: 56,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa y Jean con Lazo 12-18M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Chompa y Jean con Lazo 12-18M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-038",
@@ -820,7 +968,7 @@ const PRODUCTS = [
     name: "Overol de Jean Polo Manga Larga 12-18M",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -829,12 +977,16 @@ const PRODUCTS = [
     reviews: 57,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Overol de Jean Polo Manga Larga 12-18M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Overol de Jean Polo Manga Larga 12-18M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-039",
@@ -842,7 +994,7 @@ const PRODUCTS = [
     name: "Set Trío Cherry Love Jean Bow 18-24M",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -851,12 +1003,16 @@ const PRODUCTS = [
     reviews: 58,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Set Trío Cherry Love Jean Bow 18-24M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Set Trío Cherry Love Jean Bow 18-24M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-040",
@@ -864,7 +1020,7 @@ const PRODUCTS = [
     name: "Set Chompa Blanca Cereza Jean 18-24M",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -873,12 +1029,16 @@ const PRODUCTS = [
     reviews: 59,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Set Chompa Blanca Cereza Jean 18-24M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Set Chompa Blanca Cereza Jean 18-24M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-041",
@@ -886,7 +1046,7 @@ const PRODUCTS = [
     name: "Chompa Rosada Bow Jean 18-24M",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -895,12 +1055,16 @@ const PRODUCTS = [
     reviews: 20,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Rosada Bow Jean 18-24M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Chompa Rosada Bow Jean 18-24M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-042",
@@ -908,7 +1072,7 @@ const PRODUCTS = [
     name: "Top Cuello Alto Jean Cargo 2 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -917,12 +1081,16 @@ const PRODUCTS = [
     reviews: 21,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Top Cuello Alto Jean Cargo 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Top Cuello Alto Jean Cargo 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-043",
@@ -930,7 +1098,7 @@ const PRODUCTS = [
     name: "Top Puntilla Lazo Jean Azul 2 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -939,12 +1107,16 @@ const PRODUCTS = [
     reviews: 22,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Top Puntilla Lazo Jean Azul 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Top Puntilla Lazo Jean Azul 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-044",
@@ -952,7 +1124,7 @@ const PRODUCTS = [
     name: "Polo Heart Jean Rasgado 2 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -961,12 +1133,16 @@ const PRODUCTS = [
     reviews: 23,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo Heart Jean Rasgado 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Polo Heart Jean Rasgado 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-045",
@@ -974,7 +1150,7 @@ const PRODUCTS = [
     name: "Polera Lazo Rosa Jean Bow 2 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -983,12 +1159,16 @@ const PRODUCTS = [
     reviews: 24,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera Lazo Rosa Jean Bow 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Polera Lazo Rosa Jean Bow 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-046",
@@ -996,7 +1176,7 @@ const PRODUCTS = [
     name: "Camiseta Manga Larga Overol Negro 2 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1005,12 +1185,16 @@ const PRODUCTS = [
     reviews: 25,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Camiseta Manga Larga Overol Negro 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Camiseta Manga Larga Overol Negro 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-047",
@@ -1018,7 +1202,7 @@ const PRODUCTS = [
     name: "Blusa Yellow Lazos Jean 2 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1027,12 +1211,16 @@ const PRODUCTS = [
     reviews: 26,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Yellow Lazos Jean 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Yellow Lazos Jean 2 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-048",
@@ -1040,7 +1228,7 @@ const PRODUCTS = [
     name: "Blusa Rayas Corazón Jean 3 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1049,12 +1237,16 @@ const PRODUCTS = [
     reviews: 27,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Rayas Corazón Jean 3 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Rayas Corazón Jean 3 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-049",
@@ -1062,7 +1254,7 @@ const PRODUCTS = [
     name: "Sudadera Corazones Jean Roto 3 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -1071,12 +1263,16 @@ const PRODUCTS = [
     reviews: 28,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera Corazones Jean Roto 3 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Sudadera Corazones Jean Roto 3 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-050",
@@ -1084,7 +1280,7 @@ const PRODUCTS = [
     name: "Top Cuello Alto Jean Cargo 3 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1093,12 +1289,16 @@ const PRODUCTS = [
     reviews: 29,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Top Cuello Alto Jean Cargo 3 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Top Cuello Alto Jean Cargo 3 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-051",
@@ -1106,7 +1306,7 @@ const PRODUCTS = [
     name: "Polera Cherry Jean Pierna Ancha 4 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1115,12 +1315,16 @@ const PRODUCTS = [
     reviews: 30,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera Cherry Jean Pierna Ancha 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Polera Cherry Jean Pierna Ancha 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-052",
@@ -1128,7 +1332,7 @@ const PRODUCTS = [
     name: "Blusa Cuello Muñeca Falda Denim 4 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1137,12 +1341,16 @@ const PRODUCTS = [
     reviews: 31,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Cuello Muñeca Falda Denim 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Cuello Muñeca Falda Denim 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-053",
@@ -1150,7 +1358,7 @@ const PRODUCTS = [
     name: "Polo Flores Jean Rasgado 4 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1159,12 +1367,16 @@ const PRODUCTS = [
     reviews: 32,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo Flores Jean Rasgado 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Polo Flores Jean Rasgado 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-054",
@@ -1172,7 +1384,7 @@ const PRODUCTS = [
     name: "Blusa Manga Corta Traje Denim 4 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1181,12 +1393,16 @@ const PRODUCTS = [
     reviews: 33,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Manga Corta Traje Denim 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Manga Corta Traje Denim 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-055",
@@ -1194,7 +1410,7 @@ const PRODUCTS = [
     name: "Blusa Floral Rosa Jean Acampanado 4 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -1203,12 +1419,16 @@ const PRODUCTS = [
     reviews: 34,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Floral Rosa Jean Acampanado 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Floral Rosa Jean Acampanado 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-056",
@@ -1216,7 +1436,7 @@ const PRODUCTS = [
     name: "Polera Lazo Negro Jean Bow 4 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1225,12 +1445,16 @@ const PRODUCTS = [
     reviews: 35,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera Lazo Negro Jean Bow 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Polera Lazo Negro Jean Bow 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-057",
@@ -1238,7 +1462,7 @@ const PRODUCTS = [
     name: "Blusa Yellow Floral Jean Bow 4 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1247,12 +1471,16 @@ const PRODUCTS = [
     reviews: 36,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Yellow Floral Jean Bow 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Yellow Floral Jean Bow 4 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-058",
@@ -1260,7 +1488,7 @@ const PRODUCTS = [
     name: "Blusa Floral Jean Vaqueros 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1269,12 +1497,16 @@ const PRODUCTS = [
     reviews: 37,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Floral Jean Vaqueros 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Floral Jean Vaqueros 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-059",
@@ -1282,7 +1514,7 @@ const PRODUCTS = [
     name: "Blusa Yellow Jean Campana 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1291,12 +1523,16 @@ const PRODUCTS = [
     reviews: 38,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Yellow Jean Campana 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Yellow Jean Campana 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-060",
@@ -1304,7 +1540,7 @@ const PRODUCTS = [
     name: "Blusa Encaje Floral Jean Acampanado 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1313,12 +1549,16 @@ const PRODUCTS = [
     reviews: 39,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Encaje Floral Jean Acampanado 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Encaje Floral Jean Acampanado 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-061",
@@ -1326,7 +1566,7 @@ const PRODUCTS = [
     name: "Chompa Roja Jean Encaje 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -1335,12 +1575,16 @@ const PRODUCTS = [
     reviews: 40,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Roja Jean Encaje 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Chompa Roja Jean Encaje 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-062",
@@ -1348,7 +1592,7 @@ const PRODUCTS = [
     name: "Polo Girls Overol Corazones 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1357,12 +1601,16 @@ const PRODUCTS = [
     reviews: 41,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo Girls Overol Corazones 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Polo Girls Overol Corazones 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-063",
@@ -1370,7 +1618,7 @@ const PRODUCTS = [
     name: "Blusa Muñeca Overol Cereza 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1379,12 +1627,16 @@ const PRODUCTS = [
     reviews: 42,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Muñeca Overol Cereza 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Muñeca Overol Cereza 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-064",
@@ -1392,7 +1644,7 @@ const PRODUCTS = [
     name: "Blusa Bordado Floral Jean Campana 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1401,12 +1653,16 @@ const PRODUCTS = [
     reviews: 43,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Bordado Floral Jean Campana 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Bordado Floral Jean Campana 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-065",
@@ -1414,7 +1670,7 @@ const PRODUCTS = [
     name: "Blusa Happy Jean Conejo 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1423,12 +1679,16 @@ const PRODUCTS = [
     reviews: 44,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Happy Jean Conejo 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Happy Jean Conejo 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-066",
@@ -1436,7 +1696,7 @@ const PRODUCTS = [
     name: "Chaleco Denim Jean Cerezas 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1445,12 +1705,16 @@ const PRODUCTS = [
     reviews: 45,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chaleco Denim Jean Cerezas 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Chaleco Denim Jean Cerezas 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-067",
@@ -1458,7 +1722,7 @@ const PRODUCTS = [
     name: "Blusa Cereza Jean Conejo 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -1467,12 +1731,16 @@ const PRODUCTS = [
     reviews: 46,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Cereza Jean Conejo 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Cereza Jean Conejo 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-068",
@@ -1480,7 +1748,7 @@ const PRODUCTS = [
     name: "Blusa Yellow Floral Jean Bow 5 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1489,12 +1757,16 @@ const PRODUCTS = [
     reviews: 47,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Yellow Floral Jean Bow 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Yellow Floral Jean Bow 5 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-069",
@@ -1502,7 +1774,7 @@ const PRODUCTS = [
     name: "Blusa Floreada Jean Acampanado 6 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1511,12 +1783,16 @@ const PRODUCTS = [
     reviews: 48,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Floreada Jean Acampanado 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Floreada Jean Acampanado 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-070",
@@ -1524,7 +1800,7 @@ const PRODUCTS = [
     name: "Blusa Rosa Cereza Jean 6 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1533,12 +1809,16 @@ const PRODUCTS = [
     reviews: 49,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusa Rosa Cereza Jean 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusa Rosa Cereza Jean 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-071",
@@ -1546,7 +1826,7 @@ const PRODUCTS = [
     name: "Polo Rojo Jean Cerezas 6 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1555,12 +1835,16 @@ const PRODUCTS = [
     reviews: 50,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo Rojo Jean Cerezas 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Polo Rojo Jean Cerezas 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-072",
@@ -1568,7 +1852,7 @@ const PRODUCTS = [
     name: "Blusita Roja Jean Campana 6 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1577,12 +1861,16 @@ const PRODUCTS = [
     reviews: 51,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Blusita Roja Jean Campana 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Blusita Roja Jean Campana 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-073",
@@ -1590,7 +1878,7 @@ const PRODUCTS = [
     name: "Jean Moños Blancos 2Pzs 6 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -1599,12 +1887,16 @@ const PRODUCTS = [
     reviews: 52,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Jean Moños Blancos 2Pzs 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Jean Moños Blancos 2Pzs 6 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-074",
@@ -1612,7 +1904,7 @@ const PRODUCTS = [
     name: "Osito y Jirafa con Papitas Jean Azul 2Pzs 7 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1621,12 +1913,16 @@ const PRODUCTS = [
     reviews: 53,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Osito y Jirafa con Papitas Jean Azul 2Pzs 7 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Osito y Jirafa con Papitas Jean Azul 2Pzs 7 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-075",
@@ -1634,7 +1930,7 @@ const PRODUCTS = [
     name: "Jean con Lazos Negros Coquette 2Pzs 7 Años",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -1643,12 +1939,16 @@ const PRODUCTS = [
     reviews: 54,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Jean con Lazos Negros Coquette 2Pzs 7 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Jean con Lazos Negros Coquette 2Pzs 7 Años - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-076",
@@ -1656,7 +1956,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS Chaqueta + Chompa Conejo + Pantalón 12-18M",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1665,12 +1965,16 @@ const PRODUCTS = [
     reviews: 55,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS Chaqueta + Chompa Conejo + Pantalón 12-18M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Conjunto 3 PZS Chaqueta + Chompa Conejo + Pantalón 12-18M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-077",
@@ -1678,7 +1982,7 @@ const PRODUCTS = [
     name: "Conjunto Bebé Recién Nacido 3 Piezas Felpa con Lazo 12M",
     category: "conjuntos-jeans-nina",
     categoryLabel: "Conjuntos Jeans de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1687,12 +1991,16 @@ const PRODUCTS = [
     reviews: 56,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Bebé Recién Nacido 3 Piezas Felpa con Lazo 12M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
+    description:
+      "Conjunto Bebé Recién Nacido 3 Piezas Felpa con Lazo 12M - Conjuntos Jeans de Niña - Pág Pág 06 — 11",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-078",
@@ -1700,7 +2008,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Chaqueta + Vestido Otoño 18-24M",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 49,
     oldPrice: null,
@@ -1709,12 +2017,16 @@ const PRODUCTS = [
     reviews: 57,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Chaqueta + Vestido Otoño 18-24M - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Chaqueta + Vestido Otoño 18-24M - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-079",
@@ -1722,7 +2034,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Cárdigan + Pantalón 18-24M",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -1731,12 +2043,16 @@ const PRODUCTS = [
     reviews: 58,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Cárdigan + Pantalón 18-24M - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Cárdigan + Pantalón 18-24M - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-080",
@@ -1744,7 +2060,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Letras con Capucha Otoño Invierno 2-3 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1753,12 +2069,16 @@ const PRODUCTS = [
     reviews: 59,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Letras con Capucha Otoño Invierno 2-3 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Letras con Capucha Otoño Invierno 2-3 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-081",
@@ -1766,7 +2086,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Chaquetas Capucha Botones Primavera 2-3 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1775,12 +2095,16 @@ const PRODUCTS = [
     reviews: 20,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Chaquetas Capucha Botones Primavera 2-3 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Chaquetas Capucha Botones Primavera 2-3 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-082",
@@ -1788,7 +2112,7 @@ const PRODUCTS = [
     name: "Conjunto Dino 2 Piezas con Capucha 2-3 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1797,12 +2121,16 @@ const PRODUCTS = [
     reviews: 21,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Dino 2 Piezas con Capucha 2-3 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto Dino 2 Piezas con Capucha 2-3 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-083",
@@ -1810,7 +2138,7 @@ const PRODUCTS = [
     name: "Conjunto 3 Piezas Gris Minnie Daisy 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1819,12 +2147,16 @@ const PRODUCTS = [
     reviews: 22,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 Piezas Gris Minnie Daisy 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 3 Piezas Gris Minnie Daisy 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-084",
@@ -1832,7 +2164,7 @@ const PRODUCTS = [
     name: "Conjunto 3 Pzs Moñito Corazón 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1841,12 +2173,16 @@ const PRODUCTS = [
     reviews: 23,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 Pzs Moñito Corazón 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 3 Pzs Moñito Corazón 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-085",
@@ -1854,7 +2190,7 @@ const PRODUCTS = [
     name: "Conjunto Lila Perrito 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -1863,12 +2199,16 @@ const PRODUCTS = [
     reviews: 24,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Lila Perrito 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto Lila Perrito 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-086",
@@ -1876,7 +2216,7 @@ const PRODUCTS = [
     name: "Conjunto Navy blue Moñitos 2 Piezas 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1885,12 +2225,16 @@ const PRODUCTS = [
     reviews: 25,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Navy blue Moñitos 2 Piezas 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto Navy blue Moñitos 2 Piezas 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-087",
@@ -1898,7 +2242,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Chaquetas Capucha Botones Casual 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1907,12 +2251,16 @@ const PRODUCTS = [
     reviews: 26,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Chaquetas Capucha Botones Casual 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Chaquetas Capucha Botones Casual 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-088",
@@ -1920,7 +2268,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Invierno Abrigo + Pantalón Térmico 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1929,12 +2277,16 @@ const PRODUCTS = [
     reviews: 27,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Invierno Abrigo + Pantalón Térmico 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Invierno Abrigo + Pantalón Térmico 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-089",
@@ -1942,7 +2294,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Sudadera Capucha Letras Polar 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1951,12 +2303,16 @@ const PRODUCTS = [
     reviews: 28,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Sudadera Capucha Letras Polar 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Sudadera Capucha Letras Polar 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-090",
@@ -1964,7 +2320,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Sudadera Lazo Manga Larga 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -1973,12 +2329,16 @@ const PRODUCTS = [
     reviews: 29,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Sudadera Lazo Manga Larga 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Sudadera Lazo Manga Larga 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-091",
@@ -1986,7 +2346,7 @@ const PRODUCTS = [
     name: "Conjunto 2PZS Varsity GIRL Casaca Beisbol + Jogger 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: 79,
@@ -1995,12 +2355,16 @@ const PRODUCTS = [
     reviews: 30,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2PZS Varsity GIRL Casaca Beisbol + Jogger 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2PZS Varsity GIRL Casaca Beisbol + Jogger 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-092",
@@ -2008,7 +2372,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS Conejo Unisex Felpa Gruesa 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2017,12 +2381,16 @@ const PRODUCTS = [
     reviews: 31,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS Conejo Unisex Felpa Gruesa 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 3 PZS Conejo Unisex Felpa Gruesa 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-093",
@@ -2030,7 +2398,7 @@ const PRODUCTS = [
     name: "Conjunto overoles peludos otoño 3-4 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2039,12 +2407,16 @@ const PRODUCTS = [
     reviews: 32,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto overoles peludos otoño 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto overoles peludos otoño 3-4 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-094",
@@ -2052,7 +2424,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Top Manga Larga + Pantalón Conejito 4-5 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2061,12 +2433,16 @@ const PRODUCTS = [
     reviews: 33,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Top Manga Larga + Pantalón Conejito 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Top Manga Larga + Pantalón Conejito 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-095",
@@ -2074,7 +2450,7 @@ const PRODUCTS = [
     name: "Conjunto 3 Piezas Retro Mollie Mae Top+Chaleco+Pantalón 4-5 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2083,12 +2459,16 @@ const PRODUCTS = [
     reviews: 34,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 Piezas Retro Mollie Mae Top+Chaleco+Pantalón 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 3 Piezas Retro Mollie Mae Top+Chaleco+Pantalón 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-096",
@@ -2096,7 +2476,7 @@ const PRODUCTS = [
     name: "Conjunto Niña 2 Piezas Casual Otoño Invierno 4-5 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2105,12 +2485,16 @@ const PRODUCTS = [
     reviews: 35,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Niña 2 Piezas Casual Otoño Invierno 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto Niña 2 Piezas Casual Otoño Invierno 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-097",
@@ -2118,7 +2502,7 @@ const PRODUCTS = [
     name: "Conjunto Niña Invierno Flowers Love 3 Piezas 4-5 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -2127,12 +2511,16 @@ const PRODUCTS = [
     reviews: 36,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Niña Invierno Flowers Love 3 Piezas 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto Niña Invierno Flowers Love 3 Piezas 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-098",
@@ -2140,7 +2528,7 @@ const PRODUCTS = [
     name: "Conjunto Peluche Rosa Niña 2 Piezas 4-5 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2149,12 +2537,16 @@ const PRODUCTS = [
     reviews: 37,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Peluche Rosa Niña 2 Piezas 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto Peluche Rosa Niña 2 Piezas 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-099",
@@ -2162,7 +2554,7 @@ const PRODUCTS = [
     name: "Pijama Niña Invierno 2 Piezas Conejito Lila 4-5 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2171,12 +2563,16 @@ const PRODUCTS = [
     reviews: 38,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Pijama Niña Invierno 2 Piezas Conejito Lila 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Pijama Niña Invierno 2 Piezas Conejito Lila 4-5 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-100",
@@ -2184,7 +2580,7 @@ const PRODUCTS = [
     name: "Conjunto Love Fucsia 2 Piezas 5-6 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2193,12 +2589,16 @@ const PRODUCTS = [
     reviews: 39,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Love Fucsia 2 Piezas 5-6 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto Love Fucsia 2 Piezas 5-6 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-101",
@@ -2206,7 +2606,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Conejo Chaqueta Capucha + Jogger 5-6 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2215,12 +2615,16 @@ const PRODUCTS = [
     reviews: 40,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Conejo Chaqueta Capucha + Jogger 5-6 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Conejo Chaqueta Capucha + Jogger 5-6 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-102",
@@ -2228,7 +2632,7 @@ const PRODUCTS = [
     name: "Conjunto Niña 2 Piezas Polar Liso 5-6 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2237,12 +2641,16 @@ const PRODUCTS = [
     reviews: 41,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Niña 2 Piezas Polar Liso 5-6 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto Niña 2 Piezas Polar Liso 5-6 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-103",
@@ -2250,7 +2658,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Invierno Abrigo + Pantalón Térmico 6-7 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -2259,12 +2667,16 @@ const PRODUCTS = [
     reviews: 42,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Invierno Abrigo + Pantalón Térmico 6-7 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2 PZS Invierno Abrigo + Pantalón Térmico 6-7 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-104",
@@ -2272,7 +2684,7 @@ const PRODUCTS = [
     name: "Conjunto 2PZS Niña Elegante Lazo Bomber + Legging 6-7 Años",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2281,12 +2693,16 @@ const PRODUCTS = [
     reviews: 43,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2PZS Niña Elegante Lazo Bomber + Legging 6-7 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Conjunto 2PZS Niña Elegante Lazo Bomber + Legging 6-7 Años - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-105",
@@ -2294,7 +2710,7 @@ const PRODUCTS = [
     name: "Chompa Cárdigan Monstruos 12M",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2303,12 +2719,16 @@ const PRODUCTS = [
     reviews: 44,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Cárdigan Monstruos 12M - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Chompa Cárdigan Monstruos 12M - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-106",
@@ -2316,7 +2736,7 @@ const PRODUCTS = [
     name: "Chompa Rayas Café 12M",
     category: "conjuntos-invierno-nina",
     categoryLabel: "Conjuntos Invierno de Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2325,12 +2745,16 @@ const PRODUCTS = [
     reviews: 45,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Rayas Café 12M - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
+    description:
+      "Chompa Rayas Café 12M - Conjuntos Invierno de Niña - Pág Pág 12 — 16",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-107",
@@ -2338,7 +2762,7 @@ const PRODUCTS = [
     name: "Chompa Dinosaurios 12M",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2347,12 +2771,16 @@ const PRODUCTS = [
     reviews: 46,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Dinosaurios 12M - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Chompa Dinosaurios 12M - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-108",
@@ -2360,7 +2788,7 @@ const PRODUCTS = [
     name: "Cárdigan Fresas Rosado 12M",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2369,12 +2797,16 @@ const PRODUCTS = [
     reviews: 47,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Fresas Rosado 12M - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Fresas Rosado 12M - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-109",
@@ -2382,7 +2814,7 @@ const PRODUCTS = [
     name: "Cárdigan Corazones Cuadros 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -2391,12 +2823,16 @@ const PRODUCTS = [
     reviews: 48,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Corazones Cuadros 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Corazones Cuadros 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-110",
@@ -2404,7 +2840,7 @@ const PRODUCTS = [
     name: "Cárdigan Diamantes y Conejitos 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2413,12 +2849,16 @@ const PRODUCTS = [
     reviews: 49,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Diamantes y Conejitos 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Diamantes y Conejitos 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-111",
@@ -2426,7 +2866,7 @@ const PRODUCTS = [
     name: "Chompa Corazones Crema 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2435,12 +2875,16 @@ const PRODUCTS = [
     reviews: 50,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Corazones Crema 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Chompa Corazones Crema 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-112",
@@ -2448,7 +2892,7 @@ const PRODUCTS = [
     name: "Cárdigan Corazones Acuarela 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2457,12 +2901,16 @@ const PRODUCTS = [
     reviews: 51,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Corazones Acuarela 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Corazones Acuarela 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-113",
@@ -2470,7 +2918,7 @@ const PRODUCTS = [
     name: "Cárdigan Moños y Rayas 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2479,12 +2927,16 @@ const PRODUCTS = [
     reviews: 52,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Moños y Rayas 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Moños y Rayas 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-114",
@@ -2492,7 +2944,7 @@ const PRODUCTS = [
     name: "Cárdigan Flamencos 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2501,12 +2953,16 @@ const PRODUCTS = [
     reviews: 53,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Flamencos 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Flamencos 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-115",
@@ -2514,7 +2970,7 @@ const PRODUCTS = [
     name: "Chompa Flores Margaritas 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -2523,12 +2979,16 @@ const PRODUCTS = [
     reviews: 54,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Flores Margaritas 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Chompa Flores Margaritas 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-116",
@@ -2536,7 +2996,7 @@ const PRODUCTS = [
     name: "Chompa Ositos Amarillo 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2545,12 +3005,16 @@ const PRODUCTS = [
     reviews: 55,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Ositos Amarillo 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Chompa Ositos Amarillo 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-117",
@@ -2558,7 +3022,7 @@ const PRODUCTS = [
     name: "Chompa Dinosaurios Pastel 2A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2567,12 +3031,16 @@ const PRODUCTS = [
     reviews: 56,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Chompa Dinosaurios Pastel 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Chompa Dinosaurios Pastel 2A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-118",
@@ -2580,7 +3048,7 @@ const PRODUCTS = [
     name: "Cárdigan Sobre Ruedas 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2589,12 +3057,16 @@ const PRODUCTS = [
     reviews: 57,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Sobre Ruedas 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Sobre Ruedas 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-119",
@@ -2602,7 +3074,7 @@ const PRODUCTS = [
     name: "Cárdigan Zigzag 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2611,12 +3083,16 @@ const PRODUCTS = [
     reviews: 58,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Zigzag 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Zigzag 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-120",
@@ -2624,7 +3100,7 @@ const PRODUCTS = [
     name: "Cárdigan Granja Encantada 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2633,12 +3109,16 @@ const PRODUCTS = [
     reviews: 59,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Granja Encantada 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Granja Encantada 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-121",
@@ -2646,7 +3126,7 @@ const PRODUCTS = [
     name: "Cárdigan Diamantes y Conejitos 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -2655,12 +3135,16 @@ const PRODUCTS = [
     reviews: 20,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Diamantes y Conejitos 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Diamantes y Conejitos 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-122",
@@ -2668,7 +3152,7 @@ const PRODUCTS = [
     name: "Cárdigan Fresa Rosa 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2677,12 +3161,16 @@ const PRODUCTS = [
     reviews: 21,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Fresa Rosa 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Fresa Rosa 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-123",
@@ -2690,7 +3178,7 @@ const PRODUCTS = [
     name: "Cárdigan Nuevo Floral 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2699,12 +3187,16 @@ const PRODUCTS = [
     reviews: 22,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Nuevo Floral 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Nuevo Floral 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-124",
@@ -2712,7 +3204,7 @@ const PRODUCTS = [
     name: "Cárdigan Ositos Azul 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2721,12 +3213,16 @@ const PRODUCTS = [
     reviews: 23,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Ositos Azul 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Ositos Azul 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-125",
@@ -2734,7 +3230,7 @@ const PRODUCTS = [
     name: "Cárdigan Ositos Blanca 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2743,12 +3239,16 @@ const PRODUCTS = [
     reviews: 24,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Ositos Blanca 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Ositos Blanca 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-126",
@@ -2756,7 +3256,7 @@ const PRODUCTS = [
     name: "Cárdigan Rosa con Corazones 3A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2765,12 +3265,16 @@ const PRODUCTS = [
     reviews: 25,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Rosa con Corazones 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Rosa con Corazones 3A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-127",
@@ -2778,7 +3282,7 @@ const PRODUCTS = [
     name: "Cárdigan Dinosaurios Coloridos 4A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -2787,12 +3291,16 @@ const PRODUCTS = [
     reviews: 26,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Dinosaurios Coloridos 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Dinosaurios Coloridos 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-128",
@@ -2800,7 +3308,7 @@ const PRODUCTS = [
     name: "Cárdigan Camellos del Desierto 4A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2809,12 +3317,16 @@ const PRODUCTS = [
     reviews: 27,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Camellos del Desierto 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Camellos del Desierto 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-129",
@@ -2822,7 +3334,7 @@ const PRODUCTS = [
     name: "Cárdigan Camellos Premium 4A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2831,12 +3343,16 @@ const PRODUCTS = [
     reviews: 28,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Camellos Premium 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Camellos Premium 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-130",
@@ -2844,7 +3360,7 @@ const PRODUCTS = [
     name: "Cárdigan Azul Rayas Beige 4A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2853,12 +3369,16 @@ const PRODUCTS = [
     reviews: 29,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Azul Rayas Beige 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Azul Rayas Beige 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-131",
@@ -2866,7 +3386,7 @@ const PRODUCTS = [
     name: "Cárdigan Jacquard Floral 4A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2875,12 +3395,16 @@ const PRODUCTS = [
     reviews: 30,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Jacquard Floral 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Jacquard Floral 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-132",
@@ -2888,7 +3412,7 @@ const PRODUCTS = [
     name: "Cárdigan Estampado de Fresas 4A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2897,12 +3421,16 @@ const PRODUCTS = [
     reviews: 31,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Estampado de Fresas 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Estampado de Fresas 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-133",
@@ -2910,7 +3438,7 @@ const PRODUCTS = [
     name: "Cárdigan Princesa Azul Polvo 4A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -2919,12 +3447,16 @@ const PRODUCTS = [
     reviews: 32,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Princesa Azul Polvo 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Princesa Azul Polvo 4A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-134",
@@ -2932,7 +3464,7 @@ const PRODUCTS = [
     name: "Cárdigan Franjas Azul y Crema 5A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2941,12 +3473,16 @@ const PRODUCTS = [
     reviews: 33,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Franjas Azul y Crema 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Franjas Azul y Crema 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-135",
@@ -2954,7 +3490,7 @@ const PRODUCTS = [
     name: "Cárdigan Fresas y Corazones Rosado 5A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2963,12 +3499,16 @@ const PRODUCTS = [
     reviews: 34,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Fresas y Corazones Rosado 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Fresas y Corazones Rosado 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-136",
@@ -2976,7 +3516,7 @@ const PRODUCTS = [
     name: "Cárdigan Figuras de Vacas 5A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -2985,12 +3525,16 @@ const PRODUCTS = [
     reviews: 35,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Figuras de Vacas 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Figuras de Vacas 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-137",
@@ -2998,7 +3542,7 @@ const PRODUCTS = [
     name: "Cárdigan Corazones Marrones 5A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3007,12 +3551,16 @@ const PRODUCTS = [
     reviews: 36,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Corazones Marrones 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Corazones Marrones 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-138",
@@ -3020,7 +3568,7 @@ const PRODUCTS = [
     name: "Cárdigan Tulipanes Naranja 5A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3029,12 +3577,16 @@ const PRODUCTS = [
     reviews: 37,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Tulipanes Naranja 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Tulipanes Naranja 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-139",
@@ -3042,7 +3594,7 @@ const PRODUCTS = [
     name: "Cárdigan Estampado Leopardo 5A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -3051,12 +3603,16 @@ const PRODUCTS = [
     reviews: 38,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Estampado Leopardo 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Estampado Leopardo 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-140",
@@ -3064,7 +3620,7 @@ const PRODUCTS = [
     name: "Cárdigan Detalles de Fresas 5A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3073,12 +3629,16 @@ const PRODUCTS = [
     reviews: 39,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Detalles de Fresas 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Detalles de Fresas 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-141",
@@ -3086,7 +3646,7 @@ const PRODUCTS = [
     name: "Cárdigan Estampado de Corazones 5A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3095,12 +3655,16 @@ const PRODUCTS = [
     reviews: 40,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Estampado de Corazones 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Estampado de Corazones 5A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-142",
@@ -3108,7 +3672,7 @@ const PRODUCTS = [
     name: "Cárdigan Estampado Monstruos 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3117,12 +3681,16 @@ const PRODUCTS = [
     reviews: 41,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Estampado Monstruos 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Estampado Monstruos 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-143",
@@ -3130,7 +3698,7 @@ const PRODUCTS = [
     name: "Cárdigan Franjas Azul y Crema 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3139,12 +3707,16 @@ const PRODUCTS = [
     reviews: 42,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Franjas Azul y Crema 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Franjas Azul y Crema 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-144",
@@ -3152,7 +3724,7 @@ const PRODUCTS = [
     name: "Cárdigan Ositos Beige 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3161,12 +3733,16 @@ const PRODUCTS = [
     reviews: 43,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Ositos Beige 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Ositos Beige 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-145",
@@ -3174,7 +3750,7 @@ const PRODUCTS = [
     name: "Cárdigan Diamantes y Conejitos 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -3183,12 +3759,16 @@ const PRODUCTS = [
     reviews: 44,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Diamantes y Conejitos 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Diamantes y Conejitos 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-146",
@@ -3196,7 +3776,7 @@ const PRODUCTS = [
     name: "Cárdigan Estampado Fresa 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3205,12 +3785,16 @@ const PRODUCTS = [
     reviews: 45,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Estampado Fresa 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Estampado Fresa 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-147",
@@ -3218,7 +3802,7 @@ const PRODUCTS = [
     name: "Cárdigan Colección Rojo con Lazo 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3227,12 +3811,16 @@ const PRODUCTS = [
     reviews: 46,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Colección Rojo con Lazo 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Colección Rojo con Lazo 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-148",
@@ -3240,7 +3828,7 @@ const PRODUCTS = [
     name: "Cárdigan Dino Pastel 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3249,12 +3837,16 @@ const PRODUCTS = [
     reviews: 47,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Dino Pastel 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Dino Pastel 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-149",
@@ -3262,7 +3854,7 @@ const PRODUCTS = [
     name: "Cárdigan Rosa con Corazones 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3271,12 +3863,16 @@ const PRODUCTS = [
     reviews: 48,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Rosa con Corazones 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Rosa con Corazones 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-150",
@@ -3284,7 +3880,7 @@ const PRODUCTS = [
     name: "Cárdigan Fresas y Flores 6A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3293,12 +3889,16 @@ const PRODUCTS = [
     reviews: 49,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Fresas y Flores 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Fresas y Flores 6A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-151",
@@ -3306,7 +3906,7 @@ const PRODUCTS = [
     name: "Cárdigan Ositos y Fresas Animados 6-7A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -3315,12 +3915,16 @@ const PRODUCTS = [
     reviews: 50,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Ositos y Fresas Animados 6-7A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Ositos y Fresas Animados 6-7A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-152",
@@ -3328,7 +3932,7 @@ const PRODUCTS = [
     name: "Cárdigan Punto Estampado de Fresas 7A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3337,12 +3941,16 @@ const PRODUCTS = [
     reviews: 51,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Punto Estampado de Fresas 7A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Punto Estampado de Fresas 7A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-153",
@@ -3350,7 +3958,7 @@ const PRODUCTS = [
     name: "Cárdigan Fresas con Cuello 7A",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3359,12 +3967,16 @@ const PRODUCTS = [
     reviews: 52,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Cárdigan Fresas con Cuello 7A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Cárdigan Fresas con Cuello 7A - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-154",
@@ -3372,7 +3984,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Calvin Hoodie Letras + Pantalón 12M Niño",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3381,12 +3993,16 @@ const PRODUCTS = [
     reviews: 53,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Calvin Hoodie Letras + Pantalón 12M Niño - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Conjunto 2 PZS Calvin Hoodie Letras + Pantalón 12M Niño - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-155",
@@ -3394,7 +4010,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Chándal Deportivo Letras 12M Niño",
     category: "cardigans",
     categoryLabel: "Cárdigans",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3403,12 +4019,16 @@ const PRODUCTS = [
     reviews: 54,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Chándal Deportivo Letras 12M Niño - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
+    description:
+      "Conjunto 2 PZS Chándal Deportivo Letras 12M Niño - Cárdigans - Pág Niña y Niño - Pág 17 — 23",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-156",
@@ -3416,7 +4036,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Sudadera Capucha Oreja 3D 12M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3425,12 +4045,16 @@ const PRODUCTS = [
     reviews: 55,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Sudadera Capucha Oreja 3D 12M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 2 PZS Sudadera Capucha Oreja 3D 12M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-157",
@@ -3438,7 +4062,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS Bebé Color gris melange 12M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -3447,12 +4071,16 @@ const PRODUCTS = [
     reviews: 56,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS Bebé Color gris melange 12M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 PZS Bebé Color gris melange 12M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-158",
@@ -3460,7 +4088,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS Bebé Piel de Oso Negra Bordada 12-18M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3469,12 +4097,16 @@ const PRODUCTS = [
     reviews: 57,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS Bebé Piel de Oso Negra Bordada 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 PZS Bebé Piel de Oso Negra Bordada 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-159",
@@ -3482,7 +4114,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS Bebé Sudadera Letras + Chaleco 12-18M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3491,12 +4123,16 @@ const PRODUCTS = [
     reviews: 58,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS Bebé Sudadera Letras + Chaleco 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 PZS Bebé Sudadera Letras + Chaleco 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-160",
@@ -3504,7 +4140,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS León Simba Gris Plomo 12-18M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3513,12 +4149,16 @@ const PRODUCTS = [
     reviews: 59,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS León Simba Gris Plomo 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 PZS León Simba Gris Plomo 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-161",
@@ -3526,7 +4166,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Sudadera Capucha Oreja 3D 18-24M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3535,12 +4175,16 @@ const PRODUCTS = [
     reviews: 20,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Sudadera Capucha Oreja 3D 18-24M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 2 PZS Sudadera Capucha Oreja 3D 18-24M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-162",
@@ -3548,7 +4192,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS Dino Azul Chaleco + Sudadera 18-24M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3557,12 +4201,16 @@ const PRODUCTS = [
     reviews: 21,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS Dino Azul Chaleco + Sudadera 18-24M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 PZS Dino Azul Chaleco + Sudadera 18-24M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-163",
@@ -3570,7 +4218,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS King Polo Capucha + Chaleco 18-24M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -3579,12 +4227,16 @@ const PRODUCTS = [
     reviews: 22,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS King Polo Capucha + Chaleco 18-24M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 PZS King Polo Capucha + Chaleco 18-24M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-164",
@@ -3592,7 +4244,7 @@ const PRODUCTS = [
     name: "Conjunto Osito 3 Piezas con Morralito 18-24M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3601,12 +4253,16 @@ const PRODUCTS = [
     reviews: 23,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Osito 3 Piezas con Morralito 18-24M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Osito 3 Piezas con Morralito 18-24M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-165",
@@ -3614,7 +4270,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS Sudadera Capucha Oreja 3D 2-3A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3623,12 +4279,16 @@ const PRODUCTS = [
     reviews: 24,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS Sudadera Capucha Oreja 3D 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 2 PZS Sudadera Capucha Oreja 3D 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-166",
@@ -3636,7 +4296,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS + BOLSO BEBÉ MARRÓN 2-3A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3645,12 +4305,16 @@ const PRODUCTS = [
     reviews: 25,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS + BOLSO BEBÉ MARRÓN 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 2 PZS + BOLSO BEBÉ MARRÓN 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-167",
@@ -3658,7 +4322,7 @@ const PRODUCTS = [
     name: "Conjunto Dino 2 Piezas con Capucha 2-3A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3667,12 +4331,16 @@ const PRODUCTS = [
     reviews: 26,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Dino 2 Piezas con Capucha 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Dino 2 Piezas con Capucha 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-168",
@@ -3680,7 +4348,7 @@ const PRODUCTS = [
     name: "Conjunto Osito Otoñal GDUCK 2-3A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3689,12 +4357,16 @@ const PRODUCTS = [
     reviews: 27,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Osito Otoñal GDUCK 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Osito Otoñal GDUCK 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-169",
@@ -3702,7 +4374,7 @@ const PRODUCTS = [
     name: "Conjunto Urbano Niño 2 Piezas 2-3A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -3711,12 +4383,16 @@ const PRODUCTS = [
     reviews: 28,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Urbano Niño 2 Piezas 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Urbano Niño 2 Piezas 2-3A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-170",
@@ -3724,7 +4400,7 @@ const PRODUCTS = [
     name: "Conjunto 3 PZS Bebé Polo + Chaleco Oso 3-4A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3733,12 +4409,16 @@ const PRODUCTS = [
     reviews: 29,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 PZS Bebé Polo + Chaleco Oso 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 PZS Bebé Polo + Chaleco Oso 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-171",
@@ -3746,7 +4426,7 @@ const PRODUCTS = [
     name: "Conjunto 3 Pzs GOAT Gris 3-4A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3755,12 +4435,16 @@ const PRODUCTS = [
     reviews: 30,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 Pzs GOAT Gris 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 Pzs GOAT Gris 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-172",
@@ -3768,7 +4452,7 @@ const PRODUCTS = [
     name: "Conjunto Cuello Alto con Cremallera 3-4A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3777,12 +4461,16 @@ const PRODUCTS = [
     reviews: 31,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Cuello Alto con Cremallera 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Cuello Alto con Cremallera 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-173",
@@ -3790,7 +4478,7 @@ const PRODUCTS = [
     name: "Conjunto Deportivo Juvenil Azul 2 Piezas 3-4A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3799,12 +4487,16 @@ const PRODUCTS = [
     reviews: 32,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Deportivo Juvenil Azul 2 Piezas 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Deportivo Juvenil Azul 2 Piezas 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-174",
@@ -3812,7 +4504,7 @@ const PRODUCTS = [
     name: "Conjunto Felpa Osito 2 Piezas 3-4A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3821,12 +4513,16 @@ const PRODUCTS = [
     reviews: 33,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Felpa Osito 2 Piezas 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Felpa Osito 2 Piezas 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-175",
@@ -3834,7 +4530,7 @@ const PRODUCTS = [
     name: "Conjunto Polar Forrado con Capucha 2 Piezas 3-4A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -3843,12 +4539,16 @@ const PRODUCTS = [
     reviews: 34,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Polar Forrado con Capucha 2 Piezas 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Polar Forrado con Capucha 2 Piezas 3-4A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-176",
@@ -3856,7 +4556,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS + Bolso Niño Primavera 4-5A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3865,12 +4565,16 @@ const PRODUCTS = [
     reviews: 35,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS + Bolso Niño Primavera 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 2 PZS + Bolso Niño Primavera 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-177",
@@ -3878,7 +4582,7 @@ const PRODUCTS = [
     name: "Conjunto 3 Pzs Dinosaurio Chaleco+Polera+Pantalón 4-5A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3887,12 +4591,16 @@ const PRODUCTS = [
     reviews: 36,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 Pzs Dinosaurio Chaleco+Polera+Pantalón 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 Pzs Dinosaurio Chaleco+Polera+Pantalón 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-178",
@@ -3900,7 +4608,7 @@ const PRODUCTS = [
     name: "Conjunto Beisbol DREAMS Azul 2 Pzs 4-5A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3909,12 +4617,16 @@ const PRODUCTS = [
     reviews: 37,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Beisbol DREAMS Azul 2 Pzs 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Beisbol DREAMS Azul 2 Pzs 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-179",
@@ -3922,7 +4634,7 @@ const PRODUCTS = [
     name: "Conjunto Beisbol Letra K 2 Pzs 4-5A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3931,12 +4643,16 @@ const PRODUCTS = [
     reviews: 38,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Beisbol Letra K 2 Pzs 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Beisbol Letra K 2 Pzs 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-180",
@@ -3944,7 +4660,7 @@ const PRODUCTS = [
     name: "Conjunto Buzo Bloques Estampado Otoño 4-5A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3953,12 +4669,16 @@ const PRODUCTS = [
     reviews: 39,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Buzo Bloques Estampado Otoño 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Buzo Bloques Estampado Otoño 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-181",
@@ -3966,7 +4686,7 @@ const PRODUCTS = [
     name: "Conjunto Buzo Verde Letras Otoño 4-5A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -3975,12 +4695,16 @@ const PRODUCTS = [
     reviews: 40,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Buzo Verde Letras Otoño 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Buzo Verde Letras Otoño 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-182",
@@ -3988,7 +4712,7 @@ const PRODUCTS = [
     name: "Conjunto Marrón Acolchado Nope 2 Pzs 4-5A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -3997,12 +4721,16 @@ const PRODUCTS = [
     reviews: 41,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Marrón Acolchado Nope 2 Pzs 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Marrón Acolchado Nope 2 Pzs 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-183",
@@ -4010,7 +4738,7 @@ const PRODUCTS = [
     name: "Conjunto Urbano Polar Casaca+Pantalón 4-5A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -4019,12 +4747,16 @@ const PRODUCTS = [
     reviews: 42,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Urbano Polar Casaca+Pantalón 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Urbano Polar Casaca+Pantalón 4-5A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-184",
@@ -4032,7 +4764,7 @@ const PRODUCTS = [
     name: "Conjunto 2 PZS + Bolso Niño Primavera 5-6A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4041,12 +4773,16 @@ const PRODUCTS = [
     reviews: 43,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 2 PZS + Bolso Niño Primavera 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 2 PZS + Bolso Niño Primavera 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-185",
@@ -4054,7 +4790,7 @@ const PRODUCTS = [
     name: "Conjunto 3 Pzs Dinosaurio Chaleco+Polera+Pantalón 5-6A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4063,12 +4799,16 @@ const PRODUCTS = [
     reviews: 44,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto 3 Pzs Dinosaurio Chaleco+Polera+Pantalón 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto 3 Pzs Dinosaurio Chaleco+Polera+Pantalón 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-186",
@@ -4076,7 +4816,7 @@ const PRODUCTS = [
     name: "Conjunto Gris Nope 2 Pzs Forrado 5-6A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4085,12 +4825,16 @@ const PRODUCTS = [
     reviews: 45,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Gris Nope 2 Pzs Forrado 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Gris Nope 2 Pzs Forrado 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-187",
@@ -4098,7 +4842,7 @@ const PRODUCTS = [
     name: "Conjunto Osito Otoñal GDUCK 5-6A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -4107,12 +4851,16 @@ const PRODUCTS = [
     reviews: 46,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Osito Otoñal GDUCK 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Osito Otoñal GDUCK 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-188",
@@ -4120,7 +4868,7 @@ const PRODUCTS = [
     name: "Conjunto Urbano Niño 2 Piezas 5-6A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4129,12 +4877,16 @@ const PRODUCTS = [
     reviews: 47,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Conjunto Urbano Niño 2 Piezas 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Conjunto Urbano Niño 2 Piezas 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-189",
@@ -4142,7 +4894,7 @@ const PRODUCTS = [
     name: "Set 2 Pzs Beige BRAVE Adolescente 5-6A Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4151,12 +4903,16 @@ const PRODUCTS = [
     reviews: 48,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Set 2 Pzs Beige BRAVE Adolescente 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Set 2 Pzs Beige BRAVE Adolescente 5-6A Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-190",
@@ -4164,7 +4920,7 @@ const PRODUCTS = [
     name: "Sudadera So What Negro & Jeans rasgado 12-18M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4173,12 +4929,16 @@ const PRODUCTS = [
     reviews: 49,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera So What Negro & Jeans rasgado 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Sudadera So What Negro & Jeans rasgado 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-191",
@@ -4186,7 +4946,7 @@ const PRODUCTS = [
     name: "Osito Rayas Polo azul osito & Jeans 12-18M Niño",
     category: "conjuntos-invierno-nino",
     categoryLabel: "Conjuntos Invierno de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4195,12 +4955,16 @@ const PRODUCTS = [
     reviews: 50,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Osito Rayas Polo azul osito & Jeans 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
+    description:
+      "Osito Rayas Polo azul osito & Jeans 12-18M Niño - Conjuntos Invierno de Niño - Pág Pág 24 — 29",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-192",
@@ -4208,7 +4972,7 @@ const PRODUCTS = [
     name: "Baseball 28 Polo marino 28 & Jeans 12-18M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4217,12 +4981,16 @@ const PRODUCTS = [
     reviews: 51,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Baseball 28 Polo marino 28 & Jeans 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Baseball 28 Polo marino 28 & Jeans 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-193",
@@ -4230,7 +4998,7 @@ const PRODUCTS = [
     name: "Overol rasgado Polo blanco 12-18M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -4239,12 +5007,16 @@ const PRODUCTS = [
     reviews: 52,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Overol rasgado Polo blanco 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Overol rasgado Polo blanco 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-194",
@@ -4252,7 +5024,7 @@ const PRODUCTS = [
     name: "Sudadera Caqui-Beige Jean negro rasgado 12-18M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4261,12 +5033,16 @@ const PRODUCTS = [
     reviews: 53,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera Caqui-Beige Jean negro rasgado 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera Caqui-Beige Jean negro rasgado 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-195",
@@ -4274,7 +5050,7 @@ const PRODUCTS = [
     name: "Sudadera Negro BRO CODE Jean rasgado 12-18M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4283,12 +5059,16 @@ const PRODUCTS = [
     reviews: 54,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera Negro BRO CODE Jean rasgado 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera Negro BRO CODE Jean rasgado 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-196",
@@ -4296,7 +5076,7 @@ const PRODUCTS = [
     name: "Polo waffle Jean azul 12-18M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4305,12 +5085,16 @@ const PRODUCTS = [
     reviews: 55,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo waffle Jean azul 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polo waffle Jean azul 12-18M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-197",
@@ -4318,7 +5102,7 @@ const PRODUCTS = [
     name: "Camisa con morsa Jeans claro 18-24M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4327,12 +5111,16 @@ const PRODUCTS = [
     reviews: 56,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Camisa con morsa Jeans claro 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Camisa con morsa Jeans claro 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-198",
@@ -4340,7 +5128,7 @@ const PRODUCTS = [
     name: "Overol jean azul Polo manga larga white 18-24M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4349,12 +5137,16 @@ const PRODUCTS = [
     reviews: 57,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Overol jean azul Polo manga larga white 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Overol jean azul Polo manga larga white 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-199",
@@ -4362,7 +5154,7 @@ const PRODUCTS = [
     name: "Sudadera negra osito Jean rasgado 18-24M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -4371,12 +5163,16 @@ const PRODUCTS = [
     reviews: 58,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera negra osito Jean rasgado 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera negra osito Jean rasgado 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-200",
@@ -4384,7 +5180,7 @@ const PRODUCTS = [
     name: "Casaca jean negra Jogger Negro 18-24M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -4393,12 +5189,16 @@ const PRODUCTS = [
     reviews: 59,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca jean negra Jogger Negro 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Casaca jean negra Jogger Negro 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-201",
@@ -4406,7 +5206,7 @@ const PRODUCTS = [
     name: "Overol jean carita oso Polo manga larga 18-24M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4415,12 +5215,16 @@ const PRODUCTS = [
     reviews: 20,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Overol jean carita oso Polo manga larga 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Overol jean carita oso Polo manga larga 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-202",
@@ -4428,7 +5232,7 @@ const PRODUCTS = [
     name: "Overol corto jean Polo rayas marrón 18-24M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4437,12 +5241,16 @@ const PRODUCTS = [
     reviews: 21,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Overol corto jean Polo rayas marrón 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Overol corto jean Polo rayas marrón 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-203",
@@ -4450,7 +5258,7 @@ const PRODUCTS = [
     name: "Sudadera rayas bolsillo jean Jeans rasgado 18-24M Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4459,12 +5267,16 @@ const PRODUCTS = [
     reviews: 22,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera rayas bolsillo jean Jeans rasgado 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera rayas bolsillo jean Jeans rasgado 18-24M Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-204",
@@ -4472,7 +5284,7 @@ const PRODUCTS = [
     name: "Polo waffle rayas beige/negro Jeans 2-3A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4481,12 +5293,16 @@ const PRODUCTS = [
     reviews: 23,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo waffle rayas beige/negro Jeans 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polo waffle rayas beige/negro Jeans 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-205",
@@ -4494,7 +5310,7 @@ const PRODUCTS = [
     name: "Sweater celeste cuello camisa Jeans jogger azul 2-3A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -4503,12 +5319,16 @@ const PRODUCTS = [
     reviews: 24,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sweater celeste cuello camisa Jeans jogger azul 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sweater celeste cuello camisa Jeans jogger azul 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-206",
@@ -4516,7 +5336,7 @@ const PRODUCTS = [
     name: "Polera blanca corazón 3D Jeans rasgado 2-3A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4525,12 +5345,16 @@ const PRODUCTS = [
     reviews: 25,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera blanca corazón 3D Jeans rasgado 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polera blanca corazón 3D Jeans rasgado 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-207",
@@ -4538,7 +5362,7 @@ const PRODUCTS = [
     name: "Sudadera rayas negra/beigh osito Jean azul 2-3A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4547,12 +5371,16 @@ const PRODUCTS = [
     reviews: 26,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera rayas negra/beigh osito Jean azul 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera rayas negra/beigh osito Jean azul 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-208",
@@ -4560,7 +5388,7 @@ const PRODUCTS = [
     name: "Polera blanca MAMAS BOY Jeans azul oscuro 2-3A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4569,12 +5397,16 @@ const PRODUCTS = [
     reviews: 27,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera blanca MAMAS BOY Jeans azul oscuro 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polera blanca MAMAS BOY Jeans azul oscuro 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-209",
@@ -4582,7 +5414,7 @@ const PRODUCTS = [
     name: "Polera blanca MOMMYS LUCKY BOY Jeans oscuro 2-3A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4591,12 +5423,16 @@ const PRODUCTS = [
     reviews: 28,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera blanca MOMMYS LUCKY BOY Jeans oscuro 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polera blanca MOMMYS LUCKY BOY Jeans oscuro 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-210",
@@ -4604,7 +5440,7 @@ const PRODUCTS = [
     name: "Polo blanco THE BEST Jeans negro lavado 2-3A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4613,12 +5449,16 @@ const PRODUCTS = [
     reviews: 29,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo blanco THE BEST Jeans negro lavado 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polo blanco THE BEST Jeans negro lavado 2-3A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-211",
@@ -4626,7 +5466,7 @@ const PRODUCTS = [
     name: "Camisa blanca rayas parches animales Jeans 3-4A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -4635,12 +5475,16 @@ const PRODUCTS = [
     reviews: 30,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Camisa blanca rayas parches animales Jeans 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Camisa blanca rayas parches animales Jeans 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-212",
@@ -4648,7 +5492,7 @@ const PRODUCTS = [
     name: "Sudadera beige parche jean CB Jean roto BE HAPPY 3-4A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4657,12 +5501,16 @@ const PRODUCTS = [
     reviews: 31,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera beige parche jean CB Jean roto BE HAPPY 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera beige parche jean CB Jean roto BE HAPPY 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-213",
@@ -4670,7 +5518,7 @@ const PRODUCTS = [
     name: "Polera blanca NEW YORK Jeans azul oscuro 3-4A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4679,12 +5527,16 @@ const PRODUCTS = [
     reviews: 32,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera blanca NEW YORK Jeans azul oscuro 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polera blanca NEW YORK Jeans azul oscuro 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-214",
@@ -4692,7 +5544,7 @@ const PRODUCTS = [
     name: "Sudadera blanca MOMMYS LUCKY BOY Jean azul rasgado 3-4A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4701,12 +5553,16 @@ const PRODUCTS = [
     reviews: 33,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera blanca MOMMYS LUCKY BOY Jean azul rasgado 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera blanca MOMMYS LUCKY BOY Jean azul rasgado 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-215",
@@ -4714,7 +5570,7 @@ const PRODUCTS = [
     name: "Polo blanco THE BEST IS YET TO COME Jeans rasgado 3-4A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4723,12 +5579,16 @@ const PRODUCTS = [
     reviews: 34,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo blanco THE BEST IS YET TO COME Jeans rasgado 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polo blanco THE BEST IS YET TO COME Jeans rasgado 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-216",
@@ -4736,7 +5596,7 @@ const PRODUCTS = [
     name: "Camisa cuadros negra/blanca bolsillo jean Jeans claro 3-4A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4745,12 +5605,16 @@ const PRODUCTS = [
     reviews: 35,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Camisa cuadros negra/blanca bolsillo jean Jeans claro 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Camisa cuadros negra/blanca bolsillo jean Jeans claro 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-217",
@@ -4758,7 +5622,7 @@ const PRODUCTS = [
     name: "Polera blanca acolchada carita oso Jeans rasgado 3-4A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -4767,12 +5631,16 @@ const PRODUCTS = [
     reviews: 36,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera blanca acolchada carita oso Jeans rasgado 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polera blanca acolchada carita oso Jeans rasgado 3-4A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-218",
@@ -4780,7 +5648,7 @@ const PRODUCTS = [
     name: "Polera white osito amarillo Jeans con osito 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4789,12 +5657,16 @@ const PRODUCTS = [
     reviews: 37,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera white osito amarillo Jeans con osito 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polera white osito amarillo Jeans con osito 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-219",
@@ -4802,7 +5674,7 @@ const PRODUCTS = [
     name: "Camisa verde dino Jeans azul oscuro lavado 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4811,12 +5683,16 @@ const PRODUCTS = [
     reviews: 38,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Camisa verde dino Jeans azul oscuro lavado 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Camisa verde dino Jeans azul oscuro lavado 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-220",
@@ -4824,7 +5700,7 @@ const PRODUCTS = [
     name: "Sudadera beige parche jean CB Jean Rasgado BE HAPPY 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4833,12 +5709,16 @@ const PRODUCTS = [
     reviews: 39,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera beige parche jean CB Jean Rasgado BE HAPPY 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera beige parche jean CB Jean Rasgado BE HAPPY 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-221",
@@ -4846,7 +5726,7 @@ const PRODUCTS = [
     name: "Overol jean negro osito Polo amarillo 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: null,
@@ -4855,12 +5735,16 @@ const PRODUCTS = [
     reviews: 40,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Overol jean negro osito Polo amarillo 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Overol jean negro osito Polo amarillo 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-222",
@@ -4868,7 +5752,7 @@ const PRODUCTS = [
     name: "Sudadera azul cocodrilo CTCABIN Jeans celeste dino 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4877,12 +5761,16 @@ const PRODUCTS = [
     reviews: 41,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera azul cocodrilo CTCABIN Jeans celeste dino 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera azul cocodrilo CTCABIN Jeans celeste dino 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-223",
@@ -4890,7 +5778,7 @@ const PRODUCTS = [
     name: "Polera crema ME 12345689 Jeans azul oscuro 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: 65,
@@ -4899,12 +5787,16 @@ const PRODUCTS = [
     reviews: 42,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polera crema ME 12345689 Jeans azul oscuro 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polera crema ME 12345689 Jeans azul oscuro 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-224",
@@ -4912,7 +5804,7 @@ const PRODUCTS = [
     name: "Polo blanco THE BEST Jeans gris claro rasgado 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4921,12 +5813,16 @@ const PRODUCTS = [
     reviews: 43,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo blanco THE BEST Jeans gris claro rasgado 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polo blanco THE BEST Jeans gris claro rasgado 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-225",
@@ -4934,7 +5830,7 @@ const PRODUCTS = [
     name: "Sudadera gris letras MI Jeans celeste jogger 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4943,12 +5839,16 @@ const PRODUCTS = [
     reviews: 44,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera gris letras MI Jeans celeste jogger 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera gris letras MI Jeans celeste jogger 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-226",
@@ -4956,7 +5856,7 @@ const PRODUCTS = [
     name: "Sudadera blanca letras MI Jeans celeste jogger 4-5A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4965,12 +5865,16 @@ const PRODUCTS = [
     reviews: 45,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera blanca letras MI Jeans celeste jogger 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera blanca letras MI Jeans celeste jogger 4-5A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-227",
@@ -4978,7 +5882,7 @@ const PRODUCTS = [
     name: "Polo blanco osito XISX Jean oscuro rasgado 5-6A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -4987,12 +5891,16 @@ const PRODUCTS = [
     reviews: 46,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo blanco osito XISX Jean oscuro rasgado 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polo blanco osito XISX Jean oscuro rasgado 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-228",
@@ -5000,7 +5908,7 @@ const PRODUCTS = [
     name: "Sudadera rayas negra/blanca bolsillo jean Jean rasgado 5-6A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -5009,12 +5917,16 @@ const PRODUCTS = [
     reviews: 47,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera rayas negra/blanca bolsillo jean Jean rasgado 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera rayas negra/blanca bolsillo jean Jean rasgado 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-229",
@@ -5022,7 +5934,7 @@ const PRODUCTS = [
     name: "Polo waffle rayas beige cuello Jogger jean moño 5-6A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 39,
     oldPrice: 59,
@@ -5031,12 +5943,16 @@ const PRODUCTS = [
     reviews: 48,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo waffle rayas beige cuello Jogger jean moño 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polo waffle rayas beige cuello Jogger jean moño 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-230",
@@ -5044,7 +5960,7 @@ const PRODUCTS = [
     name: "Sudadera blanca capucha dino Jean azul medio 5-6A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -5053,12 +5969,16 @@ const PRODUCTS = [
     reviews: 49,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Sudadera blanca capucha dino Jean azul medio 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Sudadera blanca capucha dino Jean azul medio 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-231",
@@ -5066,7 +5986,7 @@ const PRODUCTS = [
     name: "Polo blanco THE BEST IS YET TO COME Jean negro lavado 5-6A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -5075,12 +5995,16 @@ const PRODUCTS = [
     reviews: 50,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Polo blanco THE BEST IS YET TO COME Jean negro lavado 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Polo blanco THE BEST IS YET TO COME Jean negro lavado 5-6A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-232",
@@ -5088,7 +6012,7 @@ const PRODUCTS = [
     name: "Jean R Camisa + Pantalón 2Pzs 6-7A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -5097,12 +6021,16 @@ const PRODUCTS = [
     reviews: 51,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Jean R Camisa + Pantalón 2Pzs 6-7A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Jean R Camisa + Pantalón 2Pzs 6-7A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-233",
@@ -5110,7 +6038,7 @@ const PRODUCTS = [
     name: "Jean ARCHIVE 23 2 Pzs 7-8A Niño",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 45,
     oldPrice: null,
@@ -5119,12 +6047,16 @@ const PRODUCTS = [
     reviews: 52,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Jean ARCHIVE 23 2 Pzs 7-8A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Jean ARCHIVE 23 2 Pzs 7-8A Niño - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-234",
@@ -5132,7 +6064,7 @@ const PRODUCTS = [
     name: "Casaca Corazón 2-4A",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -5141,12 +6073,16 @@ const PRODUCTS = [
     reviews: 53,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a0b4?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca Corazón 2-4A - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Casaca Corazón 2-4A - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-235",
@@ -5154,7 +6090,7 @@ const PRODUCTS = [
     name: "Casaca Conejo 2-4A",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: 79,
@@ -5163,12 +6099,16 @@ const PRODUCTS = [
     reviews: 54,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca Conejo 2-4A - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Casaca Conejo 2-4A - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-236",
@@ -5176,7 +6116,7 @@ const PRODUCTS = [
     name: "Casaca Correa 2-4A",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -5185,12 +6125,16 @@ const PRODUCTS = [
     reviews: 55,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1604917019113-e2e0e33ad532?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca Correa 2-4A - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Casaca Correa 2-4A - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-237",
@@ -5198,7 +6142,7 @@ const PRODUCTS = [
     name: "Casaca Mariposa 3D 2-4A",
     category: "conjuntos-jeans-nino",
     categoryLabel: "Conjuntos Jeans de Niño",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -5207,12 +6151,16 @@ const PRODUCTS = [
     reviews: 56,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca Mariposa 3D 2-4A - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
+    description:
+      "Casaca Mariposa 3D 2-4A - Conjuntos Jeans de Niño - Pág Pág 30 — 35",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-238",
@@ -5220,7 +6168,7 @@ const PRODUCTS = [
     name: "Casaca Mariposa Bombom 2-4A",
     category: "casacas",
     categoryLabel: "Casacas de Niño y Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -5229,12 +6177,16 @@ const PRODUCTS = [
     reviews: 57,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca Mariposa Bombom 2-4A - Casacas de Niño y Niña - Pág Pág 36",
+    description:
+      "Casaca Mariposa Bombom 2-4A - Casacas de Niño y Niña - Pág Pág 36",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-239",
@@ -5242,7 +6194,7 @@ const PRODUCTS = [
     name: "Casaca HONG Niño 2-4A",
     category: "casacas",
     categoryLabel: "Casacas de Niño y Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -5251,12 +6203,15 @@ const PRODUCTS = [
     reviews: 58,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
     description: "Casaca HONG Niño 2-4A - Casacas de Niño y Niña - Pág Pág 36",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-240",
@@ -5264,7 +6219,7 @@ const PRODUCTS = [
     name: "Casaca GOPENNIG Amarillo Niño 2-4A",
     category: "casacas",
     categoryLabel: "Casacas de Niño y Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -5273,12 +6228,16 @@ const PRODUCTS = [
     reviews: 59,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca GOPENNIG Amarillo Niño 2-4A - Casacas de Niño y Niña - Pág Pág 36",
+    description:
+      "Casaca GOPENNIG Amarillo Niño 2-4A - Casacas de Niño y Niña - Pág Pág 36",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-241",
@@ -5286,7 +6245,7 @@ const PRODUCTS = [
     name: "Casaca GOPENNIG Marrón 2-4A",
     category: "casacas",
     categoryLabel: "Casacas de Niño y Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: 79,
@@ -5295,12 +6254,16 @@ const PRODUCTS = [
     reviews: 20,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca GOPENNIG Marrón 2-4A - Casacas de Niño y Niña - Pág Pág 36",
+    description:
+      "Casaca GOPENNIG Marrón 2-4A - Casacas de Niño y Niña - Pág Pág 36",
     material: "Importado premium",
-    care: "Lavado a mano"
+    care: "Lavado a mano",
   },
   {
     id: "mk-242",
@@ -5308,7 +6271,7 @@ const PRODUCTS = [
     name: "Casaca GOPENNIG Verde 2-4A",
     category: "casacas",
     categoryLabel: "Casacas de Niño y Niña",
-    ageGroup: ["12-18M","2","3-4","5-6"],
+    ageGroup: ["12-18M", "2", "3-4", "5-6"],
     season: "todo-el-año",
     price: 59,
     oldPrice: null,
@@ -5317,23 +6280,78 @@ const PRODUCTS = [
     reviews: 21,
     stock: 12,
     colors: [{ name: "Rosa", hex: "#F3B9C6" }],
-    sizes: ["12-18M","2","3-4","4","5-6"],
-    images: ["https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80"],
+    sizes: ["12-18M", "2", "3-4", "4", "5-6"],
+    images: [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop&q=80",
+    ],
     realCatalogImage: "https://navemed.github.io/catalogo-marie-kids/",
-    description: "Casaca GOPENNIG Verde 2-4A - Casacas de Niño y Niña - Pág Pág 36",
+    description:
+      "Casaca GOPENNIG Verde 2-4A - Casacas de Niño y Niña - Pág Pág 36",
     material: "Importado premium",
-    care: "Lavado a mano"
-  }
+    care: "Lavado a mano",
+  },
 ];
 
 const CATEGORIES = [
-  { slug: "vestidos-nina", name: "Vestidos de Niña", emoji: "👗", num: "01", pag: "Pág 02 — 05" },
-  { slug: "conjuntos-jeans-nina", name: "Conjuntos Jeans de Niña", emoji: "🎀", num: "02", pag: "Pág 06 — 11" },
-  { slug: "conjuntos-invierno-nina", name: "Conjuntos Invierno de Niña", emoji: "🧣", num: "03", pag: "Pág 12 — 16" },
-  { slug: "cardigans", name: "Cárdigans", emoji: "🧶", num: "04", pag: "Niña y Niño - Pág 17 — 23", sub: "Niña y Niño" },
-  { slug: "conjuntos-invierno-nino", name: "Conjuntos Invierno de Niño", emoji: "🧥", num: "05", pag: "Pág 24 — 29" },
-  { slug: "conjuntos-jeans-nino", name: "Conjuntos Jeans de Niño", emoji: "👖", num: "06", pag: "Pág 30 — 35" },
-  { slug: "casacas", name: "Casacas de Niño y Niña", emoji: "🧥", num: "07", pag: "Pág 36" },
+  {
+    slug: "vestidos-nina",
+    name: "Vestidos de Niña",
+    emoji: "👗",
+    num: "01",
+    pag: "Pág 02 — 05",
+  },
+  {
+    slug: "conjuntos-jeans-nina",
+    name: "Conjuntos Jeans de Niña",
+    emoji: "🎀",
+    num: "02",
+    pag: "Pág 06 — 11",
+  },
+  {
+    slug: "conjuntos-invierno-nina",
+    name: "Conjuntos Invierno de Niña",
+    emoji: "🧣",
+    num: "03",
+    pag: "Pág 12 — 16",
+  },
+  {
+    slug: "cardigans",
+    name: "Cárdigans",
+    emoji: "🧶",
+    num: "04",
+    pag: "Niña y Niño - Pág 17 — 23",
+    sub: "Niña y Niño",
+  },
+  {
+    slug: "conjuntos-invierno-nino",
+    name: "Conjuntos Invierno de Niño",
+    emoji: "🧥",
+    num: "05",
+    pag: "Pág 24 — 29",
+  },
+  {
+    slug: "conjuntos-jeans-nino",
+    name: "Conjuntos Jeans de Niño",
+    emoji: "👖",
+    num: "06",
+    pag: "Pág 30 — 35",
+  },
+  {
+    slug: "casacas",
+    name: "Casacas de Niño y Niña",
+    emoji: "🧥",
+    num: "07",
+    pag: "Pág 36",
+  },
 ];
 
-function isRealImage(s){return s&&s.startsWith('http')} function resolvePlaceholder(s){if(isRealImage(s))return{grad:'real',url:s,isReal:true,emoji:'🖼️'};const p=s.split(':');return{grad:p[1]||'g1',emoji:p[2]||'👗',isReal:false}} 
+function isRealImage(s) {
+  return s && s.startsWith("http");
+}
+function resolvePlaceholder(s) {
+  if (isRealImage(s))
+    return { grad: "real", url: s, isReal: true, emoji: "🖼️" };
+  const p = s.split(":");
+  return { grad: p[1] || "g1", emoji: p[2] || "👗", isReal: false };
+}
