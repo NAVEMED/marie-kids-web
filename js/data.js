@@ -21,9 +21,17 @@
 // Agrupa las categorías existentes en Categoría → Niño/Niña
 // (usa los mismos slugs de CATEGORIES, no reemplaza nada)
 const CATEGORY_GROUPS = [
-  { name: "Cardigans", emoji: "🧶", subs: ["cardigans-nina", "cardigans-nino"] },
+  {
+    name: "Cardigans",
+    emoji: "🧶",
+    subs: ["cardigans-nina", "cardigans-nino"],
+  },
   { name: "Casacas", emoji: "🧥", subs: ["casacas-nina", "casacas-nino"] },
-  { name: "Conjuntos Invierno", emoji: "❄️", subs: ["conjuntos-invierno-nina", "conjuntos-invierno-nino"] },
+  {
+    name: "Conjuntos Invierno",
+    emoji: "❄️",
+    subs: ["conjuntos-invierno-nina", "conjuntos-invierno-nino"],
+  },
   { name: "Jeans", emoji: "👖", subs: ["jeans-nina", "jeans-nino"] },
   { name: "Vestidos", emoji: "👗", subs: ["vestidos-nina"] },
 ];
