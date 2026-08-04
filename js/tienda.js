@@ -18,15 +18,50 @@ function getParam2(name) {
 }
 
 function buildFilterUI() {
-  document.getElementById("fCategory").innerHTML =
-    `<label class="filter-opt"><input type="radio" name="cat" ${state.category === "all" ? "checked" : ""} onchange="setCategory('all')"> Todas</label>` +
-    CATEGORIES.map(
-      (c) =>
-        `<label class="filter-opt"><input type="radio" name="cat" ${state.category === c.slug ? "checked" : ""} onchange="setCategory('${c.slug}')"> ${c.emoji} ${c.name}</label>`
-    ).join("");
+  // Inyecta el CSS del acordeón una sola vez
+  if (!document.getElementById("catAccordionStyle")) {
+    const style = document.createElement("style");
+    style.id = "catAccordionStyle";
+    style.textContent = `
+      .filter-group{border-top:1px solid rgba(0,0,0,.08);}
+      .filter-group-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;background:none;border:none;padding:8px 0;cursor:pointer;font-size:14px;text-align:left;color:inherit;}
+      .filter-group-arrow{transition:transform .15s ease;display:inline-block;}
+      .filter-group.open .filter-group-arrow{transform:rotate(90deg);}
+      .filter-group-body{display:none;flex-direction:column;padding:0 0 8px 20px;}
+      .filter-group.open .filter-group-body{display:flex;}
+    `;
+    document.head.appendChild(style);
+  }
 
-  const allSizes = [...new Set(PRODUCTS.flatMap((p) => p.sizes))];
-  document.getElementById("fSize").innerHTML = allSizes
+  const catWrap = document.getElementById("fCategory");
+
+  const groupsHTML = CATEGORY_GROUPS.map((group) => {
+    const isOpen = group.subs.includes(state.category);
+    const subsHTML = group.subs
+      .map((slug) => {
+        const c = CATEGORIES.find((x) => x.slug === slug);
+        if (!c) return "";
+        const label = c.name.replace(group.name, "").trim() || c.name;
+        return `<label class="filter-opt"><input type="radio" name="cat" ${state.category === c.slug ? "checked" : ""} onchange="setCategory('${c.slug}')"> ${label}</label>`;
+      })
+      .join("");
+    return `
+      <div class="filter-group${isOpen ? " open" : ""}">
+        <button type="button" class="filter-group-toggle" onclick="this.parentElement.classList.toggle('open')">
+          <span>${group.emoji} ${group.name}</span>
+          <span class="filter-group-arrow">›</span>
+        </button>
+        <div class="filter-group-body">${subsHTML}</div>
+      </div>`;
+  }).join("");
+
+  catWrap.innerHTML =
+    `<label class="filter-opt"><input type="radio" name="cat" ${state.category === "all" ? "checked" : ""} onchange="setCategory('all')"> Todas</label>` +
+    groupsHTML;
+
+  // El filtro de tallas siempre muestra exactamente estas 9 tallas, en este
+  // orden fijo, sin duplicados — sin importar qué tallas tenga cada producto.
+  document.getElementById("fSize").innerHTML = AVAILABLE_SIZES
     .map((s) => `<label class="filter-opt"><input type="checkbox" value="${s}" onchange="toggleArrFilter('sizes','${s}',this)"> ${s}</label>`)
     .join("");
 

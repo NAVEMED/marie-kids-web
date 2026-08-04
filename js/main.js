@@ -20,37 +20,46 @@ function buildWhatsAppLink(product, size, color, qty = 1) {
 }
 
 /* ---------- Helpers de foto REAL vs placeholder ---------- */
-function isRealImage(str){
-  if(!str) return false;
-  return str.startsWith('http') || str.startsWith('/') || str.startsWith('img/') || str.endsWith('.jpg') || str.endsWith('.png') || str.endsWith('.webp');
+function isRealImage(str) {
+  if (!str) return false;
+  return (
+    str.startsWith("http") ||
+    str.startsWith("/") ||
+    str.startsWith("img/") ||
+    str.endsWith(".jpg") ||
+    str.endsWith(".png") ||
+    str.endsWith(".webp")
+  );
 }
-function resolvePlaceholder(str){
-  if(isRealImage(str)){
-    return { grad: 'real', emoji: '🖼️', url: str, isReal: true };
+function resolvePlaceholder(str) {
+  if (isRealImage(str)) {
+    return { grad: "real", emoji: "🖼️", url: str, isReal: true };
   }
   // formato viejo placeholder:g1:👗
-  try{
-    const parts = str.split(':');
-    return { grad: parts[1]||'g1', emoji: parts[2]||'👗', isReal:false };
-  }catch(e){
-    return { grad: 'g1', emoji: '👗', isReal:false };
+  try {
+    const parts = str.split(":");
+    return { grad: parts[1] || "g1", emoji: parts[2] || "👗", isReal: false };
+  } catch (e) {
+    return { grad: "g1", emoji: "👗", isReal: false };
   }
 }
 /* ---------- Placeholders de foto (ahora soporta fotos reales) ---------- */
 function phLayer(str, extraClass = "") {
-  if(!str) return '';
-  if(isRealImage(str)){
+  if (!str) return "";
+  if (isRealImage(str)) {
     return `<img class="layer ${extraClass} real-img" src="${str}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">`;
   }
   const { grad, emoji } = resolvePlaceholder(str);
   return `<div class="layer ${extraClass} ph-${grad}"><span>${emoji}</span></div>`;
 }
 
-
 /* ---------- Render de tarjeta de producto ---------- */
 function pcardHTML(p) {
-  const discount = p.oldPrice ? Math.round(100 - (p.price / p.oldPrice) * 100) : null;
-  const stars = "★".repeat(Math.round(p.rating)) + "☆".repeat(5 - Math.round(p.rating));
+  const discount = p.oldPrice
+    ? Math.round(100 - (p.price / p.oldPrice) * 100)
+    : null;
+  const stars =
+    "★".repeat(Math.round(p.rating)) + "☆".repeat(5 - Math.round(p.rating));
   return `
     <div class="pcard" data-id="${p.id}">
       <div class="ph">
@@ -58,14 +67,14 @@ function pcardHTML(p) {
           ${phLayer(p.images[0], "primary")}
           ${phLayer(p.images[1] || p.images[0], "secondary")}
         </a>
-        ${p.badge ? `<span class="tag ${p.badge}">${p.badge.replace("-", " ")}</span>` : ""}
+        ${p.badge ? `<span class="tag ${p.badge}">${badgeDisplay(p.badge)}</span>` : ""}
         ${p.stock <= 5 ? `<span class="low-stock">¡Últimas ${p.stock} unidades!</span>` : ""}
         <button class="wish" aria-label="Agregar a favoritos" onclick="toggleWishlist(event,'${p.id}')">♡</button>
         <button class="quick-view" onclick="openQuickView('${p.id}')">Vista rápida</button>
       </div>
       <div class="info">
         <span class="cat">${p.category}</span>
-        <h4><a href="producto.html?slug=${p.slug}">${p.name}</a></h4>
+        <h4 style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;overflow-wrap:break-word;word-break:normal;min-height:2.6em;"><a href="producto.html?slug=${p.slug}" title="${p.name}">${p.name}</a></h4>
         <div class="rating"><span class="stars">${stars}</span> ${p.rating} (${p.reviews})</div>
         <div class="price-row">
           <span class="price">S/ ${p.price}</span>
@@ -117,9 +126,11 @@ function openQuickView(id) {
   if (!p) return;
   qvState = { product: p, size: p.sizes[0], color: p.colors[0].name };
   const ph = resolvePlaceholder(p.images[0]);
-  const qvImgInner = ph.isReal ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">` : `<span>${ph.emoji}</span>`;
+  const qvImgInner = ph.isReal
+    ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">`
+    : `<span>${ph.emoji}</span>`;
   document.getElementById("qvContent").innerHTML = `
-    <div class="qv-img ${ph.isReal?'':'ph-'+ph.grad}">${qvImgInner}</div>
+    <div class="qv-img ${ph.isReal ? "" : "ph-" + ph.grad}">${qvImgInner}</div>
     <div class="qv-info">
       <span class="cat">${p.category}</span>
       <h3>${p.name}</h3>
@@ -151,13 +162,16 @@ function openQuickView(id) {
 }
 function qvSelect(type, value, btn) {
   qvState[type] = value;
-  btn.parentElement.querySelectorAll(".opt-pill,.opt-color").forEach((b) => b.classList.remove("selected"));
+  btn.parentElement
+    .querySelectorAll(".opt-pill,.opt-color")
+    .forEach((b) => b.classList.remove("selected"));
   btn.classList.add("selected");
   updateQvWaLink();
 }
 function updateQvWaLink() {
   const link = document.getElementById("qvWaLink");
-  if (link) link.href = buildWhatsAppLink(qvState.product, qvState.size, qvState.color);
+  if (link)
+    link.href = buildWhatsAppLink(qvState.product, qvState.size, qvState.color);
 }
 function qvAddToCart() {
   Cart.add(qvState.product, qvState.size, qvState.color);
@@ -177,25 +191,46 @@ const HeroSlider = {
     if (this.slides.length === 0) return;
     this.dotsWrap = document.getElementById("slideDots");
     this.dotsWrap.innerHTML = this.slides
-      .map((_, i) => `<button aria-label="Ir a la diapositiva ${i + 1}" onclick="HeroSlider.go(${i})"></button>`)
+      .map(
+        (_, i) =>
+          `<button aria-label="Ir a la diapositiva ${i + 1}" onclick="HeroSlider.go(${i})"></button>`,
+      )
       .join("");
     this.dots = Array.from(this.dotsWrap.children);
     this.show(0);
     this.play();
-    document.querySelector(".hero-slider").addEventListener("mouseenter", () => this.pause());
-    document.querySelector(".hero-slider").addEventListener("mouseleave", () => this.play());
+    document
+      .querySelector(".hero-slider")
+      .addEventListener("mouseenter", () => this.pause());
+    document
+      .querySelector(".hero-slider")
+      .addEventListener("mouseleave", () => this.play());
   },
   show(i) {
     this.slides.forEach((s, idx) => s.classList.toggle("active", idx === i));
     this.dots.forEach((d, idx) => d.classList.toggle("active", idx === i));
     this.index = i;
   },
-  next() { this.show((this.index + 1) % this.slides.length); },
-  prev() { this.show((this.index - 1 + this.slides.length) % this.slides.length); },
-  go(i) { this.show(i); this.restart(); },
-  play() { this.timer = setInterval(() => this.next(), 5500); },
-  pause() { clearInterval(this.timer); },
-  restart() { this.pause(); this.play(); },
+  next() {
+    this.show((this.index + 1) % this.slides.length);
+  },
+  prev() {
+    this.show((this.index - 1 + this.slides.length) % this.slides.length);
+  },
+  go(i) {
+    this.show(i);
+    this.restart();
+  },
+  play() {
+    this.timer = setInterval(() => this.next(), 5500);
+  },
+  pause() {
+    clearInterval(this.timer);
+  },
+  restart() {
+    this.pause();
+    this.play();
+  },
 };
 
 /* ---------- Countdown de promoción (24h desde que carga la página, demo) ---------- */
@@ -222,13 +257,17 @@ function initCountdown() {
 function initParallax() {
   const els = document.querySelectorAll("[data-parallax]");
   if (!els.length) return;
-  window.addEventListener("scroll", () => {
-    const y = window.scrollY;
-    els.forEach((el) => {
-      const speed = Number(el.dataset.parallax) || 0.15;
-      el.style.transform = `translateY(${y * speed}px)`;
-    });
-  }, { passive: true });
+  window.addEventListener(
+    "scroll",
+    () => {
+      const y = window.scrollY;
+      els.forEach((el) => {
+        const speed = Number(el.dataset.parallax) || 0.15;
+        el.style.transform = `translateY(${y * speed}px)`;
+      });
+    },
+    { passive: true },
+  );
 }
 
 /* ---------- Búsqueda con autocompletado ---------- */
@@ -238,19 +277,28 @@ function initSearch() {
   if (!input) return;
   input.addEventListener("input", () => {
     const q = input.value.trim().toLowerCase();
-    if (!q) { results.classList.remove("show"); return; }
+    if (!q) {
+      results.classList.remove("show");
+      return;
+    }
     const matches = PRODUCTS.filter(
-      (p) => p.name.toLowerCase().includes(q) || p.category.toLowerCase().includes(q)
+      (p) =>
+        p.name.toLowerCase().includes(q) ||
+        p.category.toLowerCase().includes(q),
     ).slice(0, 6);
     results.innerHTML = matches.length
-      ? matches.map((p) => {
-          const ph = resolvePlaceholder(p.images[0]);
-          const srImg = ph.isReal ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;">` : `<span>${ph.emoji}</span>`;
-          return `<a class="sr-item" href="producto.html?slug=${p.slug}">
-            <div class="sr-img ${ph.isReal?'':'ph-'+ph.grad}">${srImg}</div>
+      ? matches
+          .map((p) => {
+            const ph = resolvePlaceholder(p.images[0]);
+            const srImg = ph.isReal
+              ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;">`
+              : `<span>${ph.emoji}</span>`;
+            return `<a class="sr-item" href="producto.html?slug=${p.slug}">
+            <div class="sr-img ${ph.isReal ? "" : "ph-" + ph.grad}">${srImg}</div>
             <div><div class="sr-name">${p.name}</div><div class="sr-price">S/ ${p.price}</div></div>
           </a>`;
-        }).join("")
+          })
+          .join("")
       : `<div class="sr-empty">No encontramos "${q}". Prueba con otra palabra.</div>`;
     results.classList.add("show");
   });
@@ -272,8 +320,11 @@ function closeMobilePanel() {
 /* ---------- Reveal on scroll ---------- */
 function initReveal() {
   const obs = new IntersectionObserver(
-    (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add("show")),
-    { threshold: 0.12 }
+    (entries) =>
+      entries.forEach(
+        (e) => e.isIntersecting && e.target.classList.add("show"),
+      ),
+    { threshold: 0.12 },
   );
   document.querySelectorAll(".reveal").forEach((el) => obs.observe(el));
 }
@@ -300,20 +351,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Render de secciones de producto en la página que las tenga
   if (document.getElementById("rail-new")) renderGrid("rail-new", PRODUCTS);
-  if (document.getElementById("grid-best")) renderGrid("grid-best", [...PRODUCTS].reverse().slice(0, 8));
+  if (document.getElementById("grid-best"))
+    renderGrid("grid-best", [...PRODUCTS].reverse().slice(0, 8));
 
   // Mega menú (presente en el header de todas las páginas)
   const megaEl = document.getElementById("megaMenu");
   if (megaEl) {
     megaEl.innerHTML =
-      CATEGORIES.map((c) => `<a href="tienda.html?cat=${c.slug}">${c.emoji} ${c.name}</a>`).join("") +
+      CATEGORIES.map(
+        (c) => `<a href="tienda.html?cat=${c.slug}">${c.emoji} ${c.name}</a>`,
+      ).join("") +
       `<div class="mega-promo"><b>🎉 20% OFF en tu primera compra</b><a href="tienda.html" class="btn btn-sm btn-primary">Comprar</a></div>`;
   }
   // Grid de categorías (solo existe en index.html)
   const catGridEl = document.getElementById("catGrid");
   if (catGridEl) {
     catGridEl.innerHTML = CATEGORIES.map(
-      (c) => `<a href="tienda.html?cat=${c.slug}" class="cat-chip"><div class="emoji">${c.emoji}</div><span>${c.name}</span></a>`
+      (c) =>
+        `<a href="tienda.html?cat=${c.slug}" class="cat-chip"><div class="emoji">${c.emoji}</div><span>${c.name}</span></a>`,
     ).join("");
   }
 });

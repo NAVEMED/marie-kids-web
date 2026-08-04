@@ -1,168 +1,464 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="pageTitle">Producto · Marie Kids</title>
-<meta name="description" id="pageDesc" content="Descubre nuestra moda infantil importada.">
-<link rel="canonical" id="pageCanonical" href="https://mariekids.pe/producto.html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="pageTitle">Producto · Marie Kids</title>
+    <meta
+      name="description"
+      id="pageDesc"
+      content="Descubre nuestra moda infantil importada."
+    />
+    <link
+      rel="canonical"
+      id="pageCanonical"
+      href="https://mariekids.pe/producto.html"
+    />
 
-<script type="application/ld+json" id="productSchema">{}</script>
+    <script type="application/ld+json" id="productSchema">
+      {}
+    </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-
-  <div class="announce">🎀 Envío a todo el Perú &nbsp;·&nbsp; <b>20% OFF</b> termina en: <span class="countdown" id="countdown"><span>00</span>:<span>00</span>:<span>00</span></span></div>
-
-  <header class="site">
-    <nav class="main">
-      <div class="logo">Marie<span>Kids</span></div>
-      <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li class="has-mega"><a href="tienda.html">Categorías ▾</a><div class="mega" id="megaMenu"></div></li>
-        <li><a href="tienda.html?filter=nuevos">Nuevos ingresos</a></li>
-        <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
-        <li><a href="index.html#contacto">Contacto</a></li>
-      </ul>
-      <div class="nav-actions">
-        <div class="search-pill">🔍 <input id="searchInput" type="text" placeholder="Buscar vestidos, tallas..."><div class="search-results" id="searchResults"></div></div>
-        <div class="icon-btn" title="Favoritos">♡<span class="badge-count" id="wishCount" style="display:none;">0</span></div>
-        <div class="icon-btn" title="Mi cuenta">👤</div>
-        <div class="icon-btn" title="Carrito" onclick="Cart.openDrawer()">🛍️<span class="badge-count" id="cartCount" style="display:none;">0</span></div>
-        <div class="icon-btn burger" onclick="openMobilePanel()">☰</div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="wrap">
-    <nav class="breadcrumb" aria-label="Ruta de navegación">
-      <a href="index.html">Inicio</a> / <a href="tienda.html" id="bcCat">Categoría</a> / <span id="bcName">Producto</span>
-    </nav>
-  </div>
-
-  <div class="wrap">
-    <div class="pdp" id="pdpContent">
-      <!-- Se llena por JS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="announce">
+      🎀 Envío a todo el Perú &nbsp;·&nbsp; <b>20% OFF</b> termina en:
+      <span class="countdown" id="countdown"
+        ><span>00</span>:<span>00</span>:<span>00</span></span
+      >
     </div>
 
-    <!-- ============ TABS ============ -->
-    <div class="tabs">
-      <button class="tab-btn active" onclick="switchTab('desc',this)">Descripción</button>
-      <button class="tab-btn" onclick="switchTab('guia',this)">Guía de tallas</button>
-      <button class="tab-btn" onclick="switchTab('reviews',this)">Opiniones</button>
-      <button class="tab-btn" onclick="switchTab('faq',this)">Preguntas frecuentes</button>
-    </div>
-
-    <div class="tab-panel active" id="tab-desc">
-      <p id="descText"></p>
-      <p style="margin-top:14px;"><b>Material:</b> <span id="materialText"></span></p>
-      <p style="margin-top:6px;"><b>Cuidados:</b> <span id="careText"></span></p>
-    </div>
-
-    <div class="tab-panel" id="tab-guia">
-      <p>Mide a tu niña y compara con la tabla (medidas en cm). Si está entre dos tallas, te recomendamos elegir la mayor.</p>
-      <table class="size-guide-table">
-        <thead><tr><th>Talla</th><th>Edad aprox.</th><th>Altura (cm)</th><th>Pecho (cm)</th></tr></thead>
-        <tbody>
-          <tr><td>12M</td><td>9-12 meses</td><td>70-76</td><td>48</td></tr>
-          <tr><td>2-3</td><td>2-3 años</td><td>90-98</td><td>52</td></tr>
-          <tr><td>4</td><td>4 años</td><td>100-104</td><td>55</td></tr>
-          <tr><td>5-6</td><td>5-6 años</td><td>106-116</td><td>58</td></tr>
-          <tr><td>6</td><td>6-7 años</td><td>116-122</td><td>60</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="tab-panel" id="tab-reviews">
-      <div class="review">
-        <div class="review-head"><b>María José R.</b><span class="stars">★★★★★</span></div>
-        <span class="verified">✓ Compra verificada</span>
-        <p style="margin-top:8px;font-size:13.5px;">Hermoso, la calidad superó mis expectativas. Llegó bien empacado y a tiempo.</p>
-      </div>
-      <div class="review">
-        <div class="review-head"><b>Carla P.</b><span class="stars">★★★★★</span></div>
-        <span class="verified">✓ Compra verificada</span>
-        <p style="margin-top:8px;font-size:13.5px;">La talla es exacta según la guía. Muy recomendado.</p>
-      </div>
-    </div>
-
-    <div class="tab-panel" id="tab-faq">
-      <div class="faq-item">
-        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Hacen cambios de talla? <span>+</span></div>
-        <div class="faq-a">Sí, tienes hasta 7 días desde la entrega para solicitar un cambio de talla sin costo adicional.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Cuánto demora el envío? <span>+</span></div>
-        <div class="faq-a">Lima: 24-48 horas. Provincias: 2-5 días hábiles según la agencia.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Puedo pagar contra entrega? <span>+</span></div>
-        <div class="faq-a">Sí, en Lima Metropolitana. Para provincias, el pago es adelantado por Yape, Plin, transferencia o tarjeta.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ============ RELACIONADOS ============ -->
-  <section class="pad tight">
-    <div class="wrap">
-      <div class="sec-head"><div><span class="sec-eyebrow">También te puede gustar</span><h2>Productos relacionados</h2></div></div>
-      <div class="grid-products reveal" id="relatedGrid"></div>
-    </div>
-  </section>
-
-  <!-- ============ VISTOS RECIENTEMENTE ============ -->
-  <section class="pad tight" id="recentSection" style="display:none;">
-    <div class="wrap">
-      <div class="sec-head"><div><span class="sec-eyebrow">Tu historial</span><h2>Vistos recientemente</h2></div></div>
-      <div class="rail reveal" id="recentGrid"></div>
-    </div>
-  </section>
-
-  <footer id="contacto">
-    <div class="wrap">
-      <div class="foot-grid">
-        <div>
-          <div class="foot-logo">Marie<span>Kids</span></div>
-          <p class="desc">Moda infantil importada para cada ocasión especial.</p>
-          <div class="soc"><a href="#">📷</a><a href="#">📘</a><a href="#">🎵</a><a href="#">💬</a></div>
+    <header class="site">
+      <nav class="main">
+        <div class="logo">Marie<span>Kids</span></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li class="has-mega">
+            <a href="tienda.html">Categorías ▾</a>
+            <div class="mega" id="megaMenu"></div>
+          </li>
+          <li><a href="tienda.html?filter=nuevos">Nuevos ingresos</a></li>
+          <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="search-pill">
+            🔍
+            <input
+              id="searchInput"
+              type="text"
+              placeholder="Buscar vestidos, tallas..."
+            />
+            <div class="search-results" id="searchResults"></div>
+          </div>
+          <div class="icon-btn" title="Favoritos">
+            ♡<span class="badge-count" id="wishCount" style="display: none"
+              >0</span
+            >
+          </div>
+          <div class="icon-btn" title="Mi cuenta">👤</div>
+          <div class="icon-btn" title="Carrito" onclick="Cart.openDrawer()">
+            🛍️<span class="badge-count" id="cartCount" style="display: none"
+              >0</span
+            >
+          </div>
+          <div class="icon-btn burger" onclick="openMobilePanel()">☰</div>
         </div>
-        <div><h5>Categorías</h5><ul><li><a href="tienda.html?cat=vestidos">Vestidos</a></li><li><a href="tienda.html?cat=conjuntos">Conjuntos</a></li><li><a href="tienda.html?cat=casacas">Casacas</a></li></ul></div>
-        <div><h5>Ayuda</h5><ul><li><a href="#">Cómo comprar</a></li><li><a href="#">Guía de tallas</a></li><li><a href="#">Cambios y devoluciones</a></li></ul></div>
-        <div><h5>Contáctanos</h5><ul class="foot-contact"><li>📍 Lima, Perú</li><li>📱 WhatsApp: 930 419 029</li></ul></div>
+      </nav>
+    </header>
+
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Ruta de navegación">
+        <a href="index.html">Inicio</a> /
+        <a href="tienda.html" id="bcCat">Categoría</a> /
+        <span id="bcName">Producto</span>
+      </nav>
+    </div>
+
+    <div class="wrap">
+      <div class="pdp" id="pdpContent">
+        <!-- Se llena por JS -->
       </div>
-      <div class="bottom-bar"><span>© 2026 Marie Kids.</span><div class="pay-icons"><span>VISA</span><span>MASTERCARD</span><span>YAPE</span><span>PLIN</span></div></div>
-    </div>
-  </footer>
 
-  <a class="wa-float" href="https://wa.me/51930419029" target="_blank" rel="noopener">💬</a>
-  <div class="scrim" id="scrim" onclick="closeMobilePanel()"></div>
-  <div class="mobile-panel" id="mobilePanel">
-    <div class="mp-close" onclick="closeMobilePanel()">✕</div>
-    <a href="index.html">Inicio</a><a href="tienda.html">Tienda</a><a href="index.html#contacto">Contacto</a>
-  </div>
-  <div id="cartOverlay" onclick="Cart.closeDrawer()"></div>
-  <aside class="cart-drawer" id="cartDrawer">
-    <div class="cart-head"><h3>Tu carrito</h3><button class="close" onclick="Cart.closeDrawer()">✕</button></div>
-    <div class="ship-progress"><div class="track"><div class="fill" id="shipBar"></div></div><span id="shipNote"></span></div>
-    <div class="cart-body" id="cartBody"></div>
-    <div class="cart-foot">
-      <div class="cart-line"><span>Subtotal</span><span id="cartSubtotal">S/ 0</span></div>
-      <div class="cart-line"><span>Envío</span><span id="cartShipping">S/ 0</span></div>
-      <div class="cart-line total"><span>Total</span><span id="cartTotal">S/ 0</span></div>
-      <a href="checkout.html" class="btn btn-primary btn-block">Finalizar compra</a>
-    </div>
-  </aside>
-  <div class="modal-overlay" id="qvOverlay" onclick="if(event.target===this) closeQuickView()">
-    <div class="qv-modal"><button class="qv-close" onclick="closeQuickView()">✕</button><div id="qvContent" style="display:contents;"></div></div>
-  </div>
+      <!-- ============ TABS ============ -->
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('desc', this)">
+          Descripción
+        </button>
+        <button class="tab-btn" onclick="switchTab('guia', this)">
+          Guía de tallas
+        </button>
+        <button class="tab-btn" onclick="switchTab('reviews', this)">
+          Opiniones
+        </button>
+        <button class="tab-btn" onclick="switchTab('faq', this)">
+          Preguntas frecuentes
+        </button>
+      </div>
 
-  <script src="js/data.js"></script>
-  <script src="js/cart.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/product-page.js"></script>
-</body>
+      <div class="tab-panel active" id="tab-desc">
+        <p id="descText"></p>
+        <p style="margin-top: 14px">
+          <b>Material:</b> <span id="materialText"></span>
+        </p>
+        <p style="margin-top: 6px">
+          <b>Cuidados:</b> <span id="careText"></span>
+        </p>
+      </div>
+
+      <div class="tab-panel" id="tab-guia">
+        <p>
+          Mide a tu niña y compara con la tabla (medidas en cm). Si está entre
+          dos tallas, te recomendamos elegir la mayor.
+        </p>
+        <table
+          class="size-guide-table"
+          style="
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 14px;
+            border: 1px solid #e5e7eb;
+          "
+        >
+          <thead style="background: #f3f4f6">
+            <tr>
+              <th style="padding: 10px">Edad</th>
+              <th style="padding: 10px">Estatura</th>
+              <th style="padding: 10px">Largo</th>
+              <th style="padding: 10px">Pecho</th>
+              <th style="padding: 10px">Largo de la manga</th>
+              <th style="padding: 10px">Hombro</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                style="
+                  padding: 9px;
+                  border-top: 1px solid #eee;
+                  font-weight: 700;
+                "
+              >
+                1-2A
+              </td>
+              <td style="padding: 9px; border-top: 1px solid #eee">90</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">38</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">60</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">32</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">26.5</td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  padding: 9px;
+                  border-top: 1px solid #eee;
+                  font-weight: 700;
+                "
+              >
+                2-3A
+              </td>
+              <td style="padding: 9px; border-top: 1px solid #eee">100</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">41</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">64</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">35</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">28</td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  padding: 9px;
+                  border-top: 1px solid #eee;
+                  font-weight: 700;
+                "
+              >
+                3-4A
+              </td>
+              <td style="padding: 9px; border-top: 1px solid #eee">110</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">44</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">68</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">38</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">29.5</td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  padding: 9px;
+                  border-top: 1px solid #eee;
+                  font-weight: 700;
+                "
+              >
+                4-5A
+              </td>
+              <td style="padding: 9px; border-top: 1px solid #eee">120</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">47</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">73</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">41</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">31</td>
+            </tr>
+            <tr style="background: #fdf2f8">
+              <td
+                style="
+                  padding: 9px;
+                  border-top: 1px solid #eee;
+                  font-weight: 700;
+                "
+              >
+                5-6A
+              </td>
+              <td style="padding: 9px; border-top: 1px solid #eee">130</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">50</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">77</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">44</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">32</td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  padding: 9px;
+                  border-top: 1px solid #eee;
+                  font-weight: 700;
+                "
+              >
+                7-8A
+              </td>
+              <td style="padding: 9px; border-top: 1px solid #eee">140</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">53</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">80</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">47</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">34</td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  padding: 9px;
+                  border-top: 1px solid #eee;
+                  font-weight: 700;
+                "
+              >
+                8-9A
+              </td>
+              <td style="padding: 9px; border-top: 1px solid #eee">150</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">56</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">83</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">50</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">36</td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  padding: 9px;
+                  border-top: 1px solid #eee;
+                  font-weight: 700;
+                "
+              >
+                10-11A
+              </td>
+              <td style="padding: 9px; border-top: 1px solid #eee">160</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">59</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">87</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">53</td>
+              <td style="padding: 9px; border-top: 1px solid #eee">38</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tab-panel" id="tab-reviews">
+        <div class="review">
+          <div class="review-head">
+            <b>María José R.</b><span class="stars">★★★★★</span>
+          </div>
+          <span class="verified">✓ Compra verificada</span>
+          <p style="margin-top: 8px; font-size: 13.5px">
+            Hermoso, la calidad superó mis expectativas. Llegó bien empacado y a
+            tiempo.
+          </p>
+        </div>
+        <div class="review">
+          <div class="review-head">
+            <b>Carla P.</b><span class="stars">★★★★★</span>
+          </div>
+          <span class="verified">✓ Compra verificada</span>
+          <p style="margin-top: 8px; font-size: 13.5px">
+            La talla es exacta según la guía. Muy recomendado.
+          </p>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="tab-faq">
+        <div class="faq-item">
+          <div
+            class="faq-q"
+            onclick="this.parentElement.classList.toggle('open')"
+          >
+            ¿Hacen cambios de talla? <span>+</span>
+          </div>
+          <div class="faq-a">
+            Sí, tienes hasta 7 días desde la entrega para solicitar un cambio de
+            talla sin costo adicional.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div
+            class="faq-q"
+            onclick="this.parentElement.classList.toggle('open')"
+          >
+            ¿Cuánto demora el envío? <span>+</span>
+          </div>
+          <div class="faq-a">
+            Lima: 24-48 horas. Provincias: 2-5 días hábiles según la agencia.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div
+            class="faq-q"
+            onclick="this.parentElement.classList.toggle('open')"
+          >
+            ¿Puedo pagar contra entrega? <span>+</span>
+          </div>
+          <div class="faq-a">
+            Sí, en Lima Metropolitana. Para provincias, el pago es adelantado
+            por Yape, Plin, transferencia o tarjeta.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ RELACIONADOS ============ -->
+    <section class="pad tight">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">También te puede gustar</span>
+            <h2>Productos relacionados</h2>
+          </div>
+        </div>
+        <div class="grid-products reveal" id="relatedGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ VISTOS RECIENTEMENTE ============ -->
+    <section class="pad tight" id="recentSection" style="display: none">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <span class="sec-eyebrow">Tu historial</span>
+            <h2>Vistos recientemente</h2>
+          </div>
+        </div>
+        <div class="rail reveal" id="recentGrid"></div>
+      </div>
+    </section>
+
+    <footer id="contacto">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div>
+            <div class="foot-logo">Marie<span>Kids</span></div>
+            <p class="desc">
+              Moda infantil importada para cada ocasión especial.
+            </p>
+            <div class="soc">
+              <a href="#">📷</a><a href="#">📘</a><a href="#">🎵</a
+              ><a href="#">💬</a>
+            </div>
+          </div>
+          <div>
+            <h5>Categorías</h5>
+            <ul>
+              <li><a href="tienda.html?cat=vestidos">Vestidos</a></li>
+              <li><a href="tienda.html?cat=conjuntos">Conjuntos</a></li>
+              <li><a href="tienda.html?cat=casacas">Casacas</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Ayuda</h5>
+            <ul>
+              <li><a href="#">Cómo comprar</a></li>
+              <li><a href="#">Guía de tallas</a></li>
+              <li><a href="#">Cambios y devoluciones</a></li>
+              <li><a href="admin.html">Panel de administración</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Contáctanos</h5>
+            <ul class="foot-contact">
+              <li>📍 Lima, Perú</li>
+              <li>📱 WhatsApp: 930 419 029</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <span>© 2026 Marie Kids.</span>
+          <div class="pay-icons">
+            <span>VISA</span><span>MASTERCARD</span><span>YAPE</span
+            ><span>PLIN</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="wa-float"
+      href="https://wa.me/51930419029"
+      target="_blank"
+      rel="noopener"
+      >💬</a
+    >
+    <div class="scrim" id="scrim" onclick="closeMobilePanel()"></div>
+    <div class="mobile-panel" id="mobilePanel">
+      <div class="mp-close" onclick="closeMobilePanel()">✕</div>
+      <a href="index.html">Inicio</a><a href="tienda.html">Tienda</a
+      ><a href="index.html#contacto">Contacto</a>
+    </div>
+    <div id="cartOverlay" onclick="Cart.closeDrawer()"></div>
+    <aside class="cart-drawer" id="cartDrawer">
+      <div class="cart-head">
+        <h3>Tu carrito</h3>
+        <button class="close" onclick="Cart.closeDrawer()">✕</button>
+      </div>
+      <div class="ship-progress">
+        <div class="track"><div class="fill" id="shipBar"></div></div>
+        <span id="shipNote"></span>
+      </div>
+      <div class="cart-body" id="cartBody"></div>
+      <div class="cart-foot">
+        <div class="cart-line">
+          <span>Subtotal</span><span id="cartSubtotal">S/ 0</span>
+        </div>
+        <div class="cart-line">
+          <span>Envío</span><span id="cartShipping">S/ 0</span>
+        </div>
+        <div class="cart-line total">
+          <span>Total</span><span id="cartTotal">S/ 0</span>
+        </div>
+        <a href="checkout.html" class="btn btn-primary btn-block"
+          >Finalizar compra</a
+        >
+      </div>
+    </aside>
+    <div
+      class="modal-overlay"
+      id="qvOverlay"
+      onclick="if (event.target === this) closeQuickView();"
+    >
+      <div class="qv-modal">
+        <button class="qv-close" onclick="closeQuickView()">✕</button>
+        <div id="qvContent" style="display: contents"></div>
+      </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/product-page.js"></script>
+  </body>
 </html>

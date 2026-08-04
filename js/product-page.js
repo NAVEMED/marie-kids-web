@@ -1,16 +1,28 @@
-function isRealImage(str){
-  if(!str) return false;
-  return str.startsWith('http') || str.startsWith('/') || str.startsWith('img/') || str.endsWith('.jpg') || str.endsWith('.png') || str.endsWith('.webp');
+function isRealImage(str) {
+  if (!str) return false;
+  return (
+    str.startsWith("http") ||
+    str.startsWith("/") ||
+    str.startsWith("img/") ||
+    str.endsWith(".jpg") ||
+    str.endsWith(".png") ||
+    str.endsWith(".webp")
+  );
 }
-function resolvePlaceholder(str){
-  if(isRealImage(str)){
-    return { grad: 'real', emoji: '🖼️', url: str, isReal: true };
+function resolvePlaceholder(str) {
+  if (isRealImage(str)) {
+    return { grad: "real", emoji: "🖼️", url: str, isReal: true };
   }
-  try{
-    const parts = str.split(':');
-    return { grad: parts[1]||'g1', emoji: parts[2]||'👗', isReal:false, url: null };
-  }catch(e){
-    return { grad: 'g1', emoji: '👗', isReal:false };
+  try {
+    const parts = str.split(":");
+    return {
+      grad: parts[1] || "g1",
+      emoji: parts[2] || "👗",
+      isReal: false,
+      url: null,
+    };
+  } catch (e) {
+    return { grad: "g1", emoji: "👗", isReal: false };
   }
 }
 
@@ -23,8 +35,12 @@ function getParam(name) {
 }
 
 function switchTab(id, btn) {
-  document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
-  document.querySelectorAll(".tab-panel").forEach((p) => p.classList.remove("active"));
+  document
+    .querySelectorAll(".tab-btn")
+    .forEach((b) => b.classList.remove("active"));
+  document
+    .querySelectorAll(".tab-panel")
+    .forEach((p) => p.classList.remove("active"));
   btn.classList.add("active");
   document.getElementById("tab-" + id).classList.add("active");
 }
@@ -49,8 +65,12 @@ function renderPDP() {
 
   document.title = `${p.name} · Marie Kids`;
   document.getElementById("pageTitle").textContent = `${p.name} · Marie Kids`;
-  document.getElementById("pageDesc").setAttribute("content", p.description.slice(0, 155));
-  document.getElementById("pageCanonical").setAttribute("href", `https://mariekids.pe/producto.html?slug=${p.slug}`);
+  document
+    .getElementById("pageDesc")
+    .setAttribute("content", p.description.slice(0, 155));
+  document
+    .getElementById("pageCanonical")
+    .setAttribute("href", `https://mariekids.pe/producto.html?slug=${p.slug}`);
   document.getElementById("bcCat").textContent = p.category;
   document.getElementById("bcCat").href = `tienda.html?cat=${p.category}`;
   document.getElementById("bcName").textContent = p.name;
@@ -66,7 +86,10 @@ function renderPDP() {
       "@type": "Offer",
       priceCurrency: "PEN",
       price: p.price,
-      availability: p.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+      availability:
+        p.stock > 0
+          ? "https://schema.org/InStock"
+          : "https://schema.org/OutOfStock",
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -75,23 +98,32 @@ function renderPDP() {
     },
   });
 
-  const discount = p.oldPrice ? Math.round(100 - (p.price / p.oldPrice) * 100) : null;
-  const stars = "★".repeat(Math.round(p.rating)) + "☆".repeat(5 - Math.round(p.rating));
+  const discount = p.oldPrice
+    ? Math.round(100 - (p.price / p.oldPrice) * 100)
+    : null;
+  const stars =
+    "★".repeat(Math.round(p.rating)) + "☆".repeat(5 - Math.round(p.rating));
   const mainPh = resolvePlaceholder(p.images[0]);
-  const mainImgHTML = mainPh.isReal ? `<img src="${mainPh.url}" id="pdpMainImgTag" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">` : `<span style="font-size:140px;">${mainPh.emoji}</span>`;
+  const mainImgHTML = mainPh.isReal
+    ? `<img src="${mainPh.url}" id="pdpMainImgTag" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">`
+    : `<span style="font-size:140px;">${mainPh.emoji}</span>`;
 
   document.getElementById("pdpContent").innerHTML = `
     <div class="pdp-gallery">
-      <div class="pdp-main-img ${mainPh.isReal?'':'ph-'+mainPh.grad}" id="pdpMainImg" onclick="this.classList.toggle('zoomed')">
+      <div class="pdp-main-img ${mainPh.isReal ? "" : "ph-" + mainPh.grad}" id="pdpMainImg" onclick="this.classList.toggle('zoomed')">
         ${mainImgHTML}
         <span class="zoom-hint">🔍 Click para zoom</span>
       </div>
       <div class="pdp-thumbs" id="pdpThumbs">
-        ${p.images.map((img, i) => {
-          const ph = resolvePlaceholder(img);
-          const inner = ph.isReal ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:6px;">` : `<span>${ph.emoji}</span>`;
-          return `<div class="pdp-thumb ${ph.isReal?'':'ph-'+ph.grad} ${i === 0 ? "active" : ""}" onclick="setMainImage(${i})">${inner}</div>`;
-        }).join("")}
+        ${p.images
+          .map((img, i) => {
+            const ph = resolvePlaceholder(img);
+            const inner = ph.isReal
+              ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:6px;">`
+              : `<span>${ph.emoji}</span>`;
+            return `<div class="pdp-thumb ${ph.isReal ? "" : "ph-" + ph.grad} ${i === 0 ? "active" : ""}" onclick="setMainImage(${i})">${inner}</div>`;
+          })
+          .join("")}
       </div>
       <div class="pdp-video">▶ Video del producto (demo — reemplaza por tu video real embebido aquí)</div>
     </div>
@@ -152,7 +184,7 @@ function renderPDP() {
 
   document.getElementById("descText").textContent = p.description;
   document.getElementById("materialText").textContent = p.material;
-  document.getElementById("careText").textContent = p.care;
+  document.getElementById("careText").textContent = p.cuidados;
 
   updatePdpWaLink();
   renderRelated(p);
@@ -164,18 +196,22 @@ function setMainImage(i) {
   const p = pdpState.product;
   const ph = resolvePlaceholder(p.images[i]);
   const main = document.getElementById("pdpMainImg");
-  main.className = `pdp-main-img ${ph.isReal?'':'ph-'+ph.grad}`;
-  if(ph.isReal){
+  main.className = `pdp-main-img ${ph.isReal ? "" : "ph-" + ph.grad}`;
+  if (ph.isReal) {
     main.innerHTML = `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><span class="zoom-hint">🔍 Click para zoom</span>`;
   } else {
     main.innerHTML = `<span style="font-size:140px;">${ph.emoji}</span><span class="zoom-hint">🔍 Click para zoom</span>`;
   }
-  document.querySelectorAll(".pdp-thumb").forEach((t, idx) => t.classList.toggle("active", idx === i));
+  document
+    .querySelectorAll(".pdp-thumb")
+    .forEach((t, idx) => t.classList.toggle("active", idx === i));
 }
 
 function pdpSelect(type, value, btn) {
   pdpState[type] = value;
-  btn.parentElement.querySelectorAll(".opt-pill,.opt-color").forEach((b) => b.classList.remove("selected"));
+  btn.parentElement
+    .querySelectorAll(".opt-pill,.opt-color")
+    .forEach((b) => b.classList.remove("selected"));
   btn.classList.add("selected");
   updatePdpWaLink();
 }
@@ -188,7 +224,13 @@ function pdpQty(delta) {
 
 function updatePdpWaLink() {
   const link = document.getElementById("pdpWaLink");
-  if (link) link.href = buildWhatsAppLink(pdpState.product, pdpState.size, pdpState.color, pdpState.qty);
+  if (link)
+    link.href = buildWhatsAppLink(
+      pdpState.product,
+      pdpState.size,
+      pdpState.color,
+      pdpState.qty,
+    );
 }
 
 function pdpAddToCart() {
@@ -196,15 +238,23 @@ function pdpAddToCart() {
 }
 
 function renderRelated(p) {
-  const related = PRODUCTS.filter((x) => x.category === p.category && x.id !== p.id).slice(0, 4);
-  const fallback = related.length ? related : PRODUCTS.filter((x) => x.id !== p.id).slice(0, 4);
+  const related = PRODUCTS.filter(
+    (x) => x.category === p.category && x.id !== p.id,
+  ).slice(0, 4);
+  const fallback = related.length
+    ? related
+    : PRODUCTS.filter((x) => x.id !== p.id).slice(0, 4);
   renderGrid("relatedGrid", fallback);
 }
 
 function renderRecentlyViewed(current) {
-  const ids = JSON.parse(localStorage.getItem("mariekids_recent") || "[]").filter((id) => id !== current.id);
+  const ids = JSON.parse(
+    localStorage.getItem("mariekids_recent") || "[]",
+  ).filter((id) => id !== current.id);
   if (!ids.length) return;
-  const list = ids.map((id) => PRODUCTS.find((p) => p.id === id)).filter(Boolean);
+  const list = ids
+    .map((id) => PRODUCTS.find((p) => p.id === id))
+    .filter(Boolean);
   if (!list.length) return;
   document.getElementById("recentSection").style.display = "block";
   renderGrid("recentGrid", list);

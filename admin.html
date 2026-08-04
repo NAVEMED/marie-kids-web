@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de administración · Marie Kids</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+  .admin-wrap{ padding:30px 0 80px; }
+  .admin-head{ display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:22px; flex-wrap:wrap; }
+  .admin-head h2{ font-size:22px; }
+  .admin-note{ background:#FFF7E0; border:1px solid #F0DFA0; border-radius:10px; padding:12px 14px; font-size:12.5px; color:#7A5C10; margin-bottom:22px; }
+  .admin-tabs{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+  .admin-tab{ border:1.5px solid var(--line); background:#fff; border-radius:999px; padding:8px 16px; font-size:12.5px; font-weight:600; cursor:pointer; color:var(--ink-soft); }
+  .admin-tab.active{ border-color:var(--berry); background:var(--pink-soft); color:var(--ink); }
+  .admin-table{ display:flex; flex-direction:column; gap:10px; }
+  .admin-row{ background:var(--mist); border-radius:16px; padding:16px 18px; display:grid; grid-template-columns:1.6fr 1fr 1fr 1fr 1.6fr auto; gap:14px; align-items:center; }
+  .admin-row .name{ font-size:13px; font-weight:600; line-height:1.35; }
+  .admin-row .name small{ display:block; font-weight:400; color:var(--ink-soft); font-size:11px; margin-top:3px; }
+  .admin-field label{ font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-soft); display:block; margin-bottom:5px; }
+  .admin-field input, .admin-field select{ width:100%; padding:9px 10px; border:1px solid var(--line); border-radius:8px; font-family:inherit; font-size:13px; background:#fff; }
+  .admin-sizes{ display:flex; flex-wrap:wrap; gap:6px; max-width:230px; }
+  .admin-size-chip{ font-size:11px; padding:5px 9px; border-radius:999px; border:1.5px solid var(--line); background:#fff; cursor:pointer; user-select:none; }
+  .admin-size-chip.on{ border-color:var(--berry); background:var(--berry); color:#fff; }
+  .admin-discount{ font-size:12px; font-weight:700; color:var(--berry); text-align:center; }
+  .admin-discount .pct{ font-size:16px; }
+  .admin-save-state{ font-size:11px; color:#3aa16a; opacity:0; transition:opacity .25s; text-align:center; }
+  .admin-save-state.show{ opacity:1; }
+  .admin-empty{ text-align:center; padding:60px 0; color:var(--ink-soft); }
+  .admin-search{ flex:1; min-width:200px; }
+  .admin-search input{ width:100%; padding:10px 14px; border:1px solid var(--line); border-radius:10px; font-family:inherit; font-size:13.5px; }
+  @media (max-width: 980px){
+    .admin-row{ grid-template-columns:1fr 1fr; }
+    .admin-row .name{ grid-column:1 / -1; }
+    .admin-sizes{ max-width:none; grid-column:1 / -1; }
+  }
+</style>
+</head>
+<body>
+
+  <header class="site">
+    <nav class="main">
+      <a href="index.html" class="logo" style="text-decoration:none">Marie<span>Kids</span></a>
+      <div class="nav-actions"><a href="tienda.html" style="font-size:13.5px;font-weight:600;">← Volver a la tienda</a></div>
+    </nav>
+  </header>
+
+  <div class="wrap admin-wrap">
+    <div class="admin-head">
+      <div>
+        <h2>Panel de administración</h2>
+        <p style="font-size:13px;color:var(--ink-soft);margin-top:4px;">Precios de oferta, tallas y etiquetas de producto</p>
+      </div>
+      <div class="admin-search">
+        <input id="adminSearch" type="text" placeholder="Buscar producto por nombre o código...">
+      </div>
+    </div>
+
+    <div class="admin-note">
+      ⚠️ <b>Nota de desarrollo:</b> este panel no tiene backend — guarda tus cambios en el navegador (localStorage) y se aplican automáticamente en Inicio, Tienda y la ficha de producto. Para que los cambios se compartan entre dispositivos o persistan de forma permanente, conecta esta pantalla a una base de datos real (ej. Supabase) en lugar de <code>localStorage</code>.
+    </div>
+
+    <div class="admin-tabs" id="adminTabs"></div>
+
+    <div class="admin-table" id="adminTable"></div>
+    <div class="admin-empty" id="adminEmpty" style="display:none;">No se encontraron productos con ese criterio.</div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
