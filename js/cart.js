@@ -8,7 +8,7 @@
    no necesita cambiar.
    ============================================================ */
 
-const SHIPPING_FLAT = 12;
+const SHIPPING_FLAT = 0;
 const FREE_SHIPPING_FROM = 150;
 const STORAGE_KEY = "mariekids_cart";
 
@@ -119,9 +119,12 @@ const Cart = {
       body.innerHTML = this.items
         .map((i) => {
           const ph = resolvePlaceholder(i.image);
+          const imgInner = ph.isReal
+            ? `<img src="${ph.url}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">`
+            : `<span>${ph.emoji}</span>`;
           return `
           <div class="cart-item">
-            <div class="cart-item-img ph-${ph.grad}"><span>${ph.emoji}</span></div>
+            <div class="cart-item-img ${ph.isReal ? "" : "ph-" + ph.grad}">${imgInner}</div>
             <div class="cart-item-info">
               <h5>${i.name}</h5>
               <span class="cart-item-meta">Talla ${i.size} · ${i.color}</span>
@@ -142,10 +145,12 @@ const Cart = {
 
     const sub = this.subtotal();
     const ship = this.shipping();
-    document.getElementById("cartSubtotal").textContent = `S/ ${sub.toFixed(0)}`;
+    document.getElementById("cartSubtotal").textContent =
+      `S/ ${sub.toFixed(0)}`;
     document.getElementById("cartShipping").textContent =
       ship === 0 ? "Gratis" : `S/ ${ship.toFixed(0)}`;
-    document.getElementById("cartTotal").textContent = `S/ ${this.total().toFixed(0)}`;
+    document.getElementById("cartTotal").textContent =
+      `S/ ${this.total().toFixed(0)}`;
 
     const barPct = Math.min(100, (sub / FREE_SHIPPING_FROM) * 100);
     const bar = document.getElementById("shipBar");

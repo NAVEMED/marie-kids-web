@@ -19,6 +19,12 @@ function buildWhatsAppLink(product, size, color, qty = 1) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
+/* ---------- Nombre legible de categoría a partir del slug ---------- */
+function categoryName(slug) {
+  const c = CATEGORIES.find((x) => x.slug === slug);
+  return c ? c.name : slug;
+}
+
 /* ---------- Helpers de foto REAL vs placeholder ---------- */
 function isRealImage(str) {
   if (!str) return false;
@@ -73,7 +79,7 @@ function pcardHTML(p) {
         <button class="quick-view" onclick="openQuickView('${p.id}')">Vista rápida</button>
       </div>
       <div class="info">
-        <span class="cat">${p.category}</span>
+        <span class="cat">${categoryName(p.category)}</span>
         <h4 style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;overflow-wrap:break-word;word-break:normal;min-height:2.6em;"><a href="producto.html?slug=${p.slug}" title="${p.name}">${p.name}</a></h4>
         <div class="rating"><span class="stars">${stars}</span> ${p.rating} (${p.reviews})</div>
         <div class="price-row">
@@ -132,7 +138,7 @@ function openQuickView(id) {
   document.getElementById("qvContent").innerHTML = `
     <div class="qv-img ${ph.isReal ? "" : "ph-" + ph.grad}">${qvImgInner}</div>
     <div class="qv-info">
-      <span class="cat">${p.category}</span>
+      <span class="cat">${categoryName(p.category)}</span>
       <h3>${p.name}</h3>
       <div class="rating"><span class="stars">${"★".repeat(Math.round(p.rating))}</span> ${p.rating} (${p.reviews} opiniones)</div>
       <div class="pdp-price-row" style="margin:12px 0;">
@@ -284,7 +290,8 @@ function initSearch() {
     const matches = PRODUCTS.filter(
       (p) =>
         p.name.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q),
+        p.category.toLowerCase().includes(q) ||
+        categoryName(p.category).toLowerCase().includes(q),
     ).slice(0, 6);
     results.innerHTML = matches.length
       ? matches
@@ -358,17 +365,25 @@ document.addEventListener("DOMContentLoaded", () => {
   const megaEl = document.getElementById("megaMenu");
   if (megaEl) {
     megaEl.innerHTML =
-      CATEGORIES.map(
-        (c) => `<a href="tienda.html?cat=${c.slug}">${c.emoji} ${c.name}</a>`,
+      `<div class="mega-cats">` +
+      CATEGORY_GROUPS.map(
+        (g) => `<a href="tienda.html?catgroup=${g.slug}" class="cat-circle cat-circle-sm">
+          <div class="cat-circle-img"><img src="${g.photo}" alt="${g.name}" loading="lazy"></div>
+          <span>${g.name}</span>
+        </a>`,
       ).join("") +
+      `</div>` +
       `<div class="mega-promo"><b>🎉 20% OFF en tu primera compra</b><a href="tienda.html" class="btn btn-sm btn-primary">Comprar</a></div>`;
   }
   // Grid de categorías (solo existe en index.html)
   const catGridEl = document.getElementById("catGrid");
   if (catGridEl) {
-    catGridEl.innerHTML = CATEGORIES.map(
-      (c) =>
-        `<a href="tienda.html?cat=${c.slug}" class="cat-chip"><div class="emoji">${c.emoji}</div><span>${c.name}</span></a>`,
+    catGridEl.innerHTML = CATEGORY_GROUPS.map(
+      (g) =>
+        `<a href="tienda.html?catgroup=${g.slug}" class="cat-circle">
+          <div class="cat-circle-img"><img src="${g.photo}" alt="${g.name}" loading="lazy"></div>
+          <span>${g.name}</span>
+        </a>`,
     ).join("");
   }
 });

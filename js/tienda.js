@@ -11,6 +11,7 @@ const state = {
   onlyStock: false,
   sort: "relevance",
   special: getParam2("filter") || null, // "nuevos" | "liquidacion"
+  openGroup: getParam2("catgroup") || null, // abre el acordeón sin filtrar
 };
 
 function getParam2(name) {
@@ -36,7 +37,8 @@ function buildFilterUI() {
   const catWrap = document.getElementById("fCategory");
 
   const groupsHTML = CATEGORY_GROUPS.map((group) => {
-    const isOpen = group.subs.includes(state.category);
+    const isOpen =
+      group.subs.includes(state.category) || group.slug === state.openGroup;
     const subsHTML = group.subs
       .map((slug) => {
         const c = CATEGORIES.find((x) => x.slug === slug);

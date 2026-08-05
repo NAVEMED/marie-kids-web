@@ -23,17 +23,40 @@
 const CATEGORY_GROUPS = [
   {
     name: "Cardigans",
+    slug: "cardigans",
     emoji: "🧶",
+    photo: "./public/img/cardigans-nina/cardigan-fresa-90-18-24M.jpg",
     subs: ["cardigans-nina", "cardigans-nino"],
   },
-  { name: "Casacas", emoji: "🧥", subs: ["casacas-nina", "casacas-nino"] },
+  {
+    name: "Casacas",
+    slug: "casacas",
+    emoji: "🧥",
+    photo: "./public/img/casacas-nina/pink_quilted_winter_coat.jpg",
+    subs: ["casacas-nina", "casacas-nino"],
+  },
   {
     name: "Conjuntos Invierno",
+    slug: "conjuntos-invierno",
     emoji: "❄️",
+    photo:
+      "./public/img/conjuntos-invierno-nina/12m-conjunto-3-pzs-ni-a-chaqueta-chompa-90-18-24M.jpg",
     subs: ["conjuntos-invierno-nina", "conjuntos-invierno-nino"],
   },
-  { name: "Jeans", emoji: "👖", subs: ["jeans-nina", "jeans-nino"] },
-  { name: "Vestidos", emoji: "👗", subs: ["vestidos-nina"] },
+  {
+    name: "Jeans",
+    slug: "jeans",
+    emoji: "👖",
+    photo: "./public/img/jeans-nina/cod-130-kids-fashion-flat-lay-140-6A.jpg",
+    subs: ["jeans-nina", "jeans-nino"],
+  },
+  {
+    name: "Vestidos",
+    slug: "vestidos",
+    emoji: "👗",
+    photo: "./public/img/vestidos-nina/18-24-mixxed-color-90-18-24M.jpg",
+    subs: ["vestidos-nina"],
+  },
 ];
 
 const PRODUCTS = [

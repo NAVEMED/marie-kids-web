@@ -1,109 +1,552 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Checkout · Marie Kids</title>
-<meta name="robots" content="noindex">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-<style>
-  .checkout-layout{ display:grid; grid-template-columns:1.3fr 1fr; gap:50px; padding:40px 0 80px; align-items:start; }
-  .co-section{ margin-bottom:34px; }
-  .co-section h3{ font-size:16px; margin-bottom:16px; }
-  .co-grid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
-  .co-input{ grid-column:span 2; }
-  .co-input.half{ grid-column:span 1; }
-  .co-input label{ font-size:12.5px; font-weight:600; color:var(--ink-soft); display:block; margin-bottom:6px; }
-  .co-input input, .co-input select{ width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:10px; font-family:inherit; font-size:13.5px; }
-  .co-input input:focus, .co-input select:focus{ border-color:var(--berry); outline:none; }
-  .pay-methods{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
-  .pay-method{ border:1.5px solid var(--line); border-radius:12px; padding:14px 10px; text-align:center; cursor:pointer; font-size:12.5px; font-weight:600; transition:all .15s;}
-  .pay-method.selected{ border-color:var(--berry); background:var(--pink-soft); }
-  .pay-method .pic{ font-size:22px; margin-bottom:6px; }
-  .order-summary{ background:var(--mist); border-radius:20px; padding:24px; position:sticky; top:calc(var(--nav-h) + 20px); }
-  .order-item{ display:flex; gap:10px; padding:10px 0; border-bottom:1px solid var(--line); font-size:13px; }
-  .order-item .oi-img{ width:44px;height:50px;border-radius:8px;display:grid;place-items:center;font-size:18px;flex-shrink:0;}
-  .co-note{ background:#FFF7E0; border:1px solid #F0DFA0; border-radius:10px; padding:12px 14px; font-size:12.5px; color:#7A5C10; margin-top:16px; }
-</style>
-</head>
-<body>
-  <header class="site">
-    <nav class="main">
-      <div class="logo">Marie<span>Kids</span></div>
-      <div class="nav-actions"><a href="index.html" style="font-size:13.5px;font-weight:600;">← Volver a la tienda</a></div>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout · Marie Kids</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .checkout-layout {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+        gap: 50px;
+        padding: 40px 0 80px;
+        align-items: start;
+      }
+      .co-section {
+        margin-bottom: 34px;
+      }
+      .co-section h3 {
+        font-size: 16px;
+        margin-bottom: 16px;
+      }
+      .co-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+      .co-input {
+        grid-column: span 2;
+      }
+      .co-input.half {
+        grid-column: span 1;
+      }
+      .co-input label {
+        font-size: 12.5px;
+        font-weight: 600;
+        color: var(--ink-soft);
+        display: block;
+        margin-bottom: 6px;
+      }
+      .co-input input,
+      .co-input select {
+        width: 100%;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        font-family: inherit;
+        font-size: 13.5px;
+      }
+      .co-input input:focus,
+      .co-input select:focus {
+        border-color: var(--berry);
+        outline: none;
+      }
+      .pay-methods {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+      .pay-method {
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 10px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 12.5px;
+        font-weight: 600;
+        transition: all 0.15s;
+      }
+      .pay-method.selected {
+        border-color: var(--berry);
+        background: var(--pink-soft);
+      }
+      .pay-method .pic {
+        font-size: 22px;
+        margin-bottom: 6px;
+      }
+      .order-summary {
+        background: var(--mist);
+        border-radius: 20px;
+        padding: 24px;
+        position: sticky;
+        top: calc(var(--nav-h) + 20px);
+      }
+      .order-item {
+        display: flex;
+        gap: 10px;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--line);
+        font-size: 13px;
+      }
+      .order-item .oi-img {
+        width: 44px;
+        height: 50px;
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        font-size: 18px;
+        flex-shrink: 0;
+      }
+      .co-note {
+        background: #fff7e0;
+        border: 1px solid #f0dfa0;
+        border-radius: 10px;
+        padding: 12px 14px;
+        font-size: 12.5px;
+        color: #7a5c10;
+        margin-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <nav class="main">
+        <div class="logo">Marie<span>Kids</span></div>
+        <div class="nav-actions">
+          <a href="index.html" style="font-size: 13.5px; font-weight: 600"
+            >← Volver a la tienda</a
+          >
+        </div>
+      </nav>
+    </header>
 
-  <div class="wrap">
-    <div class="checkout-layout">
-      <div>
-        <h2 style="font-size:24px;margin-bottom:30px;">Finalizar compra</h2>
+    <div class="wrap">
+      <div class="checkout-layout">
+        <div>
+          <h2 style="font-size: 24px; margin-bottom: 30px">Finalizar compra</h2>
 
-        <div class="co-section">
-          <h3>1. Datos de contacto y envío</h3>
-          <div class="co-grid">
-            <div class="co-input half"><label>Nombre</label><input type="text" placeholder="María José"></div>
-            <div class="co-input half"><label>Apellido</label><input type="text" placeholder="Ramírez"></div>
-            <div class="co-input"><label>Correo electrónico</label><input type="email" placeholder="tu@correo.com"></div>
-            <div class="co-input half"><label>Celular (WhatsApp)</label><input type="tel" placeholder="987 654 321"></div>
-            <div class="co-input half"><label>DNI</label><input type="text" placeholder="12345678"></div>
-            <div class="co-input"><label>Dirección</label><input type="text" placeholder="Av. Ejemplo 123, Dpto 4"></div>
-            <div class="co-input half"><label>Departamento</label><select><option>Lima</option><option>Arequipa</option><option>Trujillo</option><option>Otro</option></select></div>
-            <div class="co-input half"><label>Distrito</label><input type="text" placeholder="Miraflores"></div>
+          <div class="co-section">
+            <h3>1. Datos de contacto y envío</h3>
+            <div class="co-grid">
+              <div class="co-input half">
+                <label>Nombre</label
+                ><input id="coNombre" type="text" placeholder="María José" />
+              </div>
+              <div class="co-input half">
+                <label>Apellido</label
+                ><input id="coApellido" type="text" placeholder="Ramírez" />
+              </div>
+              <div class="co-input">
+                <label>Correo electrónico</label
+                ><input id="coEmail" type="email" placeholder="tu@correo.com" />
+              </div>
+              <div class="co-input half">
+                <label>Celular (WhatsApp)</label
+                ><input id="coCelular" type="tel" placeholder="987 654 321" />
+              </div>
+              <div class="co-input half">
+                <label>DNI</label
+                ><input id="coDni" type="text" placeholder="12345678" />
+              </div>
+              <div class="co-input">
+                <label>Dirección</label
+                ><input
+                  id="coDireccion"
+                  type="text"
+                  placeholder="Av. Ejemplo 123, Dpto 4"
+                />
+              </div>
+              <div class="co-input half">
+                <label>Departamento</label>
+                <select id="departamento">
+                  <option value="">Selecciona departamento</option>
+                  <option value="Amazonas" selected>Amazonas</option>
+                  <option value="Áncash">Áncash</option>
+                  <option value="Apurímac">Apurímac</option>
+                  <option value="Arequipa">Arequipa</option>
+                  <option value="Ayacucho">Ayacucho</option>
+                  <option value="Cajamarca">Cajamarca</option>
+                  <option value="Cusco">Cusco</option>
+                  <option value="Huancavelica">Huancavelica</option>
+                  <option value="Huánuco">Huánuco</option>
+                  <option value="Ica">Ica</option>
+                  <option value="Junín">Junín</option>
+                  <option value="La Libertad">La Libertad</option>
+                  <option value="Lambayeque">Lambayeque</option>
+                  <option value="Lima">Lima</option>
+                  <option value="Loreto">Loreto</option>
+                  <option value="Madre de Dios">Madre de Dios</option>
+                  <option value="Moquegua">Moquegua</option>
+                  <option value="Pasco">Pasco</option>
+                  <option value="Piura">Piura</option>
+                  <option value="Puno">Puno</option>
+                  <option value="San Martín">San Martín</option>
+                  <option value="Tacna">Tacna</option>
+                  <option value="Tumbes">Tumbes</option>
+                  <option value="Ucayali">Ucayali</option>
+                </select>
+              </div>
+              <div class="co-input half">
+                <label>Distrito</label
+                ><input id="coDistrito" type="text" placeholder="Miraflores" />
+              </div>
+            </div>
+          </div>
+
+          <!--METODOS DE PAGO-->
+          <div class="co-section">
+            <h3>2. Método de pago</h3>
+            <div class="pay-methods" id="payMethods">
+              <!--<div class="pay-method selected" data-m="visa"><div class="pic">💳</div>Visa</div>-->
+              <!--<div class="pay-method" data-m="mc"><div class="pic">💳</div>Mastercard</div>-->
+              <div class="pay-method" data-m="yape">
+                <div class="pic">
+                  <img
+                    src="public/yape-app.png"
+                    style="
+                      width: 45px;
+                      height: 45px;
+                      object-fit: contain;
+                      border-radius: 8px;
+                    "
+                  />
+                </div>
+                Yape
+              </div>
+              <!--<div class="pay-method" data-m="plin"><div class="pic">📱</div>Plin</div>-->
+              <!--<div class="pay-method" data-m="transfer"><div class="pic">🏦</div>Transferencia</div>-->
+              <!--<div class="pay-method" data-m="mp"><div class="pic">🅿️</div>Mercado Pago</div>-->
+            </div>
+            <div class="co-note">
+              💜 <b>Pagos con Yape:</b> Yapea al 930 419 029 y sube tu
+              comprobante. Próximamente adicionaremos más métodos de pago..
+            </div>
           </div>
         </div>
 
-        <div class="co-section">
-          <h3>2. Método de pago</h3>
-          <div class="pay-methods" id="payMethods">
-            <div class="pay-method selected" data-m="visa"><div class="pic">💳</div>Visa</div>
-            <div class="pay-method" data-m="mc"><div class="pic">💳</div>Mastercard</div>
-            <div class="pay-method" data-m="yape"><div class="pic">📱</div>Yape</div>
-            <div class="pay-method" data-m="plin"><div class="pic">📱</div>Plin</div>
-            <div class="pay-method" data-m="transfer"><div class="pic">🏦</div>Transferencia</div>
-            <div class="pay-method" data-m="mp"><div class="pic">🅿️</div>Mercado Pago</div>
+        <div class="order-summary">
+          <h3 style="font-size: 15px; margin-bottom: 16px">
+            Resumen del pedido
+          </h3>
+          <div id="checkoutItems"></div>
+          <div class="cart-line" style="margin-top: 14px">
+            <span>Subtotal</span><span id="coSubtotal">S/ 0</span>
           </div>
-          <div class="co-note">
-            ⚠️ <b>Nota de desarrollo:</b> esta pantalla es visual (demo). Para procesar pagos reales de Visa/Mastercard/Mercado Pago necesitas conectar una pasarela certificada (ej. Izipay, Culqi o Mercado Pago Checkout Pro) desde tu backend — nunca proceses tarjetas directo en el frontend. Yape/Plin/Transferencia pueden validarse manualmente o vía webhook.
+          <div class="cart-line">
+            <span>Envío</span><span id="coShipping">S/ 0</span>
           </div>
+          <div class="cart-line total">
+            <span>Total</span><span id="coTotal">S/ 0</span>
+          </div>
+          <button
+            class="btn btn-primary btn-block"
+            onclick="confirmOrderViaWhatsApp()"
+          >
+            Confirmar pedido
+          </button>
+          <p
+            style="
+              font-size: 11.5px;
+              color: var(--ink-soft);
+              text-align: center;
+              margin-top: 12px;
+            "
+          >
+            🔒 Tus datos están protegidos
+          </p>
         </div>
-      </div>
-
-      <div class="order-summary">
-        <h3 style="font-size:15px;margin-bottom:16px;">Resumen del pedido</h3>
-        <div id="checkoutItems"></div>
-        <div class="cart-line" style="margin-top:14px;"><span>Subtotal</span><span id="coSubtotal">S/ 0</span></div>
-        <div class="cart-line"><span>Envío</span><span id="coShipping">S/ 0</span></div>
-        <div class="cart-line total"><span>Total</span><span id="coTotal">S/ 0</span></div>
-        <button class="btn btn-primary btn-block" onclick="alert('Demo: aquí se conectaría tu pasarela de pago real.')">Confirmar pedido</button>
-        <p style="font-size:11.5px;color:var(--ink-soft);text-align:center;margin-top:12px;">🔒 Tus datos están protegidos</p>
       </div>
     </div>
-  </div>
 
-  <script src="js/data.js"></script>
-  <script src="js/cart.js"></script>
-  <script>
-    document.querySelectorAll(".pay-method").forEach((el) =>
-      el.addEventListener("click", () => {
-        document.querySelectorAll(".pay-method").forEach((x) => x.classList.remove("selected"));
-        el.classList.add("selected");
-      })
-    );
+    <!-- ============ MODAL DE PAGO YAPE ============ -->
+    <div class="modal-overlay" id="yapeOverlay">
+      <div
+        style="
+          background: #fff;
+          border-radius: 22px;
+          padding: 30px 26px;
+          max-width: 340px;
+          width: 100%;
+          text-align: center;
+          position: relative;
+        "
+      >
+        <button
+          onclick="closeYapeModal()"
+          aria-label="Cerrar"
+          style="
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            border: none;
+            background: var(--mist);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            font-size: 14px;
+            cursor: pointer;
+          "
+        >
+          ✕
+        </button>
 
-    function renderCheckout() {
-      const wrap = document.getElementById("checkoutItems");
-      wrap.innerHTML = Cart.items.map((i) => {
-        const ph = resolvePlaceholder(i.image);
-        return `<div class="order-item"><div class="oi-img ph-${ph.grad}"><span>${ph.emoji}</span></div><div style="flex:1;"><b style="font-size:12.5px;">${i.name}</b><br><span style="color:var(--ink-soft);font-size:11.5px;">Talla ${i.size} · x${i.qty}</span></div><b>S/ ${(i.price * i.qty).toFixed(0)}</b></div>`;
-      }).join("") || "<p style='color:var(--ink-soft);font-size:13px;'>Tu carrito está vacío.</p>";
-      document.getElementById("coSubtotal").textContent = `S/ ${Cart.subtotal().toFixed(0)}`;
-      document.getElementById("coShipping").textContent = Cart.shipping() === 0 ? "Gratis" : `S/ ${Cart.shipping().toFixed(0)}`;
-      document.getElementById("coTotal").textContent = `S/ ${Cart.total().toFixed(0)}`;
-    }
-    document.addEventListener("DOMContentLoaded", () => { Cart.load(); renderCheckout(); });
-  </script>
-</body>
+        <h3 style="font-size: 16px; margin-bottom: 18px">Paga con Yape</h3>
+
+        <!--
+          👉 Para usar tu propio QR: reemplaza public/yape-qr.png por la
+          imagen de tu código QR de Yape (mismo nombre de archivo, o
+          cambia el "src" de aquí abajo).
+        -->
+        <img
+          src="public/yape-qr.png"
+          alt="Código QR de Yape"
+          style="
+            width: 220px;
+            height: 220px;
+            object-fit: contain;
+            border-radius: 14px;
+            border: 1px solid var(--line);
+            margin: 0 auto 16px;
+            display: block;
+          "
+        />
+
+        <div
+          style="
+            background: var(--mist);
+            border-radius: 999px;
+            padding: 9px 16px;
+            font-weight: 700;
+            color: var(--berry);
+            font-size: 13px;
+            margin-bottom: 18px;
+            display: inline-block;
+          "
+        >
+          📱 Yapea al 930 419 029
+        </div>
+
+        <div
+          style="
+            font-size: 11.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--ink-soft);
+          "
+        >
+          Monto a pagar
+        </div>
+        <div
+          id="yapeAmount"
+          style="font-size: 32px; font-weight: 800; margin: 4px 0 16px"
+        >
+          S/ 0
+        </div>
+
+        <p
+          style="
+            font-size: 12.5px;
+            color: var(--ink-soft);
+            line-height: 1.6;
+            margin-bottom: 18px;
+          "
+        >
+          Escanea el código QR y realiza el pago. Luego pulsa
+          <b>Continuar</b> para adjuntar la captura de tu pago
+          <span
+            style="
+              background: var(--pink-soft);
+              padding: 0 3px;
+              border-radius: 4px;
+            "
+            >(es el único comprobante que necesitamos)</span
+          >
+          y así completar tu compra.
+        </p>
+
+        <input
+          type="file"
+          id="yapeProofInput"
+          accept="image/*"
+          style="display: none"
+          onchange="onYapeProofSelected(event)"
+        />
+        <div
+          id="yapeProofPreviewWrap"
+          style="display: none; margin-bottom: 14px"
+        >
+          <img
+            id="yapeProofPreview"
+            style="
+              max-width: 100%;
+              max-height: 150px;
+              border-radius: 10px;
+              border: 1px solid var(--line);
+            "
+          />
+          <p style="font-size: 11.5px; color: #3aa16a; margin-top: 6px">
+            ✓ Comprobante listo
+          </p>
+        </div>
+
+        <button
+          class="btn btn-primary btn-block"
+          id="yapeContinueBtn"
+          onclick="onYapeContinueClick()"
+        >
+          Continuar
+        </button>
+      </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      let yapeProofFile = null;
+
+      function confirmOrderViaWhatsApp() {
+        if (!Cart.items.length) {
+          alert(
+            "Tu carrito está vacío. Agrega productos antes de confirmar tu pedido.",
+          );
+          return;
+        }
+
+        const campos = [
+          ["coNombre", "Nombre"],
+          ["coApellido", "Apellido"],
+          ["coCelular", "Celular (WhatsApp)"],
+          ["coDireccion", "Dirección"],
+          ["coDistrito", "Distrito"],
+        ];
+        const faltante = campos.find(
+          ([id]) => !document.getElementById(id).value.trim(),
+        );
+        if (faltante) {
+          alert(`Falta completar: ${faltante[1]}`);
+          document.getElementById(faltante[0]).focus();
+          return;
+        }
+
+        openYapeModal();
+      }
+
+      function openYapeModal() {
+        document.getElementById("yapeAmount").textContent =
+          `S/ ${Cart.total().toFixed(0)}`;
+        document.getElementById("yapeOverlay").classList.add("show");
+      }
+      function closeYapeModal() {
+        document.getElementById("yapeOverlay").classList.remove("show");
+      }
+
+      function onYapeProofSelected(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+        yapeProofFile = file;
+        const reader = new FileReader();
+        reader.onload = () => {
+          document.getElementById("yapeProofPreview").src = reader.result;
+          document.getElementById("yapeProofPreviewWrap").style.display =
+            "block";
+          document.getElementById("yapeContinueBtn").textContent =
+            "Finalizar pedido";
+        };
+        reader.readAsDataURL(file);
+      }
+
+      function onYapeContinueClick() {
+        // Primer clic: todavía no hay comprobante -> pide seleccionarlo.
+        if (!yapeProofFile) {
+          document.getElementById("yapeProofInput").click();
+          return;
+        }
+        // Segundo clic (ya con comprobante adjunto): cierra el modal y
+        // manda el pedido por WhatsApp.
+        closeYapeModal();
+        sendOrderToWhatsApp();
+      }
+
+      function sendOrderToWhatsApp() {
+        const nombre = document.getElementById("coNombre").value.trim();
+        const apellido = document.getElementById("coApellido").value.trim();
+        const email = document.getElementById("coEmail").value.trim();
+        const celular = document.getElementById("coCelular").value.trim();
+        const dni = document.getElementById("coDni").value.trim();
+        const direccion = document.getElementById("coDireccion").value.trim();
+        const departamento = document.getElementById("departamento").value;
+        const distrito = document.getElementById("coDistrito").value.trim();
+
+        const itemsTxt = Cart.items
+          .map(
+            (i) =>
+              `▫️ ${i.name} · Talla ${i.size} · x${i.qty} — S/ ${(i.price * i.qty).toFixed(0)}`,
+          )
+          .join("\n");
+
+        const msg =
+          `¡Hola Marie Kids! 👋 Quiero confirmar mi pedido:\n\n` +
+          `🧾 *Pedido*\n${itemsTxt}\n\n` +
+          `💰 Subtotal: S/ ${Cart.subtotal().toFixed(0)}\n` +
+          `🚚 Envío: ${Cart.shipping() === 0 ? "Gratis" : "S/ " + Cart.shipping().toFixed(0)}\n` +
+          `💵 *Total: S/ ${Cart.total().toFixed(0)}*\n\n` +
+          `👤 *Datos de envío*\n` +
+          `${nombre} ${apellido}\n` +
+          `📱 ${celular}${dni ? "\n🪪 DNI: " + dni : ""}\n` +
+          `📍 ${direccion}, ${distrito}, ${departamento}${email ? "\n📧 " + email : ""}\n\n` +
+          `💜 Ya pagué por Yape al 930 419 029 — les adjunto la captura de mi comprobante en este chat 📎`;
+
+        window.open(
+          `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,
+          "_blank",
+        );
+        alert(
+          "Se abrió WhatsApp con tu pedido. ¡No olvides adjuntar ahí la captura de tu pago para completar la compra!",
+        );
+      }
+
+      document.querySelectorAll(".pay-method").forEach((el) =>
+        el.addEventListener("click", () => {
+          document
+            .querySelectorAll(".pay-method")
+            .forEach((x) => x.classList.remove("selected"));
+          el.classList.add("selected");
+        }),
+      );
+
+      function renderCheckout() {
+        const wrap = document.getElementById("checkoutItems");
+        wrap.innerHTML =
+          Cart.items
+            .map((i) => {
+              const ph = resolvePlaceholder(i.image);
+              const imgInner = ph.isReal
+                ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">`
+                : `<span>${ph.emoji}</span>`;
+              return `<div class="order-item"><div class="oi-img ${ph.isReal ? "" : "ph-" + ph.grad}">${imgInner}</div><div style="flex:1;"><b style="font-size:12.5px;">${i.name}</b><br><span style="color:var(--ink-soft);font-size:11.5px;">Talla ${i.size} · x${i.qty}</span></div><b>S/ ${(i.price * i.qty).toFixed(0)}</b></div>`;
+            })
+            .join("") ||
+          "<p style='color:var(--ink-soft);font-size:13px;'>Tu carrito está vacío.</p>";
+        document.getElementById("coSubtotal").textContent =
+          `S/ ${Cart.subtotal().toFixed(0)}`;
+        document.getElementById("coShipping").textContent =
+          Cart.shipping() === 0 ? "Gratis" : `S/ ${Cart.shipping().toFixed(0)}`;
+        document.getElementById("coTotal").textContent =
+          `S/ ${Cart.total().toFixed(0)}`;
+      }
+      document.addEventListener("DOMContentLoaded", () => {
+        Cart.load();
+        renderCheckout();
+      });
+    </script>
+  </body>
 </html>
