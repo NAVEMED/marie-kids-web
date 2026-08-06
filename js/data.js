@@ -3115,7 +3115,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-140",
     slug: "jeans-liso-basico-cod-140",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 140",
+    name: "Jeans Denim para Niña - COD 140",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3141,7 +3141,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-20",
     slug: "jeans-liso-basico-cod-20",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 20",
+    name: "Jeans Denim para Niña - COD 140",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3167,7 +3167,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-200",
     slug: "jeans-liso-basico-cod-200",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 200",
+    name: "Jeans Denim para Niña - COD 200",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3193,7 +3193,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-201",
     slug: "jeans-liso-basico-cod-201",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 201",
+    name: "Jeans Denim para Niña - COD 201",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3219,7 +3219,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-2017",
     slug: "jeans-liso-basico-cod-2017",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 2017",
+    name: "Jeans Denim para Niña - COD 2017",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3245,7 +3245,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-2018",
     slug: "jeans-liso-basico-cod-2018",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 2018",
+    name: "Jeans Denim para Niña - COD 2018",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3271,7 +3271,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-202",
     slug: "jeans-liso-basico-cod-202",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 202",
+    name: "Jeans Denim para Niña - COD 202",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3297,7 +3297,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-2020",
     slug: "jeans-liso-basico-cod-2020",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 2020",
+    name: "Jeans Denim para Niña - COD 2020",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3323,7 +3323,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-203",
     slug: "jeans-liso-basico-cod-203",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 203",
+    name: "Jeans Denim para Niña - COD 203",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3349,7 +3349,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-204",
     slug: "jeans-liso-basico-cod-204",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 204",
+    name: "Jeans Denim para Niña - COD 204",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3375,7 +3375,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-205",
     slug: "jeans-liso-basico-cod-205",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 205",
+    name: "Jeans Denim para Niña - COD 205",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3401,7 +3401,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-206",
     slug: "jeans-liso-basico-cod-206",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 206",
+    name: "Jeans Denim para Niña - COD 206",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3427,7 +3427,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-207",
     slug: "jeans-liso-basico-cod-207",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 207",
+    name: "Jeans Denim para Niña - COD 207",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3453,7 +3453,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-208",
     slug: "jeans-liso-basico-cod-208",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 208",
+    name: "Jeans Denim para Niña - COD 208",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3479,7 +3479,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-209",
     slug: "jeans-liso-basico-cod-209",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 209",
+    name: "Jeans Denim para Niña - COD 209",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3505,7 +3505,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-209",
     slug: "jeans-liso-basico-cod-209",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 209",
+    name: "Jeans Denim para Niña - COD 209",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3531,7 +3531,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-210",
     slug: "jeans-liso-basico-cod-210",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 210",
+    name: "Jeans Denim para Niña - COD 210",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3557,7 +3557,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-211",
     slug: "jeans-liso-basico-cod-211",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 211",
+    name: "Jeans Denim para Niña - COD 211",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3583,7 +3583,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-212",
     slug: "jeans-liso-basico-cod-212",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 212",
+    name: "Jeans Denim para Niña - COD 212",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3606,7 +3606,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-213",
     slug: "jeans-liso-basico-cod-213",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 213",
+    name: "Jeans Denim para Niña - COD 213",
     category: "jeans-nina",
     price: 45,
     oldPrice: 65,
@@ -3632,7 +3632,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-214",
     slug: "jeans-liso-basico-cod-214",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 214",
+    name: "Jeans Denim para Niña - COD 214",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3658,7 +3658,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-215",
     slug: "jeans-liso-basico-cod-215",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 215",
+    name: "Jeans Denim para Niña - COD 215",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3684,7 +3684,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-215",
     slug: "jeans-liso-basico-cod-215",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 215",
+    name: "Jeans Denim para Niña - COD 215",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3710,7 +3710,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-216",
     slug: "jeans-liso-basico-cod-216",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 216",
+    name: "Jeans Denim para Niña - COD 216",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3736,7 +3736,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-221",
     slug: "jeans-liso-basico-cod-221",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 221",
+    name: "Jeans Denim para Niña - COD 221",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3762,7 +3762,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-222",
     slug: "jeans-liso-basico-cod-222",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 222",
+    name: "Jeans Denim para Niña - COD 222",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3788,7 +3788,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-223",
     slug: "jeans-liso-basico-cod-223",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 223",
+    name: "Jeans Denim para Niña - COD 223",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3814,7 +3814,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-224",
     slug: "jeans-liso-basico-cod-224",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 224",
+    name: "Jeans Denim para Niña - COD 224",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3840,7 +3840,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-224",
     slug: "jeans-liso-basico-cod-224",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 224",
+    name: "Jeans Denim para Niña - COD 224",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3866,7 +3866,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-225",
     slug: "jeans-liso-basico-cod-225",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 225",
+    name: "Jeans Denim para Niña - COD 225",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3892,7 +3892,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-226",
     slug: "jeans-liso-basico-cod-226",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 226",
+    name: "Jeans Denim para Niña - COD 226",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3918,7 +3918,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-227",
     slug: "jeans-liso-basico-cod-227",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 227",
+    name: "Jeans Denim para Niña - COD 227",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3944,7 +3944,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-228",
     slug: "jeans-liso-basico-cod-228",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 228",
+    name: "Jeans Denim para Niña - COD 228",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3970,7 +3970,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-229",
     slug: "jeans-liso-basico-cod-229",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 229",
+    name: "Jeans Denim para Niña - COD 229",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -3996,7 +3996,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-230",
     slug: "jeans-liso-basico-cod-230",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 230",
+    name: "Jeans Denim para Niña - COD 230",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -4022,7 +4022,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-239",
     slug: "jeans-liso-basico-cod-239",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 239",
+    name: "Jeans Denim para Niña - COD 239",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -4048,7 +4048,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-240",
     slug: "jeans-liso-basico-cod-240",
-    name: "Jeans Liso Basico con Elastano para Niña - COD 240",
+    name: "Jeans Denim para Niña - COD 240",
     category: "jeans-nina",
     price: 45,
     oldPrice: 55,
@@ -4153,7 +4153,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-150",
     slug: "jeans-liso-basico-cod-150",
-    name: "Jeans Liso Basico con Elastano para Niño - COD 150",
+    name: "Jeans Denim para Niño - COD 150",
     category: "jeans-nino",
     price: 45,
     oldPrice: 55,
@@ -4179,7 +4179,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-2019",
     slug: "jeans-liso-basico-cod-2019",
-    name: "Jeans Liso Basico con Elastano para Niño - COD 2019",
+    name: "Jeans Denim para Niño - COD 2019",
     category: "jeans-nino",
     price: 45,
     oldPrice: 55,
@@ -4205,7 +4205,7 @@ const PRODUCTS = [
   {
     id: "mk-jeans-liso-basico-cod-231",
     slug: "jeans-liso-basico-cod-231",
-    name: "Jeans Liso Basico con Elastano para Niño - COD 231",
+    name: "Jeans Denim para Niño - COD 231",
     category: "jeans-nino",
     price: 45,
     oldPrice: 55,
