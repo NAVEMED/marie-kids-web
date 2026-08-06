@@ -19,6 +19,22 @@
         padding: 40px 0 80px;
         align-items: start;
       }
+      @media (max-width: 768px) {
+        .checkout-layout {
+          grid-template-columns: 1fr;
+          gap: 30px;
+          padding: 20px 0 60px;
+        }
+        .order-summary {
+          position: static;
+        }
+        .co-input.half {
+          grid-column: span 2;
+        }
+        .pay-methods {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
       .co-section {
         margin-bottom: 34px;
       }

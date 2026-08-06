@@ -1381,8 +1381,8 @@ footer ul li a:hover {
   position: fixed;
   top: 0;
   right: 0;
-  bottom: 0;
   width: min(400px, 92vw);
+  max-height: 100vh;
   background: #fff;
   z-index: 130;
   transform: translateX(100%);
@@ -1390,6 +1390,7 @@ footer ul li a:hover {
   display: flex;
   flex-direction: column;
   box-shadow: -10px 0 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
 }
 .cart-drawer.open {
   transform: translateX(0);
@@ -1434,6 +1435,7 @@ footer ul li a:hover {
 .cart-body {
   flex: 1;
   overflow-y: auto;
+  min-height: 0;
   padding: 14px 22px;
 }
 .cart-item {

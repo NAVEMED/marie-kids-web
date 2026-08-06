@@ -91,9 +91,6 @@ function buildFilterUI() {
 function setCategory(cat) {
   state.category = cat;
   applyFilters();
-  if (window.innerWidth <= 768) {
-    document.querySelector(".toolbar")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
 }
 function toggleArrFilter(key, value, el, isButton = false) {
   const arr = state[key];

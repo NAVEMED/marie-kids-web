@@ -2008,6 +2008,10 @@ footer ul li a:hover {
   }
 }
 @media (max-width: 768px) {
+  .logo {
+    font-size: 17px;
+    letter-spacing: 0.2em;
+  }
   .nav-links,
   .search-pill,
   .mega {
@@ -2023,11 +2027,17 @@ footer ul li a:hover {
     height: auto;
   }
   .slide {
+    display: none;
     position: relative;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  .slide.active {
+    display: flex;
   }
   .slide .wrap {
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 28px;
+    padding-bottom: 28px;
     text-align: center;
   }
   .slide h1 {
