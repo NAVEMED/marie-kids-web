@@ -395,7 +395,6 @@
           accept="image/*"
           style="display: none"
           onchange="onYapeProofSelected(event)"
-          oncancel="onYapeProofCancelled(event)"
         />
         <div
           id="yapeProofPreviewWrap"
@@ -430,7 +429,6 @@
     <script src="js/main.js"></script>
     <script>
       let yapeProofFile = null;
-      let yapePendingTab = null;
 
       function confirmOrderViaWhatsApp() {
         if (!Cart.items.length) {
@@ -477,42 +475,25 @@
           document.getElementById("yapeProofPreview").src = reader.result;
           document.getElementById("yapeProofPreviewWrap").style.display =
             "block";
+          document.getElementById("yapeContinueBtn").textContent =
+            "Finalizar pedido";
         };
         reader.readAsDataURL(file);
+      }
 
-        // En cuanto se selecciona la foto, se envía directo -
-        // ya no se necesita un segundo clic.
+      function onYapeContinueClick() {
+        // Primer clic: todavía no hay comprobante -> pide seleccionarlo.
+        if (!yapeProofFile) {
+          document.getElementById("yapeProofInput").click();
+          return;
+        }
+        // Segundo clic (ya con comprobante adjunto): cierra el modal y
+        // manda el pedido por WhatsApp.
         closeYapeModal();
         sendOrderToWhatsApp();
       }
 
-      function onYapeContinueClick() {
-        // Abrimos la pestaña AHORA MISMO, mientras el clic es reciente,
-        // para que el navegador no la bloquee después. Queda en blanco
-        // hasta que sepamos la URL final de WhatsApp.
-        yapePendingTab = window.open("", "_blank");
-        document.getElementById("yapeProofInput").click();
-
-        // Respaldo por si el navegador no soporta el evento "cancel" del
-        // input de archivo: si en 60s no se seleccionó nada, cerramos la
-        // pestaña en blanco para no dejarla huérfana.
-        setTimeout(() => {
-          if (yapeProofFile) return; // ya se seleccionó una foto, no hacer nada
-          if (yapePendingTab && !yapePendingTab.closed) {
-            yapePendingTab.close();
-          }
-        }, 60000);
-      }
-
-      function onYapeProofCancelled() {
-        // El usuario cerró el selector de archivo sin elegir foto ->
-        // cerramos la pestaña en blanco que quedó esperando.
-        if (yapePendingTab && !yapePendingTab.closed) {
-          yapePendingTab.close();
-        }
-      }
-
-      async function sendOrderToWhatsApp() {
+      function sendOrderToWhatsApp() {
         const nombre = document.getElementById("coNombre").value.trim();
         const apellido = document.getElementById("coApellido").value.trim();
         const email = document.getElementById("coEmail").value.trim();
@@ -541,41 +522,10 @@
           `📍 ${direccion}, ${distrito}, ${departamento}${email ? "\n📧 " + email : ""}\n\n` +
           `💜 Ya pagué por Yape al 930 419 029 — les adjunto la captura de mi comprobante en este chat 📎`;
 
-        // Intento 1: compartir directo con la imagen adjunta (celular con
-        // navegador compatible: Chrome/Safari Android o iOS).
-        if (
-          yapeProofFile &&
-          navigator.canShare &&
-          navigator.canShare({ files: [yapeProofFile] })
-        ) {
-          try {
-            // Ya no necesitamos la pestaña en blanco si el share funciona.
-            if (yapePendingTab && !yapePendingTab.closed) {
-              yapePendingTab.close();
-            }
-            await navigator.share({
-              text: msg,
-              files: [yapeProofFile],
-            });
-            return; // el usuario eligió WhatsApp desde el selector nativo
-          } catch (err) {
-            // el usuario canceló el selector, o el navegador falló ->
-            // seguimos con el método de respaldo abajo.
-            console.log("Web Share no disponible o cancelado:", err);
-          }
-        }
-
-        // Respaldo: computadora, o navegador sin soporte para compartir
-        // archivos -> redirige la pestaña ya abierta hacia WhatsApp
-        // (evita que el navegador la bloquee por ser "nueva").
-        const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
-        if (yapePendingTab && !yapePendingTab.closed) {
-          yapePendingTab.location.href = waUrl;
-        } else {
-          // Si por algún motivo no se pudo abrir antes, lo intentamos ahora
-          // igual (puede que el navegador la bloquee, pero es mejor esfuerzo).
-          window.open(waUrl, "_blank");
-        }
+        window.open(
+          `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,
+          "_blank",
+        );
         alert(
           "Se abrió WhatsApp con tu pedido. ¡No olvides adjuntar ahí la captura de tu pago para completar la compra!",
         );
