@@ -19,6 +19,22 @@
         padding: 40px 0 80px;
         align-items: start;
       }
+      @media (max-width: 768px) {
+        .checkout-layout {
+          grid-template-columns: 1fr;
+          gap: 30px;
+          padding: 20px 0 60px;
+        }
+        .order-summary {
+          position: static;
+        }
+        .co-input.half {
+          grid-column: span 2;
+        }
+        .pay-methods {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
       .co-section {
         margin-bottom: 34px;
       }
@@ -157,7 +173,7 @@
                 ><input id="coDni" type="text" placeholder="12345678" />
               </div>
               <div class="co-input">
-                <label>Dirección</label
+                <label>Dirección Envio</label
                 ><input
                   id="coDireccion"
                   type="text"
@@ -306,7 +322,7 @@
           cambia el "src" de aquí abajo).
         -->
         <img
-          src="public/yape-qr.png"
+          src="public/yape-qr.jpg"
           alt="Código QR de Yape"
           style="
             width: 220px;

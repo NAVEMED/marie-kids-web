@@ -173,7 +173,7 @@
                 ><input id="coDni" type="text" placeholder="12345678" />
               </div>
               <div class="co-input">
-                <label>Dirección</label
+                <label>Dirección Envio</label
                 ><input
                   id="coDireccion"
                   type="text"
@@ -322,7 +322,7 @@
           cambia el "src" de aquí abajo).
         -->
         <img
-          src="public/yape-qr.png"
+          src="public/yape-qr.jpg"
           alt="Código QR de Yape"
           style="
             width: 220px;
@@ -475,25 +475,21 @@
           document.getElementById("yapeProofPreview").src = reader.result;
           document.getElementById("yapeProofPreviewWrap").style.display =
             "block";
-          document.getElementById("yapeContinueBtn").textContent =
-            "Finalizar pedido";
         };
         reader.readAsDataURL(file);
-      }
 
-      function onYapeContinueClick() {
-        // Primer clic: todavía no hay comprobante -> pide seleccionarlo.
-        if (!yapeProofFile) {
-          document.getElementById("yapeProofInput").click();
-          return;
-        }
-        // Segundo clic (ya con comprobante adjunto): cierra el modal y
-        // manda el pedido por WhatsApp.
+        // En cuanto se selecciona la foto, se envía directo -
+        // ya no se necesita un segundo clic.
         closeYapeModal();
         sendOrderToWhatsApp();
       }
 
-      function sendOrderToWhatsApp() {
+      function onYapeContinueClick() {
+        // Único uso de este botón: abrir el selector de archivo.
+        document.getElementById("yapeProofInput").click();
+      }
+
+      async function sendOrderToWhatsApp() {
         const nombre = document.getElementById("coNombre").value.trim();
         const apellido = document.getElementById("coApellido").value.trim();
         const email = document.getElementById("coEmail").value.trim();
@@ -522,6 +518,28 @@
           `📍 ${direccion}, ${distrito}, ${departamento}${email ? "\n📧 " + email : ""}\n\n` +
           `💜 Ya pagué por Yape al 930 419 029 — les adjunto la captura de mi comprobante en este chat 📎`;
 
+        // Intento 1: compartir directo con la imagen adjunta (celular con
+        // navegador compatible: Chrome/Safari Android o iOS).
+        if (
+          yapeProofFile &&
+          navigator.canShare &&
+          navigator.canShare({ files: [yapeProofFile] })
+        ) {
+          try {
+            await navigator.share({
+              text: msg,
+              files: [yapeProofFile],
+            });
+            return; // el usuario eligió WhatsApp desde el selector nativo
+          } catch (err) {
+            // el usuario canceló el selector, o el navegador falló ->
+            // seguimos con el método de respaldo abajo.
+            console.log("Web Share no disponible o cancelado:", err);
+          }
+        }
+
+        // Respaldo: computadora, o navegador sin soporte para compartir
+        // archivos -> abre WhatsApp solo con el texto.
         window.open(
           `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,
           "_blank",
