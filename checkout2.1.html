@@ -429,7 +429,6 @@
     <script src="js/main.js"></script>
     <script>
       let yapeProofFile = null;
-      let yapePendingTab = null;
 
       function confirmOrderViaWhatsApp() {
         if (!Cart.items.length) {
@@ -486,10 +485,7 @@
       }
 
       function onYapeContinueClick() {
-        // Abrimos la pestaña AHORA MISMO, mientras el clic es reciente,
-        // para que el navegador no la bloquee después. Queda en blanco
-        // hasta que sepamos la URL final de WhatsApp.
-        yapePendingTab = window.open("", "_blank");
+        // Único uso de este botón: abrir el selector de archivo.
         document.getElementById("yapeProofInput").click();
       }
 
@@ -530,10 +526,6 @@
           navigator.canShare({ files: [yapeProofFile] })
         ) {
           try {
-            // Ya no necesitamos la pestaña en blanco si el share funciona.
-            if (yapePendingTab && !yapePendingTab.closed) {
-              yapePendingTab.close();
-            }
             await navigator.share({
               text: msg,
               files: [yapeProofFile],
@@ -547,16 +539,11 @@
         }
 
         // Respaldo: computadora, o navegador sin soporte para compartir
-        // archivos -> redirige la pestaña ya abierta hacia WhatsApp
-        // (evita que el navegador la bloquee por ser "nueva").
-        const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
-        if (yapePendingTab && !yapePendingTab.closed) {
-          yapePendingTab.location.href = waUrl;
-        } else {
-          // Si por algún motivo no se pudo abrir antes, lo intentamos ahora
-          // igual (puede que el navegador la bloquee, pero es mejor esfuerzo).
-          window.open(waUrl, "_blank");
-        }
+        // archivos -> abre WhatsApp solo con el texto.
+        window.open(
+          `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,
+          "_blank",
+        );
         alert(
           "Se abrió WhatsApp con tu pedido. ¡No olvides adjuntar ahí la captura de tu pago para completar la compra!",
         );
