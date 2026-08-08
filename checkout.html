@@ -395,6 +395,7 @@
           accept="image/*"
           style="display: none"
           onchange="onYapeProofSelected(event)"
+          oncancel="onYapeProofCancelled(event)"
         />
         <div
           id="yapeProofPreviewWrap"
@@ -491,6 +492,24 @@
         // hasta que sepamos la URL final de WhatsApp.
         yapePendingTab = window.open("", "_blank");
         document.getElementById("yapeProofInput").click();
+
+        // Respaldo por si el navegador no soporta el evento "cancel" del
+        // input de archivo: si en 60s no se seleccionó nada, cerramos la
+        // pestaña en blanco para no dejarla huérfana.
+        setTimeout(() => {
+          if (yapeProofFile) return; // ya se seleccionó una foto, no hacer nada
+          if (yapePendingTab && !yapePendingTab.closed) {
+            yapePendingTab.close();
+          }
+        }, 60000);
+      }
+
+      function onYapeProofCancelled() {
+        // El usuario cerró el selector de archivo sin elegir foto ->
+        // cerramos la pestaña en blanco que quedó esperando.
+        if (yapePendingTab && !yapePendingTab.closed) {
+          yapePendingTab.close();
+        }
       }
 
       async function sendOrderToWhatsApp() {
