@@ -6152,7 +6152,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 1,
     colors: [{ name: "Rojo", hex: "#ec1414" }],
     sizes: ["2 Años"],
     season: "todo-el-año",
