@@ -6166,8 +6166,8 @@ const PRODUCTS = [
       "Lavar a mano con agua fria. No usar blanqueador. No secadora alta. Planchar a baja temperatura del reves. Secar a la sombra.",
   },
   {
-    id: "mk-vestido-princesa-flores-rosa-oscuro-cod100",
-    slug: "vestido-princesa-flores-rosa-oscuro-cod100",
+    id: "mk-vestido-princesa-flores-rosa-cod100",
+    slug: "vestido-princesa-flores-rosa-cod100",
     name: "Vestido Princesa Flores Rosa para Niña - COD 100",
     category: "vestidos-nina",
     price: 49,
@@ -6175,16 +6175,16 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 1,
     colors: [{ name: "Rosa", hex: "#c2185b" }],
     sizes: ["2 Años"],
     season: "todo-el-año",
     ageGroup: ["2 Años"],
     images: [
-      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-oscuro-cod100.jpg",
+      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-cod100.jpg",
     ],
     realImage:
-      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-oscuro-cod100.jpg",
+      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-cod100.jpg",
     description:
       "Hermoso vestido con diseno vestido princesa sin mangas, corte princesa y detalles delicados. Ideal para fiestas. Tallas 2-3 Años. COD 90.",
     material: "90% Poliester, 10% Elastano. Forro interior suave.",
