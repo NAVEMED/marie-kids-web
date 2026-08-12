@@ -6143,8 +6143,8 @@ const PRODUCTS = [
       "Lavar a mano con agua fria. No usar blanqueador. No secadora alta. Planchar a baja temperatura del reves. Secar a la sombra.",
   },
   {
-    id: "mk-Vestido-Rojo-borgoña-COD100",
-    slug: "Vestido-Rojo-borgoña-COD100",
+    id: "mk-Vestido-Rojo-borgoña-cod100",
+    slug: "Vestido-Rojo-borgoña-cod100",
     name: "Vestido Rojo borgoña para Nina - COD 100",
     category: "vestidos-nina",
     price: 49,
@@ -6157,10 +6157,10 @@ const PRODUCTS = [
     sizes: ["2 Años"],
     season: "todo-el-año",
     ageGroup: ["2 Años"],
-    images: ["./public/img/vestidos-nina/vestido-rojo-borgona-COD100.jpg"],
-    realImage: "./public/img/vestidos-nina/vestido-rojo-borgona-COD100.jpg",
+    images: ["./public/img/vestidos-nina/vestido-rojo-borgona-cod100.jpg"],
+    realImage: "./public/img/vestidos-nina/vestido-rojo-borgona-cod100.jpg",
     description:
-      "Hermoso vestido con diseno vestido princesa sin mangas, corte princesa y detalles delicados. Ideal para fiestas. Tallas 18-24 Meses. COD 90.",
+      "Hermoso vestido con diseno vestido princesa sin mangas, corte princesa y detalles delicados. Ideal para fiestas. Tallas 2-3 Años. COD 100.",
     material: "90% Poliester, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fria. No usar blanqueador. No secadora alta. Planchar a baja temperatura del reves. Secar a la sombra.",
@@ -6181,12 +6181,12 @@ const PRODUCTS = [
     season: "todo-el-año",
     ageGroup: ["2 Años"],
     images: [
-      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-oscuro-COD100.jpg",
+      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-oscuro-cod100.jpg",
     ],
     realImage:
-      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-oscuro-COD100.jpg",
+      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-oscuro-cod100.jpg",
     description:
-      "Hermoso vestido con diseno vestido princesa sin mangas, corte princesa y detalles delicados. Ideal para fiestas. Tallas 18-24 Meses. COD 90.",
+      "Hermoso vestido con diseno vestido princesa sin mangas, corte princesa y detalles delicados. Ideal para fiestas. Tallas 2-3 Años. COD 90.",
     material: "90% Poliester, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fria. No usar blanqueador. No secadora alta. Planchar a baja temperatura del reves. Secar a la sombra.",
