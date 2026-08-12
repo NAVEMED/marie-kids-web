@@ -6145,7 +6145,7 @@ const PRODUCTS = [
   {
     id: "mk-Vestido-Rojo-borgoña-cod100",
     slug: "Vestido-Rojo-borgoña-cod100",
-    name: "Vestido Rojo borgoña para Nina - COD 100",
+    name: "Vestido Rojo borgoña para Niña - COD 100",
     category: "vestidos-nina",
     price: 49,
     oldPrice: 60,
@@ -6166,9 +6166,9 @@ const PRODUCTS = [
       "Lavar a mano con agua fria. No usar blanqueador. No secadora alta. Planchar a baja temperatura del reves. Secar a la sombra.",
   },
   {
-    id: "mk-vestido-princesa-flores-Rosa-oscuro-cod100",
-    slug: "vestido-princesa-flores-Rosa-oscuro-cod100",
-    name: "Vestido Princesa Flores Rosa Oscuro para Nina - COD 100",
+    id: "mk-vestido-princesa-flores-rosa-oscuro-cod100",
+    slug: "vestido-princesa-flores-rosa-oscuro-cod100",
+    name: "Vestido Princesa Flores Rosa para Niña - COD 100",
     category: "vestidos-nina",
     price: 49,
     oldPrice: 60,
