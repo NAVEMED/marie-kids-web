@@ -6157,8 +6157,8 @@ const PRODUCTS = [
     sizes: ["2 Años"],
     season: "todo-el-año",
     ageGroup: ["2 Años"],
-    images: ["./public/img/vestidos-nina/vestido-rojo-borgoña-COD100.jpg"],
-    realImage: "./public/img/vestidos-nina/vestido-rojo-borgoña-COD100.jpg",
+    images: ["./public/img/vestidos-nina/vestido-rojo-borgona-COD100.jpg"],
+    realImage: "./public/img/vestidos-nina/vestido-rojo-borgona-COD100.jpg",
     description:
       "Hermoso vestido con diseno vestido princesa sin mangas, corte princesa y detalles delicados. Ideal para fiestas. Tallas 18-24 Meses. COD 90.",
     material: "90% Poliester, 10% Elastano. Forro interior suave.",
@@ -6176,15 +6176,15 @@ const PRODUCTS = [
     rating: 4.9,
     reviews: 12,
     stock: 15,
-    colors: [{ name: "Rojo", hex: "#ec1414" }],
+    colors: [{ name: "Rosa", hex: "#c2185b" }],
     sizes: ["2 Años"],
     season: "todo-el-año",
     ageGroup: ["2 Años"],
     images: [
-      "./public/img/vestidos-nina/vestido-princesa-flores-Rosa-oscuro-COD100.jpg",
+      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-oscuro-COD100.jpg",
     ],
     realImage:
-      "./public/img/vestidos-nina/vestido-princesa-flores-Rosa-oscuro-COD100.jpg",
+      "./public/img/vestidos-nina/vestido-princesa-flores-rosa-oscuro-COD100.jpg",
     description:
       "Hermoso vestido con diseno vestido princesa sin mangas, corte princesa y detalles delicados. Ideal para fiestas. Tallas 18-24 Meses. COD 90.",
     material: "90% Poliester, 10% Elastano. Forro interior suave.",
