@@ -1,16 +1,5 @@
 /* ============================================================
    ADMIN.JS — Panel de administración de producto
-   ------------------------------------------------------------
-   Permite editar, por producto, dentro de las categorías
-   gestionadas (Cardigans, Casacas, Jeans, Conjuntos de Invierno):
-     - Precio normal / Precio de oferta (el % se calcula solo)
-     - Tallas disponibles
-     - Etiqueta (Ninguno / Nuevo Ingreso / Tendencia / Liquidación)
-
-   No hay backend: los cambios se guardan en localStorage
-   (ver saveAdminOverride en data.js) y se aplican automáticamente
-   en todas las páginas del sitio la próxima vez que carguen
-   PRODUCTS, gracias a applyAdminOverrides().
    ============================================================ */
 
 const adminState = {
@@ -63,8 +52,8 @@ function computeDiscountPct(price, oldPrice) {
 
 function adminRowHTML(p) {
   const pct = computeDiscountPct(p.price, p.oldPrice);
-  const normalValue = p.oldPrice || p.price; // "precio normal" = precio tachado si hay oferta
-  const offerValue = p.oldPrice ? p.price : ""; // "precio de oferta" solo si hay descuento activo
+  const normalValue = p.oldPrice || p.price;
+  const offerValue = p.oldPrice ? p.price : "";
   const badgeOptions = [
     ["", "Ninguno"],
     ["nuevo", "🆕 Nuevo Ingreso"],
@@ -110,8 +99,11 @@ function adminRowHTML(p) {
 
 function renderAdminTable() {
   const list = adminFilteredProducts();
-  document.getElementById("adminTable").innerHTML = list.map(adminRowHTML).join("");
-  document.getElementById("adminEmpty").style.display = list.length ? "none" : "block";
+  const table = document.getElementById("adminTable");
+  const empty = document.getElementById("adminEmpty");
+  
+  if (table) table.innerHTML = list.map(adminRowHTML).join("");
+  if (empty) empty.style.display = list.length ? "none" : "block";
 }
 
 function adminFindProduct(id) {
@@ -133,17 +125,11 @@ function refreshDiscountLabel(p) {
   el.innerHTML = pct ? `<span class="pct">-${pct}%</span> dscto.` : "Sin descuento";
 }
 
-/* ---------- Handlers de edición ---------- */
-
-// Lee "Precio normal" y "Precio de oferta" juntos (viven en la misma fila) y
-// decide si hay descuento activo:
-//  - Sin precio de oferta (o >= precio normal) -> precio final = precio normal, sin tachado.
-//  - Con precio de oferta válido (> 0 y < precio normal) -> se tacha el normal y se
-//    muestra el de oferta como precio final; el % se calcula solo.
 function adminUpdatePricing(id) {
   const p = adminFindProduct(id);
   if (!p) return;
   const row = document.querySelector(`.admin-row[data-id="${id}"]`);
+  if (!row) return;
   const normal = Number(row.querySelector('[data-role="normal"]').value) || 0;
   const offerRaw = row.querySelector('[data-role="offer"]').value;
   const offer = Number(offerRaw);
@@ -183,8 +169,11 @@ function adminUpdateBadge(id, value) {
 document.addEventListener("DOMContentLoaded", () => {
   buildAdminTabs();
   renderAdminTable();
-  document.getElementById("adminSearch").addEventListener("input", (e) => {
-    adminState.search = e.target.value.trim();
-    renderAdminTable();
-  });
+  const searchInput = document.getElementById("adminSearch");
+  if (searchInput) {
+    searchInput.addEventListener("input", (e) => {
+      adminState.search = e.target.value.trim();
+      renderAdminTable();
+    });
+  }
 });

@@ -184,7 +184,7 @@
                 <label>Departamento</label>
                 <select id="departamento">
                   <option value="">Selecciona departamento</option>
-                  <option value="Amazonas" selected>Amazonas</option>
+                  <option value="Amazonas">Amazonas</option>
                   <option value="Áncash">Áncash</option>
                   <option value="Apurímac">Apurímac</option>
                   <option value="Arequipa">Arequipa</option>
@@ -197,7 +197,7 @@
                   <option value="Junín">Junín</option>
                   <option value="La Libertad">La Libertad</option>
                   <option value="Lambayeque">Lambayeque</option>
-                  <option value="Lima">Lima</option>
+                  <option value="Lima" selected>Lima</option>
                   <option value="Loreto">Loreto</option>
                   <option value="Madre de Dios">Madre de Dios</option>
                   <option value="Moquegua">Moquegua</option>
@@ -221,9 +221,7 @@
           <div class="co-section">
             <h3>2. Método de pago</h3>
             <div class="pay-methods" id="payMethods">
-              <!--<div class="pay-method selected" data-m="visa"><div class="pic">💳</div>Visa</div>-->
-              <!--<div class="pay-method" data-m="mc"><div class="pic">💳</div>Mastercard</div>-->
-              <div class="pay-method" data-m="yape">
+              <div class="pay-method selected" data-m="yape">
                 <div class="pic">
                   <img
                     src="public/yape-app.png"
@@ -237,13 +235,10 @@
                 </div>
                 Yape
               </div>
-              <!--<div class="pay-method" data-m="plin"><div class="pic">📱</div>Plin</div>-->
-              <!--<div class="pay-method" data-m="transfer"><div class="pic">🏦</div>Transferencia</div>-->
-              <!--<div class="pay-method" data-m="mp"><div class="pic">🅿️</div>Mercado Pago</div>-->
             </div>
             <div class="co-note">
               💜 <b>Pagos con Yape:</b> Yapea al 930 419 029 y sube tu
-              comprobante. Próximamente adicionaremos más métodos de pago..
+              comprobante. Próximamente adicionaremos más métodos de pago.
             </div>
           </div>
         </div>
@@ -254,13 +249,13 @@
           </h3>
           <div id="checkoutItems"></div>
           <div class="cart-line" style="margin-top: 14px">
-            <span>Subtotal</span><span id="coSubtotal">S/ 0</span>
+            <span>Subtotal</span><span id="coSubtotal">S/ 0.00</span>
           </div>
           <div class="cart-line">
-            <span>Envío</span><span id="coShipping">S/ 0</span>
+            <span>Envío</span><span id="coShipping">S/ 0.00</span>
           </div>
           <div class="cart-line total">
-            <span>Total</span><span id="coTotal">S/ 0</span>
+            <span>Total</span><span id="coTotal">S/ 0.00</span>
           </div>
           <button
             class="btn btn-primary btn-block"
@@ -316,11 +311,6 @@
 
         <h3 style="font-size: 16px; margin-bottom: 18px">Paga con Yape</h3>
 
-        <!--
-          👉 Para usar tu propio QR: reemplaza public/yape-qr.png por la
-          imagen de tu código QR de Yape (mismo nombre de archivo, o
-          cambia el "src" de aquí abajo).
-        -->
         <img
           src="public/yape-qr.jpg"
           alt="Código QR de Yape"
@@ -365,7 +355,7 @@
           id="yapeAmount"
           style="font-size: 32px; font-weight: 800; margin: 4px 0 16px"
         >
-          S/ 0
+          S/ 0.00
         </div>
 
         <p
@@ -459,7 +449,7 @@
 
       function openYapeModal() {
         document.getElementById("yapeAmount").textContent =
-          `S/ ${Cart.total().toFixed(0)}`;
+          `S/ ${Cart.total().toFixed(2)}`;
         document.getElementById("yapeOverlay").classList.add("show");
       }
       function closeYapeModal() {
@@ -482,13 +472,10 @@
       }
 
       function onYapeContinueClick() {
-        // Primer clic: todavía no hay comprobante -> pide seleccionarlo.
         if (!yapeProofFile) {
           document.getElementById("yapeProofInput").click();
           return;
         }
-        // Segundo clic (ya con comprobante adjunto): cierra el modal y
-        // manda el pedido por WhatsApp.
         closeYapeModal();
         sendOrderToWhatsApp();
       }
@@ -506,28 +493,37 @@
         const itemsTxt = Cart.items
           .map(
             (i) =>
-              `▫️ ${i.name} · Talla ${i.size} · x${i.qty} — S/ ${(i.price * i.qty).toFixed(0)}`,
+              `🧥 ${i.name} · 📏 Talla ${i.size} · 🔢 x${i.qty} — 💰 S/ ${(i.price * i.qty).toFixed(2)}`,
           )
           .join("\n");
 
         const msg =
           `¡Hola Marie Kids! 👋 Quiero confirmar mi pedido:\n\n` +
-          `🧾 *Pedido*\n${itemsTxt}\n\n` +
-          `💰 Subtotal: S/ ${Cart.subtotal().toFixed(0)}\n` +
-          `🚚 Envío: ${Cart.shipping() === 0 ? "Gratis" : "S/ " + Cart.shipping().toFixed(0)}\n` +
-          `💵 *Total: S/ ${Cart.total().toFixed(0)}*\n\n` +
-          `👤 *Datos de envío*\n` +
+          `📋 *DETALLE DEL PEDIDO*\n` +
+          `${itemsTxt}\n\n` +
+          `📊 *RESUMEN*\n` +
+          `Subtotal: S/ ${Cart.subtotal().toFixed(2)}\n` +
+          `Envío: ${Cart.shipping() === 0 ? "Gratis 🎉" : "S/ " + Cart.shipping().toFixed(2)}\n` +
+          `💵 *Total: S/ ${Cart.total().toFixed(2)}*\n\n` +
+          `👤 *DATOS DEL CLIENTE*\n` +
           `${nombre} ${apellido}\n` +
           `📱 ${celular}${dni ? "\n🪪 DNI: " + dni : ""}\n` +
           `📍 ${direccion}, ${distrito}, ${departamento}${email ? "\n📧 " + email : ""}\n\n` +
-          `💜 Ya pagué por Yape al 930 419 029 — les adjunto la captura de mi comprobante en este chat 📎`;
+          `💜 Ya pagué por Yape al 930 419 029 — adjunto comprobante 📎`;
 
-        window.open(
-          `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`,
-          "_blank",
-        );
+        // ✅ MEJORADO: Usar window.open con target="_blank" y sin bloqueos
+        const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+
+        // Intentar abrir en nueva ventana
+        const win = window.open(url, "_blank");
+
+        // Si window.open fue bloqueado, usar location.href como fallback
+        if (!win || win.closed || typeof win.closed === "undefined") {
+          window.location.href = url;
+        }
+
         alert(
-          "Se abrió WhatsApp con tu pedido. ¡No olvides adjuntar ahí la captura de tu pago para completar la compra!",
+          "Se abrió WhatsApp con tu pedido. ¡No olvides adjuntar la captura de tu pago!",
         );
       }
 
@@ -549,16 +545,16 @@
               const imgInner = ph.isReal
                 ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">`
                 : `<span>${ph.emoji}</span>`;
-              return `<div class="order-item"><div class="oi-img ${ph.isReal ? "" : "ph-" + ph.grad}">${imgInner}</div><div style="flex:1;"><b style="font-size:12.5px;">${i.name}</b><br><span style="color:var(--ink-soft);font-size:11.5px;">Talla ${i.size} · x${i.qty}</span></div><b>S/ ${(i.price * i.qty).toFixed(0)}</b></div>`;
+              return `<div class="order-item"><div class="oi-img ${ph.isReal ? "" : "ph-" + ph.grad}">${imgInner}</div><div style="flex:1;"><b style="font-size:12.5px;">${i.name}</b><br><span style="color:var(--ink-soft);font-size:11.5px;">Talla ${i.size} · x${i.qty}</span></div><b>S/ ${(i.price * i.qty).toFixed(2)}</b></div>`;
             })
             .join("") ||
           "<p style='color:var(--ink-soft);font-size:13px;'>Tu carrito está vacío.</p>";
         document.getElementById("coSubtotal").textContent =
-          `S/ ${Cart.subtotal().toFixed(0)}`;
+          `S/ ${Cart.subtotal().toFixed(2)}`;
         document.getElementById("coShipping").textContent =
-          Cart.shipping() === 0 ? "Gratis" : `S/ ${Cart.shipping().toFixed(0)}`;
+          Cart.shipping() === 0 ? "Gratis" : `S/ ${Cart.shipping().toFixed(2)}`;
         document.getElementById("coTotal").textContent =
-          `S/ ${Cart.total().toFixed(0)}`;
+          `S/ ${Cart.total().toFixed(2)}`;
       }
       document.addEventListener("DOMContentLoaded", () => {
         Cart.load();

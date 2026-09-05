@@ -1,17 +1,14 @@
 /* ============================================================
    MAIN.JS — Interacciones del sitio
-   (menú móvil, slider del hero, contador, búsqueda, animaciones,
-   render de tarjetas de producto, quick view, WhatsApp)
    ============================================================ */
 
-const WHATSAPP_NUMBER = "51930419029"; // <-- reemplaza por tu número real (con código de país, sin +)
+const WHATSAPP_NUMBER = "51930419029";
 
-/* ---------- Utilidad: arma el link de WhatsApp con los datos del producto ---------- */
 function buildWhatsAppLink(product, size, color, qty = 1) {
   const msg =
     `¡Hola Marie Kids! 👋 Quiero comprar:\n\n` +
     `🧸 *${product.name}*\n` +
-    `💰 Precio: S/ ${product.price}\n` +
+    `💰 Precio: S/ ${product.price.toFixed(2)}\n` +
     `📏 Talla: ${size}\n` +
     `🎨 Color: ${color}\n` +
     `🔢 Cantidad: ${qty}\n` +
@@ -19,29 +16,28 @@ function buildWhatsAppLink(product, size, color, qty = 1) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
-/* ---------- Nombre legible de categoría a partir del slug ---------- */
 function categoryName(slug) {
   const c = CATEGORIES.find((x) => x.slug === slug);
   return c ? c.name : slug;
 }
 
-/* ---------- Helpers de foto REAL vs placeholder ---------- */
 function isRealImage(str) {
   if (!str) return false;
   return (
     str.startsWith("http") ||
     str.startsWith("/") ||
-    str.startsWith("img/") ||
+    str.startsWith(".") ||
     str.endsWith(".jpg") ||
     str.endsWith(".png") ||
-    str.endsWith(".webp")
+    str.endsWith(".webp") ||
+    str.endsWith(".jpeg")
   );
 }
+
 function resolvePlaceholder(str) {
   if (isRealImage(str)) {
     return { grad: "real", emoji: "🖼️", url: str, isReal: true };
   }
-  // formato viejo placeholder:g1:👗
   try {
     const parts = str.split(":");
     return { grad: parts[1] || "g1", emoji: parts[2] || "👗", isReal: false };
@@ -49,7 +45,7 @@ function resolvePlaceholder(str) {
     return { grad: "g1", emoji: "👗", isReal: false };
   }
 }
-/* ---------- Placeholders de foto (ahora soporta fotos reales) ---------- */
+
 function phLayer(str, extraClass = "") {
   if (!str) return "";
   if (isRealImage(str)) {
@@ -59,13 +55,73 @@ function phLayer(str, extraClass = "") {
   return `<div class="layer ${extraClass} ph-${grad}"><span>${emoji}</span></div>`;
 }
 
-/* ---------- Render de tarjeta de producto ---------- */
+// ============================================================
+// FUNCIÓN PARA OBTENER EL PRIMER COLOR DE UN PRODUCTO
+// (Compatible con estructura nueva y antigua)
+// ============================================================
+
+function getFirstColor(product) {
+  // Estructura DINÁMICA: tallas con colors
+  if (
+    product.sizes &&
+    Array.isArray(product.sizes) &&
+    product.sizes.length > 0 &&
+    typeof product.sizes[0] === "object" &&
+    product.sizes[0].colors
+  ) {
+    return product.sizes[0].colors[0]?.name || "Sin color";
+  }
+  // Estructura ANTIGUA: colors array
+  if (product.colors && product.colors.length > 0) {
+    return product.colors[0].name;
+  }
+  return "Único";
+}
+
+function getFirstSize(product) {
+  // Estructura DINÁMICA: tallas con colors
+  if (
+    product.sizes &&
+    Array.isArray(product.sizes) &&
+    product.sizes.length > 0 &&
+    typeof product.sizes[0] === "object" &&
+    product.sizes[0].colors
+  ) {
+    return product.sizes[0].name;
+  }
+  // Estructura ANTIGUA: array de strings
+  if (product.sizes && product.sizes.length > 0) {
+    return product.sizes[0];
+  }
+  return "Única";
+}
+
+// ============================================================
+// TARJETA DE PRODUCTO (Compatibilidad con nueva estructura)
+// ============================================================
+
 function pcardHTML(p) {
   const discount = p.oldPrice
     ? Math.round(100 - (p.price / p.oldPrice) * 100)
     : null;
   const stars =
-    "★".repeat(Math.round(p.rating)) + "☆".repeat(5 - Math.round(p.rating));
+    "★".repeat(Math.round(p.rating || 0)) +
+    "☆".repeat(5 - Math.round(p.rating || 0));
+  const firstColor = getFirstColor(p);
+  const firstSize = getFirstSize(p);
+
+  // Obtener tallas para mostrar (compatible con ambos formatos)
+  let sizeDisplay = [];
+  if (p.sizes && Array.isArray(p.sizes)) {
+    if (typeof p.sizes[0] === "object" && p.sizes[0].colors) {
+      // Estructura DINÁMICA
+      sizeDisplay = p.sizes.map((s) => s.name);
+    } else {
+      // Estructura ANTIGUA
+      sizeDisplay = p.sizes;
+    }
+  }
+
   return `
     <div class="pcard" data-id="${p.id}">
       <div class="ph">
@@ -81,15 +137,20 @@ function pcardHTML(p) {
       <div class="info">
         <span class="cat">${categoryName(p.category)}</span>
         <h4 style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;overflow-wrap:break-word;word-break:normal;min-height:2.6em;"><a href="producto.html?slug=${p.slug}" title="${p.name}">${p.name}</a></h4>
-        <div class="rating"><span class="stars">${stars}</span> ${p.rating} (${p.reviews})</div>
+        <div class="rating"><span class="stars">${stars}</span> ${p.rating || 0} (${p.reviews || 0})</div>
         <div class="price-row">
-          <span class="price">S/ ${p.price}</span>
-          ${p.oldPrice ? `<span class="price-old">S/ ${p.oldPrice}</span><span class="discount-pill">-${discount}%</span>` : ""}
+          <span class="price">S/ ${p.price.toFixed(2)}</span>
+          ${p.oldPrice ? `<span class="price-old">S/ ${p.oldPrice.toFixed(2)}</span><span class="discount-pill">-${discount}%</span>` : ""}
         </div>
-        <div class="sizes">${p.sizes.map((s) => `<span>${s}</span>`).join("")}</div>
+        <div class="sizes">${sizeDisplay
+          .slice(0, 3)
+          .map((s) => `<span>${s}</span>`)
+          .join(
+            "",
+          )}${sizeDisplay.length > 3 ? `<span>+${sizeDisplay.length - 3}</span>` : ""}</div>
         <div class="cta-row">
-          <button class="btn btn-primary" onclick="Cart.add(PRODUCTS.find(x=>x.id==='${p.id}'), '${p.sizes[0]}', '${p.colors[0].name}')">Agregar</button>
-          <a class="btn cta-wa" target="_blank" rel="noopener" href="${buildWhatsAppLink(p, p.sizes[0], p.colors[0].name)}" aria-label="Comprar por WhatsApp">💬</a>
+          <button class="btn btn-primary" onclick="Cart.add(PRODUCTS.find(x=>x.id==='${p.id}'), '${firstSize}', '${firstColor}')">Agregar</button>
+          <a class="btn cta-wa" target="_blank" rel="noopener" href="${buildWhatsAppLink(p, firstSize, firstColor)}" aria-label="Comprar por WhatsApp">💬</a>
         </div>
       </div>
     </div>`;
@@ -100,10 +161,10 @@ function renderGrid(containerId, list) {
   if (el) el.innerHTML = list.map(pcardHTML).join("");
 }
 
-/* ---------- Wishlist (localStorage) ---------- */
 function getWishlist() {
   return JSON.parse(localStorage.getItem("mariekids_wishlist") || "[]");
 }
+
 function toggleWishlist(evt, id) {
   evt.preventDefault();
   let list = getWishlist();
@@ -125,37 +186,72 @@ function toggleWishlist(evt, id) {
   }
 }
 
-/* ---------- Quick View Modal ---------- */
+// ============================================================
+// QUICK VIEW (Compatibilidad con nueva estructura)
+// ============================================================
+
 let qvState = { product: null, size: null, color: null };
+
 function openQuickView(id) {
   const p = PRODUCTS.find((x) => x.id === id);
   if (!p) return;
-  qvState = { product: p, size: p.sizes[0], color: p.colors[0].name };
+
+  const firstSize = getFirstSize(p);
+  const firstColor = getFirstColor(p);
+
+  qvState = { product: p, size: firstSize, color: firstColor };
+
+  // Obtener colores para mostrar (compatible)
+  let colorOptions = [];
+  const hasDynamicSizes =
+    p.sizes &&
+    Array.isArray(p.sizes) &&
+    p.sizes.length > 0 &&
+    typeof p.sizes[0] === "object" &&
+    p.sizes[0].colors;
+
+  if (hasDynamicSizes) {
+    // Estructura DINÁMICA: tomar colores de la primera talla
+    colorOptions = p.sizes[0].colors || [];
+  } else {
+    // Estructura ANTIGUA
+    colorOptions = p.colors || [{ name: "Único", hex: "#CCCCCC" }];
+  }
+
+  // Obtener tallas para mostrar
+  let sizeOptions = [];
+  if (hasDynamicSizes) {
+    sizeOptions = p.sizes.map((s) => s.name);
+  } else {
+    sizeOptions = p.sizes || ["Única"];
+  }
+
   const ph = resolvePlaceholder(p.images[0]);
   const qvImgInner = ph.isReal
     ? `<img src="${ph.url}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">`
     : `<span>${ph.emoji}</span>`;
+
   document.getElementById("qvContent").innerHTML = `
     <div class="qv-img ${ph.isReal ? "" : "ph-" + ph.grad}">${qvImgInner}</div>
     <div class="qv-info">
       <span class="cat">${categoryName(p.category)}</span>
       <h3>${p.name}</h3>
-      <div class="rating"><span class="stars">${"★".repeat(Math.round(p.rating))}</span> ${p.rating} (${p.reviews} opiniones)</div>
+      <div class="rating"><span class="stars">${"★".repeat(Math.round(p.rating || 0))}</span> ${p.rating || 0} (${p.reviews || 0} opiniones)</div>
       <div class="pdp-price-row" style="margin:12px 0;">
-        <span class="pdp-price" style="font-size:22px;">S/ ${p.price}</span>
-        ${p.oldPrice ? `<span class="pdp-old">S/ ${p.oldPrice}</span>` : ""}
+        <span class="pdp-price" style="font-size:22px;">S/ ${p.price.toFixed(2)}</span>
+        ${p.oldPrice ? `<span class="pdp-old">S/ ${p.oldPrice.toFixed(2)}</span>` : ""}
       </div>
       <p style="font-size:13.5px;color:var(--ink-soft);line-height:1.6;">${p.description}</p>
       <div class="option-row">
         <label>Talla</label>
         <div class="opt-pills" id="qvSizes">
-          ${p.sizes.map((s, i) => `<button class="opt-pill ${i === 0 ? "selected" : ""}" onclick="qvSelect('size','${s}',this)">${s}</button>`).join("")}
+          ${sizeOptions.map((s, i) => `<button class="opt-pill ${i === 0 ? "selected" : ""}" onclick="qvSelect('size','${s}',this)">${s}</button>`).join("")}
         </div>
       </div>
       <div class="option-row">
         <label>Color</label>
         <div class="opt-pills" id="qvColors">
-          ${p.colors.map((c, i) => `<button class="opt-color ${i === 0 ? "selected" : ""}" style="background:${c.hex}" title="${c.name}" onclick="qvSelect('color','${c.name}',this)"></button>`).join("")}
+          ${colorOptions.map((c, i) => `<button class="opt-color ${i === 0 ? "selected" : ""}" style="background:${c.hex}" title="${c.name}" onclick="qvSelect('color','${c.name}',this)"></button>`).join("")}
         </div>
       </div>
       <div class="qv-actions">
@@ -166,6 +262,7 @@ function openQuickView(id) {
   updateQvWaLink();
   document.getElementById("qvOverlay").classList.add("show");
 }
+
 function qvSelect(type, value, btn) {
   qvState[type] = value;
   btn.parentElement
@@ -174,20 +271,26 @@ function qvSelect(type, value, btn) {
   btn.classList.add("selected");
   updateQvWaLink();
 }
+
 function updateQvWaLink() {
   const link = document.getElementById("qvWaLink");
   if (link)
     link.href = buildWhatsAppLink(qvState.product, qvState.size, qvState.color);
 }
+
 function qvAddToCart() {
   Cart.add(qvState.product, qvState.size, qvState.color);
   closeQuickView();
 }
+
 function closeQuickView() {
   document.getElementById("qvOverlay").classList.remove("show");
 }
 
-/* ---------- Hero Slider ---------- */
+// ============================================================
+// HERO SLIDER
+// ============================================================
+
 const HeroSlider = {
   index: 0,
   slides: [],
@@ -207,10 +310,10 @@ const HeroSlider = {
     this.play();
     document
       .querySelector(".hero-slider")
-      .addEventListener("mouseenter", () => this.pause());
+      ?.addEventListener("mouseenter", () => this.pause());
     document
       .querySelector(".hero-slider")
-      .addEventListener("mouseleave", () => this.play());
+      ?.addEventListener("mouseleave", () => this.play());
   },
   show(i) {
     this.slides.forEach((s, idx) => s.classList.toggle("active", idx === i));
@@ -239,13 +342,12 @@ const HeroSlider = {
   },
 };
 
-/* ---------- Countdown de promoción (24h desde que carga la página, demo) ---------- */
 function initCountdown() {
   const el = document.getElementById("countdown");
   if (!el) return;
   let target = localStorage.getItem("mariekids_promo_end");
   if (!target || Number(target) < Date.now()) {
-    target = Date.now() + 1000 * 60 * 60 * 24; // 24h desde ahora
+    target = Date.now() + 1000 * 60 * 60 * 24;
     localStorage.setItem("mariekids_promo_end", target);
   }
   function tick() {
@@ -259,7 +361,6 @@ function initCountdown() {
   setInterval(tick, 1000);
 }
 
-/* ---------- Parallax suave en el hero ---------- */
 function initParallax() {
   const els = document.querySelectorAll("[data-parallax]");
   if (!els.length) return;
@@ -276,7 +377,6 @@ function initParallax() {
   );
 }
 
-/* ---------- Búsqueda con autocompletado ---------- */
 function initSearch() {
   const input = document.getElementById("searchInput");
   const results = document.getElementById("searchResults");
@@ -302,7 +402,7 @@ function initSearch() {
               : `<span>${ph.emoji}</span>`;
             return `<a class="sr-item" href="producto.html?slug=${p.slug}">
             <div class="sr-img ${ph.isReal ? "" : "ph-" + ph.grad}">${srImg}</div>
-            <div><div class="sr-name">${p.name}</div><div class="sr-price">S/ ${p.price}</div></div>
+            <div><div class="sr-name">${p.name}</div><div class="sr-price">S/ ${p.price.toFixed(2)}</div></div>
           </a>`;
           })
           .join("")
@@ -314,17 +414,16 @@ function initSearch() {
   });
 }
 
-/* ---------- Mobile panel ---------- */
 function openMobilePanel() {
   document.getElementById("mobilePanel").classList.add("open");
   document.getElementById("scrim").classList.add("show");
 }
+
 function closeMobilePanel() {
   document.getElementById("mobilePanel").classList.remove("open");
   document.getElementById("scrim").classList.remove("show");
 }
 
-/* ---------- Reveal on scroll ---------- */
 function initReveal() {
   const obs = new IntersectionObserver(
     (entries) =>
@@ -336,12 +435,10 @@ function initReveal() {
   document.querySelectorAll(".reveal").forEach((el) => obs.observe(el));
 }
 
-/* ---------- Rail scroll (carruseles horizontales) ---------- */
 function scrollRail(id, dir) {
   document.getElementById(id).scrollBy({ left: dir * 300, behavior: "smooth" });
 }
 
-/* ---------- Init general ---------- */
 document.addEventListener("DOMContentLoaded", () => {
   HeroSlider.init();
   initCountdown();
@@ -356,34 +453,34 @@ document.addEventListener("DOMContentLoaded", () => {
     wishBadge.style.display = n > 0 ? "grid" : "none";
   }
 
-  // Render de secciones de producto en la página que las tenga
   if (document.getElementById("rail-new")) renderGrid("rail-new", PRODUCTS);
   if (document.getElementById("grid-best"))
     renderGrid("grid-best", [...PRODUCTS].reverse().slice(0, 8));
 
-  // Mega menú (presente en el header de todas las páginas)
   const megaEl = document.getElementById("megaMenu");
   if (megaEl) {
     megaEl.innerHTML =
       `<div class="mega-cats">` +
       CATEGORY_GROUPS.map(
-        (g) => `<a href="tienda.html?catgroup=${g.slug}" class="cat-circle cat-circle-sm">
-          <div class="cat-circle-img"><img src="${g.photo}" alt="${g.name}" loading="lazy"></div>
-          <span>${g.name}</span>
-        </a>`,
+        (
+          g,
+        ) => `<a href="tienda.html?catgroup=${g.slug}" class="cat-circle cat-circle-sm">
+        <div class="cat-circle-img"><img src="${g.photo}" alt="${g.name}" loading="lazy"></div>
+        <span>${g.name}</span>
+      </a>`,
       ).join("") +
       `</div>` +
       `<div class="mega-promo"><b>🎉 20% OFF en tu primera compra</b><a href="tienda.html" class="btn btn-sm btn-primary">Comprar</a></div>`;
   }
-  // Grid de categorías (solo existe en index.html)
+
   const catGridEl = document.getElementById("catGrid");
   if (catGridEl) {
     catGridEl.innerHTML = CATEGORY_GROUPS.map(
       (g) =>
         `<a href="tienda.html?catgroup=${g.slug}" class="cat-circle">
-          <div class="cat-circle-img"><img src="${g.photo}" alt="${g.name}" loading="lazy"></div>
-          <span>${g.name}</span>
-        </a>`,
+        <div class="cat-circle-img"><img src="${g.photo}" alt="${g.name}" loading="lazy"></div>
+        <span>${g.name}</span>
+      </a>`,
     ).join("");
   }
 });

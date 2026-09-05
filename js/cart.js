@@ -1,11 +1,5 @@
 /* ============================================================
    CART.JS — Carrito de compras (estado real, persistente)
-   ------------------------------------------------------------
-   Usa localStorage como base de datos temporal del carrito.
-   Cuando conectes Supabase, reemplaza save()/load() por llamadas
-   a la tabla `cart_items` (o guarda el carrito en la sesión del
-   usuario autenticado). La interfaz (drawer, badge, totales)
-   no necesita cambiar.
    ============================================================ */
 
 const SHIPPING_FLAT = 0;
@@ -13,7 +7,7 @@ const FREE_SHIPPING_FROM = 150;
 const STORAGE_KEY = "mariekids_cart";
 
 const Cart = {
-  items: [], // [{id, name, price, size, color, qty, image}]
+  items: [],
 
   load() {
     try {
@@ -81,20 +75,24 @@ const Cart = {
   },
 
   openDrawer() {
-    document.getElementById("cartDrawer")?.classList.add("open");
-    document.getElementById("cartOverlay")?.classList.add("show");
+    const drawer = document.getElementById("cartDrawer");
+    const overlay = document.getElementById("cartOverlay");
+    if (drawer) drawer.classList.add("open");
+    if (overlay) overlay.classList.add("show");
   },
 
   closeDrawer() {
-    document.getElementById("cartDrawer")?.classList.remove("open");
-    document.getElementById("cartOverlay")?.classList.remove("show");
+    const drawer = document.getElementById("cartDrawer");
+    const overlay = document.getElementById("cartOverlay");
+    if (drawer) drawer.classList.remove("open");
+    if (overlay) overlay.classList.remove("show");
   },
 
   pulseIcon() {
     const badge = document.getElementById("cartCount");
     if (!badge) return;
     badge.classList.remove("pulse");
-    void badge.offsetWidth; // reinicia la animación
+    void badge.offsetWidth;
     badge.classList.add("pulse");
   },
 
@@ -134,7 +132,7 @@ const Cart = {
                   <span>${i.qty}</span>
                   <button aria-label="Sumar" onclick="Cart.updateQty('${i.key}', ${i.qty + 1})">+</button>
                 </div>
-                <b>S/ ${(i.price * i.qty).toFixed(0)}</b>
+                <b>S/ ${(i.price * i.qty).toFixed(2)}</b>
               </div>
             </div>
             <button class="cart-item-remove" aria-label="Quitar producto" onclick="Cart.remove('${i.key}')">✕</button>
@@ -145,22 +143,25 @@ const Cart = {
 
     const sub = this.subtotal();
     const ship = this.shipping();
-    document.getElementById("cartSubtotal").textContent =
-      `S/ ${sub.toFixed(0)}`;
-    document.getElementById("cartShipping").textContent =
-      ship === 0 ? "Gratis" : `S/ ${ship.toFixed(0)}`;
-    document.getElementById("cartTotal").textContent =
-      `S/ ${this.total().toFixed(0)}`;
+    const cartSubtotal = document.getElementById("cartSubtotal");
+    const cartShipping = document.getElementById("cartShipping");
+    const cartTotal = document.getElementById("cartTotal");
+    
+    if (cartSubtotal) cartSubtotal.textContent = `S/ ${sub.toFixed(2)}`;
+    if (cartShipping) cartShipping.textContent = ship === 0 ? "Gratis" : `S/ ${ship.toFixed(2)}`;
+    if (cartTotal) cartTotal.textContent = `S/ ${this.total().toFixed(2)}`;
 
     const barPct = Math.min(100, (sub / FREE_SHIPPING_FROM) * 100);
     const bar = document.getElementById("shipBar");
     if (bar) {
       bar.style.width = `${barPct}%`;
       const note = document.getElementById("shipNote");
-      if (sub >= FREE_SHIPPING_FROM) {
-        note.textContent = "🎉 ¡Tienes envío gratis!";
-      } else {
-        note.textContent = `Te faltan S/ ${(FREE_SHIPPING_FROM - sub).toFixed(0)} para envío gratis`;
+      if (note) {
+        if (sub >= FREE_SHIPPING_FROM) {
+          note.textContent = "🎉 ¡Tienes envío gratis!";
+        } else {
+          note.textContent = `Te faltan S/ ${(FREE_SHIPPING_FROM - sub).toFixed(2)} para envío gratis`;
+        }
       }
     }
   },

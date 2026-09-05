@@ -1,6 +1,30 @@
+# ============================================================
+# ROBOTS.TXT - Marie Kids (Vercel)
+# Instrucciones para motores de búsqueda
+# ============================================================
+
 User-agent: *
 Allow: /
+
+# Permitir indexación de páginas importantes
+Allow: /$
+Allow: /tienda$
+Allow: /producto$
+
+# Bloquear páginas que no deben aparecer en Google
+Disallow: /admin.html
 Disallow: /checkout.html
 Disallow: /admin/
+Disallow: /public/
 
-Sitemap: https://mariekids.pe/sitemap.xml
+# Tiempo entre rastreos (sugerencia para Google)
+Crawl-delay: 1
+
+# Mapa del sitio
+Sitemap: https://marie-kids-web.vercel.app/sitemap.xml
+
+# ============================================================
+# 📌 NOTA PARA VERCEL:
+# Vercel sirve archivos estáticos directamente desde la raíz.
+# Asegúrate de que este archivo esté en la carpeta raíz del proyecto.
+# ============================================================
