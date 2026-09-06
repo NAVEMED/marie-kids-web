@@ -5458,6 +5458,35 @@ const PRODUCTS = [
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
+  {
+    id: "mk-vestido-chaleco-gris-cod-90",
+    slug: "vestido-chaleco-gris-cod-90",
+    name: "Vestido con Chaleco Gris para Bebé",
+    category: "vestidos-nina",
+    price: 39,
+    oldPrice: 55,
+    badge: "Oferta",
+    rating: 4.9,
+    reviews: 12,
+    stock: 15,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [{ name: "Gris", hex: "#9E9E9E" }],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/vestido-chaleco-gris-chaqueta-c-90-18-24M.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/vestido-chaleco-gris-chaqueta-c-90-18-24M.jpg",
+    description: "Vestido con chaleco gris. Diseño elegante y moderno.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+
   // ---- TALLA 18-24 MESES ----
   {
     id: "mk-vestido-18-24-mixxed-cod-90",
@@ -5473,7 +5502,7 @@ const PRODUCTS = [
     sizes: [
       {
         name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [{ name: "Rosa-Beige", hex: "#F8BBD0" }],
       },
     ],
     season: "todo-el-año",
@@ -5539,34 +5568,6 @@ const PRODUCTS = [
       "./public/img/vestidos-nina/2-conjunto-ni-a-2-piezas-chaqueta-manga-90-18-24M.jpg",
     description:
       "Conjunto de 2 piezas con chaqueta. Ideal para mantener a tu bebé abrigada con estilo.",
-    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-vestido-chaleco-gris-cod-90",
-    slug: "vestido-chaleco-gris-cod-90",
-    name: "Vestido con Chaleco Gris para Bebé",
-    category: "vestidos-nina",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "18-24 Meses",
-        colors: [{ name: "Gris", hex: "#9E9E9E" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/vestidos-nina/vestido-chaleco-gris-chaqueta-c-90-18-24M.jpg",
-    ],
-    realImage:
-      "./public/img/vestidos-nina/vestido-chaleco-gris-chaqueta-c-90-18-24M.jpg",
-    description: "Vestido con chaleco gris. Diseño elegante y moderno.",
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
@@ -5736,6 +5737,7 @@ const PRODUCTS = [
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
+  // ---- TALLA 3 AÑOS ----
   {
     id: "mk-vestido-rojo-borgona-cod-100",
     slug: "vestido-rojo-borgona-cod-100",
@@ -5749,7 +5751,7 @@ const PRODUCTS = [
     stock: 1,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Rojo", hex: "#EC1414" }],
       },
     ],
@@ -5762,6 +5764,7 @@ const PRODUCTS = [
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
+  // ---- TALLA 3 AÑOS ----
   {
     id: "mk-vestido-princesa-flores-rosa-cod-100",
     slug: "vestido-princesa-flores-rosa-cod-100",
@@ -5775,7 +5778,7 @@ const PRODUCTS = [
     stock: 1,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Rosa", hex: "#C2185B" }],
       },
     ],
@@ -5950,7 +5953,7 @@ const PRODUCTS = [
     sizes: [
       {
         name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [{ name: "RoJO", hex: "#FF0000" }],
       },
     ],
     season: "todo-el-año",
@@ -5978,7 +5981,7 @@ const PRODUCTS = [
     sizes: [
       {
         name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [{ name: "ROJO", hex: "#FF0000" }],
       },
     ],
     season: "todo-el-año",
@@ -6006,7 +6009,7 @@ const PRODUCTS = [
     sizes: [
       {
         name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [{ name: "Celeste", hex: "#B6E5F5" }],
       },
     ],
     season: "todo-el-año",
@@ -6050,7 +6053,7 @@ const PRODUCTS = [
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 4 AÑOS ----
+  // ---- TALLA 3 AÑOS ----
   {
     id: "mk-vestido-4-floral-con-cod-120",
     slug: "vestido-4-floral-con-cod-120",
@@ -6064,8 +6067,8 @@ const PRODUCTS = [
     stock: 15,
     sizes: [
       {
-        name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        name: "3 Años",
+        colors: [{ name: "Lila", hex: "#B39DDB" }],
       },
     ],
     season: "todo-el-año",
@@ -6080,6 +6083,8 @@ const PRODUCTS = [
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
+
+  // ---- TALLA 4 AÑOS ----
   {
     id: "mk-vestido-4-rosa-floreada-cod-120",
     slug: "vestido-4-rosa-floreada-cod-120",
