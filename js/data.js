@@ -88,15 +88,27 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
+        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+      },
+      {
+        name: "3 Años",
+        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+      },
+      {
+        name: "6 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "todo-el-año",
-    images: ["./public/img/cardigans-nina/cardigan-fresa-90-18-24M.jpg"],
+    images: [
+      "./public/img/cardigans-nina/cardigan-fresa-90-18-24M.jpg",
+      "./public/img/cardigans-nina/cardigan-fresa-110-3A.jpg",
+      "./public/img/cardigans-nina/cardigan-fresa-140-6A.jpg",
+    ],
     realImage: "./public/img/cardigans-nina/cardigan-fresa-90-18-24M.jpg",
     description:
       "Cardigan de punto suave con diseño de fresas. Cuello en V y botones frontales. Suave, abrigador y no pica. Ideal para colegio y salidas.",
@@ -117,16 +129,21 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
+        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+      },
+      {
+        name: "6 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "todo-el-año",
     images: [
       "./public/img/cardigans-nina/cardigan-corazones-acuarela-100-2A.jpg",
+      "./public/img/cardigans-nina/c-rdigan-rosa-con-corazones-140-6A.jpg",
     ],
     realImage:
       "./public/img/cardigans-nina/cardigan-corazones-acuarela-100-2A.jpg",
@@ -147,7 +164,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -177,16 +194,25 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
+        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+      },
+      {
+        name: "3 Años",
+        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+      },
+      {
+        name: "6 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "todo-el-año",
     images: [
       "./public/img/cardigans-nina/cardigan-diamantes-conejitos-100-2A.jpg",
+      "./public/img/cardigans-nina/c-rdigan-diamantes-y-conejitos-110-3A.jpg",
     ],
     realImage:
       "./public/img/cardigans-nina/cardigan-diamantes-conejitos-100-2A.jpg",
@@ -207,7 +233,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -234,7 +260,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -261,7 +287,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -307,37 +333,8 @@ const PRODUCTS = [
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 2-3 AÑOS ----
-  {
-    id: "mk-cardigan-nina-diamantes-conejitos-2-3",
-    slug: "cardigan-nina-diamantes-conejitos-2-3",
-    name: "Cardigan de Punto con Conejitos y Diamantes para Niña",
-    category: "cardigans-nina",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/cardigans-nina/c-rdigan-diamantes-y-conejitos-110-3A.jpg",
-    ],
-    realImage:
-      "./public/img/cardigans-nina/c-rdigan-diamantes-y-conejitos-110-3A.jpg",
-    description:
-      "Cardigan de punto suave con diseño de conejitos y diamantes. Cuello en V y botones frontales. Suave, abrigador y no pica.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
+  // ---- TALLA 3 AÑOS ----
+
   {
     id: "mk-cardigan-nina-nuevo-floral-2-3",
     slug: "cardigan-nina-nuevo-floral-2-3",
@@ -348,10 +345,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -375,10 +372,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Azul", hex: "#64B5F6" }],
       },
     ],
@@ -402,10 +399,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -424,33 +421,6 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 3-4 AÑOS ----
-  {
-    id: "mk-cardigan-nina-fresa-3-4",
-    slug: "cardigan-nina-fresa-3-4",
-    name: "Cardigan de Punto con Fresas para Niña",
-    category: "cardigans-nina",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: ["./public/img/cardigans-nina/cardigan-fresa-110-3A.jpg"],
-    realImage: "./public/img/cardigans-nina/cardigan-fresa-110-3A.jpg",
-    description:
-      "Cardigan de punto suave con diseño de fresas. Cuello en V y botones frontales. Suave, abrigador y no pica.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
 
   // ---- TALLA 4-5 AÑOS ----
   {
@@ -467,6 +437,10 @@ const PRODUCTS = [
     sizes: [
       {
         name: "4 Años",
+        colors: [{ name: "Beige", hex: "#F5F5DC" }],
+      },
+      {
+        name: "7 Años",
         colors: [{ name: "Beige", hex: "#F5F5DC" }],
       },
     ],
@@ -493,7 +467,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -525,7 +499,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -555,7 +529,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -585,7 +559,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -612,7 +586,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -642,7 +616,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -672,7 +646,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -699,7 +673,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -721,93 +695,7 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 6-7 AÑOS ----
-  {
-    id: "mk-cardigan-nina-diamantes-conejitos-6",
-    slug: "cardigan-nina-diamantes-conejitos-6",
-    name: "Cardigan de Punto con Conejitos y Diamantes para Niña",
-    category: "cardigans-nina",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/cardigans-nina/cardigan-diamantes-conejitos-100-2A.jpg",
-    ],
-    realImage:
-      "./public/img/cardigans-nina/cardigan-diamantes-conejitos-100-2A.jpg",
-    description:
-      "Cardigan de punto suave con diseño de conejitos y diamantes. Cuello en V y botones frontales.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-cardigan-nina-fresa-6",
-    slug: "cardigan-nina-fresa-6",
-    name: "Cardigan de Punto con Fresas para Niña",
-    category: "cardigans-nina",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: ["./public/img/cardigans-nina/cardigan-fresa-140-6A.jpg"],
-    realImage: "./public/img/cardigans-nina/cardigan-fresa-140-6A.jpg",
-    description:
-      "Cardigan de punto suave con diseño de fresas. Cuello en V y botones frontales. Suave, abrigador y no pica.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-cardigan-nina-corazones-6",
-    slug: "cardigan-nina-corazones-6",
-    name: "Cardigan de Punto con Corazones para Niña",
-    category: "cardigans-nina",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/cardigans-nina/c-rdigan-rosa-con-corazones-140-6A.jpg",
-    ],
-    realImage:
-      "./public/img/cardigans-nina/c-rdigan-rosa-con-corazones-140-6A.jpg",
-    description:
-      "Cardigan de punto suave con diseño de corazones. Cuello en V y botones frontales. Suave, abrigador y no pica.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
+
   {
     id: "mk-cardigan-nina-rojo-elegante-6",
     slug: "cardigan-nina-rojo-elegante-6",
@@ -818,7 +706,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "6 Años",
@@ -845,7 +733,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "6 Años",
@@ -875,7 +763,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "6 Años",
@@ -897,36 +785,7 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 7-8 AÑOS ----
-  {
-    id: "mk-cardigan-nina-fresa-7",
-    slug: "cardigan-nina-fresa-7",
-    name: "Cardigan de Punto con Fresas para Niña",
-    category: "cardigans-nina",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 2,
-    sizes: [
-      {
-        name: "7 Años",
-        colors: [{ name: "Beige", hex: "#F5F5DC" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/cardigans-nina/c-rdigan-punto-estampado-de-fresas-120-4A.jpg",
-    ],
-    realImage:
-      "./public/img/cardigans-nina/c-rdigan-punto-estampado-de-fresas-120-4A.jpg",
-    description:
-      "Cardigan de punto suave con diseño de fresas. Cuello en V y botones frontales. Suave, abrigador y no pica. Stock limitado.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
+
   {
     id: "mk-cardigan-nina-fresas-corazones-7",
     slug: "cardigan-nina-fresas-corazones-7",
@@ -937,7 +796,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "7 Años",
@@ -973,11 +832,15 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        name: "12-18 Meses",
+        colors: [{ name: "celeste", hex: "#05f1fd" }],
+      },
+      {
+        name: "4 Años",
+        colors: [{ name: "celeste", hex: "#05f1fd" }],
       },
     ],
     season: "todo-el-año",
@@ -1000,10 +863,14 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
+        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+      },
+      {
+        name: "6 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -1027,10 +894,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -1056,10 +923,14 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
+        colors: [{ name: "Beige", hex: "#F5F5DC" }],
+      },
+      {
+        name: "6 Años",
         colors: [{ name: "Beige", hex: "#F5F5DC" }],
       },
     ],
@@ -1083,7 +954,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -1101,7 +972,7 @@ const PRODUCTS = [
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 2-3 AÑOS ----
+  // ---- TALLA 3 AÑOS ----
   {
     id: "mk-cardigan-nino-aventuras-2-3",
     slug: "cardigan-nino-aventuras-2-3",
@@ -1112,10 +983,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -1139,10 +1010,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -1166,10 +1037,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -1193,10 +1064,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "2 Años",
+        name: "3 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -1211,7 +1082,7 @@ const PRODUCTS = [
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 3-4 AÑOS ----
+  // ---- TALLA 4 AÑOS ----
   {
     id: "mk-cardigan-nino-azul-rayas-3-4",
     slug: "cardigan-nino-azul-rayas-3-4",
@@ -1222,10 +1093,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "3 Años",
+        name: "4 Años",
         colors: [{ name: "Beige", hex: "#F5F5DC" }],
       },
     ],
@@ -1249,10 +1120,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "3 Años",
+        name: "4 Años",
         colors: [{ name: "Camel", hex: "#D7CCC8" }],
       },
     ],
@@ -1269,36 +1140,7 @@ const PRODUCTS = [
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
-  {
-    id: "mk-cardigan-nino-dinos-3-4",
-    slug: "cardigan-nino-dinos-3-4",
-    name: "Cardigan de Punto con Dinosaurios Coloridos para Niño",
-    category: "cardigans-nino",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/cardigans-nino/estampado-de-dinosaurios-coloridos-120-4A.jpg",
-    ],
-    realImage:
-      "./public/img/cardigans-nino/estampado-de-dinosaurios-coloridos-120-4A.jpg",
-    description:
-      "Cardigan de punto suave con dinosaurios coloridos. Cuello en V y botones frontales.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
+
   {
     id: "mk-cardigan-nino-camellos-02-3-4",
     slug: "cardigan-nino-camellos-02-3-4",
@@ -1309,10 +1151,10 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "3 Años",
+        name: "4 Años",
         colors: [{ name: "Camel", hex: "#D7CCC8" }],
       },
     ],
@@ -1327,7 +1169,7 @@ const PRODUCTS = [
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 4-5 AÑOS ----
+  // ---- TALLA 5 AÑOS ----
   {
     id: "mk-cardigan-nino-franjas-4-5",
     slug: "cardigan-nino-franjas-4-5",
@@ -1338,10 +1180,14 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "4 Años",
+        name: "5 Años",
+        colors: [{ name: "Azul", hex: "#64B5F6" }],
+      },
+      {
+        name: "6 Años",
         colors: [{ name: "Azul", hex: "#64B5F6" }],
       },
     ],
@@ -1361,33 +1207,6 @@ const PRODUCTS = [
 
   // ---- TALLA 6-7 AÑOS ----
   {
-    id: "mk-cardigan-nino-dino-pastel-6",
-    slug: "cardigan-nino-dino-pastel-6",
-    name: "Cardigan de Punto con Dinosaurio Pastel para Niño",
-    category: "cardigans-nino",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "6 Años",
-        colors: [{ name: "Beige", hex: "#F5F5DC" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: ["./public/img/cardigans-nino/chompa-dino-pastel-100-2A.jpg"],
-    realImage: "./public/img/cardigans-nino/chompa-dino-pastel-100-2A.jpg",
-    description:
-      "Cardigan de punto suave con dinosaurio pastel. Cuello en V y botones frontales.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
     id: "mk-cardigan-nino-ositos-beige-6",
     slug: "cardigan-nino-ositos-beige-6",
     name: "Cardigan de Punto Beige con Ositos para Niño",
@@ -1397,7 +1216,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "6 Años",
@@ -1409,63 +1228,6 @@ const PRODUCTS = [
     realImage: "./public/img/cardigans-nino/chompa-de-ositos-beige-140-6A.jpg",
     description:
       "Cardigan de punto suave beige con ositos. Cuello en V y botones frontales. Suave, abrigador y no pica.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-cardigan-nino-monstruos-6",
-    slug: "cardigan-nino-monstruos-6",
-    name: "Cardigan de Punto con Monstruos para Niño",
-    category: "cardigans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: ["./public/img/cardigans-nino/chompa-monstruos-90-18-24M.jpg"],
-    realImage: "./public/img/cardigans-nino/chompa-monstruos-90-18-24M.jpg",
-    description:
-      "Cardigan de punto suave con diseño de monstruos. Cuello en V y botones frontales.",
-    material:
-      "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-cardigan-nino-franjas-6",
-    slug: "cardigan-nino-franjas-6",
-    name: "Cardigan de Punto con Franjas Azules y Cremas para Niño",
-    category: "cardigans-nino",
-    price: 39,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "6 Años",
-        colors: [{ name: "Azul", hex: "#64B5F6" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/cardigans-nino/franjas-horizontales-tonos-de-azul-y-cre-130-5A.jpg",
-    ],
-    realImage:
-      "./public/img/cardigans-nino/franjas-horizontales-tonos-de-azul-y-cre-130-5A.jpg",
-    description:
-      "Cardigan de punto suave con franjas horizontales azules y cremas. Cuello en V y botones frontales.",
     material:
       "Tejido de punto premium: 60% Acrílico, 35% Poliéster, 5% Elastano. Suave, cálido, no pica.",
     cuidados:
@@ -1487,7 +1249,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "1-2 Años",
@@ -1538,12 +1300,12 @@ const PRODUCTS = [
     slug: "casaca-corazon",
     name: "Casaca de Invierno con Corazón para Niña",
     category: "casacas-nina",
-    price: 49,
-    oldPrice: null,
-    badge: "nuevo",
+    price: 45.1,
+    oldPrice: 55,
+    badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "1-2 Años",
@@ -1596,12 +1358,12 @@ const PRODUCTS = [
     slug: "casaca-correa",
     name: "Casaca de Invierno con Correa para Niña",
     category: "casacas-nina",
-    price: 49,
-    oldPrice: null,
-    badge: "nuevo",
+    price: 45.1,
+    oldPrice: 55,
+    badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "1-2 Años",
@@ -1653,12 +1415,12 @@ const PRODUCTS = [
     slug: "casaca-mariposa-bombom",
     name: "Casaca de Invierno con Mariposa Bombom para Niña",
     category: "casacas-nina",
-    price: 49,
-    oldPrice: null,
-    badge: "nuevo",
+    price: 45.1,
+    oldPrice: 55,
+    badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "1-2 Años",
@@ -1708,12 +1470,12 @@ const PRODUCTS = [
     slug: "casaca-mariposa-3d",
     name: "Casaca de Invierno con Mariposa 3D para Niña",
     category: "casacas-nina",
-    price: 49,
-    oldPrice: null,
-    badge: "nuevo",
+    price: 45.1,
+    oldPrice: 55,
+    badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "1-2 Años",
@@ -1765,12 +1527,12 @@ const PRODUCTS = [
     slug: "casaca-gopenni",
     name: "Casaca de Invierno Gopenni para Niño",
     category: "casacas-nino",
-    price: 49,
-    oldPrice: null,
-    badge: "nuevo",
+    price: 45.1,
+    oldPrice: 55,
+    badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "1-2 Años",
@@ -1816,12 +1578,12 @@ const PRODUCTS = [
     slug: "casaca-hong",
     name: "Casaca de Invierno Hong para Niño",
     category: "casacas-nino",
-    price: 49,
-    oldPrice: null,
-    badge: "nuevo",
+    price: 45.1,
+    oldPrice: 55,
+    badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "1-2 Años",
@@ -1884,19 +1646,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        name: "12-18 Meses",
+        colors: [{ name: "beige", hex: "#F5F5DC" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nina/12m-conjunto-3-pzs-ni-a-chaqueta-chompa-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nina/12m-conjunto-3-pzs-ni-a-chaqueta-chompa-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nina/12m-conjunto-3-pzs-ni-a-chaqueta-chompa-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nina/12m-conjunto-3-pzs-ni-a-chaqueta-chompa-80-12-18M.jpg",
     description:
       "Conjunto de invierno de 3 piezas para niña. Incluye chaqueta, top y pantalón coordinado. Tejido suave y calentito, perfecto para los días fríos. Ideal para mantenerla abrigada con estilo.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -1913,19 +1675,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        name: "12-18 Meses",
+        colors: [{ name: "lila", hex: "#E6E6FA" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nina/12m-conjunto-beb-reci-n-nacido-3-piezas-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nina/12m-conjunto-beb-reci-n-nacido-3-piezas-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nina/12m-conjunto-beb-reci-n-nacido-3-piezas-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nina/12m-conjunto-beb-reci-n-nacido-3-piezas-80-12-18M.jpg",
     description:
       "Conjunto de 3 piezas para bebé recién nacido. Incluye body, pantalón y chaleco. Tejido súper suave y calentito. Perfecto para mantener a tu bebé abrigado y cómodo.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -1942,10 +1704,14 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
+        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+      },
+      {
+        name: "3 Años",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
@@ -1971,7 +1737,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2002,7 +1768,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -2031,7 +1797,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -2060,7 +1826,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -2091,7 +1857,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2120,7 +1886,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2149,7 +1915,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2178,7 +1944,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2207,7 +1973,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2236,7 +2002,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2269,7 +2035,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2298,7 +2064,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2327,7 +2093,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2356,7 +2122,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -2387,7 +2153,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -2416,7 +2182,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -2445,7 +2211,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -2474,7 +2240,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -2503,7 +2269,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -2532,7 +2298,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -2563,7 +2329,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -2592,7 +2358,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -2621,7 +2387,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -2652,7 +2418,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "6 Años",
@@ -2661,10 +2427,10 @@ const PRODUCTS = [
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nina/6-conjunto-2pzs-ni-a-elegante-lazo-casac-140-6A-01.jpg",
+      "./public/img/conjuntos-invierno-nina/6-conjunto-2pzs-ni-a-elegante-lazo-casac-140-6A.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nina/6-conjunto-2pzs-ni-a-elegante-lazo-casac-140-6A-01.jpg",
+      "./public/img/conjuntos-invierno-nina/6-conjunto-2pzs-ni-a-elegante-lazo-casac-140-6A.jpg",
     description:
       "Conjunto de 2 piezas elegante con lazo. Diseño sofisticado y moderno. Ideal para ocasiones especiales.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -2687,19 +2453,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-calvin-hoodie-letras-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-calvin-hoodie-letras-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-calvin-hoodie-letras-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-calvin-hoodie-letras-80-12-18M.jpg",
     description:
       "Conjunto de 2 piezas Calvin Hoodie con letras. Diseño moderno y cómodo. Perfecto para los días fríos.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -2716,19 +2482,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-ni-o-ch-ndal-deportiv-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-ni-o-ch-ndal-deportiv-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-ni-o-ch-ndal-deportiv-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-ni-o-ch-ndal-deportiv-80-12-18M.jpg",
     description:
       "Conjunto deportivo de 2 piezas para niño. Cómodo y moderno. Ideal para jugar y moverse.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -2745,19 +2511,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-ni-o-sudadera-capucha-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-ni-o-sudadera-capucha-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-ni-o-sudadera-capucha-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-2-pzs-ni-o-sudadera-capucha-80-12-18M.jpg",
     description:
       "Conjunto de 2 piezas con sudadera y capucha. Suave y calentito. Ideal para el invierno.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -2774,19 +2540,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-piezas-para-beb-ni-o-colo-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-piezas-para-beb-ni-o-colo-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-piezas-para-beb-ni-o-colo-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-piezas-para-beb-ni-o-colo-80-12-18M.jpg",
     description:
       "Conjunto de 3 piezas para bebé niño. Incluye body, pantalón y chaleco. Súper suave y calentito.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -2803,19 +2569,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-beb-piel-de-oso-negra-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-beb-piel-de-oso-negra-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-beb-piel-de-oso-negra-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-beb-piel-de-oso-negra-80-12-18M.jpg",
     description:
       "Conjunto de 3 piezas piel de oso para bebé. Súper calentito y adorable. Perfecto para el invierno.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -2832,19 +2598,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
         colors: [{ name: "Rosa", hex: "#F8BBD0" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-beb-sudadera-letras-c-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-beb-sudadera-letras-c-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-beb-sudadera-letras-c-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-beb-sudadera-letras-c-80-12-18M.jpg",
     description:
       "Conjunto de 3 piezas con sudadera y letras. Diseño moderno y calentito. Ideal para bebés.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -2861,19 +2627,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
-        name: "18-24 Meses",
+        name: "12-18 Meses",
         colors: [{ name: "Gris", hex: "#9E9E9E" }],
       },
     ],
     season: "invierno",
     images: [
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-le-n-simba-gris-plomo-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-le-n-simba-gris-plomo-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-le-n-simba-gris-plomo-90-18-24M.jpg",
+      "./public/img/conjuntos-invierno-nino/12m-conjunto-3-pzs-le-n-simba-gris-plomo-80-12-18M.jpg",
     description:
       "Conjunto de 3 piezas con diseño León Simba en gris. Súper tierno y calentito.",
     material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
@@ -2890,7 +2656,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2919,7 +2685,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2948,7 +2714,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2977,7 +2743,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -3006,7 +2772,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -3041,7 +2807,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -3070,7 +2836,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -3099,7 +2865,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -3128,7 +2894,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -3161,11 +2927,19 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [{ name: "Azul", hex: "#4285F4" }],
+      },
+      {
+        name: "3 Años",
+        colors: [{ name: "Azul", hex: "#4285F4" }],
+      },
+      {
+        name: "5 Años",
+        colors: [{ name: "Azul", hex: "#4285F4" }],
       },
     ],
     season: "invierno",
@@ -3190,11 +2964,15 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [{ name: "Amarillo", hex: "#fffca0" }],
+      },
+      {
+        name: "3 Años",
+        colors: [{ name: "Amarillo", hex: "#fffca0" }],
       },
     ],
     season: "invierno",
@@ -3221,7 +2999,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -3250,7 +3028,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -3279,7 +3057,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -3308,7 +3086,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -3337,7 +3115,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -3366,7 +3144,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -3395,7 +3173,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -3414,68 +3192,6 @@ const PRODUCTS = [
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
-  {
-    id: "mk-conjunto-nino-3-urbano",
-    slug: "conjunto-nino-3-urbano",
-    name: "Conjunto de 2 Piezas Urbano para Niño",
-    category: "conjuntos-invierno-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-      {
-        name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "invierno",
-    images: [
-      "./public/img/conjuntos-invierno-nino/4-conjunto-urbano-ni-o-2-piezas-110-3A.jpg",
-    ],
-    realImage:
-      "./public/img/conjuntos-invierno-nino/4-conjunto-urbano-ni-o-2-piezas-110-3A.jpg",
-    description:
-      "Conjunto de 2 piezas estilo urbano para niño. Moderno y cómodo. Perfecto para el día a día.",
-    material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-conjunto-nino-3-set-abrigador",
-    slug: "conjunto-nino-3-set-abrigador",
-    name: "Set Abrigador de 3 Piezas para Bebé",
-    category: "conjuntos-invierno-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "invierno",
-    images: [
-      "./public/img/conjuntos-invierno-nino/4-set-abrigador-beb-3-pzs-110-3A.jpg",
-    ],
-    realImage:
-      "./public/img/conjuntos-invierno-nino/4-set-abrigador-beb-3-pzs-110-3A.jpg",
-    description:
-      "Set abrigador de 3 piezas para bebé. Súper calentito y cómodo. Ideal para el invierno.",
-    material: "65% Algodón, 30% Poliéster, 5% Elastano. Franela suave.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
 
   // ---- TALLA 4 AÑOS ----
   {
@@ -3488,7 +3204,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -3517,7 +3233,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -3546,7 +3262,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -3575,7 +3291,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -3604,7 +3320,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -3633,7 +3349,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -3662,7 +3378,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -3691,7 +3407,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -3722,7 +3438,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -3751,7 +3467,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -3780,7 +3496,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -3809,7 +3525,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -3833,198 +3549,221 @@ const PRODUCTS = [
   // JEANS NIÑA - FORMATO DINÁMICO (Tallas con Colores Vinculados)
   // ============================================================
 
-  // ---- TALLA 18-24 MESES ----
+  // ============================================================
+  // TALLA 80 - 12-18 MESES (2 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nina-18-24-226",
-    slug: "jeans-nina-18-24-226",
-    name: "Set Cherry Love con Jean para Niña",
+    id: "mk-jeans-nina-80-chompa-lazo",
+    slug: "cod-230-chompa-y-jean-con-lazo-pack-80-12-18M",
+    name: "Chompa y Jean con Lazo - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 8,
+    stock: 12,
     sizes: [
       {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        name: "12-18 Meses",
+        colors: [
+          { name: "Rosa", hex: "#F8BBD0" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "otoño-invierno",
     images: [
-      "./public/img/jeans-nina/cod-226-set-tr-o-cherry-love-con-jean-bo-90-18-24M.jpg",
+      "./public/img/jeans-nina/cod-230-chompa-y-jean-con-lazo-pack-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-226-set-tr-o-cherry-love-con-jean-bo-90-18-24M.jpg",
+      "./public/img/jeans-nina/cod-230-chompa-y-jean-con-lazo-pack-80-12-18M.jpg",
     description:
-      "Set Cherry Love con Jean para niña. Incluye top con estampado de cerezas y jeans a juego. Perfecto para un look dulce y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta. Planchar a baja temperatura del revés.",
+      "Chompa y jean con lazo. Look dulce y elegante para tu pequeña.",
+    material:
+      "Chompa: 60% Algodón, 40% Acrílico. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-18-24-227",
-    slug: "jeans-nina-18-24-227",
-    name: "Set Chompa Blanca con Cereza y Jean para Niña",
+    id: "mk-jeans-nina-80-denim-cerezas",
+    slug: "cod-229-conjunto-denim-cerezas-pack-80-12-18M",
+    name: "Conjunto Denim Cerezas - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 10,
+    stock: 14,
     sizes: [
       {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        name: "12-18 Meses",
+        colors: [
+          { name: "Rojo", hex: "#DC143C" },
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: [
-      "./public/img/jeans-nina/cod-227-set-chompa-blanca-cereza-y-jean-90-18-24M.jpg",
+      "./public/img/jeans-nina/cod-229-conjunto-denim-cerezas-pack-80-12-18M.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-227-set-chompa-blanca-cereza-y-jean-90-18-24M.jpg",
-    description:
-      "Set de chompa blanca con estampado de cereza y jeans a juego. Ideal para un look fresco y juvenil.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-18-24-228",
-    slug: "jeans-nina-18-24-228",
-    name: "Set Chompa Rosada con Lazo y Jean para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-228-chompa-rosada-bow-y-jean-pack-90-18-24M.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-228-chompa-rosada-bow-y-jean-pack-90-18-24M.jpg",
-    description:
-      "Set de chompa rosada con lazo y jeans a juego. Perfecto para un look tierno y femenino.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-18-24-229",
-    slug: "jeans-nina-18-24-229",
-    name: "Set Denim con Cerezas para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-229-conjunto-denim-cerezas-pack-90-18-24M.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-229-conjunto-denim-cerezas-pack-90-18-24M.jpg",
-    description:
-      "Conjunto denim con estampado de cerezas. Ideal para un look casual y divertido.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-18-24-230",
-    slug: "jeans-nina-18-24-230",
-    name: "Set Chompa y Jean con Lazo para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-230-chompa-y-jean-con-lazo-pack-90-18-24M.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-230-chompa-y-jean-con-lazo-pack-90-18-24M.jpg",
-    description:
-      "Set de chompa y jean con detalle de lazo. Perfecto para un look dulce y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "./public/img/jeans-nina/cod-229-conjunto-denim-cerezas-pack-80-12-18M.jpg",
+    description: "Conjunto denim con estampado de cerezas. ¡Fresco y adorable!",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 2 AÑOS ----
+  // ============================================================
+  // TALLA 90 - 18-24 MESES (5 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nina-2-2017",
-    slug: "jeans-nina-2-2017",
-    name: "Polo Manga Corta con Corazón y Jean para Niña",
+    id: "mk-jeans-nina-90-chompa-bow",
+    slug: "cod-228-chompa-rosada-bow-y-jean-pack-90-18-24M",
+    name: "Chompa Rosada Bow y Jean - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 14,
+    stock: 2,
     sizes: [
       {
-        name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        name: "18-24 Meses",
+        colors: [
+          { name: "Rosa", hex: "#F8BBD0" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "otoño-invierno",
     images: [
-      "./public/img/jeans-nina/cod-2017-polo-manga-corta-heart-pantalon-100-2A.jpg",
+      "./public/img/jeans-nina/cod-228-chompa-rosada-bow-y-jean-pack-90-18-24M.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-2017-polo-manga-corta-heart-pantalon-100-2A.jpg",
-    description:
-      "Polo manga corta con estampado de corazón y jeans a juego. Ideal para un look casual y divertido.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "./public/img/jeans-nina/cod-228-chompa-rosada-bow-y-jean-pack-90-18-24M.jpg",
+    description: "Chompa rosada con lazo y jean. ¡Look dulce y femenino!",
+    material:
+      "Chompa: 60% Algodón, 40% Acrílico. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-2-2018",
-    slug: "jeans-nina-2-2018",
-    name: "Polera Manga Larga y Jean Azul para Niña",
+    id: "mk-jeans-nina-90-chompa-cereza",
+    slug: "cod-227-set-chompa-blanca-cereza-y-jean-90-18-24M",
+    name: "Set Chompa Blanca Cereza y Jean",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 13,
+    sizes: [
+      {
+        name: "18-24 Meses",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rojo", hex: "#DC143C" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nina/cod-227-set-chompa-blanca-cereza-y-jean-90-18-24M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-227-set-chompa-blanca-cereza-y-jean-90-18-24M.jpg",
+    description: "Set de chompa blanca con cerezas y jean. ¡Adorable y fresco!",
+    material:
+      "Chompa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-90-cherry-love",
+    slug: "cod-226-set-tr-o-cherry-love-con-jean-bo-90-18-24M",
+    name: "Set Trío Cherry Love con Jean - Bow",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 14,
+    sizes: [
+      {
+        name: "18-24 Meses",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rojo", hex: "#DC143C" },
+          { name: "Rosa", hex: "#F8BBD0" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nina/cod-226-set-tr-o-cherry-love-con-jean-bo-90-18-24M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-226-set-tr-o-cherry-love-con-jean-bo-90-18-24M.jpg",
+    description: "Set trío Cherry Love con jean y lazo. ¡Ternura y estilo!",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+
+  // ============================================================
+  // TALLA 100 - 2 AÑOS (5 productos)
+  // ============================================================
+  {
+    id: "mk-jeans-nina-100-blusa-yelow",
+    slug: "cod-2020-blusa-manga-larga-yelow-lazos-p-100-2A",
+    name: "Blusa Manga Larga Yelow Lazos - Pack",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 8,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
-        colors: [{ name: "Azul", hex: "#64B5F6" }],
+        colors: [
+          { name: "Amarillo", hex: "#FFD700" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nina/cod-2020-blusa-manga-larga-yelow-lazos-p-100-2A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-2020-blusa-manga-larga-yelow-lazos-p-100-2A.jpg",
+    description: "Blusa manga larga amarilla con lazos. ¡Dulce y radiante!",
+    material: "100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-100-polera-jeans",
+    slug: "cod-2018-polera-manga-larga-jeans-azul-c-100-2A",
+    name: "Polera Manga Larga + Jeans Azul - Conjunto",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -4033,116 +3772,167 @@ const PRODUCTS = [
     ],
     realImage:
       "./public/img/jeans-nina/cod-2018-polera-manga-larga-jeans-azul-c-100-2A.jpg",
-    description:
-      "Polera manga larga con jeans azul. Perfecto para un look cómodo y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    description: "Polera manga larga con jeans azul. Look casual y cómodo.",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-2-2020",
-    slug: "jeans-nina-2-2020",
-    name: "Blusa Manga Larga con Lazos y Jean para Niña",
+    id: "mk-jeans-nina-100-heart",
+    slug: "cod-2017-polo-manga-corta-heart-pantalon-100-2A",
+    name: "Polo Manga Corta Heart + Pantalón",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 14,
     sizes: [
       {
         name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rojo", hex: "#DC143C" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: [
-      "./public/img/jeans-nina/cod-2020-blusa-manga-larga-yelow-lazos-p-100-2A.jpg",
+      "./public/img/jeans-nina/cod-2017-polo-manga-corta-heart-pantalon-100-2A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-2020-blusa-manga-larga-yelow-lazos-p-100-2A.jpg",
-    description:
-      "Blusa manga larga con detalle de lazos y jeans a juego. Ideal para un look dulce y elegante.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "./public/img/jeans-nina/cod-2017-polo-manga-corta-heart-pantalon-100-2A.jpg",
+    description: "Polo manga corta con corazón y pantalón. ¡Con mucho amor!",
+    material:
+      "Polo: 100% Algodón. Pantalón: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-2-223",
-    slug: "jeans-nina-2-223",
-    name: "Chaleco de Cuello y Jean para Niña",
+    id: "mk-jeans-nina-100-top-puntilla",
+    slug: "cod-224-conjunto-de-top-de-puntilla-con-100-2A",
+    name: "Conjunto de Top de Puntilla con Jean",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 13,
     sizes: [
       {
         name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rosa", hex: "#F8BBD0" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nina/cod-224-conjunto-de-top-de-puntilla-con-100-2A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-224-conjunto-de-top-de-puntilla-con-100-2A.jpg",
+    description: "Top de puntilla con jean. Look delicado y femenino.",
+    material:
+      "Top: 95% Algodón, 5% Spandex. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-100-chaleco",
+    slug: "cod-223-conjunto-casual-chaleco-de-cuell-100-2A",
+    name: "Conjunto Casual Chaleco de Cuello + Jean",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          { name: "rosa", hex: "#F8BBD0" },
+          { name: "azul", hex: "#1A3A5C" },
+        ],
+      },
+      {
+        name: "3 Años",
+        colors: [
+          { name: "rosa", hex: "#F8BBD0" },
+          { name: "azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
     images: [
       "./public/img/jeans-nina/cod-223-conjunto-casual-chaleco-de-cuell-100-2A.jpg",
     ],
     realImage:
       "./public/img/jeans-nina/cod-223-conjunto-casual-chaleco-de-cuell-100-2A.jpg",
     description:
-      "Conjunto casual con chaleco de cuello y jeans. Perfecto para un look moderno y cómodo.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-2-224",
-    slug: "jeans-nina-2-224",
-    name: "Top de Puntilla y Jean para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-224-conjunto-de-top-de-puntilla-con-100-2A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-224-conjunto-de-top-de-puntilla-con-100-2A.jpg",
-    description:
-      "Top de puntilla con jeans a juego. Ideal para un look delicado y femenino.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Conjunto casual de chaleco con cuello y jean. ¡Look con estilo!",
+    material:
+      "Chaleco: 60% Algodón, 40% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 3 AÑOS ----
+  // ============================================================
+  // TALLA 110 - 3 AÑOS (3 productos)
+  // ============================================================
+
   {
-    id: "mk-jeans-nina-3-221",
-    slug: "jeans-nina-3-221",
-    name: "Blusa Manga Larga con Rayas y Jean para Niña",
+    id: "mk-jeans-nina-110-sudadera-vaquera",
+    slug: "cod-222-pantalones-vaqueros-sudadera-con-110-3A",
+    name: "Pantalones Vaqueros + Sudadera con Cuello",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 8,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Gris", hex: "#808080" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nina/cod-222-pantalones-vaqueros-sudadera-con-110-3A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-222-pantalones-vaqueros-sudadera-con-110-3A.jpg",
+    description:
+      "Pantalones vaqueros con sudadera de cuello. Look casual y acogedor.",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-110-blusa-rayas",
+    slug: "cod-221-blusa-de-manga-larga-de-rayas-co-110-3A",
+    name: "Blusa de Manga Larga de Rayas con Jean",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 13,
+    stock: 14,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -4151,178 +3941,127 @@ const PRODUCTS = [
     ],
     realImage:
       "./public/img/jeans-nina/cod-221-blusa-de-manga-larga-de-rayas-co-110-3A.jpg",
-    description:
-      "Blusa manga larga con rayas y jeans a juego. Perfecto para un look casual y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-3-222",
-    slug: "jeans-nina-3-222",
-    name: "Sudadera y Vaqueros para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-222-pantalones-vaqueros-sudadera-con-110-3A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-222-pantalones-vaqueros-sudadera-con-110-3A.jpg",
-    description:
-      "Conjunto de sudadera y vaqueros. Ideal para un look cómodo y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-3-223",
-    slug: "jeans-nina-3-223",
-    name: "Chaleco de Cuello y Jean para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-223-conjunto-casual-chaleco-de-cuell-100-2A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-223-conjunto-casual-chaleco-de-cuell-100-2A.jpg",
-    description:
-      "Conjunto casual con chaleco de cuello y jeans. Perfecto para un look moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    description: "Blusa manga larga a rayas con jean. Look clásico y elegante.",
+    material:
+      "Blusa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 4 AÑOS ----
+  // ============================================================
+  // TALLA 120 - 4 AÑOS (7 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nina-4-202",
-    slug: "jeans-nina-4-202",
-    name: "Blusa Manga Larga Yellow y Jean para Niña",
+    id: "mk-jeans-nina-120-lazo-negro",
+    slug: "cod-224-polera-manga-larga-lazo-negro-y-120-4A",
+    name: "Polera Manga Larga Lazo Negro y Jean",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-      {
-        name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Negro", hex: "#1A1A1A" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "otoño-invierno",
     images: [
-      "./public/img/jeans-nina/cod-202-blusa-manga-larga-yelow-pack-120-4A.jpg",
+      "./public/img/jeans-nina/cod-224-polera-manga-larga-lazo-negro-y-120-4A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-202-blusa-manga-larga-yelow-pack-120-4A.jpg",
-    description:
-      "Blusa manga larga yellow con jeans a juego. Ideal para un look fresco y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "./public/img/jeans-nina/cod-224-polera-manga-larga-lazo-negro-y-120-4A.jpg",
+    description: "Polera manga larga con lazo negro y jean. ¡Look con actitud!",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-4-209",
-    slug: "jeans-nina-4-209",
-    name: "Blusa Manga Larga Corta y Jean para Niña",
+    id: "mk-jeans-nina-120-flores",
+    slug: "cod-216-polo-manga-corta-flores-y-jeans-120-4A",
+    name: "Polo Manga Corta Flores y Jeans",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 14,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rosa", hex: "#F8BBD0" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: [
-      "./public/img/jeans-nina/cod-209-blusa-manga-larga-corta-traje-me-120-4A.jpg",
+      "./public/img/jeans-nina/cod-216-polo-manga-corta-flores-y-jeans-120-4A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-209-blusa-manga-larga-corta-traje-me-120-4A.jpg",
+      "./public/img/jeans-nina/cod-216-polo-manga-corta-flores-y-jeans-120-4A.jpg",
     description:
-      "Blusa manga larga corta con jeans a juego. Perfecto para un look moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Polo manga corta con estampado de flores y jeans. ¡Fresco y primaveral!",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-4-213",
-    slug: "jeans-nina-4-213",
-    name: "Polera Manga Larga y Jean para Niña",
+    id: "mk-jeans-nina-120-blusa-muneca",
+    slug: "cod-215-blusa-con-cuello-de-mu-eca-y-man-120-4A",
+    name: "Blusa con Cuello de Muñeca y Manga Larga",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 65,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 13,
     sizes: [
       {
         name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rosa", hex: "#F8BBD0" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "otoño-invierno",
     images: [
-      "./public/img/jeans-nina/cod-213-polera-manga-larga-y-pantalon-pi-120-4A.jpg",
+      "./public/img/jeans-nina/cod-215-blusa-con-cuello-de-mu-eca-y-man-120-4A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-213-polera-manga-larga-y-pantalon-pi-120-4A.jpg",
+      "./public/img/jeans-nina/cod-215-blusa-con-cuello-de-mu-eca-y-man-120-4A.jpg",
     description:
-      "Polera manga larga con jeans a juego. Ideal para un look cómodo y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Blusa con cuello de muñeca y manga larga. ¡Elegancia y ternura!",
+    material: "100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-4-214",
-    slug: "jeans-nina-4-214",
-    name: "Blusa Manga Larga y Jean para Niña",
+    id: "mk-jeans-nina-120-blusa-piezas",
+    slug: "cod-214-blusa-manga-larga-y-pantalon-pie-120-4A",
+    name: "Blusa Manga Larga y Pantalón - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
     sizes: [
       {
         name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -4332,495 +4071,485 @@ const PRODUCTS = [
     realImage:
       "./public/img/jeans-nina/cod-214-blusa-manga-larga-y-pantalon-pie-120-4A.jpg",
     description:
-      "Blusa manga larga con jeans a juego. Perfecto para un look elegante.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Pack de blusa manga larga y pantalón. Look coordinado y cómodo.",
+    material:
+      "Blusa: 100% Algodón. Pantalón: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-4-215",
-    slug: "jeans-nina-4-215",
-    name: "Blusa con Cuello de Muñeca y Jean para Niña",
+    id: "mk-jeans-nina-120-polera-pantalon",
+    slug: "cod-213-polera-manga-larga-y-pantalon-pi-120-4A",
+    name: "Polera Manga Larga y Pantalón - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Rosa", hex: "#F8BBD0" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "otoño-invierno",
     images: [
-      "./public/img/jeans-nina/cod-215-blusa-con-cuello-de-mu-eca-y-man-120-4A.jpg",
+      "./public/img/jeans-nina/cod-213-polera-manga-larga-y-pantalon-pi-120-4A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-215-blusa-con-cuello-de-mu-eca-y-man-120-4A.jpg",
+      "./public/img/jeans-nina/cod-213-polera-manga-larga-y-pantalon-pi-120-4A.jpg",
     description:
-      "Blusa con cuello de muñeca y jeans a juego. Ideal para un look delicado.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Pack de polera manga larga y pantalón. Look dulce y acogedor.",
+    material:
+      "Polera: 100% Algodón. Pantalón: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-4-216",
-    slug: "jeans-nina-4-216",
-    name: "Polo Manga Corta con Flores y Jean para Niña",
+    id: "mk-jeans-nina-120-traje-melocoton",
+    slug: "cod-209-blusa-manga-larga-corta-traje-me-120-4A",
+    name: "Blusa Manga Larga Corta - Traje Melocotón",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 8,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Melocotón", hex: "#FFDAB9" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: [
-      "./public/img/jeans-nina/cod-216-polo-manga-corta-flores-y-jeans-120-4A.jpg",
+      "./public/img/jeans-nina/cod-209-blusa-manga-larga-corta-traje-me-120-4A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-216-polo-manga-corta-flores-y-jeans-120-4A.jpg",
+      "./public/img/jeans-nina/cod-209-blusa-manga-larga-corta-traje-me-120-4A.jpg",
     description:
-      "Polo manga corta con estampado de flores y jeans a juego. Perfecto para un look primaveral.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Blusa manga larga corta en traje melocotón. Look fresco y veraniego.",
+    material: "100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-4-224",
-    slug: "jeans-nina-4-224",
-    name: "Polera Manga Larga con Lazo Negro y Jean para Niña",
+    id: "mk-jeans-nina-120-blusa-yelow",
+    slug: "cod-202-blusa-manga-larga-yelow-pack-120-4A",
+    name: "Blusa Manga Larga Yelow - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "4 Años",
-        colors: [{ name: "Negro", hex: "#212121" }],
+        colors: [
+          { name: "Amarillo", hex: "#FFD700" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+      {
+        name: "5 Años",
+        colors: [
+          { name: "Amarillo", hex: "#FFD700" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: [
-      "./public/img/jeans-nina/cod-224-polera-manga-larga-lazo-negro-y-120-4A.jpg",
+      "./public/img/jeans-nina/cod-202-blusa-manga-larga-yelow-pack-120-4A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-224-polera-manga-larga-lazo-negro-y-120-4A.jpg",
-    description:
-      "Polera manga larga con lazo negro y jeans a juego. Ideal para un look moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "./public/img/jeans-nina/cod-202-blusa-manga-larga-yelow-pack-120-4A.jpg",
+    description: "Pack de blusa manga larga amarilla. ¡Radiante y alegre!",
+    material: "100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 5 AÑOS ----
+  // ============================================================
+  // TALLA 130 - 5 AÑOS (11 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nina-5-200",
-    slug: "jeans-nina-5-200",
-    name: "Blusa Mangalarga con Cereza y Jean para Niña",
+    id: "mk-jeans-nina-130-encaje-floral",
+    slug: "cod-225-encaje-floral-manga-larga-y-cuel-130-5A",
+    name: "Encaje Floral Manga Larga y Cuello - Jean",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 14,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rosa", hex: "#F8BBD0" },
+        ],
       },
     ],
     season: "todo-el-año",
     images: [
-      "./public/img/jeans-nina/cod-200-blusa-mangalarga-cereza-pack-130-5A.jpg",
+      "./public/img/jeans-nina/cod-225-encaje-floral-manga-larga-y-cuel-130-5A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-200-blusa-mangalarga-cereza-pack-130-5A.jpg",
+      "./public/img/jeans-nina/cod-225-encaje-floral-manga-larga-y-cuel-130-5A.jpg",
     description:
-      "Blusa mangalarga con estampado de cereza y jeans a juego. Perfecto para un look dulce.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Blusa de encaje floral con manga larga y cuello. Look delicado y elegante.",
+    material: "100% Algodón con detalles de encaje.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-5-201",
-    slug: "jeans-nina-5-201",
-    name: "Blusa Floral y Jean Vaqueros para Niña",
+    id: "mk-jeans-nina-130-overol-azul",
+    slug: "cod-215-overol-largo-azul-oscuro-con-est-130-5A",
+    name: "Overol Largo Azul Oscuro con Estampado",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 13,
     sizes: [
       {
         name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-      {
-        name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
     season: "todo-el-año",
     images: [
-      "./public/img/jeans-nina/cod-201-blusa-floral-y-jean-vaqueros-pac-130-5A.jpg",
+      "./public/img/jeans-nina/cod-215-overol-largo-azul-oscuro-con-est-130-5A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-201-blusa-floral-y-jean-vaqueros-pac-130-5A.jpg",
+      "./public/img/jeans-nina/cod-215-overol-largo-azul-oscuro-con-est-130-5A.jpg",
     description:
-      "Blusa floral con jeans vaqueros. Ideal para un look fresco y primaveral.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Overol largo azul oscuro con estampado. Look casual y moderno.",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-5-203",
-    slug: "jeans-nina-5-203",
-    name: "Blusa Manga Corta Yellow y Jean para Niña",
+    id: "mk-jeans-nina-130-jeans-cerezas",
+    slug: "cod-212-jeans-cerezas-pack-130-5A",
+    name: "Jeans Cerezas - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 13,
+    stock: 14,
     sizes: [
       {
         name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Rojo", hex: "#DC143C" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-203-blusa-manga-corta-yelow-y-jeans-130-5A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-203-blusa-manga-corta-yelow-y-jeans-130-5A.jpg",
-    description:
-      "Blusa manga corta yellow con jeans a juego. Perfecto para un look veraniego.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-5-207",
-    slug: "jeans-nina-5-207",
-    name: "Blusa Blanca Manga Larga y Jean para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "5 Años",
-        colors: [{ name: "Blanco", hex: "#FFFFFF" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-207-blusa-blanco-de-manga-larga-y-ov-130-5A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-207-blusa-blanco-de-manga-larga-y-ov-130-5A.jpg",
-    description:
-      "Blusa blanca manga larga con jeans a juego. Ideal para un look elegante y atemporal.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-5-208",
-    slug: "jeans-nina-5-208",
-    name: "Blusa Blanca Manga Larga y Vaqueros para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-208-blusa-blanca-manga-larga-y-vaque-130-5A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-208-blusa-blanca-manga-larga-y-vaque-130-5A.jpg",
-    description:
-      "Blusa blanca manga larga con vaqueros. Perfecto para un look moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-5-209",
-    slug: "jeans-nina-5-209",
-    name: "Blusa Blanca Manga Larga y Pantalón para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-209-blusa-blanca-manga-larga-y-panta-130-5A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-209-blusa-blanca-manga-larga-y-panta-130-5A.jpg",
-    description:
-      "Blusa blanca manga larga con pantalón a juego. Ideal para un look elegante.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-5-211",
-    slug: "jeans-nina-5-211",
-    name: "Chompa Roja y Jeans Azul para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "5 Años",
-        colors: [{ name: "Azul", hex: "#64B5F6" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-211-chompa-roja-y-jeans-azul-pack-130-5A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-211-chompa-roja-y-jeans-azul-pack-130-5A.jpg",
-    description:
-      "Chompa roja con jeans azul. Perfecto para un look colorido y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-5-212",
-    slug: "jeans-nina-5-212",
-    name: "Jeans con Estampado de Cerezas para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: ["./public/img/jeans-nina/cod-212-jeans-cerezas-pack-130-5A.jpg"],
     realImage: "./public/img/jeans-nina/cod-212-jeans-cerezas-pack-130-5A.jpg",
-    description:
-      "Jeans con estampado de cerezas. Ideal para un look divertido y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    description: "Pack de jeans con estampado de cerezas. ¡Fresco y adorable!",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-5-215",
-    slug: "jeans-nina-5-215",
-    name: "Overol Largo Azul Oscuro para Niña",
+    id: "mk-jeans-nina-130-chompa-roja",
+    slug: "cod-211-chompa-roja-y-jeans-azul-pack-130-5A",
+    name: "Chompa Roja y Jeans Azul - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "5 Años",
-        colors: [{ name: "Azul", hex: "#64B5F6" }],
+        colors: [
+          { name: "Rojo", hex: "#DC143C" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nina/cod-211-chompa-roja-y-jeans-azul-pack-130-5A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-211-chompa-roja-y-jeans-azul-pack-130-5A.jpg",
+    description: "Pack de chompa roja y jeans azul. Look cálido y con estilo.",
+    material:
+      "Chompa: 60% Algodón, 40% Acrílico. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-130-blusa-blanca",
+    slug: "cod-209-blusa-blanca-manga-larga-y-panta-130-5A",
+    name: "Blusa Blanca Manga Larga y Pantalón",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
       },
     ],
     season: "todo-el-año",
     images: [
-      "./public/img/jeans-nina/cod-215-overol-largo-azul-oscuro-con-est-130-5A.jpg",
+      "./public/img/jeans-nina/cod-209-blusa-blanca-manga-larga-y-panta-130-5A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-215-overol-largo-azul-oscuro-con-est-130-5A.jpg",
+      "./public/img/jeans-nina/cod-209-blusa-blanca-manga-larga-y-panta-130-5A.jpg",
     description:
-      "Overol largo azul oscuro. Perfecto para un look casual y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Blusa blanca manga larga con pantalón. Look clásico y versátil.",
+    material:
+      "Blusa: 100% Algodón. Pantalón: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-5-225",
-    slug: "jeans-nina-5-225",
-    name: "Encaje Floral Manga Larga y Jean para Niña",
+    id: "mk-jeans-nina-130-blusa-vaquera",
+    slug: "cod-208-blusa-blanca-manga-larga-y-vaque-130-5A",
+    name: "Blusa Blanca Manga Larga y Vaqueros",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "5 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
       },
     ],
     season: "todo-el-año",
     images: [
-      "./public/img/jeans-nina/cod-225-encaje-floral-manga-larga-y-cuel-130-5A.jpg",
+      "./public/img/jeans-nina/cod-208-blusa-blanca-manga-larga-y-vaque-130-5A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-225-encaje-floral-manga-larga-y-cuel-130-5A.jpg",
+      "./public/img/jeans-nina/cod-208-blusa-blanca-manga-larga-y-vaque-130-5A.jpg",
     description:
-      "Encaje floral manga larga con jeans a juego. Ideal para un look delicado.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Blusa blanca manga larga con vaqueros. Look elegante y casual.",
+    material:
+      "Blusa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-130-overol-blanco",
+    slug: "cod-207-blusa-blanco-de-manga-larga-y-ov-130-5A",
+    name: "Blusa Blanco de Manga Larga y Overol",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 12,
+    stock: 14,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nina/cod-207-blusa-blanco-de-manga-larga-y-ov-130-5A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-207-blusa-blanco-de-manga-larga-y-ov-130-5A.jpg",
+    description: "Blusa blanca manga larga con overol. Look moderno y cómodo.",
+    material:
+      "Blusa: 100% Algodón. Overol: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-130-blusa-yelow",
+    slug: "cod-203-blusa-manga-corta-yelow-y-jeans-130-5A",
+    name: "Blusa Manga Corta Yelow y Jeans",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 8,
+    stock: 10,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          { name: "Amarillo", hex: "#FFD700" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nina/cod-203-blusa-manga-corta-yelow-y-jeans-130-5A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-203-blusa-manga-corta-yelow-y-jeans-130-5A.jpg",
+    description:
+      "Blusa manga corta amarilla con jeans. Look fresco y radiante.",
+    material:
+      "Blusa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 6 AÑOS ----
   {
-    id: "mk-jeans-nina-6-140",
-    slug: "jeans-nina-6-140",
-    name: "Jeans Básicos para Niña",
+    id: "mk-jeans-nina-130-floral-vaqueros",
+    slug: "cod-201-blusa-floral-y-jean-vaqueros-pac-130-5A",
+    name: "Blusa Floral y Jean Vaqueros - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 14,
+    stock: 2,
     sizes: [
       {
+        name: "5 Años",
+        colors: [
+          { name: "Rosa", hex: "#F8BBD0" },
+          { name: "azul", hex: "#1A3A5C" },
+        ],
+      },
+      {
         name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Rosa", hex: "#F8BBD0" },
+          { name: "azul", hex: "#1A3A5C" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: [
-      "./public/img/jeans-nina/cod-130-kids-fashion-flat-lay-140-6A.jpg",
+      "./public/img/jeans-nina/cod-201-blusa-floral-y-jean-vaqueros-pac-130-5A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-130-kids-fashion-flat-lay-140-6A.jpg",
+      "./public/img/jeans-nina/cod-201-blusa-floral-y-jean-vaqueros-pac-130-5A.jpg",
     description:
-      "Jeans básicos con stretch. Corte moderno y cómodo, perfecto para el día a día.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Pack de blusa floral y jean vaqueros. Look primaveral y femenino.",
+    material:
+      "Blusa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-6-20",
-    slug: "jeans-nina-6-20",
-    name: "Conjunto Coquette Ultra Tendencia para Niña",
+    id: "mk-jeans-nina-130-cereza-pack",
+    slug: "cod-200-blusa-mangalarga-cereza-pack-130-5A",
+    name: "Blusa Manga Larga Cereza - Pack",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 13,
     sizes: [
       {
-        name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        name: "5 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rojo", hex: "#DC143C" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: [
-      "./public/img/jeans-nina/cod-20-conjunto-coquette-ultra-tendencia-140-6A.jpg",
+      "./public/img/jeans-nina/cod-200-blusa-mangalarga-cereza-pack-130-5A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-20-conjunto-coquette-ultra-tendencia-140-6A.jpg",
-    description:
-      "Conjunto coquette ultra tendencia. Perfecto para un look moderno y femenino.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "./public/img/jeans-nina/cod-200-blusa-mangalarga-cereza-pack-130-5A.jpg",
+    description: "Pack de blusa manga larga con cerezas. ¡Dulce y adorable!",
+    material: "100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
+
+  // ============================================================
+  // TALLA 140 - 6 AÑOS (6 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nina-6-204",
-    slug: "jeans-nina-6-204",
-    name: "Manga Corta y Pantalones Vaqueros para Niña",
+    id: "mk-jeans-nina-140-blusa-rosa",
+    slug: "cod-210-blusa-manga-corta-rosa-y-pantalo-140-6A",
+    name: "Blusa Manga Corta Rosa y Pantalón",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Rosa", hex: "#F8BBD0" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
     images: [
-      "./public/img/jeans-nina/cod-204-manga-corta-y-pantalones-vaquero-140-6A.jpg",
+      "./public/img/jeans-nina/cod-210-blusa-manga-corta-rosa-y-pantalo-140-6A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-204-manga-corta-y-pantalones-vaquero-140-6A.jpg",
-    description:
-      "Conjunto de manga corta y pantalones vaqueros. Ideal para un look veraniego.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "./public/img/jeans-nina/cod-210-blusa-manga-corta-rosa-y-pantalo-140-6A.jpg",
+    description: "Blusa manga corta rosa con pantalón. Look fresco y femenino.",
+    material:
+      "Blusa: 100% Algodón. Pantalón: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-6-205",
-    slug: "jeans-nina-6-205",
-    name: "Blusita Roja y Jean Acampanado para Niña",
+    id: "mk-jeans-nina-140-blusita-roja",
+    slug: "cod-205-blusita-roja-y-jean-acampanado-140-6A",
+    name: "Blusita Roja y Jean Acampanado",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 13,
+    stock: 14,
     sizes: [
       {
         name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Rojo", hex: "#DC143C" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -4830,86 +4559,125 @@ const PRODUCTS = [
     realImage:
       "./public/img/jeans-nina/cod-205-blusita-roja-y-jean-acampanado-140-6A.jpg",
     description:
-      "Blusita roja con jean acampanado. Perfecto para un look retro y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Blusita roja con jean acampanado. Look con estilo y personalidad.",
+    material:
+      "Blusa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nina-6-210",
-    slug: "jeans-nina-6-210",
-    name: "Blusa Manga Corta Rosa y Pantalón para Niña",
+    id: "mk-jeans-nina-140-manga-corta",
+    slug: "cod-204-manga-corta-y-pantalones-vaquero-140-6A",
+    name: "Manga Corta y Pantalones Vaqueros",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
     sizes: [
       {
         name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nina/cod-204-manga-corta-y-pantalones-vaquero-140-6A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-204-manga-corta-y-pantalones-vaquero-140-6A.jpg",
+    description:
+      "Conjunto de manga corta con pantalones vaqueros. Look casual y veraniego.",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-140-flat-lay",
+    slug: "cod-130-kids-fashion-flat-lay-140-6A",
+    name: "Kids Fashion Flat Lay - Conjunto Denim",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 13,
+    sizes: [
+      {
+        name: "6 Años",
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
     season: "todo-el-año",
     images: [
-      "./public/img/jeans-nina/cod-210-blusa-manga-corta-rosa-y-pantalo-140-6A.jpg",
+      "./public/img/jeans-nina/cod-130-kids-fashion-flat-lay-140-6A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-210-blusa-manga-corta-rosa-y-pantalo-140-6A.jpg",
-    description:
-      "Blusa manga corta rosa con pantalón a juego. Ideal para un look veraniego.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "./public/img/jeans-nina/cod-130-kids-fashion-flat-lay-140-6A.jpg",
+    description: "Conjunto denim en flat lay. Look fashion y moderno.",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nina-140-coquette",
+    slug: "cod-20-conjunto-coquette-ultra-tendencia-140-6A",
+    name: "Conjunto Coquette Ultra Tendencia",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 15,
+    stock: 16,
+    sizes: [
+      {
+        name: "6 Años",
+        colors: [
+          { name: "Rosa", hex: "#F8BBD0" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nina/cod-20-conjunto-coquette-ultra-tendencia-140-6A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-20-conjunto-coquette-ultra-tendencia-140-6A.jpg",
+    description: "Conjunto Coquette ultra tendencia. ¡Look dulce y a la moda!",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 7 AÑOS ----
+  // ============================================================
+  // TALLA 150 - 7 AÑOS (2 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nina-7-206",
-    slug: "jeans-nina-7-206",
-    name: "Polo con Lentejuelas y Jean para Niña",
+    id: "mk-jeans-nina-150-papas-fritas",
+    slug: "cod-239-pantal-n-jean-ni-o-papas-fritas-150-7A",
+    name: "Pantalón Jean Niño Papas Fritas",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "7 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nina/cod-206-polo-mo-o-de-lentejuelas-y-jean-150-7A.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nina/cod-206-polo-mo-o-de-lentejuelas-y-jean-150-7A.jpg",
-    description:
-      "Polo con lentejuelas y jeans a juego. Perfecto para un look brillante y festivo.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nina-7-239",
-    slug: "jeans-nina-7-239",
-    name: "Pantalón Jean con Estampado de Papas Fritas para Niña",
-    category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "7 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Negro", hex: "#1A1A1A" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -4919,63 +4687,329 @@ const PRODUCTS = [
     realImage:
       "./public/img/jeans-nina/cod-239-pantal-n-jean-ni-o-papas-fritas-150-7A.jpg",
     description:
-      "Pantalón jean con estampado de papas fritas. Ideal para un look divertido.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Pantalón jean con estampado de papas fritas. ¡Look divertido y original!",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
-
-  // ---- TALLA 8 AÑOS ----
   {
-    id: "mk-jeans-nina-8-240",
-    slug: "jeans-nina-8-240",
-    name: "Denim Jeans y Polo Blanco para Niña",
+    id: "mk-jeans-nina-150-lentejuelas",
+    slug: "cod-206-polo-mo-o-de-lentejuelas-y-jean-150-7A",
+    name: "Polo Moño de Lentejuelas y Jean",
     category: "jeans-nina",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 14,
     sizes: [
       {
-        name: "8 Años",
-        colors: [{ name: "Blanco", hex: "#FFFFFF" }],
+        name: "7 Años",
+        colors: [
+          { name: "Rosa", hex: "#F8BBD0" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
     season: "todo-el-año",
     images: [
-      "./public/img/jeans-nina/cod-240-denim-jeans-polo-blanco-90-18-24M.jpg",
+      "./public/img/jeans-nina/cod-206-polo-mo-o-de-lentejuelas-y-jean-150-7A.jpg",
     ],
     realImage:
-      "./public/img/jeans-nina/cod-240-denim-jeans-polo-blanco-90-18-24M.jpg",
+      "./public/img/jeans-nina/cod-206-polo-mo-o-de-lentejuelas-y-jean-150-7A.jpg",
     description:
-      "Denim jeans con polo blanco. Perfecto para un look clásico y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Polo con moño de lentejuelas y jean. ¡Brillo y estilo para tu pequeña!",
+    material:
+      "Polo: 100% Algodón con lentejuelas. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  // ============================================================
+  // TALLA 160 - 9 AÑOS (2 productos)
+  // ============================================================
+  {
+    id: "mk-jeans-nina-160-denim-polo-blanco",
+    slug: "cod-241-denim-jeans-polo-blanco-150-9A",
+    name: "Denim Jeans + Polo Blanco",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
+    sizes: [
+      {
+        name: "9 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nina/cod-240-denim-jeans-polo-blanco-150-9A.jpg",
+      "./public/img/jeans-nina/cod-240-denim-jeans-polo-gris-150-9A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nina/cod-240-denim-jeans-polo-blanco-150-9A.jpg",
+    description: "Conjunto de jean denim y polo blanco. Clásico y versátil.",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
   // ============================================================
   // JEANS NIÑO - FORMATO DINÁMICO (Tallas con Colores Vinculados)
   // ============================================================
 
-  // ---- TALLA 18-24 MESES ----
+  // ============================================================
+  // TALLA 80 - 12-18 MESES (7 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nino-18-24-camisa",
-    slug: "jeans-nino-18-24-camisa",
-    name: "Camisa de Manga Larga con Cuello Vuelto y Jean para Niño",
+    id: "mk-jeans-nino-80-cod-231-overol",
+    slug: "cod-231-overol-de-jean-y-polo-manga-larg-80-12-18M",
+    name: "Overol de Jean y Polo Manga Larga",
     category: "jeans-nino",
-    price: 45,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/cod-231-overol-de-jean-y-polo-manga-larg-80-12-18M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/cod-231-overol-de-jean-y-polo-manga-larg-80-12-18M.jpg",
+    description:
+      "Overol de jean combinado con polo manga larga. Perfecto para un look casual y cómodo.",
+    material:
+      "Overol: 75% Algodón, 23% Poliéster, 2% Elastano. Polo: 100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-80-letra-bordada",
+    slug: "conjunto-ni-o-2pz-letra-bordada-negro-su-80-12-18M",
+    name: "Conjunto Niño 2Pz Letra Bordada Negro - Sudadera Texturizada + Jean Rasgado",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 14,
+    stock: 2,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-letra-bordada-negro-su-80-12-18M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-letra-bordada-negro-su-80-12-18M.jpg",
+    description:
+      "Conjunto de sudadera texturizada con letra bordada y jean rasgado. Look urbano y moderno.",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-80-polo-rayas-azul",
+    slug: "conjunto-ni-o-polo-rayas-azul-osito-2-pi-80-12-18M",
+    name: "Conjunto Niño Polo Rayas Azul Osito 2 Piezas + Jeans Suave",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 10,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          { name: "Azul Marino", hex: "#1A2A4A" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-polo-rayas-azul-osito-2-pi-80-12-18M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-polo-rayas-azul-osito-2-pi-80-12-18M.jpg",
+    description:
+      "Polo a rayas azul con diseño de osito y jeans suave. Ideal para el día a día.",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-80-rayas-28",
+    slug: "conjunto-ni-o-rayas-28-baseball-2-piezas-80-12-18M",
+    name: "Conjunto Niño Rayas 28 Baseball 2 Piezas - Polo Cuello + Jean Claro",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 8,
+    stock: 10,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          { name: "Marino", hex: "#1A2A4A" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-rayas-28-baseball-2-piezas-80-12-18M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-rayas-28-baseball-2-piezas-80-12-18M.jpg",
+    description:
+      "Polo con cuello estilo baseball y jean claro. Un look deportivo y fresco.",
+    material:
+      "Polo: 95% Algodón, 5% Spandex. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-80-polera-caqui",
+    slug: "polera-manga-larga-caqui-2und-80-12-18M",
+    name: "Polera Manga Larga Caqui - 2 Und",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.6,
+    reviews: 7,
+    stock: 8,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          { name: "Caqui", hex: "#C3B091" },
+          { name: "Beige", hex: "#F5F5DC" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/polera-manga-larga-caqui-2und-80-12-18M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-manga-larga-caqui-2und-80-12-18M.jpg",
+    description:
+      "Polera manga larga en tono caqui. Versátil y cálida para los días fríos.",
+    material: "100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-80-polera-negra",
+    slug: "polera-manga-larga-negro-12meses-80-12-18M",
+    name: "Polera Manga Larga Negro - 12 Meses",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 9,
+    stock: 12,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/polera-manga-larga-negro-12meses-80-12-18M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-manga-larga-negro-12meses-80-12-18M.jpg",
+    description:
+      "Polera manga larga en color negro. Básica y esencial para el armario.",
+    material: "100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-80-polo-blanco",
+    slug: "polo-manga-corta-blanco-jeans-rasgado-80-12-18M",
+    name: "Polo Manga Corta Blanco + Jeans Rasgado",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nino/polo-manga-corta-blanco-jeans-rasgado-80-12-18M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polo-manga-corta-blanco-jeans-rasgado-80-12-18M.jpg",
+    description:
+      "Polo manga corta blanco combinado con jeans rasgado. Fresco y moderno.",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+
+  // ============================================================
+  // TALLA 90 - 18-24 MESES (7 productos)
+  // ============================================================
+  {
+    id: "mk-jeans-nino-90-camisa-cuello",
+    slug: "camisa-de-manga-larga-con-cuello-vuelto-90-18-24M",
+    name: "Camisa de Manga Larga con Cuello Vuelto y Jeans Largos Vaqueros",
+    category: "jeans-nino",
+    price: 49,
     oldPrice: 55,
     badge: "Oferta",
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 15,
+    stock: 18,
     sizes: [
       {
         name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul Claro", hex: "#7BA7C9" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -4985,141 +5019,61 @@ const PRODUCTS = [
     realImage:
       "./public/img/jeans-nino/camisa-de-manga-larga-con-cuello-vuelto-90-18-24M.jpg",
     description:
-      "Camisa de manga larga con cuello vuelto y jeans a juego. Perfecto para un look elegante.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Camisa de manga larga con cuello vuelto y jeans vaqueros. Look elegante y sofisticado.",
+    material:
+      "Camisa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nino-18-24-vaquera",
-    slug: "jeans-nino-18-24-vaquera",
-    name: "Vaquera Vintage y Pantalón para Niño",
+    id: "mk-jeans-nino-90-casaca-vintage",
+    slug: "casaca-vaquera-vintage-y-pantalones-depo-90-18-24M",
+    name: "Casaca Vaquera Vintage y Pantalones Deportivos",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 8,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Gris", hex: "#808080" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "otoño-invierno",
     images: [
       "./public/img/jeans-nino/casaca-vaquera-vintage-y-pantalones-depo-90-18-24M.jpg",
     ],
     realImage:
       "./public/img/jeans-nino/casaca-vaquera-vintage-y-pantalones-depo-90-18-24M.jpg",
     description:
-      "Vaquera vintage con pantalón a juego. Ideal para un look retro y moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Casaca vaquera vintage combinada con pantalones deportivos. Look casual y cómodo.",
+    material:
+      "Casaca: 75% Algodón, 23% Poliéster, 2% Elastano. Pantalón: 65% Algodón, 35% Poliéster.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nino-18-24-letra",
-    slug: "jeans-nino-18-24-letra",
-    name: "Conjunto con Letra Bordada Negro para Niño",
+    id: "mk-jeans-nino-90-overol-oso",
+    slug: "overol-de-mezclilla-con-bordado-de-oso-a-90-18-24M",
+    name: "Overol de Mezclilla con Bordado de Oso Ajuste Holgado",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 13,
+    stock: 14,
     sizes: [
       {
         name: "18-24 Meses",
-        colors: [{ name: "Negro", hex: "#212121" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nino/conjunto-ni-o-2pz-letra-bordada-negro-su-90-18-24M.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nino/conjunto-ni-o-2pz-letra-bordada-negro-su-90-18-24M.jpg",
-    description:
-      "Conjunto con letra bordada en negro. Perfecto para un look moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nino-18-24-rayas",
-    slug: "jeans-nino-18-24-rayas",
-    name: "Polo Rayas Azul con Osito y Jean para Niño",
-    category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "18-24 Meses",
-        colors: [{ name: "Azul", hex: "#64B5F6" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nino/conjunto-ni-o-polo-rayas-azul-osito-2-pi-90-18-24M.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nino/conjunto-ni-o-polo-rayas-azul-osito-2-pi-90-18-24M.jpg",
-    description:
-      "Polo rayas azul con osito y jeans a juego. Ideal para un look tierno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nino-18-24-baseball",
-    slug: "jeans-nino-18-24-baseball",
-    name: "Conjunto Rayas 28 Baseball para Niño",
-    category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/jeans-nino/conjunto-ni-o-rayas-28-baseball-2-piezas-90-18-24M.jpg",
-    ],
-    realImage:
-      "./public/img/jeans-nino/conjunto-ni-o-rayas-28-baseball-2-piezas-90-18-24M.jpg",
-    description: "Conjunto rayas 28 baseball. Perfecto para un look deportivo.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
-    id: "mk-jeans-nino-18-24-overol",
-    slug: "jeans-nino-18-24-overol",
-    name: "Overol de Mezclilla con Bordado de Oso para Niño",
-    category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
-    sizes: [
-      {
-        name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -5129,57 +5083,160 @@ const PRODUCTS = [
     realImage:
       "./public/img/jeans-nino/overol-de-mezclilla-con-bordado-de-oso-a-90-18-24M.jpg",
     description:
-      "Overol de mezclilla con bordado de oso. Ideal para un look casual.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Overol de mezclilla con bordado de oso y ajuste holgado. ¡Adorable y cómodo!",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nino-18-24-231",
-    slug: "jeans-nino-18-24-231",
-    name: "Overol de Jean y Polo Manga Larga para Niño",
+    id: "mk-jeans-nino-90-rayas-manga",
+    slug: "polera-con-rayas-manga-larga-negro-blanc-90-18-24M",
+    name: "Polera con Rayas Manga Larga Negro-Blanco y Pantalón Vaquero Rasgado",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "18-24 Meses",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
     season: "todo-el-año",
     images: [
-      "./public/img/jeans-nino/cod-231-overol-de-jean-y-polo-manga-larg-90-18-24M.jpg",
+      "./public/img/jeans-nino/polera-con-rayas-manga-larga-negro-blanc-90-18-24M.jpg",
     ],
     realImage:
-      "./public/img/jeans-nino/cod-231-overol-de-jean-y-polo-manga-larg-90-18-24M.jpg",
+      "./public/img/jeans-nino/polera-con-rayas-manga-larga-negro-blanc-90-18-24M.jpg",
     description:
-      "Overol de jean con polo manga larga. Perfecto para un look moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Polera a rayas negro-blanco manga larga con pantalón vaquero rasgado. ¡Trendy!",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-90-polera-oso",
+    slug: "polera-de-cuello-redondo-con-bordado-oso-90-18-24M",
+    name: "Polera de Cuello Redondo con Bordado Oso y Jeans Rasgado",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 12,
+    stock: 11,
+    sizes: [
+      {
+        name: "18-24 Meses",
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/polera-de-cuello-redondo-con-bordado-oso-90-18-24M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-de-cuello-redondo-con-bordado-oso-90-18-24M.jpg",
+    description:
+      "Polera cuello redondo con bordado de oso y jeans rasgado. ¡Ternura y estilo!",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-90-polo-blanco",
+    slug: "polera-manga-larga-con-cuello-redondo-bl-90-18-24M",
+    name: "Polera Manga Larga con Cuello Redondo Blanco y Jeans Overol Oso",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 10,
+    sizes: [
+      {
+        name: "18-24 Meses",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/polera-manga-larga-con-cuello-redondo-bl-90-18-24M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-manga-larga-con-cuello-redondo-bl-90-18-24M.jpg",
+    description:
+      "Polera manga larga cuello redondo blanco con jeans overol oso. Clásico y adorable.",
+    material:
+      "Polera: 100% Algodón. Overol: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-90-overol-rayas",
+    slug: "polo-manga-corta-con-cuello-redondo-a-ra-90-18-24M",
+    name: "Polo Manga Corta con Cuello Redondo a Rayas y Overol Vaquero con Puños y Bolsillos",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.6,
+    reviews: 7,
+    stock: 9,
+    sizes: [
+      {
+        name: "18-24 Meses",
+        colors: [
+          { name: "Marrón", hex: "#8B6914" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nino/polo-manga-corta-con-cuello-redondo-a-ra-90-18-24M.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polo-manga-corta-con-cuello-redondo-a-ra-90-18-24M.jpg",
+    description:
+      "Polo manga corta a rayas con overol vaquero. Fresco y veraniego.",
+    material:
+      "Polo: 100% Algodón. Overol: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 2 AÑOS ----
+  // ============================================================
+  // TALLA 100 - 2 AÑOS (8 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nino-2-100-polo",
-    slug: "jeans-nino-2-100-polo",
-    name: "Camiseta Polo de Manga Larga y Jean para Niño",
+    id: "mk-jeans-nino-100-rayas-punto",
+    slug: "camiseta-polo-de-manga-larga-de-punto-a-100-2A",
+    name: "Camiseta Polo de Manga Larga de Punto a Rayas y Pantalones Vaqueros",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
     sizes: [
       {
         name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Beige", hex: "#F5F5DC" },
+          { name: "Negro", hex: "#1A1A1A" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -5189,57 +5246,256 @@ const PRODUCTS = [
     realImage:
       "./public/img/jeans-nino/camiseta-polo-de-manga-larga-de-punto-a-100-2A.jpg",
     description:
-      "Camiseta polo de manga larga con jeans a juego. Ideal para un look moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Camiseta polo manga larga de punto a rayas con pantalones vaqueros. Look casual y con estilo.",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-jeans-nino-2-2019",
-    slug: "jeans-nino-2-2019",
-    name: "Camiseta de Manga Larga y Jean para Niño",
+    id: "mk-jeans-nino-100-cod-2019",
+    slug: "cod-2019-camiseta-de-manga-larga-de-cuel-100-2A",
+    name: "Cod 2019 Camiseta de Manga Larga de Cuello Camisa y Pantalones Vaqueros con Apliques",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "2 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Celeste", hex: "#87CEEB" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "otoño-invierno",
     images: [
       "./public/img/jeans-nino/cod-2019-camiseta-de-manga-larga-de-cuel-100-2A.jpg",
     ],
     realImage:
       "./public/img/jeans-nino/cod-2019-camiseta-de-manga-larga-de-cuel-100-2A.jpg",
     description:
-      "Camiseta de manga larga con jeans a juego. Perfecto para un look casual.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Camiseta manga larga con cuello camisa y pantalones vaqueros con apliques. Elegancia y detalle.",
+    material:
+      "Camiseta: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-100-waffle-celeste",
+    slug: "polera-casual-de-punto-waffle-de-manga-l-100-2A",
+    name: "Polera Casual de Punto Waffle de Manga Larga 2 en 1 Celeste y Pantalones Vaqueros con Apliques",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 14,
+    stock: 2,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          { name: "Celeste", hex: "#87CEEB" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/polera-casual-de-punto-waffle-de-manga-l-100-2A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-casual-de-punto-waffle-de-manga-l-100-2A.jpg",
+    description:
+      "Polera waffle manga larga 2 en 1 celeste con pantalones vaqueros con apliques. ¡Dos looks en uno!",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-100-corazon",
+    slug: "polera-con-letras-de-coraz-n-blanco-y-pa-100-2A",
+    name: "Polera con Letras de Corazón Blanco y Pantalones Largos de Mezclilla",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 13,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Rojo", hex: "#FF0000" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/polera-con-letras-de-coraz-n-blanco-y-pa-100-2A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-con-letras-de-coraz-n-blanco-y-pa-100-2A.jpg",
+    description:
+      "Polera blanca con letras de corazón y pantalones largos de mezclilla. ¡Con mucho amor!",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-100-rayas-oso",
+    slug: "polera-denim-con-mangas-largas-a-rayas-o-100-2A",
+    name: "Polera Denim con Mangas Largas a Rayas Oso 3D Adorable y Jeans Azul",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 15,
+    stock: 14,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Beige", hex: "#F5F5DC" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/polera-denim-con-mangas-largas-a-rayas-o-100-2A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-denim-con-mangas-largas-a-rayas-o-100-2A.jpg",
+    description:
+      "Polera denim a rayas con oso 3D adorable y jeans azul. ¡Ternura y estilo!",
+    material:
+      "Polera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-100-mamas-boy",
+    slug: "polera-genial-mama-boys-blanco-y-jeans-a-100-2A",
+    name: "Polera Genial Mama Boys Blanco y Jeans Azul",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 12,
+    stock: 12,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/polera-genial-mama-boys-blanco-y-jeans-a-100-2A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-genial-mama-boys-blanco-y-jeans-a-100-2A.jpg",
+    description:
+      "Polera blanca con estampado MAMA'S BOY y jeans azul. ¡El orgullo de mamá!",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-100-lucky-boy",
+    slug: "polera-manga-larga-blanco-jeans-rasgado-100-2A",
+    name: "Polera Manga Larga Blanco + Jeans Rasgado",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 10,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/polera-manga-larga-blanco-jeans-rasgado-100-2A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-manga-larga-blanco-jeans-rasgado-100-2A.jpg",
+    description:
+      "Polera manga larga blanca con jeans rasgado. Look cómodo y casual.",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-100-the-best",
+    slug: "polo-de-manga-corta-blanco-y-jeans-negro-100-2A",
+    name: "Polo de Manga Corta Blanco y Jeans Negro",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.6,
+    reviews: 8,
+    stock: 10,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Negro", hex: "#1A1A1A" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nino/polo-de-manga-corta-blanco-y-jeans-negro-100-2A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polo-de-manga-corta-blanco-y-jeans-negro-100-2A.jpg",
+    description: "Polo manga corta blanco con jeans negro. Clásico y versátil.",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 3 AÑOS ----
+  // ============================================================
+  // TALLA 110 - 3 AÑOS (7 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nino-3-110-mommy",
-    slug: "jeans-nino-3-110-mommy",
-    name: "Conjunto Bebé Polera Mommy's Lucky para Niño",
+    id: "mk-jeans-nino-110-lucky-boy",
+    slug: "conjunto-beb-2pz-polera-mommy-s-lucky-bo-110-3A",
+    name: "Conjunto Bebé 2Pz - Polera Mommy's Lucky Boy + Jean",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
+    price: 49,
+    oldPrice: null,
+    badge: null,
     rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    reviews: 14,
+    stock: 16,
     sizes: [
       {
         name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -5249,117 +5505,711 @@ const PRODUCTS = [
     realImage:
       "./public/img/jeans-nino/conjunto-beb-2pz-polera-mommy-s-lucky-bo-110-3A.jpg",
     description:
-      "Conjunto bebé con polera Mommy's Lucky y jeans. Ideal para un look tierno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Conjunto de polera MOMMY'S LUCKY BOY con jean. ¡El niño con suerte!",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-110-the-best",
+    slug: "conjunto-beb-ni-o-2pz-polo-manga-corta-j-110-3A",
+    name: "Conjunto Bebé Niño 2Pz - Polo Manga Corta + Jean Rasgado",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 10,
+    stock: 12,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nino/conjunto-beb-ni-o-2pz-polo-manga-corta-j-110-3A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-beb-ni-o-2pz-polo-manga-corta-j-110-3A.jpg",
+    description:
+      "Conjunto de polo manga corta THE BEST con jean rasgado. ¡Fresco y con estilo!",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-110-osito-blanco",
+    slug: "conjunto-beb-osito-blanco-2-piezas-poler-110-3A",
+    name: "Conjunto Bebé Osito Blanco 2 Piezas - Polera Acolchada + Jeans",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 12,
+    stock: 13,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-beb-osito-blanco-2-piezas-poler-110-3A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-beb-osito-blanco-2-piezas-poler-110-3A.jpg",
+    description:
+      "Conjunto de polera acolchada con osito y jeans. ¡Cálido y adorable!",
+    material:
+      "Polera: 60% Algodón, 40% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-110-patchwork",
+    slug: "conjunto-de-camisa-y-pantal-n-de-patchwo-110-3A",
+    name: "Conjunto de Camisa y Pantalón de Patchwork Liso",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 12,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/conjunto-de-camisa-y-pantal-n-de-patchwo-110-3A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-de-camisa-y-pantal-n-de-patchwo-110-3A.jpg",
+    description:
+      "Conjunto de camisa y pantalón de patchwork liso. Look único y con personalidad.",
+    material:
+      "Camisa: 100% Algodón. Pantalón: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-110-camisa-cuadros",
+    slug: "conjunto-jeans-ni-o-camisa-cuadros-bolsi-110-3A",
+    name: "Conjunto Jeans Niño Camisa Cuadros Bolsillo - Casual Exteriores",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 14,
+    stock: 2,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/conjunto-jeans-ni-o-camisa-cuadros-bolsi-110-3A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-jeans-ni-o-camisa-cuadros-bolsi-110-3A.jpg",
+    description:
+      "Conjunto de camisa de cuadros con bolsillo y jeans. Perfecto para exteriores.",
+    material:
+      "Camisa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-110-sudadera-beige",
+    slug: "conjunto-ni-o-2pz-sudadera-beige-parche-110-3A",
+    name: "Conjunto Niño 2Pz Sudadera Beige Parche Jeans",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          { name: "Beige", hex: "#F5F5DC" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-sudadera-beige-parche-110-3A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-sudadera-beige-parche-110-3A.jpg",
+    description:
+      "Conjunto de sudadera beige con parche y jeans. Look casual y moderno.",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-110-new-york",
+    slug: "conjunto-ni-o-new-york-u-s-a-2-piezas-ot-110-3A",
+    name: "Conjunto Niño NEW YORK U.S.A 2 Piezas Otoño - Polar Térmico + Jeans",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 13,
+    stock: 14,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-new-york-u-s-a-2-piezas-ot-110-3A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-new-york-u-s-a-2-piezas-ot-110-3A.jpg",
+    description:
+      "Conjunto de polar térmico NEW YORK con jeans. ¡Cálido y urbano!",
+    material:
+      "Polera: 60% Algodón, 40% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 4 AÑOS ----
+  // ============================================================
+  // TALLA 120 - 4 AÑOS (9 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nino-4-120-dino",
-    slug: "jeans-nino-4-120-dino",
-    name: "Conjunto Jeans con Dinosaurio para Niño",
+    id: "mk-jeans-nino-120-the-best",
+    slug: "conjunto-beb-ni-o-2pz-polo-manga-corta-j-120-4A",
+    name: "Conjunto Bebé Niño 2Pz - Polo Manga Corta + Jean Roto",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
     reviews: 12,
-    stock: 15,
+    stock: 14,
     sizes: [
       {
         name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Gris", hex: "#808080" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nino/conjunto-beb-ni-o-2pz-polo-manga-corta-j-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-beb-ni-o-2pz-polo-manga-corta-j-120-4A.jpg",
+    description:
+      "Conjunto de polo manga corta THE BEST con jean roto. ¡Look veraniego!",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-120-dinosaurio",
+    slug: "conjunto-jeans-ni-o-dinosaurio-2-piezas-120-4A",
+    name: "Conjunto Jeans Niño Dinosaurio 2 Piezas",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 14,
+    stock: 2,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          { name: "Verde", hex: "#228B22" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
     images: [
       "./public/img/jeans-nino/conjunto-jeans-ni-o-dinosaurio-2-piezas-120-4A.jpg",
     ],
     realImage:
       "./public/img/jeans-nino/conjunto-jeans-ni-o-dinosaurio-2-piezas-120-4A.jpg",
     description:
-      "Conjunto jeans con dinosaurio. Perfecto para los amantes de los dinosaurios.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Conjunto de camisa con dinosaurio y jeans. ¡Aventura y diversión!",
+    material:
+      "Camisa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-120-sudadera-estampada",
+    slug: "conjunto-ni-o-2-piezas-oto-o-invierno-su-120-4A",
+    name: "Conjunto Niño 2 Piezas Otoño Invierno - Sudadera Estampada + Jeans",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Celeste", hex: "#87CEEB" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-2-piezas-oto-o-invierno-su-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-2-piezas-oto-o-invierno-su-120-4A.jpg",
+    description:
+      "Conjunto de sudadera estampada con jeans. Look acogedor para el frío.",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-120-cocodrilo",
+    slug: "conjunto-ni-o-2pz-cocodrilo-sudadera-jea-120-4A",
+    name: "Conjunto Niño 2Pz Cocodrilo - Sudadera + Jean Casual",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.6,
+    reviews: 8,
+    stock: 10,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Celeste", hex: "#87CEEB" },
+        ],
+      },
+    ],
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-cocodrilo-sudadera-jea-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-cocodrilo-sudadera-jea-120-4A.jpg",
+    description:
+      "Conjunto de sudadera con cocodrilo y jeans casual. ¡Look salvaje y divertido!",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-120-letras",
+    slug: "conjunto-ni-o-2pz-letras-sudadera-120-4A",
+    name: "Conjunto Niño 2Pz Letras - Sudadera",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 12,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          { name: "Gris", hex: "#808080" },
+          { name: "Celeste", hex: "#87CEEB" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-letras-sudadera-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-letras-sudadera-120-4A.jpg",
+    description: "Conjunto de sudadera con letras y jeans. ¡Estilo urbano!",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-120-sudadera-beige",
+    slug: "conjunto-ni-o-2pz-sudadera-beige-parche-120-4A",
+    name: "Conjunto Niño 2Pz Sudadera Beige Parche Jeans",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 10,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          { name: "Beige", hex: "#F5F5DC" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-sudadera-beige-parche-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-2pz-sudadera-beige-parche-120-4A.jpg",
+    description: "Conjunto de sudadera beige con parche y jeans. Look moderno.",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-120-letras-me",
+    slug: "conjunto-ni-o-oto-o-2-piezas-sudadera-le-120-4A",
+    name: "Conjunto Niño Otoño 2 Piezas - Sudadera Letras ME + Jeans",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 10,
+    stock: 11,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          { name: "Crema", hex: "#FFFDD0" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-oto-o-2-piezas-sudadera-le-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-oto-o-2-piezas-sudadera-le-120-4A.jpg",
+    description:
+      "Conjunto de sudadera con letras ME y jeans. ¡Con estilo propio!",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-120-overol-oso",
+    slug: "conjunto-overol-beb-ni-o-oso-2-piezas-ot-120-4A",
+    name: "Conjunto Overol Bebé Niño Oso 2 Piezas - Otoño Invierno",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 15,
+    stock: 14,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Amarillo", hex: "#FFD700" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-overol-beb-ni-o-oso-2-piezas-ot-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-overol-beb-ni-o-oso-2-piezas-ot-120-4A.jpg",
+    description: "Conjunto de overol con oso y polo. ¡Cálido y adorable!",
+    material:
+      "Overol: 75% Algodón, 23% Poliéster, 2% Elastano. Polo: 100% Algodón.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-120-polera-oso",
+    slug: "polera-con-dise-o-de-oso-y-falso-denim-c-120-4A",
+    name: "Polera con Diseño de Oso y Falso Denim, Conjunto Casual Rasgado",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 12,
+    stock: 13,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Amarillo", hex: "#FFD700" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/polera-con-dise-o-de-oso-y-falso-denim-c-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/polera-con-dise-o-de-oso-y-falso-denim-c-120-4A.jpg",
+    description:
+      "Polera con diseño de oso y falso denim, conjunto casual rasgado. ¡Ternura y estilo!",
+    material:
+      "Polera: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 5 AÑOS ----
+  // ============================================================
+  // TALLA 130 - 5 AÑOS (5 productos)
+  // ============================================================
   {
-    id: "mk-jeans-nino-5-130-camisa",
-    slug: "jeans-nino-5-130-camisa",
-    name: "Camisa Rayas Beige y Jean para Niño",
+    id: "mk-jeans-nino-130-jeans-negros",
+    slug: "conjunto-beb-ni-o-jeans-negros-2-piezas-130-5A",
+    name: "Conjunto Bebé Niño Jeans Negros 2 Piezas - Verano Casual",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
     sizes: [
       {
         name: "5 Años",
-        colors: [{ name: "Beige", hex: "#F5F5DC" }],
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Negro", hex: "#1A1A1A" },
+        ],
       },
     ],
-    season: "todo-el-año",
+    season: "primavera-verano",
+    images: [
+      "./public/img/jeans-nino/conjunto-beb-ni-o-jeans-negros-2-piezas-130-5A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-beb-ni-o-jeans-negros-2-piezas-130-5A.jpg",
+    description:
+      "Conjunto casual de polo con jeans negros. Perfecto para verano.",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-130-rayas-beige",
+    slug: "conjunto-jeans-ni-o-camisa-rayas-beige-2-130-5A",
+    name: "Conjunto Jeans Niño Camisa Rayas Beige 2 Piezas - Primavera Otoño",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 12,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          { name: "Beige", hex: "#F5F5DC" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "primavera-otoño",
     images: [
       "./public/img/jeans-nino/conjunto-jeans-ni-o-camisa-rayas-beige-2-130-5A.jpg",
     ],
     realImage:
       "./public/img/jeans-nino/conjunto-jeans-ni-o-camisa-rayas-beige-2-130-5A.jpg",
     description:
-      "Camisa rayas beige con jeans a juego. Ideal para un look elegante.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Conjunto de camisa a rayas beige con jeans. Look de primavera-otoño.",
+    material:
+      "Camisa: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-130-dino",
+    slug: "conjunto-ni-o-dinosaurio-2-piezas-sudade-130-5A",
+    name: "Conjunto Niño Dinosaurio 2 Piezas - Sudadera Blanca + Jean Azul",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.9,
+    reviews: 14,
+    stock: 2,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-dinosaurio-2-piezas-sudade-130-5A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-dinosaurio-2-piezas-sudade-130-5A.jpg",
+    description:
+      "Conjunto de sudadera blanca con dinosaurio y jean azul. ¡Aventura jurásica!",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-130-rayas-negro",
+    slug: "conjunto-ni-o-rayas-negro-blanco-2-pieza-130-5A",
+    name: "Conjunto Niño Rayas Negro-Blanco 2 Piezas + Jean Roto Casual",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 12,
+    stock: 13,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          { name: "Negro", hex: "#1A1A1A" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/conjunto-ni-o-rayas-negro-blanco-2-pieza-130-5A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-ni-o-rayas-negro-blanco-2-pieza-130-5A.jpg",
+    description:
+      "Conjunto de sudadera a rayas negro-blanco con jean roto. ¡Look con actitud!",
+    material:
+      "Sudadera: 65% Algodón, 35% Poliéster. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-jeans-nino-130-osito-xisx",
+    slug: "conjunto-osito-xisx-polo-jean-azul-2-pie-130-5A",
+    name: "Conjunto Osito XISX Polo + Jean Azul - 2 piezas",
+    category: "jeans-nino",
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 11,
+    stock: 12,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          { name: "Blanco", hex: "#FFFFFF" },
+          { name: "Azul", hex: "#1A3A5C" },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/jeans-nino/conjunto-osito-xisx-polo-jean-azul-2-pie-130-5A.jpg",
+    ],
+    realImage:
+      "./public/img/jeans-nino/conjunto-osito-xisx-polo-jean-azul-2-pie-130-5A.jpg",
+    description:
+      "Conjunto de polo con osito XISX y jean azul. ¡Adorable y moderno!",
+    material:
+      "Polo: 100% Algodón. Jean: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 6 AÑOS ----
+  // ============================================================
+  // TALLA 140 - 6 AÑOS (1 producto)
+  // ============================================================
   {
-    id: "mk-jeans-nino-6-140",
-    slug: "jeans-nino-6-140",
-    name: "Jean R Camisa y Pantalón para Niño",
+    id: "mk-jeans-nino-140-jean-r",
+    slug: "jean-r-camisa-pantal-n-2pzs-140-6A",
+    name: "Jean R - Camisa + Pantalón - 2Pzs",
     category: "jeans-nino",
-    price: 45,
+    price: 49,
     oldPrice: 55,
     badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    rating: 4.7,
+    reviews: 9,
+    stock: 11,
     sizes: [
       {
         name: "6 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Blanco", hex: "#FFFFFF" },
+        ],
       },
     ],
     season: "todo-el-año",
     images: ["./public/img/jeans-nino/jean-r-camisa-pantal-n-2pzs-140-6A.jpg"],
     realImage: "./public/img/jeans-nino/jean-r-camisa-pantal-n-2pzs-140-6A.jpg",
-    description: "Jean R con camisa y pantalón. Perfecto para un look moderno.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    description:
+      "Conjunto de camisa y pantalón Jean R. Look clásico y elegante.",
+    material:
+      "Camisa: 100% Algodón. Pantalón: 75% Algodón, 23% Poliéster, 2% Elastano.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 
-  // ---- TALLA 7 AÑOS ----
+  // ============================================================
+  // TALLA 150 - 7 AÑOS (1 producto)
+  // ============================================================
   {
-    id: "mk-jeans-nino-7-150",
-    slug: "jeans-nino-7-150",
-    name: "Jeans Básicos para Niño",
+    id: "mk-jeans-nino-150-archive-23",
+    slug: "cod-150-jean-archive-23-2-pzs-150-7A",
+    name: "Cod 150 Jean ARCHIVE 23 - 2 Pzs",
     category: "jeans-nino",
-    price: 45,
-    oldPrice: 55,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 15,
+    price: 49,
+    oldPrice: null,
+    badge: null,
+    rating: 4.8,
+    reviews: 10,
+    stock: 12,
     sizes: [
       {
         name: "7 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+        colors: [
+          { name: "Azul", hex: "#1A3A5C" },
+          { name: "Gris", hex: "#808080" },
+        ],
       },
     ],
     season: "todo-el-año",
@@ -5369,15 +6219,14 @@ const PRODUCTS = [
     realImage:
       "./public/img/jeans-nino/cod-150-jean-archive-23-2-pzs-150-7A.jpg",
     description:
-      "Jeans básicos con stretch. Corte moderno y cómodo, perfecto para el día a día.",
-    material: "Denim: 75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+      "Conjunto Jean ARCHIVE 23 de 2 piezas. Estilo vintage y moderno.",
+    material: "75% Algodón, 23% Poliéster, 2% Elastano. Con stretch.",
+    care: "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
+
   // ============================================================
   // VESTIDOS - FORMATO DINÁMICO (Tallas con Colores Vinculados)
   // ============================================================
-
   // ---- TALLA 12-18 MESES ----
   {
     id: "mk-vestido-crema-cod-90",
@@ -5389,7 +6238,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "12-18 Meses",
@@ -5415,7 +6264,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "12-18 Meses",
@@ -5441,7 +6290,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "12-18 Meses",
@@ -5468,7 +6317,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "12-18 Meses",
@@ -5498,7 +6347,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -5524,7 +6373,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -5553,7 +6402,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -5582,7 +6431,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "18-24 Meses",
@@ -5613,7 +6462,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -5639,7 +6488,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -5665,7 +6514,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -5691,7 +6540,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -5719,7 +6568,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -5806,7 +6655,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "2 Años",
@@ -5838,7 +6687,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -5864,7 +6713,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -5893,7 +6742,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -5921,7 +6770,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -5949,7 +6798,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -5977,7 +6826,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -6005,7 +6854,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -6033,7 +6882,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -6064,7 +6913,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "3 Años",
@@ -6095,7 +6944,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -6120,7 +6969,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -6148,7 +6997,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -6176,7 +7025,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -6204,7 +7053,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -6232,7 +7081,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -6261,7 +7110,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -6290,7 +7139,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "4 Años",
@@ -6321,7 +7170,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -6350,7 +7199,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -6378,7 +7227,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -6403,7 +7252,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -6431,7 +7280,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -6459,7 +7308,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -6488,7 +7337,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -6517,7 +7366,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "5 Años",
@@ -6547,7 +7396,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 15,
+    stock: 2,
     sizes: [
       {
         name: "6 Años",
