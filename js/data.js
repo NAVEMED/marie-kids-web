@@ -3882,7 +3882,41 @@ const PRODUCTS = [
   // ============================================================
   // TALLA 110 - 3 AÑOS (3 productos)
   // ============================================================
-
+  {
+    id: "mk-conjunto-otono-amarillo-3A",
+    slug: "mk-conjunto-otono-amarillo-4Y",
+    name: "Ropa de Niña Otoño Invierno - Chompita + Jeans",
+    category: "jeans-nina",
+    price: 49,
+    oldPrice: 72.5,
+    cost: 37,
+    badge: "Otoño",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          {
+            name: "Amarillo",
+            hex: "#FFEB3B",
+          },
+        ],
+      },
+    ],
+    season: "otoño-invierno",
+    images: [
+      "./public/img/preventa/mk-conjunto-otono-amarillo-3A.jpg",
+      "./public/img/preventa/mk-conjunto-otono-amarillo-3A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-conjunto-otono-amarillo-3A-2.jpg",
+    description:
+      "Conjunto otoño invierno niña, chompita con flor bordada + jeans con flores.",
+    material: "100% Poliéster. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-jeans-nina-110-sudadera-vaquera",
     slug: "cod-222-pantalones-vaqueros-sudadera-con-110-3A",
@@ -6229,6 +6263,41 @@ const PRODUCTS = [
   // ============================================================
   // ---- TALLA 12-18 MESES ----
   {
+    id: "mk-vestido-verano-bebe-12-18M",
+    slug: "mk-vestido-verano-bebe-12-18M",
+    name: "Vestido de verano para bebés niña",
+    category: "vestidos-nina",
+    price: 35,
+    oldPrice: 42,
+    cost: 21.58,
+    badge: "Preventa",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          {
+            name: "Rosa",
+            hex: "#F8BBD0",
+          },
+        ],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-vestido-verano-bebe-12-18M.jpg",
+      "./public/img/preventa/mk-vestido-verano-bebe-12-18M_2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-verano-bebe-12-18M_2.jpg",
+    description:
+      "Vestido de verano para bebés niña, fresco con flores 3D. Ideal para verano.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
     id: "mk-vestido-crema-cod-90",
     slug: "vestido-crema-cod-90",
     name: "Vestido de Princesa Crema para Bebé",
@@ -6337,6 +6406,34 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 18-24 MESES ----
+  {
+    id: "mk-conjunto-rojo-fresa-18-24M",
+    slug: "conjunto-casual-2-piezas-fresita-rojo-18-24M",
+    name: "Conjunto Casual de 2 Piezas para Bebé - Chompita Roja + Vestido Fresitas",
+    category: "vestidos-nina",
+    price: 42,
+    oldPrice: 55,
+    cost: 23.28,
+    badge: "Nuevo",
+    rating: 5.0,
+    reviews: 3,
+    stock: 1,
+    sizes: [
+      {
+        name: "18-24 Meses",
+        label: "18-24M",
+        colors: [{ name: "Rojo", hex: "#D32F2F", stock: 1 }],
+      },
+    ],
+    season: "primavera-otono",
+    images: ["./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M.jpg"],
+    realImage: "./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M.jpg",
+    description:
+      "Hermoso conjunto casual de 2 piezas para bebés y niñas pequeñas estilo primavera/otoño. Incluye chompita roja de punto y vestido blanco con estampado de fresitas. Suave, no pica y perfecto para el día a día.",
+    material: "Tejido de punto suave + algodón. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-18-24-mixxed-cod-90",
     slug: "vestido-18-24-mixxed-cod-90",
@@ -6452,6 +6549,189 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 2 AÑOS ----
+  {
+    id: "mk-vestido-fiesta-purpura-2A",
+    slug: "mk-vestido-fiesta-purpura-2-3Y",
+    name: "Vestido de fiesta de princesa con lazo grande Púrpura",
+    category: "vestidos-nina",
+    price: 49.0,
+    oldPrice: 87,
+    cost: 28.63,
+    badge: "Fiesta",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          {
+            name: "Púrpura",
+            hex: "#9C27B0",
+          },
+        ],
+      },
+    ],
+    season: "fiesta",
+    images: [
+      "./public/img/preventa/mk-vestido-fiesta-purpura-2A.jpg",
+      "./public/img/preventa/mk-vestido-fiesta-purpura-2A_2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-fiesta-purpura-2A_2.jpg",
+    description:
+      "Vestido de fiesta de princesa con lazo grande. Diseño elegante para cumpleaños.",
+    material: "65% Poliéster, 35% viscose. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-fiesta-rosa-2A",
+    slug: "mk-fiesta-rosa-100",
+    name: "Vestido de Fiesta de Princesa con volantes Rosa",
+    category: "vestidos-nina",
+    price: 55.0,
+    oldPrice: 77,
+    Cost: 32,
+    badge: "Princesa",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          {
+            name: "Rosa",
+            hex: "#F8BBD0",
+          },
+        ],
+      },
+    ],
+    season: "fiesta",
+    images: [
+      "./public/img/preventa/mk-fiesta-rosa-2A.jpg",
+      "./public/img/preventa/mk-fiesta-rosa-2A_2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-fiesta-rosa-2A_2.jpg",
+    description:
+      "Vestido de fiesta de princesa con volantes coloridos. Estilo dulce.",
+    material: "65% Poliéster, 35% Viscose. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-princesa-arcoiris-2A",
+    slug: "mk-princesa-arcoiris-100",
+    name: "El vestido de princesa con estampado Arcoiris de tonalidades",
+    category: "vestidos-nina",
+    price: 59.0,
+    oldPrice: 80,
+    cost: 28,
+    badge: "Verano",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "2 Años",
+        colors: [
+          {
+            name: "Arcoiris de tonalidades",
+            hex: "#B2EBF2",
+          },
+        ],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-princesa-arcoiris-2A.jpg",
+      "./public/img/preventa/mk-princesa-arcoiris-2A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-princesa-arcoiris-2A-2.jpg",
+    description:
+      "Vestido de princesa con estampado arcoiris de tonalidades, tul suave.",
+    material: "65% Poliéster, 36% Viscose. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-floral-lazo-2A",
+    sku: "MK-FLORAL-POLI-2-3Y",
+    slug: "vestido-floral-delicado-lazo-bebita-2-3Y",
+    name: "Vestido Floral Delicado con Lazo para Bebitas",
+    category: "vestidos-nina",
+    price: 49.0,
+    oldPrice: 84,
+    cost: 22.9,
+    badge: "Preventa",
+    rating: 4.9,
+    reviews: 12,
+    stock: 1,
+    sizes: [
+      {
+        name: "2 Años",
+        label: "2-3Y",
+        colors: [
+          {
+            name: "Policromo",
+            hex: "#E1F5FE",
+            stock: 1,
+          },
+        ],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-vestido-floral-lazo-2A_2.jpg",
+      "./public/img/preventa/mk-vestido-floral-lazo-2A.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-floral-lazo-2A.jpg",
+    description:
+      "Vestido de verano fresco con lazo grande y estampado floral delicado. Manga con volantes.",
+    material: "100% Poliéster. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    delivery: "Preventa. Entrega: 6-19 días hábiles (15 sept-2 oct)",
+  },
+  {
+    id: "mk-vestido-tul-bordado-floral-rosa-2A",
+    sku: "MK-TUL-BORD-ROSA-2-3Y",
+    slug: "vestido-tul-rosa-bordado-floral-princesa-2-3Y",
+    name: "Vestido de Tul Rosa con Bordado Floral - Vestido de Princesa con Mangas",
+    category: "vestidos-nina",
+    price: 49.0,
+    oldPrice: 80,
+    cost: 24.56,
+    badge: "Princesa",
+    rating: 4.9,
+    reviews: 12,
+    stock: 1,
+    sizes: [
+      {
+        name: "2 Años",
+        label: "2-3Y",
+        colors: [
+          {
+            name: "Rosa",
+            hex: "#F8BBD0",
+            stock: 1,
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/preventa/mk-vestido-tul-bordado-floral-rosa-2A.jpg",
+      "./public/img/preventa/mk-vestido-tul-bordado-floral-rosa-2A_2.jpg",
+    ],
+    realImage:
+      "./public/img/preventa/mk-vestido-tul-bordado-floral-rosa-2A_2.jpg",
+    description:
+      "Vestido de tul rosa con bordado floral, mangas con volantes y lazo grande. Estilo princesa para fiesta y verano.",
+    material: "Tul + 90% Poliéster, 10% Elastano. Forro suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-marron-caquie-cod-100",
     slug: "vestido-marron-caquie-cod-100",
@@ -6588,6 +6868,41 @@ const PRODUCTS = [
   },
   // ---- TALLA 3 AÑOS ----
   {
+    id: "mk-vestido-princesa-amarillo-3A",
+    sku: "MK-PRIN-AMAR-3-4Y",
+    slug: "vestido-princesa-bebe-cumpleanos-amarillo-3-4Y",
+    name: "Vestido de Princesa para Bebé - Fiesta de Cumpleaños",
+    category: "vestidos-nina",
+    price: 39.0,
+    oldPrice: 49,
+    cost: 15.98,
+    badge: "Preventa",
+    rating: 3.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "3 Años",
+        label: "3-4Y",
+        colors: [{ name: "Amarillo", hex: "#FFEB3B", stock: 1 }],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-vestido-princesa-amarillo-3A.jpg",
+      "./public/img/preventa/mk-vestido-princesa-amarillo-3A_2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-princesa-amarillo-3A_2.jpg",
+    description:
+      "Vestido de princesa para bebé con peluche suave y detalles brillantes. Ideal para cumpleaños y verano.",
+    material:
+      "Exterior: Peluche suave 100% Poliéster con detalles bordados de estrellitas. Interior: Forro de algodón suave 95% Algodón, 5% Elastano. No pica.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora. No planchar directo sobre los bordados.",
+    delivery: "Preventa. Entrega: 6-19 días hábiles (15 sept-2 oct)",
+    tags: ["princesa", "amarillo", "peluche", "cumpleaños", "verano", "3-4Y"],
+  },
+  {
     id: "mk-vestido-rojo-borgona-cod-100",
     slug: "vestido-rojo-borgona-cod-100",
     name: "Vestido de Princesa Rojo Borgoña",
@@ -6677,6 +6992,78 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 3 AÑOS ----
+  {
+    id: "mk-vestido-verde-3A",
+    slug: "mk-vestido-verde-5Y",
+    name: "Vestido de niña sin mangas con lazo Verde",
+    category: "vestidos-nina",
+    price: 48,
+    oldPrice: 78,
+    cost: 35,
+    badge: "Fiesta",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          {
+            name: "Verde",
+            hex: "#A5D6A7",
+          },
+        ],
+      },
+    ],
+    season: "fiesta",
+    images: [
+      "./public/img/preventa/mk-vestido-verde-3A.jpg",
+      "./public/img/preventa/mk-vestido-verde-3A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-verde-3A-2.jpg",
+    description:
+      "Vestido de niña sin mangas con lazo grande verde. Elegante y fresco.",
+    material: "65% Poliéster, 35% Viscosa. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-verano-amarillo-3A",
+    slug: "vestido-verano-tejido-nina-floral-3D-amarillo-3-4A",
+    name: "Vestido de Verano Tejido para Niñas con Manga con Volantes y Diseño Floral 3D - Amarillo",
+    category: "vestidos-nina",
+    price: 42.8,
+    oldPrice: 68,
+    cost: 23.55,
+    badge: "Verano",
+    rating: 4.9,
+    reviews: 8,
+    stock: 1,
+    sizes: [
+      {
+        name: "3 Años",
+        label: "3-4Y",
+        colors: [{ name: "Amarillo", hex: "#FFEB3B", stock: 1 }],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-vestido-verano-amarillo-3A.jpg",
+      "./public/img/preventa/mk-vestido-verano-amarillo-3A_2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-verano-amarillo-3A_2.jpg",
+    description:
+      "Vestido de verano tejido para niñas con manga con volantes y diseño floral 3D. Suave, fresco y no pica. Perfecto para días de sol, paseos y fotos.",
+    material: "Tejido suave - 90% Poliéster, 10% Elastano. Flores 3D bordadas.",
+    cuidados: "Lavar a mano con agua fría. No usar blanqueador.",
+    features: [
+      "Manga con volantes",
+      "Diseño floral 3D",
+      "Tejido fresco",
+      "Ideal primavera-verano",
+    ],
+    tags: ["verano", "amarillo", "floral 3D", "volantes", "3-4Y", "tejido"],
+  },
   {
     id: "mk-vestido-morado-claro-cod-110",
     slug: "vestido-morado-claro-cod-110",
@@ -6935,6 +7322,118 @@ const PRODUCTS = [
 
   // ---- TALLA 4 AÑOS ----
   {
+    id: "mk-princesa-melon-4A",
+    slug: "mk-princesa-melon-7Y",
+    name: "Vestido de princesa elegante Melon rojo",
+    category: "vestidos-nina",
+    price: 49,
+    oldPrice: 75,
+    cost: 23,
+    badge: "Nuevo",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          {
+            name: "Melon rojo",
+            hex: "#FF8A80",
+          },
+        ],
+      },
+    ],
+    season: "fiesta",
+    images: [
+      "./public/img/preventa/mk-princesa-melon-4A.jpg",
+      "./public/img/preventa/mk-princesa-melon-4A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-princesa-melon-4A-2.jpg",
+    description:
+      "Vestido de princesa elegante color melón rojo con lazo grande.",
+    material: "100% Poliéster. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-casual-mariposas-4A",
+    sku: "MK-VEST-CASUAL-ALB-4-5Y",
+    slug: "vestido-casual-ninas-malla-mariposas-tirantes-albaricoque-120",
+    name: "Vestido Casual para Niñas, Falda de Malla con Mariposas y Tirantes",
+    category: "vestidos-nina",
+    price: 39,
+    oldPrice: 55,
+    cost: 18.3,
+    badge: "Nuevo",
+    rating: 3.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "4 Años",
+        label: "120",
+        colors: [
+          {
+            name: "Albaricoque",
+            hex: "#FFDAB9",
+            stock: 1,
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/preventa/mk-vestido-casual-mariposas-4A.jpg",
+      "./public/img/preventa/mk-vestido-casual-mariposas-4A_2.jpg",
+    ],
+
+    realImage: "./public/img/preventa/mk-vestido-casual-mariposas-4A_2.jpg",
+    description:
+      "Vestido casual con tirantes, falda de malla con estampado de mariposas. Fresco y delicado.",
+    material:
+      "Material: Bordado de malla. Composición: 100% Poliéster. Longitud: Mediano (midi).",
+    cuidados: "Lavable a máquina. Lavar con colores similares.",
+  },
+  {
+    id: "mk-vestido-camisola-verano-rosa-4A",
+    sku: "MK-VEST-CAMISOLA-ROSA-120",
+    slug: "vestido-camisola-verano-nina-mariposa-rosa-120",
+    name: "Vestido Camisola de Verano para Niñas con Patrón de Mariposa Rosa",
+    category: "vestidos-nina",
+    price: 42.0,
+    oldPrice: 55,
+    cost: 20.97,
+    badge: "Verano",
+    rating: 3.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "4 Años",
+        label: "120",
+        colors: [
+          {
+            name: "Rosa",
+            hex: "#F8BBD0",
+            stock: 1,
+          },
+        ],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-vestido-camisola-verano-rosa-4A.jpg",
+      "./public/img/preventa/mk-vestido-camisola-verano-rosa-4A_2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-camisola-verano-rosa-4A_2.jpg",
+    description:
+      "Vestido camisola de verano adornado con gran patrón de mariposa. Fresco con lazo trasero.",
+    material:
+      "Material: Bordado de malla. Composición: 100% Poliéster. Longitud: Mediano (midi).",
+    cuidados: "Lavable a máquina. Lavar con colores similares.",
+  },
+  {
     id: "mk-vestido-4-rosa-floreada-cod-120",
     slug: "vestido-4-rosa-floreada-cod-120",
     name: "Vestido Rosa Floreada para Niña",
@@ -7161,12 +7660,187 @@ const PRODUCTS = [
 
   // ---- TALLA 5 AÑOS ----
   {
+    id: "mk-tul-floral-beige-5A",
+    slug: "mk-tul-floral-beige-8Y",
+    name: "Vestido de tul con estampado floral Beige",
+    category: "vestidos-nina",
+    price: 65,
+    oldPrice: 77,
+    cost: 37,
+    badge: "Nuevo Llegado",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          {
+            name: "Beige",
+            hex: "#F5F5DC",
+          },
+        ],
+      },
+    ],
+    season: "verano-boda",
+    images: [
+      "./public/img/preventa/mk-tul-floral-beige-5A.jpg",
+      "./public/img/preventa/mk-tul-floral-beige-5A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-tul-floral-beige-5A-2.jpg",
+    description:
+      "Vestido de niña para boda de verano, malla transpirable, plisado con flores 3D. Beige.",
+    material: "100% Poliéster. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-tul-capas-blanco-5A",
+    slug: "mk-tul-capas-blanco-7Y",
+    name: "Elegante Vestido de Tul Capas Blanco",
+    category: "vestidos-nina",
+    price: 68,
+    oldPrice: 80,
+    cost: 34,
+    badge: "Fiesta",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          {
+            name: "Blanco",
+            hex: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+    season: "fiesta",
+    images: [
+      "./public/img/preventa/mk-tul-capas-blanco-5A.jpg",
+      "./public/img/preventa/mk-tul-capas-blanco-5A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-tul-capas-blanco-5A-2.jpg",
+    description:
+      "Elegante vestido de tul capas blanco, estilo princesa para fiesta.",
+    material: "100% Poliéster. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-gululu-blanco-5A",
+    slug: "mk-gululu-blanco-130",
+    name: "GULULU Vestido de Princesa Blanco 6015",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 80,
+    cost: 33,
+    badge: "Premium",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          {
+            name: "Blanco",
+            hex: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+    season: "fiesta",
+    images: [
+      "./public/img/preventa/mk-gululu-blanco-5A.jpg",
+      "./public/img/preventa/mk-gululu-blanco-5A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-gululu-blanco-5A-2.jpg",
+    description: "GULULU vestido de princesa blanco, tul elegante alta gama.",
+    material: "65% Poliéster, 35% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-verano-rosa-5A",
+    slug: "mk-verano-rosa-130",
+    name: "Vestido de Verano para Niñas Rosa 130",
+    category: "vestidos-nina",
+    price: 55,
+    oldPrice: 70,
+    cost: 34,
+    badge: "Verano",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          {
+            name: "Rosa",
+            hex: "#F8BBD0",
+          },
+        ],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-verano-rosa-5A.jpg",
+      "./public/img/preventa/mk-verano-rosa-5A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-verano-rosa-5A-2.jpg",
+    description:
+      "Vestido de verano para niñas rosa, abombado con detalles bordados.",
+    material: "100% Poliéster. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-noche-gris-rosaceo-5A",
+    slug: "mk-noche-gris-rosaceo-130",
+    name: "Vestido de Noche para Niñas con capas Rosa",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 80,
+    Cost: 36,
+    badge: "Noche",
+    rating: 4.9,
+    reviews: 10,
+    stock: 1,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          {
+            name: "Gris rosáceo pálido",
+            hex: "#F8BBD0",
+          },
+        ],
+      },
+    ],
+    season: "noche",
+    images: [
+      "./public/img/preventa/mk-noche-gris-rosaceo-5A.jpg",
+      "./public/img/preventa/mk-noche-gris-rosaceo-5A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-noche-gris-rosaceo-5A-2.jpg",
+    description:
+      "Vestido de noche para niñas con capas, elegante para eventos.",
+    material: "65% Poliéster, 35% Viscosa. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+
+  {
     id: "mk-vestido-5-capa-brillos-cod-130",
     slug: "vestido-5-capa-brillos-cod-130",
     name: "Vestido de Princesa con Capa y Brillos",
     category: "vestidos-nina",
-    price: 39,
-    oldPrice: 60,
+    price: 44,
+    oldPrice: 80,
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
@@ -7198,7 +7872,7 @@ const PRODUCTS = [
     oldPrice: 60,
     badge: "Oferta",
     rating: 4.9,
-    reviews: 12,
+    reviews: 10,
     stock: 2,
     sizes: [
       {
@@ -7414,6 +8088,131 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-chal-blanco-6A",
+    slug: "vestido-chal-elegante-nina-blanco-6A",
+    name: "Vestido Chal Elegante de Niña con Frente Abierto y Mangas Largas",
+    category: "vestidos-nina",
+    price: 39.9,
+    oldPrice: 55,
+    badge: "Oferta",
+    rating: 5.0,
+    reviews: 8,
+    stock: 1,
+    sizes: [
+      {
+        name: "6 Años",
+        colors: [{ name: "Blanco", hex: "#FFFFFF" }],
+      },
+    ],
+    season: "primavera-verano-otono",
+    images: ["./public/img/preventa/mk-vestido-chal-blanco-6A.jpg"],
+    realImage: "./public/img/Preventa/mk-vestido-chal-blanco-6A.jpg",
+    description:
+      "Vestido chal elegante de niña con frente abierto y mangas largas. Top simple de color liso y suave, ideal para primavera, verano y otoño. Esencial para el regreso a clases, no pica y combina con todo.",
+    material:
+      "Tejido suave de punto - 90% Poliéster, 10% Elastano. Suave al tacto.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-mariposa-violeta-6A",
+    slug: "vestido-princesa-elegante-mariposas-violeta-oscuro",
+    name: "Vestido de Princesa Elegante con Mariposas 3D - Violeta Oscuro",
+    category: "vestidos-nina",
+    price: 54.9,
+    oldPrice: 86.64,
+    cost: 24.14,
+    discount: 44,
+    badge: "Oferta",
+    rating: 4.9,
+    reviews: 8,
+    stock: 4,
+    sizes: [
+      {
+        name: "5 Años",
+        label: "7Y",
+        colors: [
+          {
+            name: "Violeta Oscuro",
+            hex: "#7B1FA2",
+            stock: 4,
+            images: ["violeta-oscuro-1.jpg"],
+          },
+          { name: "Rosa", hex: "#F8BBD0", stock: 0, status: "Agotado" },
+        ],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-vestido-mariposa-violeta-6A.jpg",
+      "./public/img/preventa/mk-vestido-mariposa-violeta-6A_2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-mariposa-violeta-6A.jpg",
+    description:
+      "Vestido de Princesa Elegante para Verano, Tulle de Malla con Forma de Mariposa 3D, Dobladillo de Patchwork de 5 Colores, Decoración de Cinturón con Lazo, Diseño de Cremallera Trasera, sin Mangas. Moderno y encantador para fiesta casual.",
+    material: "Tulle de malla + forro interior suave. 100% Poliéster.",
+    cuidados: "Lavar a mano con agua fría. No usar blanqueador.",
+    features: [
+      "Mariposas 3D",
+      "Patchwork 5 colores",
+      "Cinturón lazo",
+      "Cremallera trasera",
+      "Envío gratis",
+      "Entrega 6 días hábiles",
+    ],
+    tags: [
+      "princesa",
+      "mariposas",
+      "violeta",
+      "verano",
+      "fiesta",
+      "viral",
+      "4.9 estrellas",
+    ],
+    delivery:
+      "Entrega más rápida: 6 DÍAS HÁBILES - Crédito S/ 4.00 por retraso",
+    location: "A.H. La Totoritas Psje Los Geranios Mz.A2 Lt.14 SJL 15434",
+  },
+  {
+    id: "mk-vestido-tul-lentejuelas-6A",
+    sku: "MK-TUL-LENT-ALB-7Y",
+    slug: "vestido-tul-lentejuelas-bordadas-alta-gama-albaricoque-7Y",
+    name: "Vestido de Tul con Lentejuelas Bordadas de Alta Gama",
+    category: "vestidos-nina",
+    price: 49,
+    oldPrice: 60,
+    cost: 22.49,
+    badge: "Premium",
+    rating: 4.9,
+    reviews: 12,
+    stock: 1,
+    sizes: [
+      {
+        name: "5 Años",
+        label: "7Y",
+        colors: [
+          {
+            name: "Albaricoque",
+            hex: "#FFDAB9",
+            stock: 1,
+          },
+        ],
+      },
+    ],
+    season: "fiesta",
+    images: [
+      "./public/img/preventa/mk-vestido-tul-lentejuelas-6A.jpg",
+      "./public/img/preventa/mk-vestido-tul-lentejuelas-6A_2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-vestido-tul-lentejuelas-6A_2.jpg",
+    description:
+      "Vestido de noche elegante con falda de tul con lentejuelas bordadas. Diseño de princesa de alta gama para verano, fiesta y noche.",
+    material:
+      "Material: Bordado de malla con lentejuelas. Composición: 100% Poliéster.",
+    cuidados:
+      "Lavar a mano con agua fría, del revés para proteger las lentejuelas. No retorcer.",
   },
 ];
 
