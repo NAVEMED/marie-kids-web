@@ -1,222 +1,313 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tienda de Ropa Infantil | Marie Kids - Compra Online</title>
-<meta name="description" content="Explora nuestro catálogo de ropa para niñas. Encuentra vestidos, conjuntos, casacas y jeans de moda infantil importada. Filtra por talla, color y precio. ¡Envíos a todo Perú!">
-<link rel="canonical" href="https://mariekids.pe/tienda.html">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-
-  <div class="announce">🎀 Envío a todo el Perú &nbsp;·&nbsp; <b>20% OFF</b> termina en: <span class="countdown" id="countdown"><span>00</span>:<span>00</span>:<span>00</span></span></div>
-
-  <header class="site">
-    <nav class="main">
-      <div class="logo">Marie<span>Kids</span></div>
-      <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li class="has-mega"><a href="tienda.html">Categorías ▾</a><div class="mega" id="megaMenu"></div></li>
-        <li><a href="tienda.html?filter=nuevos">Nuevos ingresos</a></li>
-        <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
-        <li><a href="index.html#contacto">Contacto</a></li>
-      </ul>
-      <div class="nav-actions">
-        <div class="search-pill">🔍 <input id="searchInput" type="text" placeholder="Buscar vestidos, tallas..."><div class="search-results" id="searchResults"></div></div>
-        <div class="icon-btn" title="Favoritos">♡<span class="badge-count" id="wishCount" style="display:none;">0</span></div>
-        <div class="icon-btn" title="Mi cuenta">👤</div>
-        <div class="icon-btn" title="Carrito" onclick="Cart.openDrawer()">🛍️<span class="badge-count" id="cartCount" style="display:none;">0</span></div>
-        <div class="icon-btn burger" onclick="openMobilePanel()">☰</div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="wrap">
-    <nav class="breadcrumb"><a href="index.html">Inicio</a> / <span id="bcTitle">Tienda</span></nav>
-  </div>
-
-  <div class="wrap">
-    <div class="tienda-layout">
-      <!-- ============ FILTROS ============ -->
-      <aside class="filters">
-        <div class="filter-group">
-          <h5>Categoría</h5>
-          <div id="fCategory"></div>
-        </div>
-        <div class="filter-group">
-          <h5>Edad / Talla</h5>
-          <div id="fSize"></div>
-        </div>
-        <div class="filter-group">
-          <h5>Color</h5>
-          <div class="color-swatches" id="fColor"></div>
-        </div>
-        <div class="filter-group">
-          <h5>Temporada</h5>
-          <div id="fSeason"></div>
-        </div>
-        <div class="filter-group">
-          <h5>Precio: hasta <span id="priceLabel">S/ 80</span></h5>
-          <input type="range" min="20" max="80" value="80" class="price-range" id="fPrice">
-        </div>
-        <div class="filter-group">
-          <label class="filter-opt"><input type="checkbox" id="fStock"> Solo con stock disponible</label>
-        </div>
-        <button class="btn btn-outline btn-block" onclick="clearFilters()">Limpiar filtros</button>
-      </aside>
-
-      <!-- ============ RESULTADOS ============ -->
-      <div>
-        <div class="toolbar">
-          <span id="resultCount" style="font-size:13.5px;color:var(--ink-soft);">0 productos</span>
-          <select id="sortSelect" onchange="applyFilters()">
-            <option value="relevance">Ordenar: Relevancia</option>
-            <option value="price-asc">Precio: menor a mayor</option>
-            <option value="price-desc">Precio: mayor a menor</option>
-            <option value="rating">Mejor calificados</option>
-            <option value="newest">Más nuevos</option>
-          </select>
-        </div>
-        <div class="active-filters" id="activeFilters"></div>
-        <div class="grid-products" id="shopGrid"></div>
-        <div class="no-results" id="noResults" style="display:none;">
-          <div style="font-size:40px;margin-bottom:14px;">🔍</div>
-          <p>No encontramos productos con esos filtros.</p>
-          <button class="btn btn-primary" style="margin-top:14px;" onclick="clearFilters()">Limpiar filtros</button>
-        </div>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Ropa Infantil | Marie Kids - Compra Online</title>
+    <meta
+      name="description"
+      content="Explora nuestro catálogo de ropa para niñas. Encuentra vestidos, conjuntos, casacas y jeans de moda infantil importada. Filtra por talla, color y precio. ¡Envíos a todo Perú!"
+    />
+    <link rel="canonical" href="https://mariekids.pe/tienda.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="announce">
+      🎀 Envío a todo el Perú &nbsp;·&nbsp; <b>20% OFF</b> termina en:
+      <span class="countdown" id="countdown"
+        ><span>00</span>:<span>00</span>:<span>00</span></span
+      >
     </div>
-  </div>
 
-  <footer id="contacto">
-    <div class="wrap">
-      <div class="foot-grid">
-        <div>
-          <div class="foot-logo">Marie<span>Kids</span></div>
-          <p class="desc">
-            Moda infantil importada para cada ocasión especial. Vestidos,
-            conjuntos y abrigos de calidad para niñas de 1 a 12 años.
-          </p>
-          <div class="soc-row">
-            <a
-              href="https://wa.me/51930419029?text=Hola%20Marie%20Kids!%20Vi%20el%20catalogo%20y%20quiero%20hacer%20un%20pedido"
-              target="_blank"
-              rel="noopener"
-              aria-label="WhatsApp"
-              class="soc-btn"
-              style="background: #25d366"
-              >💬</a
-            >
-            <a
-              href="https://www.facebook.com/MarieKids.peru"
-              target="_blank"
-              rel="noopener"
-              aria-label="Facebook"
-              class="soc-btn"
-              style="background: #1877f2"
-              >f</a
-            >
-            <a
-              href="https://www.instagram.com/mariekidsperu"
-              target="_blank"
-              rel="noopener"
-              aria-label="Instagram"
-              class="soc-btn"
-              style="
-                background: linear-gradient(
-                  45deg,
-                  #f09433,
-                  #e6683c,
-                  #dc2743,
-                  #cc2366,
-                  #bc1888
-                );
-              "
-              >📷</a
-            >
-            <a
-              href="https://www.tiktok.com/@mariekidsperu"
-              target="_blank"
-              rel="noopener"
-              aria-label="TikTok"
-              class="soc-btn"
-              style="background: #000"
-              >♪</a
+    <header class="site">
+      <nav class="main">
+        <div class="logo">Marie<span>Kids</span></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li class="has-mega">
+            <a href="tienda.html">Categorías ▾</a>
+            <div class="mega" id="megaMenu"></div>
+          </li>
+          <li><a href="tienda.html?filter=nuevos">Nuevos ingresos</a></li>
+          <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="search-pill">
+            🔍
+            <input
+              id="searchInput"
+              type="text"
+              placeholder="Buscar vestidos, tallas..."
+            />
+            <div class="search-results" id="searchResults"></div>
+          </div>
+          <div class="icon-btn" title="Favoritos">
+            ♡<span class="badge-count" id="wishCount" style="display: none"
+              >0</span
             >
           </div>
+          <div class="icon-btn" title="Mi cuenta">👤</div>
+          <div class="icon-btn" title="Carrito" onclick="Cart.openDrawer()">
+            🛍️<span class="badge-count" id="cartCount" style="display: none"
+              >0</span
+            >
+          </div>
+          <div class="icon-btn burger" onclick="openMobilePanel()">☰</div>
         </div>
+      </nav>
+    </header>
+
+    <div class="wrap">
+      <nav class="breadcrumb">
+        <a href="index.html">Inicio</a> / <span id="bcTitle">Tienda</span>
+      </nav>
+    </div>
+
+    <div class="wrap">
+      <div class="tienda-layout">
+        <!-- ============ FILTROS ============ -->
+        <aside class="filters">
+          <div class="filter-group">
+            <h5>Categoría</h5>
+            <div id="fCategory"></div>
+          </div>
+          <div class="filter-group">
+            <h5>Edad / Talla</h5>
+            <div id="fSize"></div>
+          </div>
+          <div class="filter-group">
+            <h5>Color</h5>
+            <div class="color-swatches" id="fColor"></div>
+          </div>
+          <div class="filter-group">
+            <h5>Temporada</h5>
+            <div id="fSeason"></div>
+          </div>
+          <div class="filter-group">
+            <h5>Precio: hasta <span id="priceLabel">S/ 80</span></h5>
+            <input
+              type="range"
+              min="20"
+              max="80"
+              value="80"
+              class="price-range"
+              id="fPrice"
+            />
+          </div>
+          <div class="filter-group">
+            <label class="filter-opt"
+              ><input type="checkbox" id="fStock" /> Solo con stock
+              disponible</label
+            >
+          </div>
+          <button class="btn btn-outline btn-block" onclick="clearFilters()">
+            Limpiar filtros
+          </button>
+        </aside>
+
+        <!-- ============ RESULTADOS ============ -->
         <div>
-          <h5>Categorías</h5>
-          <ul>
-            <li><a href="tienda.html?catgroup=vestidos">Vestidos</a></li>
-            <li>
-              <a href="tienda.html?catgroup=conjuntos-invierno"
-                >Conjuntos Invierno</a
+          <div class="toolbar">
+            <span
+              id="resultCount"
+              style="font-size: 13.5px; color: var(--ink-soft)"
+              >0 productos</span
+            >
+            <select id="sortSelect" onchange="applyFilters()">
+              <option value="relevance">Ordenar: Relevancia</option>
+              <option value="price-asc">Precio: menor a mayor</option>
+              <option value="price-desc">Precio: mayor a menor</option>
+              <option value="rating">Mejor calificados</option>
+              <option value="newest">Más nuevos</option>
+            </select>
+          </div>
+          <div class="active-filters" id="activeFilters"></div>
+          <div class="grid-products" id="shopGrid"></div>
+          <div class="no-results" id="noResults" style="display: none">
+            <div style="font-size: 40px; margin-bottom: 14px">🔍</div>
+            <p>No encontramos productos con esos filtros.</p>
+            <button
+              class="btn btn-primary"
+              style="margin-top: 14px"
+              onclick="clearFilters()"
+            >
+              Limpiar filtros
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="contacto">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div>
+            <div class="foot-logo">Marie<span>Kids</span></div>
+            <p class="desc">
+              Moda infantil importada para cada ocasión especial. Vestidos,
+              conjuntos y abrigos de calidad para niñas de 1 a 12 años.
+            </p>
+            <div class="soc-row">
+              <a
+                href="https://wa.me/51930419029?text=Hola%20Marie%20Kids!%20Vi%20el%20catalogo%20y%20quiero%20hacer%20un%20pedido"
+                target="_blank"
+                rel="noopener"
+                aria-label="WhatsApp"
+                class="soc-btn"
+                style="background: #25d366"
               >
-            </li>
-            <li><a href="tienda.html?catgroup=casacas">Casacas</a></li>
-            <li><a href="tienda.html?catgroup=jeans">Jeans</a></li>
-            <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
-          </ul>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="white">
+                  <path
+                    d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.74.46 3.45 1.32 4.95L2 22l5.29-1.38a9.86 9.86 0 0 0 4.75 1.21h0c5.46 0 9.89-4.43 9.89-9.89a9.76 9.76 0 0 0-2.88-6.93zm-7.01 15.22h0a8.3 8.3 0 0 1-4.23-1.16l-.3-.18-3.14.82.84-3.06-.2-.31a8.26 8.26 0 0 1-1.28-4.45c0-4.6 3.74-8.34 8.34-8.34a8.26 8.26 0 0 1 5.86 2.43 8.2 8.2 0 0 1 2.43 5.86c0 4.6-3.74 8.34-8.34 8.34zm4.58-6.25c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.65.81-.8.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.39.1-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.08s.89 2.41 1.01 2.58c.12.17 1.75 2.67 4.24 3.75.59.25 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/MarieKids.peru"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
+                class="soc-btn"
+                style="background: #1877f2"
+                >f</a
+              >
+              <a
+                href="https://www.instagram.com/mariekidsperu"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+                class="soc-btn"
+                style="
+                  background: linear-gradient(
+                    45deg,
+                    #f09433,
+                    #e6683c,
+                    #dc2743,
+                    #cc2366,
+                    #bc1888
+                  );
+                "
+                >📷</a
+              >
+              <a
+                href="https://www.tiktok.com/@mariekidsperu"
+                target="_blank"
+                rel="noopener"
+                aria-label="TikTok"
+                class="soc-btn"
+                style="background: #000"
+                >♪</a
+              >
+            </div>
+          </div>
+          <div>
+            <h5>Categorías</h5>
+            <ul>
+              <li><a href="tienda.html?catgroup=vestidos">Vestidos</a></li>
+              <li>
+                <a href="tienda.html?catgroup=conjuntos-invierno"
+                  >Conjuntos Invierno</a
+                >
+              </li>
+              <li><a href="tienda.html?catgroup=casacas">Casacas</a></li>
+              <li><a href="tienda.html?catgroup=jeans">Jeans</a></li>
+              <li><a href="tienda.html?filter=liquidacion">Liquidación</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Ayuda</h5>
+            <ul>
+              <li><a href="#">Cómo comprar</a></li>
+              <li><a href="#">Guía de tallas</a></li>
+              <li><a href="#">Envíos y entregas</a></li>
+              <li><a href="#">Cambios y devoluciones</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Contáctanos</h5>
+            <ul class="foot-contact">
+              <li>📍 Lima, Perú</li>
+              <li>📱 WhatsApp: 930 419 029</li>
+              <li>✉️ hola@mariekids.pe</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h5>Ayuda</h5>
-          <ul>
-            <li><a href="#">Cómo comprar</a></li>
-            <li><a href="#">Guía de tallas</a></li>
-            <li><a href="#">Envíos y entregas</a></li>
-            <li><a href="#">Cambios y devoluciones</a></li>
-            <li><a href="#">Preguntas frecuentes</a></li>
-          </ul>
-        </div>
-        <div>
-          <h5>Contáctanos</h5>
-          <ul class="foot-contact">
-            <li>📍 Lima, Perú</li>
-            <li>📱 WhatsApp: 930 419 029</li>
-            <li>✉️ hola@mariekids.pe</li>
-          </ul>
+        <div class="bottom-bar">
+          <span>© 2026 Marie Kids. Todos los derechos reservados.</span>
+          <div class="pay-icons">
+            <span>VISA</span><span>MASTERCARD</span><span>YAPE</span
+            ><span>PLIN</span><span>MERCADO PAGO</span>
+          </div>
         </div>
       </div>
-      <div class="bottom-bar">
-        <span>© 2026 Marie Kids. Todos los derechos reservados.</span>
-        <div class="pay-icons">
-          <span>VISA</span><span>MASTERCARD</span><span>YAPE</span
-          ><span>PLIN</span><span>MERCADO PAGO</span>
+    </footer>
+
+    <a
+      class="wa-float"
+      href="https://wa.me/51930419029"
+      target="_blank"
+      rel="noopener"
+    >
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="white">
+        <path
+          d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.74.46 3.45 1.32 4.95L2 22l5.29-1.38a9.86 9.86 0 0 0 4.75 1.21h0c5.46 0 9.89-4.43 9.89-9.89a9.76 9.76 0 0 0-2.88-6.93zm-7.01 15.22h0a8.3 8.3 0 0 1-4.23-1.16l-.3-.18-3.14.82.84-3.06-.2-.31a8.26 8.26 0 0 1-1.28-4.45c0-4.6 3.74-8.34 8.34-8.34a8.26 8.26 0 0 1 5.86 2.43 8.2 8.2 0 0 1 2.43 5.86c0 4.6-3.74 8.34-8.34 8.34zm4.58-6.25c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.65.81-.8.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.39.1-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.08s.89 2.41 1.01 2.58c.12.17 1.75 2.67 4.24 3.75.59.25 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29z"
+        />
+      </svg>
+    </a>
+    <div class="scrim" id="scrim" onclick="closeMobilePanel()"></div>
+    <div class="mobile-panel" id="mobilePanel">
+      <div class="mp-close" onclick="closeMobilePanel()">✕</div>
+      <a href="index.html">Inicio</a><a href="tienda.html">Tienda</a
+      ><a href="index.html#contacto">Contacto</a>
+    </div>
+    <div id="cartOverlay" onclick="Cart.closeDrawer()"></div>
+    <aside class="cart-drawer" id="cartDrawer">
+      <div class="cart-head">
+        <h3>Tu carrito</h3>
+        <button class="close" onclick="Cart.closeDrawer()">✕</button>
+      </div>
+      <div class="ship-progress">
+        <div class="track"><div class="fill" id="shipBar"></div></div>
+        <span id="shipNote"></span>
+      </div>
+      <div class="cart-body" id="cartBody"></div>
+      <div class="cart-foot">
+        <div class="cart-line">
+          <span>Subtotal</span><span id="cartSubtotal">S/ 0</span>
         </div>
+        <div class="cart-line">
+          <span>Envío</span><span id="cartShipping">S/ 0</span>
+        </div>
+        <div class="cart-line total">
+          <span>Total</span><span id="cartTotal">S/ 0</span>
+        </div>
+        <a href="checkout.html" class="btn btn-primary btn-block"
+          >Finalizar compra</a
+        >
+      </div>
+    </aside>
+    <div
+      class="modal-overlay"
+      id="qvOverlay"
+      onclick="if (event.target === this) closeQuickView();"
+    >
+      <div class="qv-modal">
+        <button class="qv-close" onclick="closeQuickView()">✕</button>
+        <div id="qvContent" style="display: contents"></div>
       </div>
     </div>
-  </footer>
 
-  <a class="wa-float" href="https://wa.me/51930419029" target="_blank" rel="noopener">💬</a>
-  <div class="scrim" id="scrim" onclick="closeMobilePanel()"></div>
-  <div class="mobile-panel" id="mobilePanel">
-    <div class="mp-close" onclick="closeMobilePanel()">✕</div>
-    <a href="index.html">Inicio</a><a href="tienda.html">Tienda</a><a href="index.html#contacto">Contacto</a>
-  </div>
-  <div id="cartOverlay" onclick="Cart.closeDrawer()"></div>
-  <aside class="cart-drawer" id="cartDrawer">
-    <div class="cart-head"><h3>Tu carrito</h3><button class="close" onclick="Cart.closeDrawer()">✕</button></div>
-    <div class="ship-progress"><div class="track"><div class="fill" id="shipBar"></div></div><span id="shipNote"></span></div>
-    <div class="cart-body" id="cartBody"></div>
-    <div class="cart-foot">
-      <div class="cart-line"><span>Subtotal</span><span id="cartSubtotal">S/ 0</span></div>
-      <div class="cart-line"><span>Envío</span><span id="cartShipping">S/ 0</span></div>
-      <div class="cart-line total"><span>Total</span><span id="cartTotal">S/ 0</span></div>
-      <a href="checkout.html" class="btn btn-primary btn-block">Finalizar compra</a>
-    </div>
-  </aside>
-  <div class="modal-overlay" id="qvOverlay" onclick="if(event.target===this) closeQuickView()">
-    <div class="qv-modal"><button class="qv-close" onclick="closeQuickView()">✕</button><div id="qvContent" style="display:contents;"></div></div>
-  </div>
-
-  <script src="js/data.js"></script>
-  <script src="js/cart.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/tienda.js"></script>
-</body>
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/tienda.js"></script>
+  </body>
 </html>

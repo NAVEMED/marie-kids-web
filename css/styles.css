@@ -2141,3 +2141,48 @@ footer ul li a:hover {
 .opt-color.split-color:hover {
   transform: scale(1.1);
 }
+
+/* ============================================================
+    (Chatbot Marie)
+   ============================================================ */
+
+#btn-soporte-marie {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background: #ff5a8a;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#chat-marie {
+  position: fixed;
+  bottom: 165px;
+  right: 20px;
+  width: 340px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  z-index: 9999;
+  border: 1px solid #eee;
+  display: none;
+  font-family: sans-serif;
+}
+#mensajes-marie {
+  height: 250px;
+  overflow-y: auto;
+  font-size: 13px;
+  margin-bottom: 10px;
+  background: #fff5f7;
+  padding: 10px;
+  border-radius: 10px;
+}

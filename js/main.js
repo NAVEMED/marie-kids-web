@@ -150,7 +150,8 @@ function pcardHTML(p) {
           )}${sizeDisplay.length > 3 ? `<span>+${sizeDisplay.length - 3}</span>` : ""}</div>
         <div class="cta-row">
           <button class="btn btn-primary" onclick="Cart.add(PRODUCTS.find(x=>x.id==='${p.id}'), '${firstSize}', '${firstColor}')">Agregar</button>
-          <a class="btn cta-wa" target="_blank" rel="noopener" href="${buildWhatsAppLink(p, firstSize, firstColor)}" aria-label="Comprar por WhatsApp">💬</a>
+          <a class="btn cta-wa" target="_blank" rel="noopener" href="${buildWhatsAppLink(p, firstSize, firstColor)}" aria-label="Comprar por WhatsApp">  <svg viewBox="0 0 24 24" width="18" height="18" fill="white"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.74.46 3.45 1.32 4.95L2 22l5.29-1.38a9.86 9.86 0 0 0 4.75 1.21h0c5.46 0 9.89-4.43 9.89-9.89a9.76 9.76 0 0 0-2.88-6.93zm-7.01 15.22h0a8.3 8.3 0 0 1-4.23-1.16l-.3-.18-3.14.82.84-3.06-.2-.31a8.26 8.26 0 0 1-1.28-4.45c0-4.6 3.74-8.34 8.34-8.34a8.26 8.26 0 0 1 5.86 2.43 8.2 8.2 0 0 1 2.43 5.86c0 4.6-3.74 8.34-8.34 8.34zm4.58-6.25c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.65.81-.8.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.39.1-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.08s.89 2.41 1.01 2.58c.12.17 1.75 2.67 4.24 3.75.59.25 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+</a>
         </div>
       </div>
     </div>`;
@@ -257,7 +258,10 @@ function openQuickView(id) {
       <div class="qv-actions">
         <button class="btn btn-primary btn-block" onclick="qvAddToCart()">Agregar al carrito</button>
       </div>
-      <a class="btn cta-wa" style="width:100%;justify-content:center;margin-top:10px;" target="_blank" rel="noopener" id="qvWaLink">💬 Comprar por WhatsApp</a>
+      <a class="btn cta-wa" style="width:100%;justify-content:center;margin-top:10px;display:flex;align-items:center;gap:6px;" target="_blank" rel="noopener" id="qvWaLink">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="white" style="flex-shrink:0"><path d="M12.04 2C6.58 2 2.11 6.47 2.11 12c0 1.96.51 3.88 1.49 5.57L2 22l4.56-1.19A9.9 9.9 0 0012.04 22c5.46 0 9.93-4.47 9.93-10S17.5 2 12.04 2zm0 18.13a8.15 8.15 0 01-4.14-1.13l-.3-.18-2.7.71.72-2.64-.19-.27A8.1 8.1 0 0112.04 4a8.1 8.1 0 018.1 8c0 4.48-3.64 8.13-8.1 8.13zm4.49-6.09c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.57.12-.17.25-.66.81-.81.97-.14.17-.29.19-.53.06-.25-.12-1.04-.38-1.99-1.22-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.57-1.37-.78-1.88-.21-.5-.42-.43-.57-.44h-.49c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+  Comprar por WhatsApp
+     </a>
     </div>`;
   updateQvWaLink();
   document.getElementById("qvOverlay").classList.add("show");

@@ -271,7 +271,10 @@ function renderPDP() {
           <button class="btn btn-outline" onclick="pdpAddToCart()">Agregar al carrito</button>
           <button class="btn btn-primary" onclick="pdpAddToCart(); Cart.openDrawer();">Comprar ahora</button>
         </div>
-        <a class="btn cta-wa" id="pdpWaLink" style="width:100%;justify-content:center;margin-top:10px;" target="_blank" rel="noopener">💬 Comprar por WhatsApp</a>
+        <a class="btn cta-wa" id="pdpWaLink" style="width:100%;justify-content:center;margin-top:10px; gap:8px; align-items:center;" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="white" style="flex-shrink:0"><path d="M12.04 2C6.58 2 2.11 6.47 2.11 12c0 1.96.51 3.88 1.49 5.57L2 22l4.56-1.19A9.9 9.9 0 0012.04 22c5.46 0 9.93-4.47 9.93-10S17.5 2 12.04 2zm4.49 6.09c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.57.12-.17.25-.66.81-.81.97-.14.17-.29.19-.53.06-.25-.12-1.04-.38-1.99-1.22-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.57-1.37-.78-1.88-.21-.5-.42-.43-.57-.44h-.49c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
+        Comprar por WhatsApp
+        </a>
 
         <div class="trust-row">
           <span class="trust-item">🚚 Envío a todo el Perú</span>
