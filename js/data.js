@@ -6429,10 +6429,10 @@ const PRODUCTS = [
     ],
     season: "primavera-otono",
     images: [
-      "./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M.jpg",
-      "./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M_1.jpg",
+      "./public/img/preventa/mk-conjunto-rojo-fresa-18-24M.jpg",
+      "./public/img/preventa/mk-conjunto-rojo-fresa-18-24M_1.jpg",
     ],
-    realImage: "./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M.jpg",
+    realImage: "./public/img/preventa/mk-conjunto-rojo-fresa-18-24M.jpg",
     description:
       "Hermoso conjunto casual de 2 piezas para bebés y niñas pequeñas estilo primavera/otoño. Incluye chompita roja de punto y vestido blanco con estampado de fresitas. Suave, no pica y perfecto para el día a día.",
     material: "Tejido de punto suave + algodón. Forro interior suave.",
