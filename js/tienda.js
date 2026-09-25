@@ -110,7 +110,7 @@ function buildFilterUI() {
 }
 
 function getFilteredProductList() {
-  let list = PRODUCTS.slice();
+  let list = PRODUCTS.slice().filter((p) => p.activo !== false);
   if (state.groupFilter) {
     const group = CATEGORY_GROUPS.find((g) => g.slug === state.groupFilter);
     if (group) {
@@ -257,7 +257,7 @@ function applyFilters() {
   const sortSelect = document.getElementById("sortSelect");
   if (sortSelect) state.sort = sortSelect.value;
 
-  let list = PRODUCTS.slice();
+  let list = PRODUCTS.slice().filter((p) => p.activo !== false);
 
   // 1. Filtro de categoría
   if (state.groupFilter) {

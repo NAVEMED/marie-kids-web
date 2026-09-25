@@ -88,7 +88,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -129,7 +129,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -164,7 +164,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -194,7 +194,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -233,7 +233,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -260,7 +260,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -287,7 +287,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -315,7 +315,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -345,7 +345,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -372,7 +372,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -399,7 +399,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -433,7 +433,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -467,7 +467,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -499,7 +499,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -529,7 +529,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -559,7 +559,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -586,7 +586,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -616,7 +616,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -646,7 +646,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -673,7 +673,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -706,7 +706,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "6 Años",
@@ -733,7 +733,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "6 Años",
@@ -763,7 +763,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "6 Años",
@@ -796,7 +796,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "7 Años",
@@ -832,7 +832,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -863,7 +863,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -894,7 +894,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -923,7 +923,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -954,7 +954,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -983,7 +983,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -1010,7 +1010,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -1037,7 +1037,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -1064,7 +1064,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -1093,7 +1093,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -1120,7 +1120,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -1151,7 +1151,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -1180,7 +1180,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -1216,7 +1216,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "6 Años",
@@ -1249,7 +1249,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "1-2 Años",
@@ -1305,7 +1305,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "1-2 Años",
@@ -1363,7 +1363,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "1-2 Años",
@@ -1420,7 +1420,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "1-2 Años",
@@ -1475,7 +1475,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "1-2 Años",
@@ -1532,7 +1532,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "1-2 Años",
@@ -1583,7 +1583,7 @@ const PRODUCTS = [
     badge: "oferta",
     rating: 0,
     reviews: 0,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "1-2 Años",
@@ -1646,7 +1646,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -1675,7 +1675,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -1704,7 +1704,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -1737,7 +1737,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -1768,7 +1768,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -1797,7 +1797,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -1826,7 +1826,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -1857,7 +1857,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -1886,7 +1886,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -1915,7 +1915,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -1944,7 +1944,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -1973,7 +1973,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -2002,7 +2002,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -2035,7 +2035,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -2064,7 +2064,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -2093,7 +2093,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -2122,7 +2122,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -2153,7 +2153,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -2182,7 +2182,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -2211,7 +2211,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -2240,7 +2240,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -2269,7 +2269,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -2298,7 +2298,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -2329,7 +2329,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -2358,7 +2358,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -2387,7 +2387,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -2418,7 +2418,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "6 Años",
@@ -2453,7 +2453,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -2482,7 +2482,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -2511,7 +2511,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -2540,7 +2540,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -2569,7 +2569,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -2598,7 +2598,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -2627,7 +2627,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -2656,7 +2656,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2685,7 +2685,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2714,7 +2714,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2743,7 +2743,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2772,7 +2772,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -2807,7 +2807,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -2836,7 +2836,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -2865,7 +2865,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -2894,7 +2894,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -2927,7 +2927,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -2964,7 +2964,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -2999,7 +2999,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -3028,7 +3028,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -3057,7 +3057,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -3086,7 +3086,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -3115,7 +3115,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -3144,7 +3144,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -3173,7 +3173,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -3204,7 +3204,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -3233,7 +3233,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -3262,7 +3262,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -3291,7 +3291,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -3320,7 +3320,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -3349,7 +3349,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -3378,7 +3378,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -3407,7 +3407,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -3438,7 +3438,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -3467,7 +3467,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -3496,7 +3496,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -3525,7 +3525,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -3629,7 +3629,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -3893,7 +3893,7 @@ const PRODUCTS = [
     badge: "Otoño",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -4025,7 +4025,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -4224,7 +4224,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -4472,7 +4472,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -4842,7 +4842,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -5327,7 +5327,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -5650,7 +5650,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -5782,7 +5782,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -6103,7 +6103,7 @@ const PRODUCTS = [
     badge: null,
     rating: 4.9,
     reviews: 14,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -6267,13 +6267,13 @@ const PRODUCTS = [
     slug: "mk-vestido-verano-bebe-12-18M",
     name: "Vestido de verano para bebés niña",
     category: "vestidos-nina",
-    price: 35,
-    oldPrice: 42,
+    price: 39,
+    oldPrice: 55,
     cost: 21.58,
     badge: "Preventa",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -6307,7 +6307,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -6333,7 +6333,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -6348,6 +6348,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-rosa-claro-cod-90",
@@ -6359,7 +6360,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -6374,6 +6375,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
 
   {
@@ -6386,7 +6388,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "12-18 Meses",
@@ -6417,7 +6419,7 @@ const PRODUCTS = [
     badge: "Nuevo",
     rating: 5.0,
     reviews: 3,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -6426,7 +6428,10 @@ const PRODUCTS = [
       },
     ],
     season: "primavera-otono",
-    images: ["./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M.jpg"],
+    images: [
+      "./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M.jpg",
+      "./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M_1.jpg",
+    ],
     realImage: "./public/img/Preventa/mk-conjunto-rojo-fresa-18-24M.jpg",
     description:
       "Hermoso conjunto casual de 2 piezas para bebés y niñas pequeñas estilo primavera/otoño. Incluye chompita roja de punto y vestido blanco con estampado de fresitas. Suave, no pica y perfecto para el día a día.",
@@ -6439,12 +6444,12 @@ const PRODUCTS = [
     slug: "vestido-18-24-mixxed-cod-90",
     name: "Vestido de Princesa Mixxed Color para Bebé",
     category: "vestidos-nina",
-    price: 45,
-    oldPrice: 55,
+    price: 39,
+    oldPrice: 50,
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -6470,7 +6475,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -6499,7 +6504,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -6528,7 +6533,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "18-24 Meses",
@@ -6560,7 +6565,7 @@ const PRODUCTS = [
     badge: "Fiesta",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6595,7 +6600,7 @@ const PRODUCTS = [
     badge: "Princesa",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6620,41 +6625,6 @@ const PRODUCTS = [
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-princesa-arcoiris-2A",
-    slug: "mk-princesa-arcoiris-100",
-    name: "El vestido de princesa con estampado Arcoiris de tonalidades",
-    category: "vestidos-nina",
-    price: 59.0,
-    oldPrice: 80,
-    cost: 28,
-    badge: "Verano",
-    rating: 4.9,
-    reviews: 10,
-    stock: 1,
-    sizes: [
-      {
-        name: "2 Años",
-        colors: [
-          {
-            name: "Arcoiris de tonalidades",
-            hex: "#B2EBF2",
-          },
-        ],
-      },
-    ],
-    season: "verano",
-    images: [
-      "./public/img/preventa/mk-princesa-arcoiris-2A.jpg",
-      "./public/img/preventa/mk-princesa-arcoiris-2A-2.jpg",
-    ],
-    realImage: "./public/img/preventa/mk-princesa-arcoiris-2A-2.jpg",
-    description:
-      "Vestido de princesa con estampado arcoiris de tonalidades, tul suave.",
-    material: "65% Poliéster, 36% Viscose. Forro interior suave.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
     id: "mk-vestido-floral-lazo-2A",
     sku: "MK-FLORAL-POLI-2-3Y",
     slug: "vestido-floral-delicado-lazo-bebita-2-3Y",
@@ -6666,7 +6636,7 @@ const PRODUCTS = [
     badge: "Preventa",
     rating: 4.9,
     reviews: 12,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6675,7 +6645,7 @@ const PRODUCTS = [
           {
             name: "Policromo",
             hex: "#E1F5FE",
-            stock: 1,
+            stock: 10,
           },
         ],
       },
@@ -6705,7 +6675,7 @@ const PRODUCTS = [
     badge: "Princesa",
     rating: 4.9,
     reviews: 12,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6714,7 +6684,7 @@ const PRODUCTS = [
           {
             name: "Rosa",
             hex: "#F8BBD0",
-            stock: 1,
+            stock: 10,
           },
         ],
       },
@@ -6742,7 +6712,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6757,6 +6727,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-rosa-manga-larga-cod-100",
@@ -6768,7 +6739,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6794,7 +6765,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6820,7 +6791,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6848,7 +6819,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6865,8 +6836,44 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   // ---- TALLA 3 AÑOS ----
+  {
+    id: "mk-princesa-arcoiris-2A",
+    slug: "mk-princesa-arcoiris-100",
+    name: "El vestido de princesa con estampado Arcoiris de tonalidades",
+    category: "vestidos-nina",
+    price: 45.0,
+    oldPrice: 60,
+    cost: 28,
+    badge: "Verano",
+    rating: 4.9,
+    reviews: 10,
+    stock: 10,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          {
+            name: "Arcoiris de tonalidades",
+            hex: "#B2EBF2",
+          },
+        ],
+      },
+    ],
+    season: "verano",
+    images: [
+      "./public/img/preventa/mk-princesa-arcoiris-2A.jpg",
+      "./public/img/preventa/mk-princesa-arcoiris-2A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-princesa-arcoiris-2A-2.jpg",
+    description:
+      "Vestido de princesa con estampado arcoiris de tonalidades, tul suave.",
+    material: "65% Poliéster, 36% Viscose. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-princesa-amarillo-3A",
     sku: "MK-PRIN-AMAR-3-4Y",
@@ -6879,7 +6886,7 @@ const PRODUCTS = [
     badge: "Preventa",
     rating: 3.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -6912,7 +6919,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -6939,7 +6946,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -6970,7 +6977,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "2 Años",
@@ -6992,41 +6999,7 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 3 AÑOS ----
-  {
-    id: "mk-vestido-verde-3A",
-    slug: "mk-vestido-verde-5Y",
-    name: "Vestido de niña sin mangas con lazo Verde",
-    category: "vestidos-nina",
-    price: 48,
-    oldPrice: 78,
-    cost: 35,
-    badge: "Fiesta",
-    rating: 4.9,
-    reviews: 10,
-    stock: 1,
-    sizes: [
-      {
-        name: "3 Años",
-        colors: [
-          {
-            name: "Verde",
-            hex: "#A5D6A7",
-          },
-        ],
-      },
-    ],
-    season: "fiesta",
-    images: [
-      "./public/img/preventa/mk-vestido-verde-3A.jpg",
-      "./public/img/preventa/mk-vestido-verde-3A-2.jpg",
-    ],
-    realImage: "./public/img/preventa/mk-vestido-verde-3A-2.jpg",
-    description:
-      "Vestido de niña sin mangas con lazo grande verde. Elegante y fresco.",
-    material: "65% Poliéster, 35% Viscosa. Forro interior suave.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
+
   {
     id: "mk-vestido-verano-amarillo-3A",
     slug: "vestido-verano-tejido-nina-floral-3D-amarillo-3-4A",
@@ -7038,7 +7011,7 @@ const PRODUCTS = [
     badge: "Verano",
     rating: 4.9,
     reviews: 8,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7074,7 +7047,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7100,7 +7073,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7118,6 +7091,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-princesa-flor-cod-110",
@@ -7129,7 +7103,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7146,6 +7120,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-casual-mariposas-cod-110",
@@ -7157,7 +7132,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7185,7 +7160,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7202,6 +7177,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-organza-floral-cod-110",
@@ -7213,7 +7189,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7230,6 +7206,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-tut-encaje-cod-110",
@@ -7241,7 +7218,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7269,7 +7246,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7287,6 +7264,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
 
   // ---- TALLA 3 AÑOS ----
@@ -7300,7 +7278,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "3 Años",
@@ -7319,40 +7297,68 @@ const PRODUCTS = [
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
+  {
+    id: "mk-coreano-osito-marron-3A",
+    slug: "conjunto-nena-estilo-coreano-osito-marron-2-piezas",
+    name: "Conjunto De Ropa Para Niñas Estilo Coreano Con Tela Suave Y Dibujos Animados, Juego De 2 Piezas Con Cuello Redondo",
+    category: "vestidos-nina",
+    price: 39,
+    oldPrice: 55,
+    badge: "Oferta",
+    rating: 4.9,
+    reviews: 12,
+    stock: 10,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [{ name: "Marrón", hex: "#8B5A2B" }],
+      },
+    ],
+    season: "todo-el-año",
+    images: ["./public/img/vestidos-nina/mk-coreano-osito-marron-3A.jpg"],
+    realImage: "./public/img/vestidos-nina/mk-coreano-osito-marron-3A_1.jpg",
+    description:
+      "Conjunto coreano 2 piezas súper abrigador: vestido sin mangas con pecho tejido acanalado y falda globo + saquito crop tejido con botones y parche de osito. Tela suave que no pica, ideal para otoño-invierno, salida diaria y fotos.",
+    material:
+      "Tejido de punto acrílico suave 100% hipoalergénico. Falda: 100% Algodón con forro. No pica, no destiñe.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No retorcer. Secar a la sombra.",
+    activo: true,
+  },
 
   // ---- TALLA 4 AÑOS ----
   {
-    id: "mk-princesa-melon-4A",
-    slug: "mk-princesa-melon-7Y",
-    name: "Vestido de princesa elegante Melon rojo",
+    id: "mk-vestido-verde-3A",
+    slug: "mk-vestido-verde-5Y",
+    name: "Vestido de niña sin mangas con lazo Verde",
     category: "vestidos-nina",
     price: 49,
-    oldPrice: 75,
-    cost: 23,
-    badge: "Nuevo",
+    oldPrice: 70,
+    cost: 35,
+    badge: "Fiesta",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
         colors: [
           {
-            name: "Melon rojo",
-            hex: "#FF8A80",
+            name: "Verde",
+            hex: "#A5D6A7",
           },
         ],
       },
     ],
     season: "fiesta",
     images: [
-      "./public/img/preventa/mk-princesa-melon-4A.jpg",
-      "./public/img/preventa/mk-princesa-melon-4A-2.jpg",
+      "./public/img/preventa/mk-vestido-verde-3A.jpg",
+      "./public/img/preventa/mk-vestido-verde-3A-2.jpg",
     ],
-    realImage: "./public/img/preventa/mk-princesa-melon-4A-2.jpg",
+    realImage: "./public/img/preventa/mk-vestido-verde-3A-2.jpg",
     description:
-      "Vestido de princesa elegante color melón rojo con lazo grande.",
-    material: "100% Poliéster. Forro interior suave.",
+      "Vestido de niña sin mangas con lazo grande verde. Elegante y fresco.",
+    material: "65% Poliéster, 35% Viscosa. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
@@ -7368,7 +7374,7 @@ const PRODUCTS = [
     badge: "Nuevo",
     rating: 3.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7377,7 +7383,7 @@ const PRODUCTS = [
           {
             name: "Albaricoque",
             hex: "#FFDAB9",
-            stock: 1,
+            stock: 10,
           },
         ],
       },
@@ -7407,7 +7413,7 @@ const PRODUCTS = [
     badge: "Verano",
     rating: 3.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7416,7 +7422,7 @@ const PRODUCTS = [
           {
             name: "Rosa",
             hex: "#F8BBD0",
-            stock: 1,
+            stock: 10,
           },
         ],
       },
@@ -7443,7 +7449,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7457,6 +7463,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-4-princesa-co-cod-120",
@@ -7468,7 +7475,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7485,6 +7492,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-4-tul-lentejuelas-cod-120",
@@ -7496,7 +7504,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7515,34 +7523,6 @@ const PRODUCTS = [
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
   {
-    id: "mk-vestido-4-elegante-encaje-cod-120",
-    slug: "vestido-4-elegante-encaje-cod-120",
-    name: "Vestido Elegante con Encaje para Niña",
-    category: "vestidos-nina",
-    price: 49,
-    oldPrice: 60,
-    badge: "Oferta",
-    rating: 4.9,
-    reviews: 12,
-    stock: 2,
-    sizes: [
-      {
-        name: "4 Años",
-        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
-      },
-    ],
-    season: "todo-el-año",
-    images: [
-      "./public/img/vestidos-nina/4-vestido-elegante-adornado-con-enc-120-4A.jpg",
-    ],
-    realImage:
-      "./public/img/vestidos-nina/4-vestido-elegante-adornado-con-enc-120-4A.jpg",
-    description: "Vestido elegante con encaje. Diseño sofisticado y delicado.",
-    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
-    cuidados:
-      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-  },
-  {
     id: "mk-vestido-4-jacquard-princesa-cod-120",
     slug: "vestido-4-jacquard-princesa-cod-120",
     name: "Vestido Jacquard de Princesa para Niña",
@@ -7552,7 +7532,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7569,18 +7549,19 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-4-tweed-chanel-cod-120",
     slug: "vestido-4-tweed-chanel-cod-120",
     name: "Vestido Tweed Chanel Negro para Niña",
     category: "vestidos-nina",
-    price: 38,
+    price: 39,
     oldPrice: 55,
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7609,7 +7590,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7627,18 +7608,19 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-4-punto-azul-cod-120",
     slug: "vestido-4-punto-azul-cod-120",
     name: "Vestido de Princesa Tejido de Punto Azul",
     category: "vestidos-nina",
-    price: 45,
+    price: 39,
     oldPrice: 60,
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "4 Años",
@@ -7657,39 +7639,66 @@ const PRODUCTS = [
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
+  {
+    id: "mk-princesa-melon-4A",
+    slug: "conjunto-nena-vestido-tul-saquito-tweed-celeste-fiesta",
+    name: "Conjunto Nena Vestido Tul Y Saquito Tweed Celeste Fiesta",
+    category: "vestidos-nina",
+    price: 39,
+    oldPrice: 60,
+    badge: "Oferta",
+    rating: 4.9,
+    reviews: 12,
+    stock: 10,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [{ name: "Azul", hex: "#A9C9E8" }],
+      },
+    ],
+    season: "todo-el-año",
+    images: ["./public/img/vestidos-nina/mk-princesa-melon-4A.jpg"],
+    realImage: "./public/img/vestidos-nina/mk-princesa-melon-4A_1.jpg",
+    description:
+      "Conjunto fiesta 2 piezas: vestido con pecho en tweed celeste pata de gallo y falda amplia de tul crema + saquito crop a juego con botones perlados. Elegante, abrigador y con forro suave hipoalergénico. Ideal para bautizo, cumpleaños y fotos.",
+    material:
+      "Exterior: Tweed 90% Poliéster, 10% Algodón. Falda: Tul 100% Poliéster. Forro: Algodón suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
 
   // ---- TALLA 5 AÑOS ----
   {
-    id: "mk-tul-floral-beige-5A",
-    slug: "mk-tul-floral-beige-8Y",
-    name: "Vestido de tul con estampado floral Beige",
+    id: "mk-princesa-melon-4A",
+    slug: "mk-princesa-melon-7Y",
+    name: "Vestido de princesa elegante Melon rojo",
     category: "vestidos-nina",
-    price: 65,
-    oldPrice: 77,
-    cost: 37,
-    badge: "Nuevo Llegado",
+    price: 49,
+    oldPrice: 75,
+    cost: 23,
+    badge: "Nuevo",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
         colors: [
           {
-            name: "Beige",
-            hex: "#F5F5DC",
+            name: "Melon rojo",
+            hex: "#FF8A80",
           },
         ],
       },
     ],
-    season: "verano-boda",
+    season: "fiesta",
     images: [
-      "./public/img/preventa/mk-tul-floral-beige-5A.jpg",
-      "./public/img/preventa/mk-tul-floral-beige-5A-2.jpg",
+      "./public/img/preventa/mk-princesa-melon-4A.jpg",
+      "./public/img/preventa/mk-princesa-melon-4A-2.jpg",
     ],
-    realImage: "./public/img/preventa/mk-tul-floral-beige-5A-2.jpg",
+    realImage: "./public/img/preventa/mk-princesa-melon-4A-2.jpg",
     description:
-      "Vestido de niña para boda de verano, malla transpirable, plisado con flores 3D. Beige.",
+      "Vestido de princesa elegante color melón rojo con lazo grande.",
     material: "100% Poliéster. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
@@ -7705,7 +7714,7 @@ const PRODUCTS = [
     badge: "Fiesta",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7728,6 +7737,7 @@ const PRODUCTS = [
     material: "100% Poliéster. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-gululu-blanco-5A",
@@ -7740,7 +7750,7 @@ const PRODUCTS = [
     badge: "Premium",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7762,6 +7772,7 @@ const PRODUCTS = [
     material: "65% Poliéster, 35% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-verano-rosa-5A",
@@ -7774,7 +7785,7 @@ const PRODUCTS = [
     badge: "Verano",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7809,7 +7820,7 @@ const PRODUCTS = [
     badge: "Noche",
     rating: 4.9,
     reviews: 10,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7844,7 +7855,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7873,7 +7884,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 10,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7890,6 +7901,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-5-blanco-cod-130",
@@ -7901,7 +7913,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7926,7 +7938,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7954,7 +7966,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -7982,7 +7994,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -8000,6 +8012,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-5-blanco-bordado-cod-130",
@@ -8011,7 +8024,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -8040,7 +8053,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -8058,6 +8071,34 @@ const PRODUCTS = [
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
+  {
+    id: "mk-vestido-4-elegante-encaje-cod-120",
+    slug: "vestido-4-elegante-encaje-cod-120",
+    name: "Vestido Elegante con Encaje para Niña",
+    category: "vestidos-nina",
+    price: 49,
+    oldPrice: 60,
+    badge: "Oferta",
+    rating: 4.9,
+    reviews: 12,
+    stock: 10,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [{ name: "Rosa", hex: "#F8BBD0" }],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/4-vestido-elegante-adornado-con-enc-120-4A.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/4-vestido-elegante-adornado-con-enc-120-4A.jpg",
+    description: "Vestido elegante con encaje. Diseño sofisticado y delicado.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
 
   // ---- TALLA 6 AÑOS ----
   {
@@ -8070,7 +8111,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 4.9,
     reviews: 12,
-    stock: 2,
+    stock: 10,
     sizes: [
       {
         name: "6 Años",
@@ -8099,7 +8140,7 @@ const PRODUCTS = [
     badge: "Oferta",
     rating: 5.0,
     reviews: 8,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "6 Años",
@@ -8187,7 +8228,7 @@ const PRODUCTS = [
     badge: "Premium",
     rating: 4.9,
     reviews: 12,
-    stock: 1,
+    stock: 10,
     sizes: [
       {
         name: "5 Años",
@@ -8196,7 +8237,7 @@ const PRODUCTS = [
           {
             name: "Albaricoque",
             hex: "#FFDAB9",
-            stock: 1,
+            stock: 10,
           },
         ],
       },
@@ -8213,6 +8254,42 @@ const PRODUCTS = [
       "Material: Bordado de malla con lentejuelas. Composición: 100% Poliéster.",
     cuidados:
       "Lavar a mano con agua fría, del revés para proteger las lentejuelas. No retorcer.",
+  },
+  // VESTIDOS DE 7 Años
+  {
+    id: "mk-tul-floral-beige-5A",
+    slug: "mk-tul-floral-beige-8Y",
+    name: "Vestido de tul con estampado floral Beige",
+    category: "vestidos-nina",
+    price: 65,
+    oldPrice: 77,
+    cost: 37,
+    badge: "Nuevo Llegado",
+    rating: 4.9,
+    reviews: 10,
+    stock: 10,
+    sizes: [
+      {
+        name: "7 Años",
+        colors: [
+          {
+            name: "Beige",
+            hex: "#F5F5DC",
+          },
+        ],
+      },
+    ],
+    season: "verano-boda",
+    images: [
+      "./public/img/preventa/mk-tul-floral-beige-5A.jpg",
+      "./public/img/preventa/mk-tul-floral-beige-5A-2.jpg",
+    ],
+    realImage: "./public/img/preventa/mk-tul-floral-beige-5A-2.jpg",
+    description:
+      "Vestido de niña para boda de verano, malla transpirable, plisado con flores 3D. Beige.",
+    material: "100% Poliéster. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
   },
 ];
 
