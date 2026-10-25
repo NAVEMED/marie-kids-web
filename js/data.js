@@ -6261,7 +6261,147 @@ const PRODUCTS = [
   // ============================================================
   // VESTIDOS - FORMATO DINÁMICO (Tallas con Colores Vinculados)
   // ============================================================
+  // ---- TALLA 9-12 MESES ----
+  {
+    id: "mk-vestido-blanco-encaje-festoneado",
+    slug: "blanco-encaje-festoneado",
+    name: "Vestido Blanco Encaje con Borde Festoneado",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 79,
+    badge: "Clásico",
+    rating: 4.9,
+    reviews: 204,
+    stock: 10,
+    sizes: [
+      {
+        name: "9-12 Meses",
+        colors: [
+          {
+            name: "Blanco",
+            hex: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-blanco-encaje-festoneado-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-blanco-encaje-festoneado-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-blanco-encaje-festoneado-FRONTAL.jpg",
+    description:
+      "Vestido blanco sin mangas, cuerpo encaje texturizado, moño pequeño en cintura, falda tul con encaje floral bordado en dobladillo festoneado con brillos. Espalda con moño satén grande. Ideal boda, comunión.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-lila-mariposas-flor-gigante",
+    slug: "lila-mariposas-flor-gigante",
+    name: "Vestido Lila con Mariposas y Flor Gigante 3D",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 85,
+    badge: "Bestseller",
+    rating: 4.9,
+    reviews: 725,
+    stock: 10,
+    sizes: [
+      {
+        name: "9-12 Meses",
+        colors: [{ name: "Lila Claro", hex: "#D8BFD8" }],
+      },
+      {
+        name: "2 Años",
+        colors: [{ name: "Lila Claro", hex: "#D8BFD8" }],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-lila-mariposas-flor-gigante-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-lila-mariposas-flor-gigante-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-lila-mariposas-flor-gigante-FRONTAL.jpg",
+    description:
+      "Vestido formal con mariposas en 3D, pompones en hombros y flor gigante en cintura. Falda de tul con mariposas. Ideal primer cumpleaños y fiesta.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   // ---- TALLA 12-18 MESES ----
+  {
+    id: "mk-vestido-rosa-encaje-mqatz-clasico",
+    slug: "rosa-encaje-clasico",
+    name: "Vestido Rosa Abullonado con Lentejuelas Princesa",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 80,
+    badge: "Oferta",
+    rating: 4.9,
+    reviews: 298,
+    stock: 10,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          {
+            name: "Rosa",
+            hex: "#FFB6C1",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-rosa-encaje-mqatz-clasico-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-rosa-encaje-mqatz-clasico-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-rosa-encaje-mqatz-clasico-FRONTAL.jpg",
+    description:
+      "Vestido rosa MQATZ con cuerpo encaje floral y mangas abullonadas cortas, cinturón perlitas bordadas, falda tul suave abullonada. Moño grande atrás. Ideal fiesta cumpleaños, princesa.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-lila-floral-3d-bebe",
+    slug: "lila-floral-3d-bebe",
+    name: "Vestido Lila con Flores 3D y Bordado Floral",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 76,
+    badge: "Bestseller",
+    rating: 4.9,
+    reviews: 156,
+    stock: 10,
+    sizes: [
+      {
+        name: "12-18 Meses",
+        colors: [
+          {
+            name: "Lila",
+            hex: "#B784A7",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-lila-floral-3d-bebe-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-lila-floral-3d-bebe-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-lila-floral-3d-bebe-FRONTAL.jpg",
+    description:
+      "Vestido formal lila para bebé con flores 3D en corpiño y falda, bordado floral con hojas doradas, cierre atrás y moño grande satén. Ideal primer cumpleaños, bautizo, niña de las flores.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-verano-bebe-12-18M",
     slug: "mk-vestido-verano-bebe-12-18M",
@@ -6296,6 +6436,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-crema-cod-90",
@@ -6322,6 +6463,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-rosa-cod-90",
@@ -6375,7 +6517,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
-    activo: false,
+    activo: true,
   },
 
   {
@@ -6408,6 +6550,76 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 18-24 MESES ----
+  {
+    id: "mk-vestido-lila-lentejuela-flor-gigante",
+    slug: "lila-lentejuela-flor-gigante",
+    name: "Vestido Lila Lentejuela con Flor Gigante y Volados",
+    category: "vestidos-nina",
+    price: 84,
+    oldPrice: 92,
+    badge: "Top Ventas",
+    rating: 4.9,
+    reviews: 5548,
+    stock: 10,
+    sizes: [
+      {
+        name: "18-24 Meses",
+        colors: [
+          {
+            name: "Lila",
+            hex: "#E6C3E6",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-lila-lentejuela-flor-gigante-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-lila-lentejuela-flor-gigante-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-lila-lentejuela-flor-gigante-FRONTAL.jpg",
+    description:
+      "Vestido lila con corpiño lentejuela tornasol, tirantes con moños tul, flor gigante lila en cintura, falda tul abullonada con volados fruncidos en borde y moño gigante atrás. Para fiesta cumpleaños, boda, Halloween.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-celeste-perlas-sencillo",
+    slug: "celeste-perlas-sencillo",
+    name: "Vestido Celeste con Perlas y Moño Gigante",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 81,
+    badge: "Oferta",
+    rating: 4.9,
+    reviews: 312,
+    stock: 10,
+    sizes: [
+      {
+        name: "18-24 Meses",
+        colors: [
+          {
+            name: "Cielo Azul",
+            hex: "#87CEEB",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-celeste-perlas-sencillo-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-celeste-perlas-sencillo-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-celeste-perlas-sencillo-FRONTAL.jpg",
+    description:
+      "Vestido celeste claro con cuerpo satén liso, mangas alita rizadas, cuello con perlas, cinturón ancho satén, falda tul con perlitas dispersas. Espalda V con perlas y moño gigante. Para bautizo, niña flores.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-tul-encaje-rosa-18_24M",
     slug: "vestido-tul-encaje-rosa-bebe-18-24M",
@@ -6481,6 +6693,7 @@ const PRODUCTS = [
       "Vestido de bebé niña sin mangas de doble capa con falda bordada y lazo grande atrás. Suave para bebé.",
     material: "Algodón + tul doble capa",
     cuidados: "Lavar a mano bebé.",
+    activo: false,
   },
   {
     id: "mk-conjunto-rojo-fresa-18-24M",
@@ -6625,9 +6838,45 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
 
   // ---- TALLA 2 AÑOS ----
+  {
+    id: "mk-vestido-lila-flores-3d-tul",
+    slug: "lila-flores-3d-tul",
+    name: "Vestido Lila con Flores 3D y Capa Tul Asimétrica",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 98,
+    badge: "Lujo",
+    rating: 4.9,
+    reviews: 234,
+    stock: 10,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          {
+            name: "Lila",
+            hex: "#C8A2C8",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-lila-flores-3d-tul-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-lila-flores-3d-tul-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-lila-flores-3d-tul-FRONTAL.jpg",
+    description:
+      "Vestido lila con bordado floral y flores 3D en corpiño, tirante con moño y capa de tul con flor, falda abullonada de tul. Elegante para boda, fiesta de princesa.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-fiesta-purpura-2A",
     slug: "mk-vestido-fiesta-purpura-2-3Y",
@@ -6914,6 +7163,41 @@ const PRODUCTS = [
   },
   // ---- TALLA 3 AÑOS ----
   {
+    id: "mk-vestido-05-lila-pompones-fiesta",
+    slug: "05-lila-pompones-fiesta",
+    name: "Vestido Lila con Pompones en Hombros y Moño Satén",
+    category: "vestidos-nina",
+    price: 76,
+    oldPrice: 85,
+    badge: "Bestseller",
+    rating: 4.9,
+    reviews: 725,
+    stock: 10,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          {
+            name: "Lila",
+            hex: "#D8BFD8",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-05-lila-pompones-fiesta-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-05-lila-pompones-fiesta-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-05-lila-pompones-fiesta-FRONTAL.jpg",
+    description:
+      "Vestido lila con hombros con pompones de tul abullonados, moño satén grande al frente, falda de tul con volados fruncidos. Incluye vincha. Ideal primer cumpleaños, Halloween, fiesta princesa.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
     id: "mk-vestido-vintage-fiesta-blanco-110",
     slug: "vestido-vintage-fiesta-blanco-3A",
     name: "Vestido Emma Vintage - Blanco Encaje Puff",
@@ -6949,6 +7233,7 @@ const PRODUCTS = [
       "Vestido vintage de primer cumpleaños, vestido de princesa blanco con mangas puff y encaje bordado. Corte princesa amplio.",
     material: "Satin + encaje vintage",
     cuidados: "Lavar a mano.",
+    activo: false,
   },
   {
     id: "mk-vestido-princesa-fiesta-blanco_110",
@@ -7098,7 +7383,7 @@ const PRODUCTS = [
     sizes: [
       {
         name: "3 Años",
-        colors: [{ name: "Rosa", hex: "#C2185B" }],
+        colors: [{ name: "Rosa", hex: "#dfa7be" }],
       },
     ],
     season: "todo-el-año",
@@ -7112,6 +7397,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
 
   // ---- TALLA 2-3 AÑOS ----
@@ -7148,6 +7434,41 @@ const PRODUCTS = [
 
   // ---- TALLA 3 AÑOS ----
 
+  {
+    id: "mk-vestido-celeste-flores-3d-lujo",
+    slug: "celeste-flores-3d-lujo",
+    name: "Vestido Celeste con Flores 3D y Volados Lujo",
+    category: "vestidos-nina",
+    price: 79,
+    oldPrice: 98,
+    badge: "Lujo",
+    rating: 4.9,
+    reviews: 993,
+    stock: 10,
+    sizes: [
+      {
+        name: "3 Años",
+        colors: [
+          {
+            name: "Cielo Azul",
+            hex: "#87CEEB",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-celeste-flores-3d-lujo-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-celeste-flores-3d-lujo-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-celeste-flores-3d-lujo-FRONTAL.jpg",
+    description:
+      "Vestido celeste lujo con cuerpo encaje, 3 flores grandes 3D en cintura con cintas colgando y perlitas, falda tul pomposa con flores 3D en capa media y volado fruncido abajo. Moño mediano atrás.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-verano-amarillo-3A",
     slug: "vestido-verano-tejido-nina-floral-3D-amarillo-3-4A",
@@ -7210,6 +7531,7 @@ const PRODUCTS = [
     material: "90% Poliéster, 10% Elastano. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
   {
     id: "mk-vestido-2-piezas-volantes-cod-110",
@@ -7475,6 +7797,112 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 4 AÑOS ----
+  {
+    id: "mk-vestido-blanco-perlas-rosas-3d",
+    slug: "blanco-perlas-rosas-3d",
+    name: "Vestido Blanco con Perlas y Rosas 3D en Capas",
+    category: "vestidos-nina",
+    price: 79,
+    oldPrice: 105,
+    badge: "Nuevo",
+    rating: 4.9,
+    reviews: 156,
+    stock: 10,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          {
+            name: "Blanco",
+            hex: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-blanco-perlas-rosas-3d-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-blanco-perlas-rosas-3d-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-blanco-perlas-rosas-3d-FRONTAL.jpg",
+    description:
+      "Vestido blanco con cuello con cadena de perlas, moño con rosa grande y falda con rosas 3D en capas superpuestas. Diseño de princesa para bautizo, boda.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: true,
+  },
+  {
+    id: "mk-vestido-02-blanco-saten-brillos-estrella",
+    slug: "02-blanco-saten-brillos-estrella",
+    name: "Vestido Blanco Satén con Brillos Estrellados",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 86,
+    badge: "Oferta",
+    rating: 4.9,
+    reviews: 425,
+    stock: 10,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          {
+            name: "Blanco",
+            hex: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-blanco-saten-brillos-estrella-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-blanco-saten-brillos-estrella-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-blanco-saten-brillos-estrella-FRONTAL.jpg",
+    description:
+      "Vestido blanco con cuerpo satén liso y cinturón de perlas, falda de tul con brillos plateados tipo estrellas. Perfecto para fiesta de cumpleaños, Navidad, boda.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-rosa-floral-3d-mqatz-navidad",
+    slug: "rosa-floral-3d-mqatz-navidad",
+    name: "Vestido Rosa con Flores 3D Multicolor MQATZ Navidad",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 80,
+    badge: "Navidad",
+    rating: 4.9,
+    reviews: 425,
+    stock: 10,
+    sizes: [
+      {
+        name: "4 Años",
+        colors: [
+          {
+            name: "Rosa",
+            hex: "#FFC0CB",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-rosa-floral-3d-mqatz-navidad-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-rosa-floral-3d-mqatz-navidad-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-rosa-floral-3d-mqatz-navidad-FRONTAL.jpg",
+    description:
+      "Vestido rosa MQATZ con aplique floral 3D grande (rosa, celeste, blanca y plateada) en pecho con hojas bordadas brillantes, falda tul ondulada. Ideal Navidad, cumpleaños, fiesta.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-verde-3A",
     slug: "mk-vestido-verde-5Y",
@@ -7816,6 +8244,76 @@ const PRODUCTS = [
   },
 
   // ---- TALLA 5 AÑOS ----
+  {
+    id: "mk-vestido-crema-champan-brillos-navidad",
+    slug: "crema-champan-brillos-navidad",
+    name: "Vestido Crema Champán con Brillos y Volados",
+    category: "vestidos-nina",
+    price: 84,
+    oldPrice: 92,
+    badge: "Fiesta",
+    rating: 4.9,
+    reviews: 634,
+    stock: 10,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          {
+            name: "Crema Champán",
+            hex: "#FFF8DC",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-crema-champan-brillos-navidad-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-crema-champan-brillos-navidad-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-crema-champan-brillos-navidad-FRONTAL.jpg",
+    description:
+      "Vestido crema champán con cuerpo satén y falda de tul con lentejuelas plateadas y volados en borde. Perfecto para Navidad, cumpleaños, boda.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
+    id: "mk-vestido-03-rosa-lentejuela-vertical",
+    slug: "03-rosa-lentejuela-vertical",
+    name: "Vestido Rosa con Lentejuela Vertical y Moño Gigante",
+    category: "vestidos-nina",
+    price: 84,
+    oldPrice: 92,
+    badge: "Fiesta",
+    rating: 4.9,
+    reviews: 634,
+    stock: 10,
+    sizes: [
+      {
+        name: "5 Años",
+        colors: [
+          {
+            name: "Rosa",
+            hex: "#FFB6C1",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-03-rosa-lentejuela-vertical-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-03-rosa-lentejuela-vertical-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-03-rosa-lentejuela-vertical-FRONTAL.jpg",
+    description:
+      "Vestido rosa con cuerpo lleno de lentejuelas verticales brillantes, falda de tul suave, cierre atrás con moño satén gigante rosa. Ideal cumpleaños, princesa.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
   {
     id: "mk-vestido-floral3d-champan-130",
     slug: "vestido-champan-bordado-flores-6A",
@@ -8286,6 +8784,82 @@ const PRODUCTS = [
 
   // ---- TALLA 6 AÑOS ----
   {
+    id: "mk-vestido-blanco-simple-perlas-moño-gigante",
+    slug: "vestido-blanco-simple-perlas-moño-gigante",
+    name: "Vestido Blanco Simple con Perlas y Moño Gigante",
+    category: "vestidos-nina",
+    price: 82,
+    oldPrice: 90,
+    badge: "Nuevo Llegado",
+    rating: 4.9,
+    reviews: 10,
+    stock: 10,
+    sizes: [
+      {
+        name: "6 Años",
+        colors: [
+          {
+            name: "Blanco",
+            hex: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-blanco-simple-perlas-moño-gigante-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-blanco-simple-perlas-moño-gigante-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-blanco-simple-perlas-moño-gigante-FRONTAL.jpg",
+    description:
+      "Vestido blanco sin mangas con perlas en el cuerpo, moño gigante atrás, falda de tul abullonada. Ideal bautizo, fiesta, niña de las flores.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: true,
+  },
+
+  {
+    id: "mk-vestido-blanco-flores-rosas-flor-3d-rosa",
+    slug: "blanco-flores-rosas-flor-3d-rosa",
+    name: "Vestido Blanco con Flores Rosas y Flor Gigante 3D Rosa",
+    category: "vestidos-nina",
+    price: 59,
+    oldPrice: 70,
+    badge: "Verano",
+    rating: 4.9,
+    reviews: 45,
+    stock: 10,
+    sizes: [
+      {
+        name: "6 Años",
+        colors: [
+          {
+            name: "Blanco con Rosa",
+            hex: "#FFFFFF",
+          },
+          {
+            name: "Rosa",
+            hex: "#FF69B4",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-blanco-flores-rosas-flor-3d-rosa-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-blanco-flores-rosas-flor-3d-rosa-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-blanco-flores-rosas-flor-3d-rosa-FRONTAL.jpg",
+    description:
+      "Vestido blanco con estampado floral rosa y verde bordado en relieve, cinturón satén rosa ancho con flor gigante 3D rosa en lateral, falda de tul con flores impresas y borde ondulado. Ideal fiesta verano, cumpleaños, boda jardín, sesión fotos.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+  },
+  {
     id: "mk-vestido-capas-tul-trenza-blanco-130_6A",
     slug: "vestido-tul-capas-trenza-blanco-boda-6A",
     name: "Vestido Isabella Tul con Tren de Trenza - Blanco Boda",
@@ -8589,6 +9163,79 @@ const PRODUCTS = [
   },
   // VESTIDOS DE 7 Años
   {
+    id: "mk-vestido-04-blanco-lentejuela-moño-flor",
+    slug: "04-blanco-lentejuela-moño-flor",
+    name: "Vestido Blanco Lentejuela con Moño y Flor 3D",
+    category: "vestidos-nina",
+    price: 79,
+    oldPrice: 94,
+    badge: "Nuevo Llegado",
+    rating: 4.9,
+    reviews: 298,
+    stock: 10,
+    sizes: [
+      {
+        name: "7 Años",
+        colors: [
+          {
+            name: "Blanco",
+            hex: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-04-blanco-lentejuela-moño-flor-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-04-blanco-lentejuela-moño-flor-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-04-blanco-lentejuela-moño-flor-FRONTAL.jpg",
+    description:
+      "Vestido blanco con cuerpo de lentejuela brillante y moño grande con flor 3D en cintura delantera, falda de tul abullonada, moño atrás. Para fiesta de gala, boda.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: true,
+  },
+  {
+    id: "mk-vestido-01-blanco-rombos-brillo",
+    slug: "01-blanco-rombos-brillo",
+    name: "Vestido Blanco con Brillos en Rombos y Tul",
+    category: "vestidos-nina",
+    price: 79,
+    oldPrice: 90,
+    badge: "Nuevo Llegado",
+    rating: 4.9,
+    reviews: 756,
+    stock: 10,
+    sizes: [
+      {
+        name: "7 Años",
+        label: "140_8Y",
+        colors: [
+          {
+            name: "Blanco",
+            hex: "#FFFFFF",
+          },
+        ],
+      },
+    ],
+    season: "todo-el-año",
+    images: [
+      "./public/img/vestidos-nina/mk-vestido-blanco-rombos-brillo-FRONTAL.jpg",
+      "./public/img/vestidos-nina/mk-vestido-blanco-rombos-brillo-POSTERIOR.jpg",
+    ],
+    realImage:
+      "./public/img/vestidos-nina/mk-vestido-blanco-rombos-brillo-FRONTAL.jpg",
+    description:
+      "Vestido blanco sin mangas con cuerpo bordado en rombos con perlas y brillos, moño pequeño en cintura, falda de tul abullonada. Ideal bautizo, fiesta de princesa, niña de las flores.",
+    material: "90% Poliéster, 10% Elastano. Forro interior suave.",
+    cuidados:
+      "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: true,
+  },
+  {
     id: "mk-vestido-floral3d-malla-fiesta-rosa-140_7A",
     slug: "vestido-halloween-floral3d-lila-7A",
     name: "Vestido Danza Flores 3D Lila - Halloween Princesa",
@@ -8624,6 +9271,7 @@ const PRODUCTS = [
       "Vestido de princesa de Halloween, fácil de bailar, vestido de fiesta de cumpleaños con flores 3D y envolvente de malla. Con lazo grande atrás.",
     material: "Tul + apliques florales 3D",
     cuidados: "Lavar a mano frío.",
+    activo: false,
   },
   {
     id: "mk-tul-floral-beige-5A",
@@ -8659,6 +9307,7 @@ const PRODUCTS = [
     material: "100% Poliéster. Forro interior suave.",
     cuidados:
       "Lavar a mano con agua fría. No usar blanqueador. No secadora alta.",
+    activo: false,
   },
 ];
 

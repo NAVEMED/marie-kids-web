@@ -8,7 +8,7 @@ const state = {
   sizes: [],
   colors: [],
   seasons: [],
-  maxPrice: 80,
+  maxPrice: 150,
   onlyStock: false,
   sort: "relevance",
   special: getParam2("filter") || null,
@@ -149,6 +149,7 @@ function getAvailableSizes() {
   });
 
   const order = [
+    "9-12 Meses",
     "12-18 Meses",
     "18-24 Meses",
     "1-2 Años",
@@ -238,14 +239,14 @@ function clearFilters() {
   state.sizes = [];
   state.colors = [];
   state.seasons = [];
-  state.maxPrice = 80;
+  state.maxPrice = 150;
   state.onlyStock = false;
   state.special = null;
   history.replaceState(null, "", "tienda.html");
   buildFilterUI();
   const priceInput = document.getElementById("fPrice");
-  if (priceInput) priceInput.value = 80;
-  document.getElementById("priceLabel").textContent = "S/ 80";
+  if (priceInput) priceInput.value = 150;
+  document.getElementById("priceLabel").textContent = "S/ 150";
   applyFilters();
 }
 
@@ -422,13 +423,13 @@ function renderActiveChips() {
     ]),
   );
 
-  if (state.maxPrice < 80) {
+  if (state.maxPrice < 150) {
     chips.push([
       "Hasta S/ " + state.maxPrice,
       () => {
-        state.maxPrice = 80;
+        state.maxPrice = 150;
         const priceInput = document.getElementById("fPrice");
-        if (priceInput) priceInput.value = 80;
+        if (priceInput) priceInput.value = 150;
         applyFilters();
         buildFilterUI();
       },
